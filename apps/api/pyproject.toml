@@ -22,7 +22,7 @@ dependencies = [
   "pyyaml>=6.0.2,<7",
   "rapidfuzz>=3.13,<4",
   "sqlalchemy>=2.0.41,<3",
-  "structlog>=25.4,<26",
+  "structlog>=25.4,<27",
   "uvicorn[standard]>=0.35,<1",
 ]
 
