@@ -29,7 +29,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "hypothesis>=6.135,<7",
-  "mypy>=1.16,<2",
+  "mypy>=1.16,<3",
   "pillow>=12,<13",
   "pip-audit>=2.9,<3",
   "pip-tools>=7.5,<8",
