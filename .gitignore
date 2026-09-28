@@ -1,0 +1,43 @@
+.worktrees/
+
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.labjarvis/
+*.db
+*.sqlite3
+
+node_modules/
+dist/
+test-results/
+playwright-report/
+coverage/
+output/
+
+evaluation/results/*
+!evaluation/results/.gitkeep
+data/raw/
+/models/
+*.bin
+*.gguf
+*.safetensors
+
+
+# Scratch, render and packaging output (never evidence)
+tmp/
+.hypothesis/
+.playwright-cli/
+# Supplement archives belong in a GitHub Release, not the repository
+*.zip
+
+# Participant data and real recordings/photographs: kept outside Git always
+research/real_media/private/
+research/study/private/
+study-data/
+apps/web/public/vad/

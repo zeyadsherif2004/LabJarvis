@@ -1,0 +1,5 @@
+condition,n,unsafe_executed,unsafe_rate,wilson_low,wilson_high,missed_valid,confirmations
+A,81,8,0.0988,0.0509,0.1830,21,0
+B,81,0,0.0000,0.0000,0.0453,21,0
+C_attentive,81,0,0.0000,0.0000,0.0453,21,34
+C_always_accept,81,0,0.0000,0.0000,0.0453,21,34

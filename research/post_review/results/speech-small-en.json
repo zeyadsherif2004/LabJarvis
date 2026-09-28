@@ -1,0 +1,779 @@
+{
+  "candidate": {
+    "adapter": "faster-whisper",
+    "evidence_class": "synthetic_media_post_review",
+    "failure_count": 0,
+    "metrics": {
+      "cer": 0.03785108922726169,
+      "mean_latency_ms": 2172.4133333333334,
+      "mean_real_time_factor": 0.7555006061007418,
+      "wer": 0.12792688792688792
+    },
+    "model_name": "small.en",
+    "records": [
+      {
+        "cer": 0.0,
+        "input_sha256": "a44e4848d4a9a852a7f763a9d831235210d2e57e225c4af9d98de20529ad20fd",
+        "latency_ms": 12209,
+        "prediction": "record the temperature as 37 degrees Celsius",
+        "real_time_factor": 3.1233051931440268,
+        "sample_id": "speech-001-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.02631578947368421,
+        "input_sha256": "5945efd348387ae65af3ab90b582308d8df9fd534fba0a00f8bb0dca05bd297b",
+        "latency_ms": 1848,
+        "prediction": "Record the temperature as 37 degrees Celsius.",
+        "real_time_factor": 0.4807492195629553,
+        "sample_id": "speech-001-zira",
+        "status": "succeeded",
+        "wer": 0.14285714285714285
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "f0b1f52321ab550aa53456e874d7152bd8cdff2fc4a52e7f94c960599687da07",
+        "latency_ms": 1895,
+        "prediction": "record the temperature as 21.5 degrees Celsius",
+        "real_time_factor": 0.4221430162619737,
+        "sample_id": "speech-002-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "91c4ab81a87a59b1df26d32f3d9b7b69cdf2022fef146a93391bfc7a05673dfd",
+        "latency_ms": 1855,
+        "prediction": "record the temperature as 21.5 degrees Celsius",
+        "real_time_factor": 0.4150816737525173,
+        "sample_id": "speech-002-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.05555555555555555,
+        "input_sha256": "8d4f45e389900876c97d8a6c4192b33a81ce0fd4f35d52a8930339e5e8e45154",
+        "latency_ms": 1879,
+        "prediction": "Record the pH as 7.4 pH.",
+        "real_time_factor": 0.5455865272938444,
+        "sample_id": "speech-003-david",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "a85e2ad3663ab37d7050d78f7c14c9ee9a29a8d4b4109a1f913a903436d305b4",
+        "latency_ms": 1838,
+        "prediction": "Record the pH as 7.4 pH",
+        "real_time_factor": 0.5275545350172216,
+        "sample_id": "speech-003-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "2bd782c8e08c00b8aa8960f5cebb134fd418c9b59eed939ec5768c170c9f38dc",
+        "latency_ms": 1865,
+        "prediction": "Record the volume as 250 milliliters",
+        "real_time_factor": 0.47107855519070474,
+        "sample_id": "speech-004-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "919acceb93c987117c259b3c8b9fdd5d4dd24c663f31242dafb6a74a4e06fe5a",
+        "latency_ms": 1873,
+        "prediction": "record the volume as 250 milliliters",
+        "real_time_factor": 0.4878874706954936,
+        "sample_id": "speech-004-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "2b07975a94879b677a4e5ff28f634e08a0ae95f4053621ba49e8434c56cb7419",
+        "latency_ms": 1872,
+        "prediction": "record the volume as 500 microliters",
+        "real_time_factor": 0.5165562913907285,
+        "sample_id": "speech-005-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "5d85d558ca7a941fb180c7b12f815d69f030f80c53ed25c46bbf42a71b40cc29",
+        "latency_ms": 1906,
+        "prediction": "record the volume as 500 microliters",
+        "real_time_factor": 0.5408626560726447,
+        "sample_id": "speech-005-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.19047619047619047,
+        "input_sha256": "9dea379c1e50f5a5623aea55ee784c854f087f39ee080a1204216eb8c6f49864",
+        "latency_ms": 1846,
+        "prediction": "Record the mass as 5 g",
+        "real_time_factor": 0.665465032444124,
+        "sample_id": "speech-006-david",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.047619047619047616,
+        "input_sha256": "c3cf149ad1fc70fc45caee361d2745aa392ecaa956455e4d60f75ccf3fa04755",
+        "latency_ms": 1995,
+        "prediction": "record the mass is 5 grams",
+        "real_time_factor": 0.7297000731528895,
+        "sample_id": "speech-006-zira",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "63bb31863673f2eddeba54d7e20f6d64b43a3851a7dcfee7ef866ce7e87fe1c1",
+        "latency_ms": 2024,
+        "prediction": "record the mass as 120 milligrams",
+        "real_time_factor": 0.5158002038735984,
+        "sample_id": "speech-007-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.03571428571428571,
+        "input_sha256": "0aa4f179278a5073c60562fe40351d7094119b83d5062dd2336f4a4ef5120053",
+        "latency_ms": 2082,
+        "prediction": "record the mass is 120 milligrams",
+        "real_time_factor": 0.5560897435897435,
+        "sample_id": "speech-007-zira",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "b55ddb580de8d37ef9c3a09ed5d6eb1745c7ed82642c9c1fe4573ad32413f711",
+        "latency_ms": 1910,
+        "prediction": "record the speed as 1500 rpm",
+        "real_time_factor": 0.4676787463271303,
+        "sample_id": "speech-008-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "622d17f0253a12af2ce6fa6d80ca08dbb801dde2ac51e51d27556c673c2f87b1",
+        "latency_ms": 1837,
+        "prediction": "record the speed as 1500 rpm",
+        "real_time_factor": 0.4723579326304963,
+        "sample_id": "speech-008-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.21212121212121213,
+        "input_sha256": "2323c1afaf6c7e0da169dd86443d2c5e6984ffdc3c26c776f1d1bb40dff6e6d5",
+        "latency_ms": 1839,
+        "prediction": "record the concentration as 70%.",
+        "real_time_factor": 0.5263308528906697,
+        "sample_id": "speech-009-david",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.21212121212121213,
+        "input_sha256": "522ca131dd98a12969d181a06a3644b371609af21ac90d6e46710879b65a16c8",
+        "latency_ms": 1833,
+        "prediction": "Record the concentration as 70%.",
+        "real_time_factor": 0.5424681858538029,
+        "sample_id": "speech-009-zira",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.029411764705882353,
+        "input_sha256": "310113226bee6880e1c8b6568920f03f4be69043eb308c4fe75e82f5e2793b8f",
+        "latency_ms": 1898,
+        "prediction": "Record the incubation time as 30 minutes.",
+        "real_time_factor": 0.5617046463450724,
+        "sample_id": "speech-010-david",
+        "status": "succeeded",
+        "wer": 0.14285714285714285
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "9a87fb2c4efa989f6472f8f8663371178d693e5b35b93e3c8fa9571f769e0608",
+        "latency_ms": 1973,
+        "prediction": "record the incubation time as 30 minutes",
+        "real_time_factor": 0.590011961722488,
+        "sample_id": "speech-010-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.05128205128205128,
+        "input_sha256": "1ebab9516100e84b7c6de1c7876f65761a065d35a9faaef2b10ec817019003fe",
+        "latency_ms": 1921,
+        "prediction": "record and observation as the solution is clear.",
+        "real_time_factor": 0.5643360752056404,
+        "sample_id": "speech-011-david",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "805551f5aec17b535d5e60a7a1f5f94cde49a757069c00ebc7a04e6288fbbff6",
+        "latency_ms": 1905,
+        "prediction": "record an observation as the solution is clear",
+        "real_time_factor": 0.5579964850615114,
+        "sample_id": "speech-011-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.061224489795918366,
+        "input_sha256": "fccb63df765b6af04276382da4d937991c5359ef3688655c51f6280af636aaaf",
+        "latency_ms": 2222,
+        "prediction": "record and observation as precipitated formed at the bottom.",
+        "real_time_factor": 0.5655383049121914,
+        "sample_id": "speech-012-david",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.02040816326530612,
+        "input_sha256": "6435a6db8dbd055136b47abea9acf7d311791ceaa50e6321a5812e940dbc3e58",
+        "latency_ms": 2007,
+        "prediction": "record and observation as precipitate formed at the bottom",
+        "real_time_factor": 0.5317965023847377,
+        "sample_id": "speech-012-zira",
+        "status": "succeeded",
+        "wer": 0.1111111111111111
+      },
+      {
+        "cer": 0.025,
+        "input_sha256": "2aecec90e019437dfff546ccaa16a30cb0905305048459477acc5e4eae2d3d35",
+        "latency_ms": 1920,
+        "prediction": "Record an observation as no bubbles are visible.",
+        "real_time_factor": 0.5510907003444316,
+        "sample_id": "speech-013-david",
+        "status": "succeeded",
+        "wer": 0.125
+      },
+      {
+        "cer": 0.025,
+        "input_sha256": "08ee24ce4f35e0c2676555df08a6bf7e182ed89bcb42f803c388155c5347f375",
+        "latency_ms": 1995,
+        "prediction": "Record an observation as no bubbles are visible.",
+        "real_time_factor": 0.5895390070921986,
+        "sample_id": "speech-013-zira",
+        "status": "succeeded",
+        "wer": 0.125
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "d0bcc20eb9b1e5588d8e36ffb3434f72f56baaa4c4fcc8a724d8723fad1e94a9",
+        "latency_ms": 1858,
+        "prediction": "Set a timer for 5 minutes.",
+        "real_time_factor": 0.7027231467473525,
+        "sample_id": "speech-014-david",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "7062434437d4518ff9ea30236021b77c88ad4ec3d36b062be51a0438bd138e09",
+        "latency_ms": 1850,
+        "prediction": "set a timer for 5 minutes",
+        "real_time_factor": 0.7077276205049733,
+        "sample_id": "speech-014-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "e8dc9dc2311a30849afe76f1b80fdb70c9700094e236e991f12e2dfeabd99d06",
+        "latency_ms": 2046,
+        "prediction": "Set timer for 90 seconds.",
+        "real_time_factor": 0.7375630857966834,
+        "sample_id": "speech-015-david",
+        "status": "succeeded",
+        "wer": 0.2
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "8be1d19ce9905f73b70fd586a43c2fe945a93359c1d02996578818c9b8e07f40",
+        "latency_ms": 1933,
+        "prediction": "set timer for 90 seconds",
+        "real_time_factor": 0.7083180652253572,
+        "sample_id": "speech-015-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.047619047619047616,
+        "input_sha256": "0f504a5070a5b7dde998ce031c441ba7b4df85d8c8b797bdd19e7a51cf78819d",
+        "latency_ms": 1993,
+        "prediction": "Set a timer for 45 seconds.",
+        "real_time_factor": 0.6259422110552764,
+        "sample_id": "speech-016-david",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "cdf01533d27cee13c78f16bfe52dc49879cabfdb278856e325adfa883b1f195a",
+        "latency_ms": 1904,
+        "prediction": "set a timer for 45 seconds",
+        "real_time_factor": 0.6254927726675427,
+        "sample_id": "speech-016-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "33caa6b9cabba046735498725c75bdd6940f262d482e1d6f933f5ceed1612250",
+        "latency_ms": 1986,
+        "prediction": "What is the current step?",
+        "real_time_factor": 0.9350282485875706,
+        "sample_id": "speech-017-david",
+        "status": "succeeded",
+        "wer": 0.2
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "01fb3f511356ae4ab2d91451d6b9969d8f79a7a478e84ad1a24ae05a4855cd5a",
+        "latency_ms": 1965,
+        "prediction": "What is the current step?",
+        "real_time_factor": 0.9613502935420744,
+        "sample_id": "speech-017-zira",
+        "status": "succeeded",
+        "wer": 0.2
+      },
+      {
+        "cer": 0.058823529411764705,
+        "input_sha256": "0c4a7a2d0f694d81c1549b9d502d97ef5899f9f631202ad53bec4108f8dcfed3",
+        "latency_ms": 2070,
+        "prediction": "What is the next step?",
+        "real_time_factor": 1.0102489019033674,
+        "sample_id": "speech-018-david",
+        "status": "succeeded",
+        "wer": 0.2
+      },
+      {
+        "cer": 0.058823529411764705,
+        "input_sha256": "ebbd259c0bac7cbb3d509c722795ad869413b9719a9ccfcca03370e03fbfea29",
+        "latency_ms": 1938,
+        "prediction": "What is the next step?",
+        "real_time_factor": 0.9646590343454455,
+        "sample_id": "speech-018-zira",
+        "status": "succeeded",
+        "wer": 0.2
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "67352b7c665c7ad13824d026d55af2f129fab47896b4512161fcb0a1163ec7f6",
+        "latency_ms": 1797,
+        "prediction": "Repeat the instruction.",
+        "real_time_factor": 0.8685355244079265,
+        "sample_id": "speech-019-david",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "c1beafe983c31efdbd032ffc4114e7284a1231fc9e5951819930110577b69b2e",
+        "latency_ms": 1772,
+        "prediction": "Repeat the instruction.",
+        "real_time_factor": 0.8462273161413563,
+        "sample_id": "speech-019-zira",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "336fde96b3b1815a800fbe91eea5905b165f08bf51caa5f0ce2f3f480b5565f9",
+        "latency_ms": 1760,
+        "prediction": "Pause",
+        "real_time_factor": 1.3548883756735952,
+        "sample_id": "speech-020-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "d939214ebf14518e004ad98704116a8eac893840d183718235a1f886cb9ed380",
+        "latency_ms": 1752,
+        "prediction": "Pause",
+        "real_time_factor": 1.313343328335832,
+        "sample_id": "speech-020-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "0481d736bf9f7f3154c6a3e0c81a02e5d45edcff618ff3a55b1359eb877158db",
+        "latency_ms": 1792,
+        "prediction": "Resume",
+        "real_time_factor": 1.2947976878612717,
+        "sample_id": "speech-021-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "ed72d9965d18baa75c0dcf4f5a8ee32b2b6cae95444b329dc41c3ba122a796e9",
+        "latency_ms": 2004,
+        "prediction": "Resume",
+        "real_time_factor": 1.4273504273504274,
+        "sample_id": "speech-021-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.06666666666666667,
+        "input_sha256": "6ffda397ff1b0b6bbbf6d3969bb1910f875f7c077f61a24fd5f7b2b58f4b76d0",
+        "latency_ms": 1909,
+        "prediction": "Complete the step.",
+        "real_time_factor": 1.0214018191546281,
+        "sample_id": "speech-022-david",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "1f4e98d7b7be4ce4fb960b68576ebe5f40dc22bc22af64696fae4c98ab43a706",
+        "latency_ms": 1824,
+        "prediction": "Complete the step",
+        "real_time_factor": 0.9918433931484503,
+        "sample_id": "speech-022-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "6ea4bcc2f90c2ff567e193da546ecd2910e6dea0ca3f375fd41df698ee5f8e2f",
+        "latency_ms": 1851,
+        "prediction": "Verify reagent",
+        "real_time_factor": 0.9497178040020523,
+        "sample_id": "speech-023-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "c91a036a9299181effb1f39b276fc51e3b536ebce074ea1fcf0bd03f85564336",
+        "latency_ms": 1847,
+        "prediction": "Verify reagent",
+        "real_time_factor": 0.9404276985743381,
+        "sample_id": "speech-023-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.043478260869565216,
+        "input_sha256": "6d307cad18c99508c4985c430788e6960dc28f2a1e3c400e58b755b38e45792b",
+        "latency_ms": 1896,
+        "prediction": "Correct the previous entry.",
+        "real_time_factor": 0.8088737201365188,
+        "sample_id": "speech-024-david",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.043478260869565216,
+        "input_sha256": "6812a3be3806d146e97eb48b8cd6276fb8f2d23e1a0c7388367de1e87943fdcf",
+        "latency_ms": 2028,
+        "prediction": "Correct the previous entry.",
+        "real_time_factor": 0.8918205804749341,
+        "sample_id": "speech-024-zira",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "ce819e4d3548ea164559c504b6f1f24cd285b8b4d79bc50f4d8b6bbfa1a633f5",
+        "latency_ms": 1759,
+        "prediction": "End session",
+        "real_time_factor": 1.073215375228798,
+        "sample_id": "speech-025-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "7c39cef3ed3f9192472b8d6fa90ba40af68e07772db9734eeb4f7e9ce8544bad",
+        "latency_ms": 1859,
+        "prediction": "End session",
+        "real_time_factor": 1.1924310455420142,
+        "sample_id": "speech-025-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.08333333333333333,
+        "input_sha256": "042acff755bd4f1f9ca58c1c9ec8682587f4af00159e31f52ef604c1c4099302",
+        "latency_ms": 1843,
+        "prediction": "Jarvis pause",
+        "real_time_factor": 0.8213012477718359,
+        "sample_id": "speech-026-david",
+        "status": "succeeded",
+        "wer": 0.5
+      },
+      {
+        "cer": 0.08333333333333333,
+        "input_sha256": "e0f5a04a4cb3d654296f2987f1c083b0a5ce69808de1d4795e07b265f34b2873",
+        "latency_ms": 1757,
+        "prediction": "Jarvis, pause.",
+        "real_time_factor": 0.7511757161179992,
+        "sample_id": "speech-026-zira",
+        "status": "succeeded",
+        "wer": 0.5
+      },
+      {
+        "cer": 0.125,
+        "input_sha256": "c7ebe8e332c91d33f9040b3e98d82d7804871b9ac82799d6b2eb5957e3102228",
+        "latency_ms": 1952,
+        "prediction": "record the temperature as minus 300 degrees Celsius",
+        "real_time_factor": 0.4535315985130111,
+        "sample_id": "speech-027-david",
+        "status": "succeeded",
+        "wer": 0.2857142857142857
+      },
+      {
+        "cer": 0.125,
+        "input_sha256": "de0f57a7ede0426f0e6400b4c1d3b5346a27d0e33cfe45a5ffe8e90518a71fc8",
+        "latency_ms": 1904,
+        "prediction": "record the temperature as minus 300 degrees Celsius",
+        "real_time_factor": 0.4496929617383089,
+        "sample_id": "speech-027-zira",
+        "status": "succeeded",
+        "wer": 0.2857142857142857
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "967018c06c52904b54f3a8962d0f538761065095cf0272508ffeb8bc3ca06745",
+        "latency_ms": 1807,
+        "prediction": "record the volume as 50 gallons",
+        "real_time_factor": 0.6222451790633609,
+        "sample_id": "speech-028-david",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "6c5b0132754bd889edeaa7ee3b9a8de624afa0d680eca07b4a627c51345460fc",
+        "latency_ms": 1851,
+        "prediction": "record the volume as 50 gallons",
+        "real_time_factor": 0.6384960331148671,
+        "sample_id": "speech-028-zira",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.047619047619047616,
+        "input_sha256": "169276a2649e0aefb9f69fe8ba7e913f6b092a81c9b1e74024cb8035ad5ca0ae",
+        "latency_ms": 1791,
+        "prediction": "Skip all remaining steps.",
+        "real_time_factor": 0.7373404693289419,
+        "sample_id": "speech-029-david",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.047619047619047616,
+        "input_sha256": "c5d01636e103f2bcce2fca26b3ff0ed5b19d9c03179b05bf25584d7d607be6ef",
+        "latency_ms": 1790,
+        "prediction": "Skip all remaining steps.",
+        "real_time_factor": 0.7399751963621332,
+        "sample_id": "speech-029-zira",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.017857142857142856,
+        "input_sha256": "5f96bb94bd09d3b01aa18de9cbd341e7f70b7f99ab59a7cc8fa821c3db441e66",
+        "latency_ms": 1921,
+        "prediction": "Record the temperature as 37 degrees Celsius and complete the step.",
+        "real_time_factor": 0.3851242983159583,
+        "sample_id": "speech-030-david",
+        "status": "succeeded",
+        "wer": 0.09090909090909091
+      },
+      {
+        "cer": 0.017857142857142856,
+        "input_sha256": "ed22ee3f3e8ad34ac17366beb5baf26b6c1e8831a9c8aab809323c6b236d7475",
+        "latency_ms": 1928,
+        "prediction": "Record the temperature as 37 degrees Celsius and complete the step.",
+        "real_time_factor": 0.40016604400166045,
+        "sample_id": "speech-030-zira",
+        "status": "succeeded",
+        "wer": 0.09090909090909091
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "81f9f40d90692e2e1e67bf98b853d5e454c805dec53bd623ed4db8e70328074e",
+        "latency_ms": 1884,
+        "prediction": "record the temperature as 37 degrees celsius",
+        "real_time_factor": 0.4819646968534152,
+        "sample_id": "speech-001-david-noise",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "47e7ad801e9706965d0c02987f8a8ca7fcc66fb831a61994fac4fd9ccfaad249",
+        "latency_ms": 2434,
+        "prediction": "record the temperature as 21.5 degrees celsius",
+        "real_time_factor": 0.5422143016261974,
+        "sample_id": "speech-002-david-noise",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.05555555555555555,
+        "input_sha256": "a4df4c2be631adf248ecb706a187c36ba9da1d2d6b46d2981028666139bb3126",
+        "latency_ms": 2919,
+        "prediction": "Record the pH as 7.4 pH.",
+        "real_time_factor": 0.8475609756097561,
+        "sample_id": "speech-003-david-noise",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.03225806451612903,
+        "input_sha256": "e94363ebdfb17c468bf7ef38431401c81accf7b957c5eddf4fac849ddfd3f57f",
+        "latency_ms": 3024,
+        "prediction": "Record the volume as 250 milliliters.",
+        "real_time_factor": 0.7638292498105582,
+        "sample_id": "speech-004-david-noise",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.03225806451612903,
+        "input_sha256": "6c06d1766cfdc9b87b958b895895e8f3a68b31ed49c2d764a19648f627e4cfd3",
+        "latency_ms": 2833,
+        "prediction": "Record the volume as 500 microliters.",
+        "real_time_factor": 0.7817328918322296,
+        "sample_id": "speech-005-david-noise",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.19047619047619047,
+        "input_sha256": "296986d9618cd5c2b31b91b6572621d828a848ea2263f99bda656d86f01a933f",
+        "latency_ms": 1949,
+        "prediction": "Record the mass as 5g.",
+        "real_time_factor": 0.7025955299206922,
+        "sample_id": "speech-006-david-noise",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.03571428571428571,
+        "input_sha256": "0914e092a15e85bedc4517ef3bd1d0226eb350d36191e8094241083287b27128",
+        "latency_ms": 2049,
+        "prediction": "Record the mass as 120 milligrams.",
+        "real_time_factor": 0.52217125382263,
+        "sample_id": "speech-007-david-noise",
+        "status": "succeeded",
+        "wer": 0.16666666666666666
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "1455d65abe3bc2b60e8d64c6c85055f4fa42437c4156a3647175367931b18802",
+        "latency_ms": 1802,
+        "prediction": "record the speed as 1500 rpm",
+        "real_time_factor": 0.44123408423114596,
+        "sample_id": "speech-008-david-noise",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.21212121212121213,
+        "input_sha256": "0dc8995828e726136513c171207ce80bce6f22704626a25bea9795acc0c19b3e",
+        "latency_ms": 2587,
+        "prediction": "Record the concentration as 70%.",
+        "real_time_factor": 0.7404121350887235,
+        "sample_id": "speech-009-david-noise",
+        "status": "succeeded",
+        "wer": 0.3333333333333333
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "1f28de9d54313bcb6a4968940499d28e37f13a49dcfde3fc453a10166d150369",
+        "latency_ms": 2846,
+        "prediction": "Record the incubation time as 30 minutes",
+        "real_time_factor": 0.8422610239715893,
+        "sample_id": "speech-010-david-noise",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.05128205128205128,
+        "input_sha256": "8945887223721d47b531fcd6d526da56cb7a12457f005dd8a1b67c34c3684897",
+        "latency_ms": 2923,
+        "prediction": "record and observation as the solution is clear.",
+        "real_time_factor": 0.8586956521739131,
+        "sample_id": "speech-011-david-noise",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.02040816326530612,
+        "input_sha256": "e32713ac3b184fdeb3d77e6a24037100c64fad57ce4dd4258f12487cae0316c1",
+        "latency_ms": 2951,
+        "prediction": "record and observation as precipitate formed at the bottom",
+        "real_time_factor": 0.7510817001781624,
+        "sample_id": "speech-012-david-noise",
+        "status": "succeeded",
+        "wer": 0.1111111111111111
+      },
+      {
+        "cer": 0.05,
+        "input_sha256": "76b73caadbc5b19a578d9b5a18da97808be5f2b1774da37d8acc8a963bed245e",
+        "latency_ms": 2946,
+        "prediction": "record and observation as no bubbles are visible.",
+        "real_time_factor": 0.8455797933409874,
+        "sample_id": "speech-013-david-noise",
+        "status": "succeeded",
+        "wer": 0.25
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "0e81e9c0d69747c4b6ae8f028c32f6877ef33d2c8ee247aec827fdc59efbaee2",
+        "latency_ms": 2865,
+        "prediction": "set a timer for 5 minutes",
+        "real_time_factor": 1.0835854765506807,
+        "sample_id": "speech-014-david-noise",
+        "status": "succeeded",
+        "wer": 0.0
+      },
+      {
+        "cer": 0.0,
+        "input_sha256": "d84c0e5f74216f1574447b9c84214a7dcbd77b13e2771c304f0129c8c4704bcb",
+        "latency_ms": 2735,
+        "prediction": "Set timer for 90 seconds",
+        "real_time_factor": 0.9859408795962509,
+        "sample_id": "speech-015-david-noise",
+        "status": "succeeded",
+        "wer": 0.0
+      }
+    ],
+    "sample_count": 75
+  },
+  "created_at": "2026-09-01T13:51:15.864364+00:00",
+  "dataset_sha256": "87ded65f9957d7f7154a0bcc5880a687bbab4ba89ecbae09d9ad87723a25ef4b",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13"
+  },
+  "prohibited_claims": [
+    "real media performance",
+    "human performance",
+    "laboratory safety"
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "name": "labjarvis",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "web:build": "pnpm --dir apps/web build",
+    "web:dev": "pnpm --dir apps/web dev",
+    "web:lint": "pnpm --dir apps/web lint",
+    "web:test": "pnpm --dir apps/web test --run",
+    "web:typecheck": "pnpm --dir apps/web typecheck"
+  }
+}

@@ -1,0 +1,4816 @@
+{
+  "environment": {
+    "captured_at": "2026-07-20T11:45:01.342173+00:00",
+    "commit": "d5b7f04837c647a875ab34bc743d8b5dda38a79a",
+    "packages": {
+      "ctranslate2": "4.8.1",
+      "easyocr": "1.7.2",
+      "faster-whisper": "1.2.1",
+      "numpy": "2.5.1",
+      "opencv-python-headless": "5.0.0.93",
+      "torch": "2.13.0"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python": "3.12.13",
+    "seed": 20260717,
+    "thresholds": {
+      "command_confidence": 0.75,
+      "reagent_match": 92.0,
+      "reagent_uncertain": 72.0
+    }
+  },
+  "experiment_id": "E2-text",
+  "interpreter": {
+    "adapter": "deterministic-rules",
+    "model_name": "fake-text-rules-v1",
+    "note": "deterministic rule grammar; not an LLM"
+  },
+  "records": [
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.084,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degrees Celsius",
+          "value": "37"
+        }
+      },
+      "sample_id": "text-001",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the temperature as 37 degrees Celsius"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "4"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.042,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "celsius",
+          "value": "4"
+        }
+      },
+      "sample_id": "text-002",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the temperature as 4 celsius"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "21.5"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.026,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degrees Celsius",
+          "value": "21.5"
+        }
+      },
+      "sample_id": "text-003",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the temperature as 21.5 degrees Celsius"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "ph",
+          "unit": "pH",
+          "value": "7.4"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.013,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "ph",
+          "unit": "ph",
+          "value": "7.4"
+        }
+      },
+      "sample_id": "text-004",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the ph as 7.4 ph"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "milliliters",
+          "value": "250"
+        }
+      },
+      "sample_id": "text-005",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the volume as 250 milliliters"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "12.5"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.01,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "ml",
+          "value": "12.5"
+        }
+      },
+      "sample_id": "text-006",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the volume as 12.5 ml"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "uL",
+          "value": "500"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "microliters",
+          "value": "500"
+        }
+      },
+      "sample_id": "text-007",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the volume as 500 microliters"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "g",
+          "value": "5"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.008,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "grams",
+          "value": "5"
+        }
+      },
+      "sample_id": "text-008",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the mass as 5 grams"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "mg",
+          "value": "120"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "milligrams",
+          "value": "120"
+        }
+      },
+      "sample_id": "text-009",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the mass as 120 milligrams"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "speed",
+          "unit": "rpm",
+          "value": "1500"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "speed",
+          "unit": "rpm",
+          "value": "1500"
+        }
+      },
+      "sample_id": "text-010",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the speed as 1500 rpm"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "concentration",
+          "unit": "%",
+          "value": "70"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.008,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "concentration",
+          "unit": "percent",
+          "value": "70"
+        }
+      },
+      "sample_id": "text-011",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the concentration as 70 percent"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "incubation time",
+          "unit": "min",
+          "value": "30"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.01,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "incubation time",
+          "unit": "minutes",
+          "value": "30"
+        }
+      },
+      "sample_id": "text-012",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the incubation time as 30 minutes"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "kg",
+          "value": "0.75"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.01,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "kilograms",
+          "value": "0.75"
+        }
+      },
+      "sample_id": "text-013",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the mass as 0.75 kilograms"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "-20"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degrees celsius",
+          "value": "-20"
+        }
+      },
+      "sample_id": "text-014",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "record the temperature as -20 degrees celsius"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "L",
+          "value": "2"
+        }
+      },
+      "category": "valid_measurement",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 1,
+      "latency_ms": 0.008,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "liters",
+          "value": "2"
+        }
+      },
+      "sample_id": "text-015",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 3,
+      "transcript": "Record the volume as 2 liters"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "the solution is clear"
+        }
+      },
+      "category": "valid_observation",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 1,
+      "latency_ms": 0.015,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "the solution is clear"
+        }
+      },
+      "sample_id": "text-016",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "Record an observation as the solution is clear"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "precipitate formed at the bottom"
+        }
+      },
+      "category": "valid_observation",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "precipitate formed at the bottom"
+        }
+      },
+      "sample_id": "text-017",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "record an observation as precipitate formed at the bottom"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "the mixture turned pale yellow"
+        }
+      },
+      "category": "valid_observation",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "the mixture turned pale yellow"
+        }
+      },
+      "sample_id": "text-018",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "Record observation as the mixture turned pale yellow"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "no bubbles are visible"
+        }
+      },
+      "category": "valid_observation",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "no bubbles are visible"
+        }
+      },
+      "sample_id": "text-019",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "record an observation as no bubbles are visible"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "the pellet resuspended fully"
+        }
+      },
+      "category": "valid_observation",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "the pellet resuspended fully"
+        }
+      },
+      "sample_id": "text-020",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "Record an observation as the pellet resuspended fully"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "slight cloudiness after mixing"
+        }
+      },
+      "category": "valid_observation",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RECORD_OBSERVATION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 1,
+      "latency_ms": 0.01,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_OBSERVATION",
+        "parameters": {
+          "observation": "slight cloudiness after mixing"
+        }
+      },
+      "sample_id": "text-021",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "record an observation as slight cloudiness after mixing"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "300"
+        }
+      },
+      "category": "valid_timer",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "SET_TIMER",
+      "intent_correct": 1,
+      "latency_ms": 0.018,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "300"
+        }
+      },
+      "sample_id": "text-022",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "set a timer for 5 minutes"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "90"
+        }
+      },
+      "category": "valid_timer",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "SET_TIMER",
+      "intent_correct": 1,
+      "latency_ms": 0.013,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "90"
+        }
+      },
+      "sample_id": "text-023",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "Set timer for 90 seconds"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "7200"
+        }
+      },
+      "category": "valid_timer",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "SET_TIMER",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "7200"
+        }
+      },
+      "sample_id": "text-024",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "timer for 2 hours"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "45"
+        }
+      },
+      "category": "valid_timer",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "SET_TIMER",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "45"
+        }
+      },
+      "sample_id": "text-025",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "set a timer for 45 seconds"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "600"
+        }
+      },
+      "category": "valid_timer",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "SET_TIMER",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "600"
+        }
+      },
+      "sample_id": "text-026",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 1,
+      "transcript": "set a timer for 10 minutes"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "GET_CURRENT_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "GET_CURRENT_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.013,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "GET_CURRENT_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-027",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "What is the current step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "GET_CURRENT_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "GET_CURRENT_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "GET_CURRENT_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-028",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "current step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "GET_NEXT_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "GET_NEXT_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.008,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "GET_NEXT_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-029",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "what is the next step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "GET_NEXT_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_NEXT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "GET_NEXT_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.007,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "GET_NEXT_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-030",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Next step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "REPEAT_INSTRUCTION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "REPEAT_INSTRUCTION",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "REPEAT_INSTRUCTION",
+        "parameters": {}
+      },
+      "sample_id": "text-031",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "repeat the instruction"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "REPEAT_INSTRUCTION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "REPEAT_INSTRUCTION",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "REPEAT_INSTRUCTION",
+      "intent_correct": 1,
+      "latency_ms": 0.007,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "REPEAT_INSTRUCTION",
+        "parameters": {}
+      },
+      "sample_id": "text-032",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "repeat"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "PAUSE_SESSION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "PAUSE_SESSION",
+      "intent_correct": 1,
+      "latency_ms": 0.007,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "PAUSE_SESSION",
+        "parameters": {}
+      },
+      "sample_id": "text-033",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "pause"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "PAUSE_SESSION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "PAUSE_SESSION",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "PAUSE_SESSION",
+        "parameters": {}
+      },
+      "sample_id": "text-034",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "pause session"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "RESUME_SESSION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RESUME_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "RESUME_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RESUME_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "RESUME_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RESUME_SESSION",
+      "intent_correct": 1,
+      "latency_ms": 0.008,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RESUME_SESSION",
+        "parameters": {}
+      },
+      "sample_id": "text-035",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "resume"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "COMPLETE_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "COMPLETE_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.007,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "COMPLETE_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-036",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "complete the step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "COMPLETE_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "COMPLETE_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.007,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "COMPLETE_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-037",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "complete step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "VERIFY_REAGENT",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "VERIFY_REAGENT",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "VERIFY_REAGENT",
+        "parameters": {}
+      },
+      "sample_id": "text-038",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "verify reagent"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "VERIFY_REAGENT",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "VERIFY_REAGENT",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "VERIFY_REAGENT",
+      "intent_correct": 1,
+      "latency_ms": 0.071,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "VERIFY_REAGENT",
+        "parameters": {}
+      },
+      "sample_id": "text-039",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "check reagent"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "CORRECT_PREVIOUS_ENTRY",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "CORRECT_PREVIOUS_ENTRY",
+      "intent_correct": 1,
+      "latency_ms": 0.021,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "CORRECT_PREVIOUS_ENTRY",
+        "parameters": {}
+      },
+      "sample_id": "text-040",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "correct the previous entry"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "END_SESSION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "END_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "END_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "END_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "END_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "END_SESSION",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "END_SESSION",
+        "parameters": {}
+      },
+      "sample_id": "text-041",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "end session"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "HELP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "HELP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "HELP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "HELP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "HELP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "HELP",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "HELP",
+        "parameters": {}
+      },
+      "sample_id": "text-042",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "help"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "PAUSE_SESSION",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "PAUSE_SESSION",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "PAUSE_SESSION",
+      "intent_correct": 1,
+      "latency_ms": 0.007,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "PAUSE_SESSION",
+        "parameters": {}
+      },
+      "sample_id": "text-043",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Jarvis, pause"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "COMPLETE_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 1,
+          "correct": true,
+          "executed": true,
+          "intent": "COMPLETE_STEP",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "COMPLETE_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "COMPLETE_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-044",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Jarvis complete the step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "GET_CURRENT_STEP",
+        "parameters": {}
+      },
+      "category": "valid_control",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "GET_CURRENT_STEP",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "GET_CURRENT_STEP",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "GET_CURRENT_STEP",
+        "parameters": {}
+      },
+      "sample_id": "text-045",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Jarvis, what is the current step"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "intent_correct": 0,
+      "latency_ms": 0.024,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-046",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "log the temperature at 37 celsius"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 0,
+      "latency_ms": 0.032,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-047",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "note that the solution is cloudy"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "RECORD_OBSERVATION",
+      "intent_correct": 0,
+      "latency_ms": 0.018,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-048",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "write down that the gel has set"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "SET_TIMER",
+      "intent_correct": 0,
+      "latency_ms": 0.019,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-049",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "start a five minute countdown"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "GET_CURRENT_STEP",
+      "intent_correct": 0,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-050",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "what do I do now"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "COMPLETE_STEP",
+      "intent_correct": 0,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-051",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "move on"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "CORRECT_PREVIOUS_ENTRY",
+      "intent_correct": 0,
+      "latency_ms": 0.015,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-052",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "go back to the previous entry and fix it"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "PAUSE_SESSION",
+      "intent_correct": 0,
+      "latency_ms": 0.016,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-053",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "hold on a moment"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "END_SESSION",
+      "intent_correct": 0,
+      "latency_ms": 0.02,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-054",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "we are done here"
+    },
+    {
+      "action_valid": true,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "paraphrase_uncovered",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": true,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "REPEAT_INSTRUCTION",
+      "intent_correct": 0,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-055",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "could you say that again please"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degrees Celsius",
+          "value": "-300"
+        }
+      },
+      "sample_id": "text-056",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Record the temperature as -300 degrees Celsius"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.013,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "gallons",
+          "value": "50"
+        }
+      },
+      "sample_id": "text-057",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "record the volume as 50 gallons"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "mass",
+          "unit": "stone",
+          "value": "3"
+        }
+      },
+      "sample_id": "text-058",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Record the mass as 3 stone"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.018,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "distance",
+          "unit": "furlongs",
+          "value": "5"
+        }
+      },
+      "sample_id": "text-059",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "record the distance as 5 furlongs"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "volume",
+          "unit": "milliliters",
+          "value": "9999999999999"
+        }
+      },
+      "sample_id": "text-060",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Record the volume as 9999999999999 milliliters"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.028,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "0"
+        }
+      },
+      "sample_id": "text-061",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "set a timer for 0 minutes"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "SET_TIMER",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.025,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "SET_TIMER",
+        "parameters": {
+          "duration_seconds": "720000"
+        }
+      },
+      "sample_id": "text-062",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "timer for 200 hours"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "invalid_parseable",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": false,
+          "executed": true,
+          "intent": "RECORD_MEASUREMENT",
+          "missed_valid": false,
+          "unsafe_executed": true
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [],
+        "confidence": 0.99,
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "unit": "degrees",
+          "value": "37"
+        }
+      },
+      "sample_id": "text-063",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "record the temperature as 37 degrees"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-064",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "skip all remaining steps"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.016,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-065",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "delete the notebook records"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.016,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-066",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "double all reagent volumes"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-067",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "mark every step as complete"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-068",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "ignore the protocol and continue"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.064,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-069",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "is it safe to increase the concentration"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.023,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-070",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "tell me a joke"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.02,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-071",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "what is the boiling point of ethanol"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.016,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-072",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "open the incubator door"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "unsupported_out_of_scope",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.014,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-073",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "approve the protocol for me"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "multi_command",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [
+          "multiple commands"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-074",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "Record the temperature as 37 degrees Celsius and complete the step"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "multi_command",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.009,
+      "proposal": {
+        "ambiguities": [
+          "multiple commands"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-075",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "pause and end session"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "multi_command",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [
+          "multiple commands"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-076",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "record an observation as the solution is clear and record the ph as 7 ph"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "incomplete",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.016,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-077",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "record the temperature"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "incomplete",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.015,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-078",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "set a timer"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "incomplete",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.012,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-079",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "as 37 degrees"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "incomplete",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.011,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-080",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": "record"
+    },
+    {
+      "action_valid": false,
+      "canonical": {
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "category": "incomplete",
+      "conditions": {
+        "A": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "B": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_always_accept": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        },
+        "C_attentive": {
+          "confirmations": 0,
+          "correct": null,
+          "executed": false,
+          "intent": "UNSUPPORTED",
+          "missed_valid": false,
+          "unsafe_executed": false
+        }
+      },
+      "expected_intent": "UNSUPPORTED",
+      "intent_correct": 1,
+      "latency_ms": 0.028,
+      "proposal": {
+        "ambiguities": [
+          "unsupported command"
+        ],
+        "confidence": 0.0,
+        "intent": "UNSUPPORTED",
+        "parameters": {}
+      },
+      "sample_id": "text-081",
+      "slot_fn": 0,
+      "slot_fp": 0,
+      "slot_tp": 0,
+      "transcript": ""
+    }
+  ],
+  "sample_count": 81
+}

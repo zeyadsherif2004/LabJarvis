@@ -1,0 +1,4 @@
+model_name,n,failures,wer,cer,latency_p50_ms,latency_p95_ms,mean_real_time_factor
+base.en,75,0,0.2968,0.0875,1336,2852,0.7678
+small.en,75,0,0.1279,0.0379,1906,2946,0.7555
+tiny.en,75,0,0.3101,0.0797,1016,1472,0.5642

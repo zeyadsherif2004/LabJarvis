@@ -1,0 +1,97 @@
+{
+  "description": "Shared vectors for the live-scan stability rule (stable-asymmetric-v3). Checked by apps/api/tests/unit/domain/test_live_scan.py and apps/web/src/media/liveScan.test.ts so the Python and TypeScript rules cannot drift.",
+  "rule_version": "stable-asymmetric-v3",
+  "rule": {"required_consecutive": 3, "interval_ms": 400, "timeout_ms": 4000},
+  "cases": [
+    {
+      "name": "three identical readable matches are stable",
+      "readings": [["MATCH", "ethanol"], ["MATCH", "ethanol"], ["MATCH", "ethanol"]],
+      "elapsed_ms": 800,
+      "expected": {"status": "stable", "outcome": "MATCH", "normalised": "ethanol", "frames_examined": 3, "frame_indexes": [0, 1, 2]}
+    },
+    {
+      "name": "a stable mismatch is still only stable, never verified",
+      "readings": [["MATCH", "ethanol"], ["MISMATCH", "methanol"], ["MISMATCH", "methanol"], ["MISMATCH", "methanol"]],
+      "elapsed_ms": 1200,
+      "expected": {"status": "stable", "outcome": "MISMATCH", "normalised": "methanol", "frames_examined": 4, "frame_indexes": [1, 2, 3]}
+    },
+    {
+      "name": "two agreeing frames are not enough",
+      "readings": [["MATCH", "ethanol"], ["MATCH", "ethanol"]],
+      "elapsed_ms": 400,
+      "expected": {"status": "scanning", "frames_examined": 2}
+    },
+    {
+      "name": "an unreadable frame neither counts nor resets the run",
+      "readings": [["MATCH", "ethanol"], ["UNREADABLE", ""], ["MATCH", "ethanol"]],
+      "elapsed_ms": 800,
+      "expected": {"status": "scanning", "frames_examined": 3}
+    },
+    {
+      "name": "a hand-held label that tilts out of view for one frame still settles",
+      "readings": [["MATCH", "sodium chloride"], ["UNREADABLE", ""], ["MATCH", "sodium chloride"], ["MATCH", "sodium chloride"]],
+      "elapsed_ms": 1200,
+      "expected": {"status": "stable", "outcome": "MATCH", "normalised": "sodium chloride", "frames_examined": 4, "frame_indexes": [0, 2, 3]}
+    },
+    {
+      "name": "one OCR misreading among matches is tolerated and not submitted",
+      "readings": [["MATCH", "sodium chloride"], ["MISMATCH", "sodiuw chloride"], ["MATCH", "sodium chloride"], ["MATCH", "sodium chloride"]],
+      "elapsed_ms": 1200,
+      "expected": {"status": "stable", "outcome": "MATCH", "normalised": "sodium chloride", "frames_examined": 4, "frame_indexes": [0, 2, 3]}
+    },
+    {
+      "name": "different OCR guesses do not settle a mismatch",
+      "readings": [["MISMATCH", "sugar"], ["MISMATCH", "suqar"], ["MISMATCH", "sugar"]],
+      "elapsed_ms": 800,
+      "expected": {"status": "scanning", "frames_examined": 3}
+    },
+    {
+      "name": "a wrong label settles despite one OCR misreading",
+      "readings": [["MISMATCH", "sugar"], ["MISMATCH", "suqar"], ["MISMATCH", "sugar"], ["MISMATCH", "sugar"]],
+      "elapsed_ms": 1200,
+      "expected": {"status": "stable", "outcome": "MISMATCH", "normalised": "sugar", "frames_examined": 4, "frame_indexes": [0, 2, 3]}
+    },
+    {
+      "name": "three different blur artefacts do not falsely reject a correct label",
+      "readings": [["MISMATCH", "acuotl"], ["MISMATCH", "0na"], ["MISMATCH", "acetore"]],
+      "elapsed_ms": 800,
+      "expected": {"status": "scanning", "frames_examined": 3}
+    },
+    {
+      "name": "disagreeing outcomes prompt the operator to hold steady",
+      "readings": [["MATCH", "ethanol"], ["UNCERTAIN", "ethano1"], ["MATCH", "ethanol"]],
+      "elapsed_ms": 800,
+      "expected": {"status": "scanning", "frames_examined": 3, "prompt": "Hold the label steady."}
+    },
+    {
+      "name": "readings older than the window no longer count",
+      "readings": [["MATCH", "ethanol"], ["MATCH", "ethanol"], ["UNCERTAIN", "ethano1"], ["MISMATCH", "methanol"], ["UNCERTAIN", "ethano1"], ["MISMATCH", "methanol"], ["MATCH", "ethanol"]],
+      "elapsed_ms": 2400,
+      "expected": {"status": "scanning", "frames_examined": 7}
+    },
+    {
+      "name": "three unreadable frames prompt the operator to move closer",
+      "readings": [["UNREADABLE", ""], ["UNREADABLE", ""], ["UNREADABLE", ""]],
+      "elapsed_ms": 800,
+      "expected": {"status": "scanning", "frames_examined": 3, "prompt": "Move the label closer to the camera."}
+    },
+    {
+      "name": "timeout while unreadable",
+      "readings": [["UNREADABLE", ""], ["UNREADABLE", ""], ["UNREADABLE", ""], ["UNREADABLE", ""], ["MATCH", "ethanol"]],
+      "elapsed_ms": 4000,
+      "expected": {"status": "timeout", "frames_examined": 5, "reason": "unreadable"}
+    },
+    {
+      "name": "timeout while genuinely unsteady after max frames",
+      "readings": [["MATCH", "ethanol"], ["UNCERTAIN", "ethano1"], ["MISMATCH", "methanol"], ["MATCH", "ethanol"], ["UNCERTAIN", "ethano1"], ["MISMATCH", "methanol"], ["MATCH", "ethanol"], ["UNCERTAIN", "ethano1"], ["MISMATCH", "methanol"], ["MATCH", "ethanol"]],
+      "elapsed_ms": 3600,
+      "expected": {"status": "timeout", "frames_examined": 10, "reason": "unsteady"}
+    },
+    {
+      "name": "stability wins over a simultaneous timeout",
+      "readings": [["MATCH", "ethanol"], ["MATCH", "ethanol"], ["MATCH", "ethanol"]],
+      "elapsed_ms": 5000,
+      "expected": {"status": "stable", "outcome": "MATCH", "normalised": "ethanol", "frames_examined": 3, "frame_indexes": [0, 1, 2]}
+    }
+  ]
+}

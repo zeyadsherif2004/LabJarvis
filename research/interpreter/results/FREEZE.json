@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-09-26T19:21:58.501929+00:00",
+  "note": "Frozen before the final text-interpreter sweep. Any later change to these files is a protocol deviation.",
+  "prompt_sha256": "c52996c752b3ff03812a604c2a12d52c5b70be00453539bee9a23a3649fc5058",
+  "schema_sha256": "232b8e37b9549d3683de27054998b64141b512d4c4b056d0277a950a661f6f81",
+  "files": {
+    "docs/evaluation/model-selection-protocol.md": "9ef24f52f5b20ff7b0d4f8bcf3ebec4d2fc673147abb77a8b2de1bbb90f81125",
+    "research/data/heldout/human-paraphrases.jsonl": "a65bdf163d8ad30b8eec232e7e0b42280982fcc27796ca100b2cc93bb6f953e8",
+    "research/data/manifests/text-commands.jsonl": "4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f",
+    "research/data/manifests/text-dev.jsonl": "59b8898c99e57ca1d67fd565bdbcc0628e04a080ae1469f38bd61fc900650c69",
+    "research/interpreter/configs/final-sweep.yaml": "0791ed9c3df6849adce9c85e187bf29166fac68cf3abdbef8de6f9d6608b86fb",
+    "apps/api/src/labjarvis/infrastructure/interpreter_spec.py": "b0dcdba5f8af192bbfac5e42bdc9c3e27ec2199b1b7bd4d26e12f8ff4e94b962",
+    "apps/api/src/labjarvis/infrastructure/command_contract.py": "8102b7b765e835ca885ffe716a614d4fa730952b8cea8287abb6c74eea8dd514",
+    "apps/api/src/labjarvis/domain/entity_grounding.py": "3a15c6d595f72f991104aa674031c3c29734106b6817d65aefd0864d81fe6100",
+    "apps/api/src/labjarvis/infrastructure/rule_grammar.py": "030df6ab6fa420ba4c85136db41a8b50898052361881f8e90c28617a00540848",
+    "apps/api/src/labjarvis/infrastructure/cascade.py": "1a5bcebce1c2d5c597522da096209f4e642d1c4cc8894b4b616ac2d372de4e73",
+    "research/interpreter/build_heldout.py": "099f8325bb84411e949495eb197034c2beef20ca6afda734aa84e5ca7ffb8570",
+    "research/interpreter/run_sweep.py": "daca9d93f5ac7e089c7076c65c43dcdd36e6ba6090d8a6ed44c1f5e2443d5d2d"
+  }
+}

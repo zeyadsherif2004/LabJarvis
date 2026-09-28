@@ -1,0 +1,5 @@
+condition,scenarios,task_success,success_rate,wilson_low,wilson_high,unsafe_events,incorrect_records,invalid_transitions_executed,label_false_accepts,label_abstentions,confirmations,blocked_events,missed_valid
+A,24,10,0.4167,0.2447,0.6117,24,9,11,4,0,0,0,0
+B,24,18,0.7500,0.5510,0.8800,6,4,0,2,0,0,12,0
+C_attentive,24,24,1.0000,0.8620,1.0000,0,0,0,0,3,104,12,0
+C_always_accept,24,18,0.7500,0.5510,0.8800,6,4,0,2,3,104,12,0

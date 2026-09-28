@@ -1,0 +1,25 @@
+services:
+  api:
+    environment:
+      LABJARVIS_DATABASE_URL: postgresql+psycopg://labjarvis:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@database:5432/labjarvis
+    depends_on:
+      database:
+        condition: service_healthy
+
+  database:
+    image: postgres:18.2-alpine
+    environment:
+      POSTGRES_DB: labjarvis
+      POSTGRES_USER: labjarvis
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U labjarvis -d labjarvis"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  postgres-data:

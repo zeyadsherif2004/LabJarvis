@@ -1,0 +1,21 @@
+citation_key,research_problem,system_or_method,data,metrics,key_findings,limitations,relevance_to_labjarvis
+radford2023whisper,robust general-purpose ASR,Whisper encoder-decoder trained on 680k h weak supervision,web-scale audio,WER across benchmarks,near-human robustness zero-shot,confidence not calibrated; errors remain on names/numbers,speech front-end evaluated in E1
+qwen2025technical,open instruction-following LLMs,Qwen2.5 model family incl. 1.5B,web corpora,standard LLM benchmarks,small variants usable on consumer hardware,fabrication risk persists,application default text model (not benchmarked; blocker)
+baek2019craft,scene text detection,character-level region awareness (CRAFT),SynthText + benchmarks,H-mean,strong curved/irregular text detection,not label-domain specific,EasyOCR detector used in E3
+shi2017crnn,image sequence recognition,CRNN CNN+BiLSTM+CTC,scene text benchmarks,accuracy,end-to-end trainable lexicon-free recognition,implicit LM can 'correct' inputs,EasyOCR recogniser family; explains defaced-label normalisation finding
+chow1970optimum,error/reject trade-off,optimal reject rule,analytic,error and reject rates,rejection trades error for coverage,assumes known posteriors,theoretical basis of abstention band
+geifman2017selective,selective prediction for DNNs,risk-guaranteed threshold selection,CIFAR/ImageNet,risk-coverage,guaranteed risk with reduced coverage,needs held-out data,frames E3 risk-coverage analysis
+guo2017calibration,DNN confidence calibration,temperature scaling study,vision/NLP models,ECE/NLL,modern DNNs are miscalibrated,post-hoc fixes partial,why LabJarvis treats scores as heuristics not probabilities
+parasuraman1997automation,automation use failures,conceptual taxonomy,literature,none,misuse/disuse/abuse patterns,conceptual,motivation for calibrated intervention design
+lee2004trust,trust-reliance calibration,conceptual model of trust,literature,none,design for appropriate reliance not maximal trust,conceptual,C policy targets reliance calibration
+goddard2012automation,automation bias frequency/mitigators,systematic review of CDSS,74 studies,bias rates,automation bias is common; verification prompts mitigate partially,clinical domain,predicts always-accept operator result (H3)
+amershi2019guidelines,human-AI interaction design,18 validated guidelines,user study over 20 products,guideline violations,show uncertainty; support correction; make clear what system can do,not lab-specific,UI/interaction rationale
+bucinca2021trust,overreliance on AI,cognitive forcing functions,3-condition study n=199,accuracy/overreliance,forcing functions reduce overreliance at satisfaction cost,simple tasks,confirmation-as-forcing-function trade-off
+boiko2023autonomous,autonomous experiment execution,GPT-4 agent with tools (Coscientist),chemistry tasks,task completion,LLM agents can plan and run experiments,safety concerns acknowledged; high autonomy,contrast: LabJarvis rejects autonomous execution
+bran2024chemcrow,LLM chemistry assistance,tool-augmented agent (ChemCrow),chemistry tasks,expert evaluation,tools improve reliability over bare LLM,still autonomous action,contrast on autonomy spectrum
+abolhasani2023rise,accelerating discovery,self-driving lab review,literature,none,SDLs combine ML and automation,focus on full automation,context: most labs remain human-executed
+austerjost2018virtual,hands-busy instrument control,commercial VUI + lab middleware,demo tasks,qualitative,voice control of instruments is feasible,no protocol grounding/verification/uncertainty handling,closest prior system; gap statement
+willard2023guided,constrained LLM decoding,FSM-guided generation (Outlines),n/a,overhead,schema conformance can be guaranteed,syntax not semantics,rationale for JSON-schema-constrained adapter
+ji2023hallucination,NLG hallucination,survey,literature,taxonomy,hallucination is systemic across NLG,fast-moving field,motivates deterministic validation of model proposals
+easyocr2024software,practical OCR toolkit,CRAFT+CRNN pipeline,n/a,n/a,widely used open OCR,no benchmark claims,vision runtime under test
+fasterwhisper2025software,efficient Whisper inference,CTranslate2 reimplementation,n/a,n/a,4x faster CPU inference,same model quality,speech runtime under test

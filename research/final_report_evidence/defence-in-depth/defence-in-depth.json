@@ -1,0 +1,102 @@
+[
+  {
+    "configuration": "rules",
+    "dataset": "benchmark",
+    "proposal": 8,
+    "validation": 0,
+    "state": 0,
+    "confidence": 0,
+    "confirm_attentive": 0,
+    "always_accept": 0
+  },
+  {
+    "configuration": "rules",
+    "dataset": "heldout",
+    "proposal": 0,
+    "validation": 0,
+    "state": 0,
+    "confidence": 0,
+    "confirm_attentive": 0,
+    "always_accept": 0
+  },
+  {
+    "configuration": "qwen2.5-3b-llm",
+    "dataset": "benchmark",
+    "proposal": 11,
+    "validation": 10,
+    "state": 10,
+    "confidence": 10,
+    "confirm_attentive": 0,
+    "always_accept": 10
+  },
+  {
+    "configuration": "qwen2.5-3b-llm",
+    "dataset": "heldout",
+    "proposal": 1,
+    "validation": 1,
+    "state": 1,
+    "confidence": 1,
+    "confirm_attentive": 0,
+    "always_accept": 1
+  },
+  {
+    "configuration": "qwen2.5-3b-cascade",
+    "dataset": "benchmark",
+    "proposal": 12,
+    "validation": 4,
+    "state": 4,
+    "confidence": 4,
+    "confirm_attentive": 0,
+    "always_accept": 4
+  },
+  {
+    "configuration": "qwen2.5-3b-cascade",
+    "dataset": "heldout",
+    "proposal": 1,
+    "validation": 1,
+    "state": 1,
+    "confidence": 1,
+    "confirm_attentive": 0,
+    "always_accept": 1
+  },
+  {
+    "configuration": "qwen2.5-1.5b-cascade-verified-qwen2.5-3b",
+    "dataset": "benchmark",
+    "proposal": 10,
+    "validation": 2,
+    "state": 2,
+    "confidence": 2,
+    "confirm_attentive": 0,
+    "always_accept": 2
+  },
+  {
+    "configuration": "qwen2.5-1.5b-cascade-verified-qwen2.5-3b",
+    "dataset": "heldout",
+    "proposal": 0,
+    "validation": 0,
+    "state": 0,
+    "confidence": 0,
+    "confirm_attentive": 0,
+    "always_accept": 0
+  },
+  {
+    "configuration": "deepseek-flash-cascade",
+    "dataset": "benchmark",
+    "proposal": 12,
+    "validation": 4,
+    "state": 4,
+    "confidence": 4,
+    "confirm_attentive": 0,
+    "always_accept": 4
+  },
+  {
+    "configuration": "deepseek-flash-cascade",
+    "dataset": "heldout",
+    "proposal": 0,
+    "validation": 0,
+    "state": 0,
+    "confidence": 0,
+    "confirm_attentive": 0,
+    "always_accept": 0
+  }
+]

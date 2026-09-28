@@ -1,0 +1,63 @@
+{
+  "retrieved": "2026-09-26",
+  "note": "USD per 1M tokens (audio: per minute). Conservative choices: DeepSeek peak rates; cache-miss input prices; standard (non-batch) tier. Upper bounds in the ledger over-estimate prompt tokens at 2 characters/token.",
+  "models": {
+    "deepseek-flash": {
+      "input_per_million": 0.3,
+      "output_per_million": 1.2,
+      "source": "https://api-docs.deepseek.com/quick_start/pricing (peak, cache miss)"
+    },
+    "glm-5.3-flash": {
+      "input_per_million": 0.15,
+      "output_per_million": 0.5,
+      "source": "https://docs.z.ai/guides/overview/pricing"
+    },
+    "glm-4.6v-flashx": {
+      "input_per_million": 0.04,
+      "output_per_million": 0.4,
+      "source": "https://docs.z.ai/guides/overview/pricing"
+    },
+    "gpt-4.1-nano": {
+      "input_per_million": 0.1,
+      "output_per_million": 0.4,
+      "source": "https://platform.openai.com/docs/pricing.md (standard)"
+    },
+    "gpt-4o-mini-transcribe": {
+      "input_per_million": 1.25,
+      "output_per_million": 5.0,
+      "per_audio_minute": 0.003,
+      "source": "https://platform.openai.com/docs/pricing.md (transcription)"
+    },
+    "gpt-realtime-2.1-mini": {
+      "input_per_million": 10.0,
+      "output_per_million": 20.0,
+      "source": "https://platform.openai.com/docs/pricing.md (realtime audio)"
+    },
+    "glm-4.5-air": {
+      "input_per_million": 0.2,
+      "output_per_million": 1.1,
+      "source": "https://docs.z.ai/guides/overview/pricing"
+    },
+    "gpt-5.4-nano": {
+      "input_per_million": 0.2,
+      "cached_input_per_million": 0.02,
+      "output_per_million": 1.25,
+      "retrieved": "2026-09-27",
+      "source": "https://developers.openai.com/api/docs/pricing.md and https://developers.openai.com/api/docs/models/gpt-5.4-nano.md (standard tier; reasoning.effort none|low|medium|high|xhigh, default none)"
+    },
+    "gpt-5.6-luna": {
+      "input_per_million": 0.2,
+      "cached_input_per_million": 0.02,
+      "output_per_million": 1.2,
+      "retrieved": "2026-09-27",
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna.md lists output $1.20/M; the pricing page summary read $0.75/M (short context). The higher figure is used so the ledger never under-counts. reasoning.effort none..max, default medium"
+    },
+    "gpt-5.6-terra": {
+      "input_per_million": 2.0,
+      "cached_input_per_million": 0.2,
+      "output_per_million": 12.0,
+      "retrieved": "2026-09-27",
+      "source": "https://developers.openai.com/api/docs/pricing.md and https://developers.openai.com/api/docs/models/gpt-5.6-terra.md (standard tier, short context; reasoning.effort none..max, default medium)"
+    }
+  }
+}

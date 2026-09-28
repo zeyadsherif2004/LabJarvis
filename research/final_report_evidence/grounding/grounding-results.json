@@ -1,0 +1,1694 @@
+{
+  "floors": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+  ],
+  "methods": {
+    "v1": {
+      "production_floor": 0.35,
+      "dev_selected_floor": 0.45,
+      "dev_at_production_floor": {
+        "floor": 0.35,
+        "n": 18,
+        "supported_n": 12,
+        "unsupported_n": 6,
+        "answer_recall": 0.75,
+        "unsupported_answer_rate": 0.1667,
+        "false_abstentions": 3,
+        "wrong_passage": 0,
+        "balanced_accuracy": 0.7917,
+        "records": [
+          {
+            "id": "dev-01",
+            "question": "At what temperature is the heat shock performed?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-02",
+            "question": "How long is the recovery incubation?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-03",
+            "question": "What antibiotic concentration should be used?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-04",
+            "question": "What volume of stock is used for the starting dilution?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.6295,
+            "excerpt": "Prepare a 0.625 micromolar fluorescein starting dilution by combining 250 uL stock with 3750 uL 1X PBS. Prepare serial dilutions by transferring 2 mL between tu"
+          },
+          {
+            "id": "dev-05",
+            "question": "How many gain settings are measured?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5226,
+            "excerpt": "Measure fluorescence at four gain settings, repeat eight times, and save the results."
+          },
+          {
+            "id": "dev-06",
+            "question": "What is the storage temperature of the fluorescein stock?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.3538,
+            "excerpt": "Combine 250 uL fluorescein stock with 3750 uL 1X PBS."
+          },
+          {
+            "id": "dev-07",
+            "question": "Which software is used to open the reference stack?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.6154,
+            "excerpt": "Open the reference binary TIFF stack in FIJI/ImageJ."
+          },
+          {
+            "id": "dev-08",
+            "question": "Which operation combines random points with allowable locations?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5087,
+            "excerpt": "Generate sparse random points from two noise images and combine them with allowable locations using AND."
+          },
+          {
+            "id": "dev-09",
+            "question": "Which microscope objective should be used?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-10",
+            "question": "How long is the DNA incubated on ice?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.489,
+            "excerpt": "Add one tenth cell volume DNA and incubate on ice for 30 minutes. 1800 seconds"
+          },
+          {
+            "id": "dev-11",
+            "question": "What volume of LB medium is added?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.6123,
+            "excerpt": "Add one tenth of the cell volume of DNA, mix without vortexing, and incubate for 30 minutes on ice. Heat shock for 0.5 to 2 minutes at 42 C, return to ice for 2"
+          },
+          {
+            "id": "dev-12",
+            "question": "How many plates should I spread the cells on?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-13",
+            "question": "How many times are the measurements repeated?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5353,
+            "excerpt": "Prepare a 0.625 micromolar fluorescein starting dilution by combining 250 uL stock with 3750 uL 1X PBS. Prepare serial dilutions by transferring 2 mL between tu"
+          },
+          {
+            "id": "dev-14",
+            "question": "How much volume goes into each well?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.4931,
+            "excerpt": "Load 100 uL of each dilution into its assigned well."
+          },
+          {
+            "id": "dev-15",
+            "question": "What excitation wavelength should I use?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-16",
+            "question": "Which software opens the TIFF stack?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-17",
+            "question": "How are the random points combined with the allowable locations?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.6744,
+            "excerpt": "Generate sparse random points from two noise images and combine them with allowable locations using AND."
+          },
+          {
+            "id": "dev-18",
+            "question": "What voxel size should I use?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          }
+        ]
+      },
+      "test_at_production_floor": {
+        "floor": 0.35,
+        "n": 32,
+        "supported_n": 20,
+        "unsupported_n": 12,
+        "answer_recall": 0.6,
+        "unsupported_answer_rate": 0.3333,
+        "false_abstentions": 6,
+        "wrong_passage": 2,
+        "balanced_accuracy": 0.6333,
+        "records": [
+          {
+            "id": "test-19",
+            "question": "How long should I microwave the agarose?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "Microwave until the agarose is fully melted. This depends strongly on your microwave, but a 90 seconds at full power or 3 minutes at half power seem to provide "
+          },
+          {
+            "id": "test-20",
+            "question": "How long does the poured gel need to cool?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": false,
+            "score": 0.4768,
+            "excerpt": "Let the agarose cool on your bench until touching the bottom of the beaker with your bare hand doesn't burn you (~5 minutes for a 50mL gel). At this point add y"
+          },
+          {
+            "id": "test-21",
+            "question": "What volume makes a good gel for a 7x10cm gelbox?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "Measure out the appropriate mass of agarose into a beaker with the appropriate volume of buffer (see below). The volume required depends on your gelbox / castin"
+          },
+          {
+            "id": "test-22",
+            "question": "What do I seal the gel box edges with?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "While the solution is cooling, seal the open edges of your gel box with one long piece of masking tape on each side. Make sure it is sealed well or the gel will"
+          },
+          {
+            "id": "test-23",
+            "question": "When do I add the DNA stain?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "Let the agarose cool on your bench until touching the bottom of the beaker with your bare hand doesn't burn you (~5 minutes for a 50mL gel). At this point add y"
+          },
+          {
+            "id": "test-24",
+            "question": "How long should the gel run?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-25",
+            "question": "What ladder concentration should I load?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-26",
+            "question": "Which imager exposure setting should I use?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-27",
+            "question": "At what temperature should the plates be kept?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-28",
+            "question": "How long do the plates need to solidify?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5475,
+            "excerpt": "Let solidify about 1 h, wrap, label (name, date, additive)"
+          },
+          {
+            "id": "test-29",
+            "question": "What temperature should the media cool to before adding antibiotic?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-30",
+            "question": "What size flask should the medium be poured into?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-31",
+            "question": "Which autoclave cycle is used?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "Autoclave (liquid cycle)"
+          },
+          {
+            "id": "test-32",
+            "question": "Which antibiotic concentration should I use?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.5332,
+            "excerpt": "\"LB ... contains enzymatic digests of the milk protein casein (e.g., tryptone or N-Z-amine) and yeast extract. Since milk is rich in lactose, an inducer of the "
+          },
+          {
+            "id": "test-33",
+            "question": "How many weeks can the plates be stored?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-34",
+            "question": "What is the shelf life of the LB medium?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.3882,
+            "excerpt": "Luria-Bertani Medium (aka L-Broth or LB Medium). (Bertani says LB really stands for lysogeny broth.) LB is a standard growth medium for a variety of bacteria an"
+          },
+          {
+            "id": "test-35",
+            "question": "How long do I spin the sample?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": false,
+            "score": 0.531,
+            "excerpt": "Add the following to your sample in the order they appear:"
+          },
+          {
+            "id": "test-36",
+            "question": "At what temperature is the centrifugation done?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-37",
+            "question": "How long should the pellet air dry?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "Dry the pellet. For this you can air dry (tubes open, ~15 min) or dry in a speedvac. DNA and RNA (if you don't have RNases in your sample) are typically hearty "
+          },
+          {
+            "id": "test-38",
+            "question": "What do I do with the supernatant?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 1.0,
+            "excerpt": "Decant (or carefully pipet off) the supernatant."
+          },
+          {
+            "id": "test-39",
+            "question": "How cold should the overnight freeze be?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5789,
+            "excerpt": "Mix and freeze overnight in -20. This step some say is unnecessary but others swear by it. If you are in a rush you can also put it in the -80 for ten minutes t"
+          },
+          {
+            "id": "test-40",
+            "question": "What DNA yield should I expect?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-41",
+            "question": "Which gel extraction kit should I use afterwards?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-42",
+            "question": "How should the precipitated DNA be quantified?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-43",
+            "question": "What OD600 should the culture reach?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5271,
+            "excerpt": "Grow the diluted culture at 30-37C and 250-400 RPM to an OD600 = 0.2\u20130.5. (You will get a very small pellet if you grow 25 mL to OD600 = 0.2)"
+          },
+          {
+            "id": "test-44",
+            "question": "How long do the falcon tubes stay on ice?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.6215,
+            "excerpt": "Split the culture into two 50 mL falcon tubes and incubate on ice for 10 min."
+          },
+          {
+            "id": "test-45",
+            "question": "How fast should I centrifuge the cells?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.353,
+            "excerpt": "Centrifuge for 10 min at 3000 rpm and 4\u00b0C."
+          },
+          {
+            "id": "test-46",
+            "question": "What volume should each aliquot be?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-47",
+            "question": "At what temperature are the aliquots stored?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-48",
+            "question": "How many transformants per microgram should I expect?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-49",
+            "question": "What is the recipe for the TSS buffer?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.5345,
+            "excerpt": "Resuspend cells in chilled TSS buffer. The volume of TSS to use is 10% of the culture volume that you spun down. You may need to vortex gently to fully resuspen"
+          },
+          {
+            "id": "test-50",
+            "question": "Which antibiotic plate is used for the positive control?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.4077,
+            "excerpt": "It is a good idea to run a positive control on the cells."
+          }
+        ]
+      },
+      "dev_curve": [
+        {
+          "floor": 0.05,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.1,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.15,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.2,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.25,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.3,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.35,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.75,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 3,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.7917
+        },
+        {
+          "floor": 0.4,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.75,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 3,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.45,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.75,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 3,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.5,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.5833,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 5,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.7917
+        },
+        {
+          "floor": 0.55,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.3333,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 8,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.6667
+        },
+        {
+          "floor": 0.6,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.3333,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 8,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.6667
+        },
+        {
+          "floor": 0.65,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0833,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 11,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5417
+        },
+        {
+          "floor": 0.7,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.75,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.8,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        }
+      ],
+      "test_curve": [
+        {
+          "floor": 0.05,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.7,
+          "unsupported_answer_rate": 0.75,
+          "false_abstentions": 0,
+          "wrong_passage": 6,
+          "balanced_accuracy": 0.475
+        },
+        {
+          "floor": 0.1,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.7,
+          "unsupported_answer_rate": 0.75,
+          "false_abstentions": 0,
+          "wrong_passage": 6,
+          "balanced_accuracy": 0.475
+        },
+        {
+          "floor": 0.15,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.7,
+          "unsupported_answer_rate": 0.75,
+          "false_abstentions": 0,
+          "wrong_passage": 6,
+          "balanced_accuracy": 0.475
+        },
+        {
+          "floor": 0.2,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.7,
+          "unsupported_answer_rate": 0.5833,
+          "false_abstentions": 0,
+          "wrong_passage": 6,
+          "balanced_accuracy": 0.5583
+        },
+        {
+          "floor": 0.25,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.7,
+          "unsupported_answer_rate": 0.4167,
+          "false_abstentions": 2,
+          "wrong_passage": 4,
+          "balanced_accuracy": 0.6417
+        },
+        {
+          "floor": 0.3,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.65,
+          "unsupported_answer_rate": 0.4167,
+          "false_abstentions": 4,
+          "wrong_passage": 3,
+          "balanced_accuracy": 0.6167
+        },
+        {
+          "floor": 0.35,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.6,
+          "unsupported_answer_rate": 0.3333,
+          "false_abstentions": 6,
+          "wrong_passage": 2,
+          "balanced_accuracy": 0.6333
+        },
+        {
+          "floor": 0.4,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.55,
+          "unsupported_answer_rate": 0.25,
+          "false_abstentions": 7,
+          "wrong_passage": 2,
+          "balanced_accuracy": 0.65
+        },
+        {
+          "floor": 0.45,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.55,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 7,
+          "wrong_passage": 2,
+          "balanced_accuracy": 0.6917
+        },
+        {
+          "floor": 0.5,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.55,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 8,
+          "wrong_passage": 1,
+          "balanced_accuracy": 0.6917
+        },
+        {
+          "floor": 0.55,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.45,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 11,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.725
+        },
+        {
+          "floor": 0.6,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.4,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.7
+        },
+        {
+          "floor": 0.65,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.35,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 13,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.675
+        },
+        {
+          "floor": 0.7,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.35,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 13,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.675
+        },
+        {
+          "floor": 0.75,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.35,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 13,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.675
+        },
+        {
+          "floor": 0.8,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.35,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 13,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.675
+        }
+      ]
+    },
+    "v2": {
+      "production_floor": 0.15,
+      "dev_selected_floor": 0.15,
+      "dev_at_production_floor": {
+        "floor": 0.15,
+        "n": 18,
+        "supported_n": 12,
+        "unsupported_n": 6,
+        "answer_recall": 0.75,
+        "unsupported_answer_rate": 0.0,
+        "false_abstentions": 3,
+        "wrong_passage": 0,
+        "balanced_accuracy": 0.875,
+        "records": [
+          {
+            "id": "dev-01",
+            "question": "At what temperature is the heat shock performed?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-02",
+            "question": "How long is the recovery incubation?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-03",
+            "question": "What antibiotic concentration should be used?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-04",
+            "question": "What volume of stock is used for the starting dilution?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.1677,
+            "excerpt": "Prepare a 0.625 micromolar fluorescein starting dilution by combining 250 uL stock with 3750 uL 1X PBS. Prepare serial dilutions by transferring 2 mL between tu"
+          },
+          {
+            "id": "dev-05",
+            "question": "How many gain settings are measured?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5428,
+            "excerpt": "Measure fluorescence at four gain settings, repeat eight times, and save the results."
+          },
+          {
+            "id": "dev-06",
+            "question": "What is the storage temperature of the fluorescein stock?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-07",
+            "question": "Which software is used to open the reference stack?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2754,
+            "excerpt": "Open the reference binary TIFF stack in FIJI/ImageJ."
+          },
+          {
+            "id": "dev-08",
+            "question": "Which operation combines random points with allowable locations?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.3094,
+            "excerpt": "Generate sparse random points from two noise images and combine them with allowable locations using AND."
+          },
+          {
+            "id": "dev-09",
+            "question": "Which microscope objective should be used?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-10",
+            "question": "How long is the DNA incubated on ice?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5206,
+            "excerpt": "Add one tenth cell volume DNA and incubate on ice for 30 minutes. 1800 seconds"
+          },
+          {
+            "id": "dev-11",
+            "question": "What volume of LB medium is added?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.3604,
+            "excerpt": "Add up to 700 uL LB medium and incubate at 37 C and 250 rpm for one hour. 3600 seconds"
+          },
+          {
+            "id": "dev-12",
+            "question": "How many plates should I spread the cells on?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-13",
+            "question": "How many times are the measurements repeated?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-14",
+            "question": "How much volume goes into each well?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2399,
+            "excerpt": "Load 100 uL of each dilution into its assigned well."
+          },
+          {
+            "id": "dev-15",
+            "question": "What excitation wavelength should I use?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "dev-16",
+            "question": "Which software opens the TIFF stack?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2551,
+            "excerpt": "Open the reference binary TIFF stack in FIJI/ImageJ."
+          },
+          {
+            "id": "dev-17",
+            "question": "How are the random points combined with the allowable locations?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.4918,
+            "excerpt": "Generate sparse random points from two noise images and combine them with allowable locations using AND."
+          },
+          {
+            "id": "dev-18",
+            "question": "What voxel size should I use?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          }
+        ]
+      },
+      "test_at_production_floor": {
+        "floor": 0.15,
+        "n": 32,
+        "supported_n": 20,
+        "unsupported_n": 12,
+        "answer_recall": 0.8,
+        "unsupported_answer_rate": 0.5,
+        "false_abstentions": 2,
+        "wrong_passage": 2,
+        "balanced_accuracy": 0.65,
+        "records": [
+          {
+            "id": "test-19",
+            "question": "How long should I microwave the agarose?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.3455,
+            "excerpt": "Microwave until the agarose is fully melted. This depends strongly on your microwave, but a 90 seconds at full power or 3 minutes at half power seem to provide "
+          },
+          {
+            "id": "test-20",
+            "question": "How long does the poured gel need to cool?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2891,
+            "excerpt": "Pour the agarose solution into the taped gelbox. Carefuly pop or shove to the side any bubbles, put in the comb, and let it cool for about 30 minutes, until the"
+          },
+          {
+            "id": "test-21",
+            "question": "What volume makes a good gel for a 7x10cm gelbox?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.3165,
+            "excerpt": "Measure out the appropriate mass of agarose into a beaker with the appropriate volume of buffer (see below). The volume required depends on your gelbox / castin"
+          },
+          {
+            "id": "test-22",
+            "question": "What do I seal the gel box edges with?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.3817,
+            "excerpt": "While the solution is cooling, seal the open edges of your gel box with one long piece of masking tape on each side. Make sure it is sealed well or the gel will"
+          },
+          {
+            "id": "test-23",
+            "question": "When do I add the DNA stain?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2472,
+            "excerpt": "If your gel is at all purple, and you are using ethidium bromide as the DNA stain, you need to decrease your concentration by at least a factor of ten."
+          },
+          {
+            "id": "test-24",
+            "question": "How long should the gel run?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-25",
+            "question": "What ladder concentration should I load?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.1655,
+            "excerpt": "== Loading dyes =="
+          },
+          {
+            "id": "test-26",
+            "question": "Which imager exposure setting should I use?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-27",
+            "question": "At what temperature should the plates be kept?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-28",
+            "question": "How long do the plates need to solidify?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2853,
+            "excerpt": "Let solidify about 1 h, wrap, label (name, date, additive)"
+          },
+          {
+            "id": "test-29",
+            "question": "What temperature should the media cool to before adding antibiotic?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.1608,
+            "excerpt": "Cool media down to 60-55C (uncomfortable but not painful)"
+          },
+          {
+            "id": "test-30",
+            "question": "What size flask should the medium be poured into?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2308,
+            "excerpt": "Pour into 2 L flask (or greater)"
+          },
+          {
+            "id": "test-31",
+            "question": "Which autoclave cycle is used?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.6218,
+            "excerpt": "Autoclave (liquid cycle)"
+          },
+          {
+            "id": "test-32",
+            "question": "Which antibiotic concentration should I use?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.2851,
+            "excerpt": "Add appropriate antibiotic"
+          },
+          {
+            "id": "test-33",
+            "question": "How many weeks can the plates be stored?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-34",
+            "question": "What is the shelf life of the LB medium?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.1982,
+            "excerpt": "Luria-Bertani Medium (aka L-Broth or LB Medium). (Bertani says LB really stands for lysogeny broth.) LB is a standard growth medium for a variety of bacteria an"
+          },
+          {
+            "id": "test-35",
+            "question": "How long do I spin the sample?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": false,
+            "score": 0.2634,
+            "excerpt": "vortex thoroughly/spin/vortex/spin"
+          },
+          {
+            "id": "test-36",
+            "question": "At what temperature is the centrifugation done?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": false,
+            "score": 0.1628,
+            "excerpt": "take out the tube and let it dry in the fume hood at room temperature for 10-15 min"
+          },
+          {
+            "id": "test-37",
+            "question": "How long should the pellet air dry?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.4102,
+            "excerpt": "Dry the pellet. For this you can air dry (tubes open, ~15 min) or dry in a speedvac. DNA and RNA (if you don't have RNases in your sample) are typically hearty "
+          },
+          {
+            "id": "test-38",
+            "question": "What do I do with the supernatant?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.5882,
+            "excerpt": "Decant (or carefully pipet off) the supernatant."
+          },
+          {
+            "id": "test-39",
+            "question": "How cold should the overnight freeze be?",
+            "expected_supported": true,
+            "answered": false,
+            "correct": false,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-40",
+            "question": "What DNA yield should I expect?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-41",
+            "question": "Which gel extraction kit should I use afterwards?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-42",
+            "question": "How should the precipitated DNA be quantified?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.2689,
+            "excerpt": "Ethanol precipitation of small DNA fragments"
+          },
+          {
+            "id": "test-43",
+            "question": "What OD600 should the culture reach?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2326,
+            "excerpt": "Grow the diluted culture at 30-37C and 250-400 RPM to an OD600 = 0.2\u20130.5. (You will get a very small pellet if you grow 25 mL to OD600 = 0.2)"
+          },
+          {
+            "id": "test-44",
+            "question": "How long do the falcon tubes stay on ice?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2805,
+            "excerpt": "Split the culture into two 50 mL falcon tubes and incubate on ice for 10 min."
+          },
+          {
+            "id": "test-45",
+            "question": "How fast should I centrifuge the cells?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.2495,
+            "excerpt": "Centrifuge for 10 min at 3000 rpm and 4\u00b0C."
+          },
+          {
+            "id": "test-46",
+            "question": "What volume should each aliquot be?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.1677,
+            "excerpt": "Add 100 \u00b5L aliquots to your chilled eppendorfs and store at -80\u00b0C."
+          },
+          {
+            "id": "test-47",
+            "question": "At what temperature are the aliquots stored?",
+            "expected_supported": true,
+            "answered": true,
+            "correct": true,
+            "score": 0.3109,
+            "excerpt": "Add 100 \u00b5L aliquots to your chilled eppendorfs and store at -80\u00b0C."
+          },
+          {
+            "id": "test-48",
+            "question": "How many transformants per microgram should I expect?",
+            "expected_supported": false,
+            "answered": false,
+            "correct": true,
+            "score": null,
+            "excerpt": ""
+          },
+          {
+            "id": "test-49",
+            "question": "What is the recipe for the TSS buffer?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.3271,
+            "excerpt": "Preparing TSS buffer"
+          },
+          {
+            "id": "test-50",
+            "question": "Which antibiotic plate is used for the positive control?",
+            "expected_supported": false,
+            "answered": true,
+            "correct": false,
+            "score": 0.2229,
+            "excerpt": "It is a good idea to run a positive control on the cells."
+          }
+        ]
+      },
+      "dev_curve": [
+        {
+          "floor": 0.05,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.3333,
+          "false_abstentions": 0,
+          "wrong_passage": 1,
+          "balanced_accuracy": 0.7917
+        },
+        {
+          "floor": 0.1,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.9167,
+          "unsupported_answer_rate": 0.1667,
+          "false_abstentions": 1,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.15,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.75,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 3,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.875
+        },
+        {
+          "floor": 0.2,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.6667,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 4,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.8333
+        },
+        {
+          "floor": 0.25,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.5833,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 5,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.7917
+        },
+        {
+          "floor": 0.3,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.4167,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 7,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.7083
+        },
+        {
+          "floor": 0.35,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.3333,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 8,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.6667
+        },
+        {
+          "floor": 0.4,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.25,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 9,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.625
+        },
+        {
+          "floor": 0.45,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.25,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 9,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.625
+        },
+        {
+          "floor": 0.5,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.1667,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 10,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5833
+        },
+        {
+          "floor": 0.55,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.6,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.65,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.7,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.75,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.8,
+          "n": 18,
+          "supported_n": 12,
+          "unsupported_n": 6,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 12,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        }
+      ],
+      "test_curve": [
+        {
+          "floor": 0.05,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.85,
+          "unsupported_answer_rate": 0.75,
+          "false_abstentions": 0,
+          "wrong_passage": 3,
+          "balanced_accuracy": 0.55
+        },
+        {
+          "floor": 0.1,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.85,
+          "unsupported_answer_rate": 0.75,
+          "false_abstentions": 0,
+          "wrong_passage": 3,
+          "balanced_accuracy": 0.55
+        },
+        {
+          "floor": 0.15,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.8,
+          "unsupported_answer_rate": 0.5,
+          "false_abstentions": 2,
+          "wrong_passage": 2,
+          "balanced_accuracy": 0.65
+        },
+        {
+          "floor": 0.2,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.7,
+          "unsupported_answer_rate": 0.3333,
+          "false_abstentions": 5,
+          "wrong_passage": 1,
+          "balanced_accuracy": 0.6833
+        },
+        {
+          "floor": 0.25,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.5,
+          "unsupported_answer_rate": 0.25,
+          "false_abstentions": 9,
+          "wrong_passage": 1,
+          "balanced_accuracy": 0.625
+        },
+        {
+          "floor": 0.3,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.35,
+          "unsupported_answer_rate": 0.0833,
+          "false_abstentions": 13,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.6333
+        },
+        {
+          "floor": 0.35,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.2,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 16,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.6
+        },
+        {
+          "floor": 0.4,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.15,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 17,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.575
+        },
+        {
+          "floor": 0.45,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.1,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 18,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.55
+        },
+        {
+          "floor": 0.5,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.1,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 18,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.55
+        },
+        {
+          "floor": 0.55,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.1,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 18,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.55
+        },
+        {
+          "floor": 0.6,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.05,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 19,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.525
+        },
+        {
+          "floor": 0.65,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 20,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.7,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 20,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.75,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 20,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        },
+        {
+          "floor": 0.8,
+          "n": 32,
+          "supported_n": 20,
+          "unsupported_n": 12,
+          "answer_recall": 0.0,
+          "unsupported_answer_rate": 0.0,
+          "false_abstentions": 20,
+          "wrong_passage": 0,
+          "balanced_accuracy": 0.5
+        }
+      ]
+    }
+  }
+}

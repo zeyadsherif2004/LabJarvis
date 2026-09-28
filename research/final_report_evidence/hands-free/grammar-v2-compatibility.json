@@ -1,0 +1,361 @@
+{
+ "created_at": "2026-09-27T16:57:31.347870+00:00",
+ "grammar": {
+  "old": "rule-grammar-v1",
+  "new": "rule-grammar-v2"
+ },
+ "evidence_class": "benchmark: synthetic authored; held-out: public human-written text",
+ "sets": {
+  "benchmark (synthetic authored, 81)": {
+   "utterances": 81,
+   "v1_results_changed": 0,
+   "newly_matched": 2,
+   "newly_matched_agreeing_with_label": 1,
+   "newly_matched_by_intent": {
+    "GET_CURRENT_STEP": 1,
+    "ANSWER_PROTOCOL_QUESTION": 1
+   },
+   "newly_matched_state_changes_not_in_label": 0,
+   "newly_matched_items": [
+    {
+     "text": "what do I do now",
+     "v2_intent": "GET_CURRENT_STEP",
+     "label": "GET_CURRENT_STEP"
+    },
+    {
+     "text": "what is the boiling point of ethanol",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    }
+   ]
+  },
+  "held-out A (public human-written)": {
+   "utterances": 138,
+   "v1_results_changed": 0,
+   "newly_matched": 31,
+   "newly_matched_agreeing_with_label": 14,
+   "newly_matched_by_intent": {
+    "HELP": 10,
+    "ANSWER_PROTOCOL_QUESTION": 16,
+    "SET_TIMER": 5
+   },
+   "newly_matched_state_changes_not_in_label": 0,
+   "newly_matched_items": [
+    {
+     "text": "what kid of subjects do you excel in",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what things are you able to help me with",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what kind of things can you help with",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "how can you help me",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what sorts of tasks can you do",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what are the different subjects that you know",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what all can i ask you",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what categories of questions can you answer",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what questions can you answer",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what'd you say",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "REPEAT_INSTRUCTION"
+    },
+    {
+     "text": "set a 4 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "set a 1 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "set a 3 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "set a 5 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "set a 2 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "what is harry's real name",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what is the total number of pints in two quarts",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what is the official language of romania",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how much ram does my computer have",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how do i set the time on my tag heuer",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what's in fashion this month",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "where can i get the flu shot",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what is a normal resting heart rate",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many prime numbers are there between 0 and 100",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many ounces are in 4 pounds",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how does my current htc phone compare to other android phones",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how do you convert kilos to pounds",
+     "v2_intent": "HELP",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many grams are in 9 kilograms",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what can i use to convert from centimeters to inches",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what is the correct amount of ounces in a pound",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many ounces is 2 and half cups",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    }
+   ]
+  },
+  "held-out B (public human-written)": {
+   "utterances": 139,
+   "v1_results_changed": 0,
+   "newly_matched": 29,
+   "newly_matched_agreeing_with_label": 7,
+   "newly_matched_by_intent": {
+    "ANSWER_PROTOCOL_QUESTION": 20,
+    "HELP": 7,
+    "SET_TIMER": 2
+   },
+   "newly_matched_state_changes_not_in_label": 0,
+   "newly_matched_items": [
+    {
+     "text": "What do I do now that I have grilled the veggies?",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "GET_NEXT_STEP"
+    },
+    {
+     "text": "what kinds of things can i ask you",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what are the subject areas you are knowledgable in",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "HELP"
+    },
+    {
+     "text": "what can i ask you, ai",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "how can i get you to help me",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "HELP"
+    },
+    {
+     "text": "what skills do you have",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what are the sorts of things i can ask you about",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "what can you do",
+     "v2_intent": "HELP",
+     "label": "HELP"
+    },
+    {
+     "text": "set a 10 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "set 30 minute timer",
+     "v2_intent": "SET_TIMER",
+     "label": "SET_TIMER"
+    },
+    {
+     "text": "how do i change inches to centimeters",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how do you convert inches to centimeters",
+     "v2_intent": "HELP",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "why do males want to be alpha",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what does my personality mean",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what size wipers does this car take",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what's 10 inches in centimeters and millimeters",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how are yards converted to inches",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what's the biggest saas marketing company in the united states",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many oscars did star wars films win",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "when was toyota created",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what is 15 ounces in grams",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how do you convert ounces to kilos",
+     "v2_intent": "HELP",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what would five pounds be in kilos",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many cups make a gallon",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what trees change color in autumn",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what is the formula for the circumference of a circle",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what time does the louvre open",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "how many sides are in a hexagon",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    },
+    {
+     "text": "what team does eli mannign play for",
+     "v2_intent": "ANSWER_PROTOCOL_QUESTION",
+     "label": "UNSUPPORTED"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,22 @@
+name: camera-ready-post-review
+result_root: research/post_review/results
+original_results_commit: d5b7f04837c647a875ab34bc743d8b5dda38a79a
+datasets:
+  text: research/data/manifests/text-commands.jsonl
+dataset_sha256:
+  text: 4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f
+hosted:
+  provider: openai
+  model_name: gpt-5.6-terra
+  credential_env: LABJARVIS_HOSTED_API_KEY
+local:
+  text_models:
+    - qwen2.5:0.5b
+    - qwen2.5:1.5b
+  speech_models:
+    - tiny.en
+    - base.en
+    - small.en
+  vision_models:
+    - english_g2
+    - latin_g2

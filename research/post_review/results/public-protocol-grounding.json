@@ -1,0 +1,90 @@
+{
+  "abstention_accuracy": 0.6666666666666666,
+  "case_count": 9,
+  "evidence_class": "public_protocol_source_independent_not_human_adjudicated",
+  "records": [
+    {
+      "case_id": "trans-g1",
+      "correct": false,
+      "expected_supported": true,
+      "score": null,
+      "source_id": "transformation-2018",
+      "supported": false,
+      "top_chunk_id": null
+    },
+    {
+      "case_id": "trans-g2",
+      "correct": false,
+      "expected_supported": true,
+      "score": null,
+      "source_id": "transformation-2018",
+      "supported": false,
+      "top_chunk_id": null
+    },
+    {
+      "case_id": "trans-g3",
+      "correct": true,
+      "expected_supported": false,
+      "score": null,
+      "source_id": "transformation-2018",
+      "supported": false,
+      "top_chunk_id": null
+    },
+    {
+      "case_id": "platero-g1",
+      "correct": true,
+      "expected_supported": true,
+      "score": 0.6295,
+      "source_id": "platero-2023",
+      "supported": true,
+      "top_chunk_id": "platero-2023:source:1"
+    },
+    {
+      "case_id": "platero-g2",
+      "correct": true,
+      "expected_supported": true,
+      "score": 0.5226,
+      "source_id": "platero-2023",
+      "supported": true,
+      "top_chunk_id": "platero-2023:platero-4"
+    },
+    {
+      "case_id": "platero-g3",
+      "correct": false,
+      "expected_supported": false,
+      "score": 0.3538,
+      "source_id": "platero-2023",
+      "supported": true,
+      "top_chunk_id": "platero-2023:platero-1"
+    },
+    {
+      "case_id": "distance-g1",
+      "correct": true,
+      "expected_supported": true,
+      "score": 0.6154,
+      "source_id": "distance-probes-2025",
+      "supported": true,
+      "top_chunk_id": "distance-probes-2025:distance-1"
+    },
+    {
+      "case_id": "distance-g2",
+      "correct": true,
+      "expected_supported": true,
+      "score": 0.5087,
+      "source_id": "distance-probes-2025",
+      "supported": true,
+      "top_chunk_id": "distance-probes-2025:distance-4"
+    },
+    {
+      "case_id": "distance-g3",
+      "correct": true,
+      "expected_supported": false,
+      "score": null,
+      "source_id": "distance-probes-2025",
+      "supported": false,
+      "top_chunk_id": null
+    }
+  ],
+  "source_count": 3,
+  "supported_accuracy": 0.6666666666666666
+}

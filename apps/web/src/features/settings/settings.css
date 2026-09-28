@@ -1,0 +1,278 @@
+/* ---------------------------------------------------------------- settings */
+
+.settings-view {
+  display: grid;
+  gap: 1rem;
+  width: min(1180px, calc(100% - 48px));
+  margin: 48px auto 72px;
+}
+
+.settings-view .view-heading {
+  margin-bottom: 0.5rem;
+}
+
+.settings-card,
+.settings-status {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.settings-card h2,
+.settings-status h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+}
+
+.settings-card--warning {
+  border-color: #e8c98c;
+  background: var(--amber-soft);
+}
+
+.settings-status {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+}
+
+.settings-status > svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.settings-status p {
+  margin: 0 0 0.5rem;
+}
+
+.settings-status--ready {
+  border-color: #a9d8b8;
+  background: var(--green-soft);
+}
+
+.settings-status--ready > svg {
+  color: var(--green);
+}
+
+.settings-status--warning {
+  border-color: #e8c98c;
+  background: var(--amber-soft);
+}
+
+.settings-status--warning > svg {
+  color: var(--amber);
+}
+
+.settings-status--busy > svg {
+  color: var(--teal);
+}
+
+.settings-compare {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.75rem 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.settings-compare dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.settings-compare dd {
+  margin: 0.2rem 0 0;
+}
+
+.settings-compare ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.settings-profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.75rem;
+}
+
+.settings-profile {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2rem 0.6rem;
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.settings-profile input {
+  grid-row: span 2;
+  margin-top: 0.2rem;
+}
+
+.settings-profile span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.settings-profile--selected {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.settings-stages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.75rem;
+}
+
+.settings-stage {
+  margin: 0;
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.settings-stage h3,
+.settings-stage legend {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.settings-stage p {
+  margin: 0.35rem 0;
+}
+
+.settings-field {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0.6rem 0;
+  max-width: 28rem;
+}
+
+.settings-field > span {
+  font-weight: 600;
+}
+
+.settings-field input[type="text"],
+.settings-field select {
+  min-height: 2.5rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.settings-inline {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.settings-check {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.6rem;
+  margin: 0.7rem 0;
+  max-width: 70ch;
+}
+
+.settings-check input {
+  margin-top: 0.25rem;
+}
+
+.settings-check strong {
+  display: block;
+}
+
+.settings-hint {
+  margin: 0.4rem 0;
+  color: var(--muted);
+}
+
+.settings-credentials {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.settings-credentials li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.settings-credentials svg {
+  width: 1rem;
+  height: 1rem;
+  color: var(--teal);
+}
+
+.settings-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.settings-confirm {
+  margin-top: 0.75rem;
+  padding: 0.9rem;
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  background: var(--red-soft);
+}
+
+.settings-manual {
+  font-weight: 600;
+}
+
+.settings-problems,
+.settings-error {
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  background: var(--red-soft);
+  color: var(--red);
+}
+
+.settings-problems ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.settings-notice {
+  margin: 0;
+  color: var(--green);
+  font-weight: 600;
+}
+
+.settings-help {
+  color: var(--muted);
+}
+
+.settings-help summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--teal);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .settings-view {
+    width: calc(100% - 32px);
+    margin-top: 24px;
+  }
+}

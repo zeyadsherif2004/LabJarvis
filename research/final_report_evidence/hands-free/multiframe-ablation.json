@@ -1,0 +1,1898 @@
+{
+  "evidence_class": "synthetic (rendered labels; simulated burst perturbations)",
+  "seed": 20260927,
+  "frames": 3,
+  "device": "gpu",
+  "policies": {
+    "single": {
+      "n": 90,
+      "counts": {
+        "correct": 63,
+        "false_reject": 15,
+        "uncertain": 6,
+        "false_accept": 6
+      },
+      "by_truth": {
+        "match": {
+          "correct": 30,
+          "false_reject": 15
+        },
+        "mismatch": {
+          "correct": 33,
+          "false_accept": 6,
+          "uncertain": 1
+        },
+        "unreadable": {
+          "uncertain": 5
+        }
+      },
+      "false_accepts": 6,
+      "false_rejects": 15,
+      "uncertain": 6,
+      "coverage_of_true_matches": 0.6666666666666666,
+      "ocr_ms_p50": 85.4,
+      "ocr_ms_p95": 160.9
+    },
+    "unanimous": {
+      "n": 90,
+      "counts": {
+        "correct": 58,
+        "false_reject": 13,
+        "uncertain": 13,
+        "false_accept": 6
+      },
+      "by_truth": {
+        "match": {
+          "correct": 25,
+          "false_reject": 13,
+          "uncertain": 7
+        },
+        "mismatch": {
+          "correct": 33,
+          "false_accept": 6,
+          "uncertain": 1
+        },
+        "unreadable": {
+          "uncertain": 5
+        }
+      },
+      "false_accepts": 6,
+      "false_rejects": 13,
+      "uncertain": 13,
+      "coverage_of_true_matches": 0.5555555555555556,
+      "ocr_ms_p50": 251.0,
+      "ocr_ms_p95": 477.9
+    },
+    "majority": {
+      "n": 90,
+      "counts": {
+        "correct": 63,
+        "false_reject": 14,
+        "uncertain": 7,
+        "false_accept": 6
+      },
+      "by_truth": {
+        "match": {
+          "correct": 29,
+          "false_reject": 14,
+          "uncertain": 2
+        },
+        "mismatch": {
+          "correct": 34,
+          "false_accept": 6
+        },
+        "unreadable": {
+          "uncertain": 5
+        }
+      },
+      "false_accepts": 6,
+      "false_rejects": 14,
+      "uncertain": 7,
+      "coverage_of_true_matches": 0.6444444444444445,
+      "ocr_ms_p50": 251.0,
+      "ocr_ms_p95": 477.9
+    }
+  },
+  "records": [
+    {
+      "id": "label-001",
+      "truth": "match",
+      "variant": "clean",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        7632.8,
+        105.7,
+        79.0
+      ]
+    },
+    {
+      "id": "label-002",
+      "truth": "match",
+      "variant": "rot15",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        141.8,
+        128.1,
+        126.0
+      ]
+    },
+    {
+      "id": "label-003",
+      "truth": "match",
+      "variant": "rot30",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        166.9,
+        157.6,
+        158.3
+      ]
+    },
+    {
+      "id": "label-004",
+      "truth": "match",
+      "variant": "blur3",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        80.6,
+        80.4,
+        79.4
+      ]
+    },
+    {
+      "id": "label-005",
+      "truth": "match",
+      "variant": "lowcontrast",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        80.6,
+        80.7,
+        80.0
+      ]
+    },
+    {
+      "id": "label-006",
+      "truth": "match",
+      "variant": "occlusion",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ET JL",
+        "ET_ JL",
+        "ET JL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        93.9,
+        84.2,
+        84.9
+      ]
+    },
+    {
+      "id": "label-007",
+      "truth": "match",
+      "variant": "glare",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        81.3,
+        79.4,
+        80.3
+      ]
+    },
+    {
+      "id": "label-008",
+      "truth": "match",
+      "variant": "script",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        82.0,
+        82.9,
+        80.5
+      ]
+    },
+    {
+      "id": "label-009",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "methanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.3,
+        80.2,
+        82.6
+      ]
+    },
+    {
+      "id": "label-010",
+      "truth": "mismatch",
+      "variant": "rot15",
+      "printed": "methanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        124.7,
+        127.0,
+        125.5
+      ]
+    },
+    {
+      "id": "label-011",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "methanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        81.9,
+        82.5,
+        81.2
+      ]
+    },
+    {
+      "id": "label-012",
+      "truth": "mismatch",
+      "variant": "lowcontrast",
+      "printed": "methanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOE",
+        "METHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.0,
+        81.1,
+        80.5
+      ]
+    },
+    {
+      "id": "label-013",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "acetone",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        81.4,
+        78.2,
+        78.1
+      ]
+    },
+    {
+      "id": "label-014",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "acetone",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        80.1,
+        82.6,
+        81.9
+      ]
+    },
+    {
+      "id": "label-015",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "ETHANOI",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOI",
+        "ETHANOI",
+        "ETHANOI"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        79.3,
+        80.3,
+        78.7
+      ]
+    },
+    {
+      "id": "label-016",
+      "truth": "mismatch",
+      "variant": "small",
+      "printed": "ETHANOI",
+      "expected": "ethanol",
+      "frame_texts": [
+        "ETHANOI",
+        "ETHANOI",
+        "ETHANOI"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        80.5,
+        82.8,
+        80.1
+      ]
+    },
+    {
+      "id": "label-017",
+      "truth": "unreadable",
+      "variant": "clean",
+      "printed": "",
+      "expected": "ethanol",
+      "frame_texts": [
+        "",
+        "",
+        ""
+      ],
+      "single": "UNCERTAIN",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        66.2,
+        67.2,
+        65.9
+      ]
+    },
+    {
+      "id": "label-018",
+      "truth": "match",
+      "variant": "blur8",
+      "printed": "ethanol",
+      "expected": "ethanol",
+      "frame_texts": [
+        "Earol",
+        "ETMAROL",
+        "Earol"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        95.0,
+        80.6,
+        79.1
+      ]
+    },
+    {
+      "id": "label-019",
+      "truth": "match",
+      "variant": "clean",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        81.7,
+        81.7,
+        79.4
+      ]
+    },
+    {
+      "id": "label-020",
+      "truth": "match",
+      "variant": "rot15",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        125.0,
+        126.2,
+        127.1
+      ]
+    },
+    {
+      "id": "label-021",
+      "truth": "match",
+      "variant": "rot30",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        161.0,
+        159.9,
+        159.6
+      ]
+    },
+    {
+      "id": "label-022",
+      "truth": "match",
+      "variant": "blur3",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        82.2,
+        81.8,
+        87.2
+      ]
+    },
+    {
+      "id": "label-023",
+      "truth": "match",
+      "variant": "lowcontrast",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        ""
+      ],
+      "single": "MATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "MATCH",
+      "ocr_ms": [
+        83.5,
+        79.5,
+        65.9
+      ]
+    },
+    {
+      "id": "label-024",
+      "truth": "match",
+      "variant": "occlusion",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "ME JOL",
+        "ME\" JOL",
+        "ME JOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        84.9,
+        84.1,
+        84.4
+      ]
+    },
+    {
+      "id": "label-025",
+      "truth": "match",
+      "variant": "glare",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        94.2,
+        82.6,
+        80.2
+      ]
+    },
+    {
+      "id": "label-026",
+      "truth": "match",
+      "variant": "script",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        82.7,
+        80.2,
+        80.9
+      ]
+    },
+    {
+      "id": "label-027",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "ethanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        81.4,
+        79.4,
+        79.4
+      ]
+    },
+    {
+      "id": "label-028",
+      "truth": "mismatch",
+      "variant": "rot15",
+      "printed": "ethanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        125.2,
+        124.5,
+        123.3
+      ]
+    },
+    {
+      "id": "label-029",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "ethanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        79.4,
+        78.7,
+        80.8
+      ]
+    },
+    {
+      "id": "label-030",
+      "truth": "mismatch",
+      "variant": "lowcontrast",
+      "printed": "ethanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "ETHANOL",
+        "ETHANOL",
+        "ETHANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        80.5,
+        79.2,
+        78.3
+      ]
+    },
+    {
+      "id": "label-031",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "sodium chloride",
+      "expected": "methanol",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        102.5,
+        87.9,
+        88.8
+      ]
+    },
+    {
+      "id": "label-032",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "sodium chloride",
+      "expected": "methanol",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE",
+        "SODium CHLORIDE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        94.5,
+        94.9,
+        89.2
+      ]
+    },
+    {
+      "id": "label-033",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "METHAN0L",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        84.5,
+        79.9,
+        80.6
+      ]
+    },
+    {
+      "id": "label-034",
+      "truth": "mismatch",
+      "variant": "small",
+      "printed": "METHAN0L",
+      "expected": "methanol",
+      "frame_texts": [
+        "METHANOL",
+        "METHANOL",
+        "METHANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        83.4,
+        78.8,
+        80.3
+      ]
+    },
+    {
+      "id": "label-035",
+      "truth": "unreadable",
+      "variant": "clean",
+      "printed": "",
+      "expected": "methanol",
+      "frame_texts": [
+        "",
+        "",
+        ""
+      ],
+      "single": "UNCERTAIN",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        66.2,
+        65.7,
+        67.1
+      ]
+    },
+    {
+      "id": "label-036",
+      "truth": "match",
+      "variant": "blur8",
+      "printed": "methanol",
+      "expected": "methanol",
+      "frame_texts": [
+        "Vuarol",
+        "Vumarol",
+        "MEIMANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.5,
+        80.4,
+        92.4
+      ]
+    },
+    {
+      "id": "label-037",
+      "truth": "match",
+      "variant": "clean",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        89.9,
+        91.6,
+        93.1
+      ]
+    },
+    {
+      "id": "label-038",
+      "truth": "match",
+      "variant": "rot15",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "CHLORIDE SODIUM",
+        "CHLORIDE SODIUM",
+        "CHLORIDE SODIUM"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        143.1,
+        140.1,
+        135.7
+      ]
+    },
+    {
+      "id": "label-039",
+      "truth": "match",
+      "variant": "rot30",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "CHLORIDE SODIUM",
+        "CHLORIDE SODIUM",
+        "CHLORIDE SODIUM"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        170.2,
+        170.6,
+        170.2
+      ]
+    },
+    {
+      "id": "label-040",
+      "truth": "match",
+      "variant": "blur3",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        92.0,
+        109.2,
+        103.6
+      ]
+    },
+    {
+      "id": "label-041",
+      "truth": "match",
+      "variant": "lowcontrast",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SDHLORDE",
+        "SODIUM CHLORIDE",
+        ""
+      ],
+      "single": "MISMATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        93.4,
+        88.3,
+        67.5
+      ]
+    },
+    {
+      "id": "label-042",
+      "truth": "match",
+      "variant": "occlusion",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIU JRIDE",
+        "SODIU JRIDE",
+        "SODIU JRIDE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        100.7,
+        86.7,
+        87.9
+      ]
+    },
+    {
+      "id": "label-043",
+      "truth": "match",
+      "variant": "glare",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SOLIUM CHLORIDE",
+        "SOLJUM CHLORADE",
+        "SOL UM CHLORADE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        91.8,
+        88.8,
+        84.9
+      ]
+    },
+    {
+      "id": "label-044",
+      "truth": "match",
+      "variant": "script",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        89.7,
+        82.7,
+        87.1
+      ]
+    },
+    {
+      "id": "label-045",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "sodium chlorate",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORATE",
+        "SODIUM CHLORATE",
+        "SODIUM CHLORATE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        89.8,
+        86.0,
+        90.2
+      ]
+    },
+    {
+      "id": "label-046",
+      "truth": "mismatch",
+      "variant": "rot15",
+      "printed": "sodium chlorate",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "CHLORATE SODIUM",
+        "CHLORATE SODIUM",
+        "CHLORATE SODIUM"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        135.4,
+        138.8,
+        134.5
+      ]
+    },
+    {
+      "id": "label-047",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "sodium chlorate",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORATE",
+        "SOdium CHLORATE",
+        "SODIUm CHLORATE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        89.0,
+        83.2,
+        88.6
+      ]
+    },
+    {
+      "id": "label-048",
+      "truth": "mismatch",
+      "variant": "lowcontrast",
+      "printed": "sodium chlorate",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "",
+        "SODIUM CHLORATE",
+        "SODIUM CHLORATE"
+      ],
+      "single": "UNCERTAIN",
+      "unanimous": "UNCERTAIN",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        123.2,
+        86.2,
+        84.3
+      ]
+    },
+    {
+      "id": "label-049",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "isopropanol",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        85.5,
+        81.4,
+        83.4
+      ]
+    },
+    {
+      "id": "label-050",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "isopropanol",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        86.2,
+        81.7,
+        82.3
+      ]
+    },
+    {
+      "id": "label-051",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "SODIUM CHL0RIDE",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE",
+        "SODIUM CHLORIDE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        90.8,
+        82.6,
+        88.1
+      ]
+    },
+    {
+      "id": "label-052",
+      "truth": "mismatch",
+      "variant": "small",
+      "printed": "SODIUM CHL0RIDE",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "SODIUM CHLORIDE",
+        "SODIUm CHLORIDE",
+        "SODIUM CHLORIDE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        92.8,
+        84.6,
+        85.4
+      ]
+    },
+    {
+      "id": "label-053",
+      "truth": "unreadable",
+      "variant": "clean",
+      "printed": "",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "",
+        "",
+        ""
+      ],
+      "single": "UNCERTAIN",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        66.3,
+        66.8,
+        65.9
+      ]
+    },
+    {
+      "id": "label-054",
+      "truth": "match",
+      "variant": "blur8",
+      "printed": "sodium chloride",
+      "expected": "sodium chloride",
+      "frame_texts": [
+        "OALS 0",
+        "Ka",
+        "od 70"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        104.9,
+        86.4,
+        106.6
+      ]
+    },
+    {
+      "id": "label-055",
+      "truth": "match",
+      "variant": "clean",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        87.2,
+        84.5,
+        83.8
+      ]
+    },
+    {
+      "id": "label-056",
+      "truth": "match",
+      "variant": "rot15",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        128.7,
+        126.9,
+        128.7
+      ]
+    },
+    {
+      "id": "label-057",
+      "truth": "match",
+      "variant": "rot30",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        162.8,
+        163.6,
+        161.3
+      ]
+    },
+    {
+      "id": "label-058",
+      "truth": "match",
+      "variant": "blur3",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        84.2,
+        81.0,
+        84.0
+      ]
+    },
+    {
+      "id": "label-059",
+      "truth": "match",
+      "variant": "lowcontrast",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "JSOPRODANO",
+        "ISOPROPANOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "MATCH",
+      "ocr_ms": [
+        86.9,
+        81.9,
+        84.7
+      ]
+    },
+    {
+      "id": "label-060",
+      "truth": "match",
+      "variant": "occlusion",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOP_ NOL",
+        "ISOP NOL",
+        "ISOP NOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        89.0,
+        86.9,
+        86.9
+      ]
+    },
+    {
+      "id": "label-061",
+      "truth": "match",
+      "variant": "glare",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISCRROPAMOL",
+        "ISOPROPANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "MATCH",
+      "ocr_ms": [
+        86.5,
+        82.2,
+        83.0
+      ]
+    },
+    {
+      "id": "label-062",
+      "truth": "match",
+      "variant": "script",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOL",
+        "ISOPROPANOL",
+        "ISOPROP ANOL"
+      ],
+      "single": "MATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "MATCH",
+      "ocr_ms": [
+        85.2,
+        80.8,
+        82.8
+      ]
+    },
+    {
+      "id": "label-063",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "propanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "PROPANOL",
+        "PROPANOL",
+        "PROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.9,
+        81.0,
+        80.8
+      ]
+    },
+    {
+      "id": "label-064",
+      "truth": "mismatch",
+      "variant": "rot15",
+      "printed": "propanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "PROPANOL",
+        "PROPANOL",
+        "PROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        126.7,
+        125.3,
+        125.7
+      ]
+    },
+    {
+      "id": "label-065",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "propanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "PROPANOL",
+        "PROPANOL",
+        "PROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.2,
+        81.4,
+        81.7
+      ]
+    },
+    {
+      "id": "label-066",
+      "truth": "mismatch",
+      "variant": "lowcontrast",
+      "printed": "propanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "PRORANOL",
+        "PROPANOL",
+        "PROPANOL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.8,
+        85.1,
+        81.3
+      ]
+    },
+    {
+      "id": "label-067",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "glycerol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "GLYCEROL",
+        "GLYCEROL",
+        "GLYCEROL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        83.0,
+        80.2,
+        79.7
+      ]
+    },
+    {
+      "id": "label-068",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "glycerol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "GLYCEROL",
+        "GLYCEROL",
+        "GLYCEROL"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        82.3,
+        82.0,
+        79.8
+      ]
+    },
+    {
+      "id": "label-069",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "ISOPROPANOI",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOI",
+        "ISOPROPANOI",
+        "ISOPROPANOI"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        88.1,
+        87.1,
+        82.0
+      ]
+    },
+    {
+      "id": "label-070",
+      "truth": "mismatch",
+      "variant": "small",
+      "printed": "ISOPROPANOI",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "ISOPROPANOI",
+        "ISOPROPANOI",
+        "ISOPROPANOI"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        84.3,
+        81.8,
+        81.7
+      ]
+    },
+    {
+      "id": "label-071",
+      "truth": "unreadable",
+      "variant": "clean",
+      "printed": "",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "",
+        "",
+        ""
+      ],
+      "single": "UNCERTAIN",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        66.3,
+        66.2,
+        66.5
+      ]
+    },
+    {
+      "id": "label-072",
+      "truth": "match",
+      "variant": "blur8",
+      "printed": "isopropanol",
+      "expected": "isopropanol",
+      "frame_texts": [
+        "Isorroratol",
+        "isoproparol",
+        "Bopropanol"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        103.4,
+        81.3,
+        97.6
+      ]
+    },
+    {
+      "id": "label-073",
+      "truth": "match",
+      "variant": "clean",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        80.1,
+        78.0,
+        80.7
+      ]
+    },
+    {
+      "id": "label-074",
+      "truth": "match",
+      "variant": "rot15",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        126.2,
+        123.9,
+        125.2
+      ]
+    },
+    {
+      "id": "label-075",
+      "truth": "match",
+      "variant": "rot30",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        160.9,
+        158.7,
+        158.3
+      ]
+    },
+    {
+      "id": "label-076",
+      "truth": "match",
+      "variant": "blur3",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        79.8,
+        81.3,
+        79.1
+      ]
+    },
+    {
+      "id": "label-077",
+      "truth": "match",
+      "variant": "lowcontrast",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "",
+        ""
+      ],
+      "single": "MATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        80.3,
+        66.1,
+        94.9
+      ]
+    },
+    {
+      "id": "label-078",
+      "truth": "match",
+      "variant": "occlusion",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "Ac NE",
+        "Ac NE",
+        "Ac ~E"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        83.6,
+        83.5,
+        84.9
+      ]
+    },
+    {
+      "id": "label-079",
+      "truth": "match",
+      "variant": "glare",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETON:",
+        "ACETONZ"
+      ],
+      "single": "MATCH",
+      "unanimous": "UNCERTAIN",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        80.2,
+        78.0,
+        78.7
+      ]
+    },
+    {
+      "id": "label-080",
+      "truth": "match",
+      "variant": "script",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        82.1,
+        79.5,
+        83.2
+      ]
+    },
+    {
+      "id": "label-081",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "acetonitrile",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONITRILE",
+        "ACETONITRILE",
+        "ACETONITRILE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        85.4,
+        80.9,
+        81.6
+      ]
+    },
+    {
+      "id": "label-082",
+      "truth": "mismatch",
+      "variant": "rot15",
+      "printed": "acetonitrile",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONITRILE",
+        "ACETONITRILE",
+        "ACETONITRILE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        128.9,
+        128.1,
+        128.4
+      ]
+    },
+    {
+      "id": "label-083",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "acetonitrile",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONITRILE",
+        "ACETONITRILE",
+        "ACETONITRILE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        86.1,
+        79.3,
+        83.0
+      ]
+    },
+    {
+      "id": "label-084",
+      "truth": "mismatch",
+      "variant": "lowcontrast",
+      "printed": "acetonitrile",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONTTRILE",
+        "ACETONITRILE",
+        "ACETONTTRILE"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        84.3,
+        83.4,
+        83.3
+      ]
+    },
+    {
+      "id": "label-085",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "distilled water",
+      "expected": "acetone",
+      "frame_texts": [
+        "DISTILLED WATER",
+        "DISTILLED WATER",
+        "DISTILLED WATER"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        86.5,
+        84.0,
+        85.7
+      ]
+    },
+    {
+      "id": "label-086",
+      "truth": "mismatch",
+      "variant": "blur3",
+      "printed": "distilled water",
+      "expected": "acetone",
+      "frame_texts": [
+        "DISTILLED WATER",
+        "DISTILLED WATER",
+        "DISTILLED WATER"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        90.1,
+        92.0,
+        86.6
+      ]
+    },
+    {
+      "id": "label-087",
+      "truth": "mismatch",
+      "variant": "clean",
+      "printed": "ACET0NE",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        78.6,
+        80.3,
+        78.1
+      ]
+    },
+    {
+      "id": "label-088",
+      "truth": "mismatch",
+      "variant": "small",
+      "printed": "ACET0NE",
+      "expected": "acetone",
+      "frame_texts": [
+        "ACETONE",
+        "ACETONE",
+        "ACETONE"
+      ],
+      "single": "MATCH",
+      "unanimous": "MATCH",
+      "majority": "MATCH",
+      "ocr_ms": [
+        79.4,
+        78.9,
+        79.7
+      ]
+    },
+    {
+      "id": "label-089",
+      "truth": "unreadable",
+      "variant": "clean",
+      "printed": "",
+      "expected": "acetone",
+      "frame_texts": [
+        "",
+        "",
+        ""
+      ],
+      "single": "UNCERTAIN",
+      "unanimous": "UNCERTAIN",
+      "majority": "UNCERTAIN",
+      "ocr_ms": [
+        66.4,
+        66.2,
+        65.9
+      ]
+    },
+    {
+      "id": "label-090",
+      "truth": "match",
+      "variant": "blur8",
+      "printed": "acetone",
+      "expected": "acetone",
+      "frame_texts": [
+        "Acliowl",
+        "Achior",
+        "Acetore"
+      ],
+      "single": "MISMATCH",
+      "unanimous": "MISMATCH",
+      "majority": "MISMATCH",
+      "ocr_ms": [
+        93.6,
+        79.8,
+        79.7
+      ]
+    }
+  ]
+}

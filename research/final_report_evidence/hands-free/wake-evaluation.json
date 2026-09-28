@@ -1,0 +1,319 @@
+{
+  "summary": {
+    "evidence_class": "synthetic TTS + generated noise",
+    "addressed": 16,
+    "missed_wakes": 0,
+    "missed_by_vad": 0,
+    "ambient": 16,
+    "false_wakes_ambient": 0,
+    "noise_segments": 6,
+    "vad_triggers_on_noise": 0,
+    "false_wakes_noise": 0
+  },
+  "records": [
+    {
+      "clip": "addressed-1.wav",
+      "truth": "addressed",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Jarvis pause",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-17.wav",
+      "truth": "addressed",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Jarvis Hawes",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-18.wav",
+      "truth": "addressed",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Jarvis what is the next step?",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-19.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis record the volume as 5 milliliters",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-2.wav",
+      "truth": "addressed",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Jarvis, what is the next step?",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-20.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Hey Jarvis, check reagent",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-21.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis set a timer for two minutes",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-22.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis, repeat the instruction",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-23.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis record the temperature is 37 degrees Celsius",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-24.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis, complete the step",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-3.wav",
+      "truth": "addressed",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Jarvis record the volume as 5 milliliters",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-4.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Hey Jarvis, check reagent.",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-5.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis, set a timer for two minutes.",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-6.wav",
+      "truth": "addressed",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Jarvis, repeat the instruction.",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-7.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis record the temperature as 37 degrees Celsius",
+      "accepted": true
+    },
+    {
+      "clip": "addressed-8.wav",
+      "truth": "addressed",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Jarvis, complete the step.",
+      "accepted": true
+    },
+    {
+      "clip": "ambient-10.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "I think the centrifuge is finished",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-11.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Let's order more gloves tomorrow",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-12.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "The incubator is set to 37 degrees.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-13.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Did you label the tubes yet?",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-14.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "I will record the results later.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-15.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Pause the music please.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-16.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Next step is lunch.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-25.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Can you pass me the pipette tips?",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-26.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "I think the centrifuge is finished.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-27.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Let's order more gloves tomorrow",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-28.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "The incubator is set to 37 degrees.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-29.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.998,
+      "vad_speech": true,
+      "transcript": "Did you label the tubes yet?",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-30.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "I will record the results later",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-31.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Pause the music please.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-32.wav",
+      "truth": "ambient",
+      "vad_max_probability": 1.0,
+      "vad_speech": true,
+      "transcript": "Next step is lunch.",
+      "accepted": false
+    },
+    {
+      "clip": "ambient-9.wav",
+      "truth": "ambient",
+      "vad_max_probability": 0.999,
+      "vad_speech": true,
+      "transcript": "Can you pass me the pipette tips?",
+      "accepted": false
+    },
+    {
+      "clip": "noise-white-0.01",
+      "truth": "noise",
+      "vad_max_probability": 0.059,
+      "vad_speech": false,
+      "transcript": "",
+      "accepted": false
+    },
+    {
+      "clip": "noise-white-0.05",
+      "truth": "noise",
+      "vad_max_probability": 0.068,
+      "vad_speech": false,
+      "transcript": "",
+      "accepted": false
+    },
+    {
+      "clip": "noise-white-0.2",
+      "truth": "noise",
+      "vad_max_probability": 0.1,
+      "vad_speech": false,
+      "transcript": "",
+      "accepted": false
+    },
+    {
+      "clip": "noise-pink-0.01",
+      "truth": "noise",
+      "vad_max_probability": 0.108,
+      "vad_speech": false,
+      "transcript": "",
+      "accepted": false
+    },
+    {
+      "clip": "noise-pink-0.05",
+      "truth": "noise",
+      "vad_max_probability": 0.101,
+      "vad_speech": false,
+      "transcript": "",
+      "accepted": false
+    },
+    {
+      "clip": "noise-pink-0.2",
+      "truth": "noise",
+      "vad_max_probability": 0.139,
+      "vad_speech": false,
+      "transcript": "",
+      "accepted": false
+    }
+  ]
+}

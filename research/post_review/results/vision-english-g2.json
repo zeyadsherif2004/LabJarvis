@@ -1,0 +1,928 @@
+{
+  "candidate": {
+    "adapter": "easyocr",
+    "evidence_class": "synthetic_media_post_review",
+    "failure_count": 0,
+    "metrics": {
+      "cer": 0.11776801629742806,
+      "false_accept_rate": 0.06666666666666667,
+      "mean_latency_ms": 1149.2111111111112
+    },
+    "model_name": "english_g2",
+    "records": [
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "a955dfef0d3e20d71ec90e776e9402a529b4425e98f204bfd346994a75f1caa9",
+        "latency_ms": 14318,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-001",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "b6e0bad78e678061747b8a9a900cfd9f87308d1189c8b51bbebb93ca6f268ec7",
+        "latency_ms": 1138,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-002",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "73221db8f08cb53b99eb4b21dd66c89de6c56867c2470460c0e5bcd29f2fdcbd",
+        "latency_ms": 1451,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-003",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "3a7a09f45c98ec7db4d7503cb78d9ad9250861b1ff63f0d7a6b5f2ce8a84775e",
+        "latency_ms": 704,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-004",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "e01ec186ac3465046461a924f1e45aefceddc09766af96c7ac19fb93e4cec4b3",
+        "latency_ms": 701,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-005",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.5714285714285714,
+        "false_accept": 0,
+        "input_sha256": "8c5b25830ef6a6673edb72a3872e85f907cbe45ef8253e2da53e3a97818ec065",
+        "latency_ms": 699,
+        "outcome": "MISMATCH",
+        "prediction": "ET JL",
+        "sample_id": "label-006",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "df5cff89b0e8fea2ef972de6d3795208a07a08953c113bad4afb2a8a1994b2d8",
+        "latency_ms": 709,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-007",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "410b5d396e4c59a7e6271deb54fc06020765de5d2f73d6640617b8df32eb278d",
+        "latency_ms": 695,
+        "outcome": "MATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-008",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "ef25eb4422f76f235b9365962bfd562a6ac39580b886fb63c98e1387c2538ce7",
+        "latency_ms": 702,
+        "outcome": "MISMATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-009",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "d9804858a0dc1382c4ca7e65427ba447419d69998be51a9398ddd5488a156758",
+        "latency_ms": 1107,
+        "outcome": "MISMATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-010",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "bb7eea4b0afd311aeaaebc5465c93083a598a11cfaffe2059012068f01fdd7ed",
+        "latency_ms": 715,
+        "outcome": "MISMATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-011",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "7d7dc08d38735b17a49254ec3122c41450d5c31fc1113d567611e3f7566e65e8",
+        "latency_ms": 697,
+        "outcome": "MISMATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-012",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "6a26c74478ddc4be5b438648dfef016e5c2f191a3ca3649d90c9b8d5633e3a9a",
+        "latency_ms": 686,
+        "outcome": "MISMATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-013",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "12aec1713296780ed71b5f6ec59d1bfbef7d6160e698ae2423157f3d7b195f27",
+        "latency_ms": 690,
+        "outcome": "MISMATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-014",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "564548b3bdb8731cece37bca86b06a9ac041fb2ad6fa910a7bfc4bc83db1d63b",
+        "latency_ms": 728,
+        "outcome": "MISMATCH",
+        "prediction": "ETHANOI",
+        "sample_id": "label-015",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "7ad1707a0c23d09272f414ce8927895a0796eae33b831ce6b361966482213036",
+        "latency_ms": 706,
+        "outcome": "MISMATCH",
+        "prediction": "ETHANOI",
+        "sample_id": "label-016",
+        "status": "succeeded"
+      },
+      {
+        "cer": null,
+        "false_accept": 0,
+        "input_sha256": "b478ebbaf7a651bc8aa43bcac796fff1860f1085d8935bfa2985acad29e1ea9f",
+        "latency_ms": 667,
+        "outcome": "UNCERTAIN",
+        "prediction": "",
+        "sample_id": "label-017",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.42857142857142855,
+        "false_accept": 0,
+        "input_sha256": "4b59bbf09e71ff68602845f33add79491ee9d1f38a73f0e394c21ac0fedec858",
+        "latency_ms": 785,
+        "outcome": "MISMATCH",
+        "prediction": "Earol",
+        "sample_id": "label-018",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "ef25eb4422f76f235b9365962bfd562a6ac39580b886fb63c98e1387c2538ce7",
+        "latency_ms": 730,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-019",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "d9804858a0dc1382c4ca7e65427ba447419d69998be51a9398ddd5488a156758",
+        "latency_ms": 1167,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-020",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "f56c32ed25b3ffb199e7b4ba7f709d14be204a8d266a4eee977128ec7d257ee2",
+        "latency_ms": 1534,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-021",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "bb7eea4b0afd311aeaaebc5465c93083a598a11cfaffe2059012068f01fdd7ed",
+        "latency_ms": 748,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-022",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "7d7dc08d38735b17a49254ec3122c41450d5c31fc1113d567611e3f7566e65e8",
+        "latency_ms": 716,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-023",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.5,
+        "false_accept": 0,
+        "input_sha256": "643682212de17af4c62cbb6925eb7487c616e5170a37be06505e7c42997a99ec",
+        "latency_ms": 699,
+        "outcome": "MISMATCH",
+        "prediction": "ME JOL",
+        "sample_id": "label-024",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "0416a67026d7099a532a63c2f79c442a9e9d6d14cc081c591abb1aa2832e4727",
+        "latency_ms": 755,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-025",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "8ef668695c5b769ac800c9d49e2e8066aa5e65f0448bcfc7118a64547a2d5131",
+        "latency_ms": 722,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-026",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "a955dfef0d3e20d71ec90e776e9402a529b4425e98f204bfd346994a75f1caa9",
+        "latency_ms": 716,
+        "outcome": "MISMATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-027",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "b6e0bad78e678061747b8a9a900cfd9f87308d1189c8b51bbebb93ca6f268ec7",
+        "latency_ms": 1122,
+        "outcome": "MISMATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-028",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "3a7a09f45c98ec7db4d7503cb78d9ad9250861b1ff63f0d7a6b5f2ce8a84775e",
+        "latency_ms": 723,
+        "outcome": "MISMATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-029",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "e01ec186ac3465046461a924f1e45aefceddc09766af96c7ac19fb93e4cec4b3",
+        "latency_ms": 708,
+        "outcome": "MISMATCH",
+        "prediction": "ETHANOL",
+        "sample_id": "label-030",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "ba884c7351901b14b30a79108edbd27e6ec362a8b50cc951c86aaf2d39c0eb5e",
+        "latency_ms": 682,
+        "outcome": "MISMATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-031",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "12ee0227dfda07963b1325b959e5e7ba8b12eb4202e044cec2df77fb8aef6e3d",
+        "latency_ms": 665,
+        "outcome": "MISMATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-032",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.125,
+        "false_accept": 1,
+        "input_sha256": "9bfbccb1c88ca06a59ad22644b2f19169fa86a28c64eae740f238fba4b3659a9",
+        "latency_ms": 561,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-033",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.125,
+        "false_accept": 1,
+        "input_sha256": "0b4708cc5c3a0676031ef28453276d4d76df316931839deaa7dc4757458d421d",
+        "latency_ms": 574,
+        "outcome": "MATCH",
+        "prediction": "METHANOL",
+        "sample_id": "label-034",
+        "status": "succeeded"
+      },
+      {
+        "cer": null,
+        "false_accept": 0,
+        "input_sha256": "b478ebbaf7a651bc8aa43bcac796fff1860f1085d8935bfa2985acad29e1ea9f",
+        "latency_ms": 567,
+        "outcome": "UNCERTAIN",
+        "prediction": "",
+        "sample_id": "label-035",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.625,
+        "false_accept": 0,
+        "input_sha256": "01f7bcc7c245b54269c488e581af419467f34945f6061d46e6b1ef204ca8379a",
+        "latency_ms": 582,
+        "outcome": "MISMATCH",
+        "prediction": "Vumarol",
+        "sample_id": "label-036",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "ba884c7351901b14b30a79108edbd27e6ec362a8b50cc951c86aaf2d39c0eb5e",
+        "latency_ms": 585,
+        "outcome": "MATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-037",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.8571428571428571,
+        "false_accept": 0,
+        "input_sha256": "baf8388e07c262946528eb8ae2d3124ab79db3b9800afabf45ffa49e0f230f5a",
+        "latency_ms": 955,
+        "outcome": "MISMATCH",
+        "prediction": "CHLORIDE SODIUM",
+        "sample_id": "label-038",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.8571428571428571,
+        "false_accept": 0,
+        "input_sha256": "780c9ecb44de0371de4e9b2fa8836d9f4c2f1eafefcabf72ba49df8b06963edd",
+        "latency_ms": 1281,
+        "outcome": "MISMATCH",
+        "prediction": "CHLORIDE SODIUM",
+        "sample_id": "label-039",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "12ee0227dfda07963b1325b959e5e7ba8b12eb4202e044cec2df77fb8aef6e3d",
+        "latency_ms": 625,
+        "outcome": "MATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-040",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.35714285714285715,
+        "false_accept": 0,
+        "input_sha256": "8c783786b79ff1a4cd8ffd3560982cb58befc61615552b12cf20c6b2e46d1cc3",
+        "latency_ms": 630,
+        "outcome": "MISMATCH",
+        "prediction": "SDCHLORDE",
+        "sample_id": "label-041",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.35714285714285715,
+        "false_accept": 0,
+        "input_sha256": "9785b70f6be806f0f2acc98f13b5582482a9668a3e78eb906d34e1ee55b2d461",
+        "latency_ms": 619,
+        "outcome": "MISMATCH",
+        "prediction": "SODIU JRIDE",
+        "sample_id": "label-042",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.07142857142857142,
+        "false_accept": 0,
+        "input_sha256": "05bd08cddcf9458689808d5714831f2a8d1ca5d2ff68e1ca4d8d324c4a5546d8",
+        "latency_ms": 660,
+        "outcome": "MISMATCH",
+        "prediction": "SOLIUM CHLORIDE",
+        "sample_id": "label-043",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "cb124898a1b9aad8e428fef5c8012a8d7794211eedde1b4f8bcd7a177e45951a",
+        "latency_ms": 659,
+        "outcome": "MATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-044",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "8181a37288eb0658df79c278dd848473d2e81cf09f1fa54ebed900fa5915e6b2",
+        "latency_ms": 723,
+        "outcome": "MISMATCH",
+        "prediction": "SODIUM CHLORATE",
+        "sample_id": "label-045",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.8571428571428571,
+        "false_accept": 0,
+        "input_sha256": "0159a9fefd547d142cf4e1be919b7d5ffb65f159eadaa15ba5c35796da68088f",
+        "latency_ms": 1144,
+        "outcome": "MISMATCH",
+        "prediction": "CHLORATE SODIUM",
+        "sample_id": "label-046",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "26ed57331e550e9a9228495fdb4ce227a9e75d08096b6b9cf18079f3f9009e23",
+        "latency_ms": 826,
+        "outcome": "MISMATCH",
+        "prediction": "SODIUM CHLORATE",
+        "sample_id": "label-047",
+        "status": "succeeded"
+      },
+      {
+        "cer": 1.0,
+        "false_accept": 0,
+        "input_sha256": "d88d8b9e688c9cf9ac9e92004ff80a736b5bccb79067436dca5c85554e13fa67",
+        "latency_ms": 878,
+        "outcome": "UNCERTAIN",
+        "prediction": "",
+        "sample_id": "label-048",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "a0379a63414d54331566530cd1d6eb29f697f325ce93d63462eb717b0a6345ed",
+        "latency_ms": 744,
+        "outcome": "MISMATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-049",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "8f2c36f337ed1646abea5e0e24f7662b16bf2e6af91470c2f27652461e4e5157",
+        "latency_ms": 768,
+        "outcome": "MISMATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-050",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.07142857142857142,
+        "false_accept": 1,
+        "input_sha256": "7805e7e3c3286c77173e1d69207a75616a4a2bdb3c3f7bf46b06e13eab9147ee",
+        "latency_ms": 786,
+        "outcome": "MATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-051",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.07142857142857142,
+        "false_accept": 1,
+        "input_sha256": "b0472d061396ff80342c8f3edb67c63ab60b9e5db0bf150395b79373a71e1a82",
+        "latency_ms": 789,
+        "outcome": "MATCH",
+        "prediction": "SODIUM CHLORIDE",
+        "sample_id": "label-052",
+        "status": "succeeded"
+      },
+      {
+        "cer": null,
+        "false_accept": 0,
+        "input_sha256": "b478ebbaf7a651bc8aa43bcac796fff1860f1085d8935bfa2985acad29e1ea9f",
+        "latency_ms": 644,
+        "outcome": "UNCERTAIN",
+        "prediction": "",
+        "sample_id": "label-053",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.8571428571428571,
+        "false_accept": 0,
+        "input_sha256": "26808aff2876556755d83a3b2d2a82c857c7ed62e6f1b6e758c0b37e36d7ab63",
+        "latency_ms": 889,
+        "outcome": "MISMATCH",
+        "prediction": "OAUS 0",
+        "sample_id": "label-054",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "a0379a63414d54331566530cd1d6eb29f697f325ce93d63462eb717b0a6345ed",
+        "latency_ms": 817,
+        "outcome": "MATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-055",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "caeeee63f831298637c28d1f9e0f7e1d0a76e46b5308e4bff9995b9869b68d0c",
+        "latency_ms": 1362,
+        "outcome": "MATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-056",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "4661a4c5ab9ad81a7beb384cd14f312ae96f862aef4f159435cce5e156779655",
+        "latency_ms": 2050,
+        "outcome": "MATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-057",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "8f2c36f337ed1646abea5e0e24f7662b16bf2e6af91470c2f27652461e4e5157",
+        "latency_ms": 936,
+        "outcome": "MATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-058",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.2727272727272727,
+        "false_accept": 0,
+        "input_sha256": "c22b9aa095152603bf4e5c7e6ea7c13bfca856b843454f70204d76eef92e0bf1",
+        "latency_ms": 915,
+        "outcome": "MISMATCH",
+        "prediction": "JSOPRODANO",
+        "sample_id": "label-059",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.36363636363636365,
+        "false_accept": 0,
+        "input_sha256": "301edbe0ad49da81e397553bccb597fa40fd930908d3f7d6d11b1a8c1680f690",
+        "latency_ms": 853,
+        "outcome": "MISMATCH",
+        "prediction": "ISOP_ NOL",
+        "sample_id": "label-060",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "5b436c9b2b8688dfdf1b85dcc2538fa50f523df155e07ae1d4083545547a59e8",
+        "latency_ms": 841,
+        "outcome": "MATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-061",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "634d6b582bdb76bba80b516d147fda4e366bc074c527f9aa0b58e64a1daab6a1",
+        "latency_ms": 810,
+        "outcome": "MATCH",
+        "prediction": "ISOPROPANOL",
+        "sample_id": "label-062",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "196676707ab571b42fd68577c3cdf5328327e4f823491909c3031014002f5f3d",
+        "latency_ms": 869,
+        "outcome": "MISMATCH",
+        "prediction": "PROPANOL",
+        "sample_id": "label-063",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "a970c03ec049d3d432f328baf50bf1430b627e64ec30cb11e87e96f33030166b",
+        "latency_ms": 1390,
+        "outcome": "MISMATCH",
+        "prediction": "PROPANOL",
+        "sample_id": "label-064",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "c83504b53cb6a7fae323e92a83f6484db278e84555ff4a9481592b9f0b8c0a25",
+        "latency_ms": 888,
+        "outcome": "MISMATCH",
+        "prediction": "PROPANOL",
+        "sample_id": "label-065",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "9de75fec9900aad803854c877c35118c077bce6e3fdbd35d01dd15b39c3b64b5",
+        "latency_ms": 867,
+        "outcome": "MISMATCH",
+        "prediction": "PROPANOL",
+        "sample_id": "label-066",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "0cbbc7571d86ed1e04f56e1bd9570f4f66fbe7c98cbaca22d7d1e6a2ee026d0e",
+        "latency_ms": 868,
+        "outcome": "MISMATCH",
+        "prediction": "GLYCEROL",
+        "sample_id": "label-067",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "fd2671625ce1bcb472c0a223c08d4e38fd1c3e22fcf6708310de464f94c533b8",
+        "latency_ms": 927,
+        "outcome": "MISMATCH",
+        "prediction": "GLYCEROL",
+        "sample_id": "label-068",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "21f837f3ae8e9eb4cefc65ac9c286c2b5ffbb8ca18c6e1678083d4eed610676f",
+        "latency_ms": 1030,
+        "outcome": "MISMATCH",
+        "prediction": "ISOPROPANOI",
+        "sample_id": "label-069",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "31a27a006d3c0743fe5f3088698e88cd2cdb03956b1eb89ec5a7a3cf9a3f9eb8",
+        "latency_ms": 1107,
+        "outcome": "MISMATCH",
+        "prediction": "ISOPROPANOI",
+        "sample_id": "label-070",
+        "status": "succeeded"
+      },
+      {
+        "cer": null,
+        "false_accept": 0,
+        "input_sha256": "b478ebbaf7a651bc8aa43bcac796fff1860f1085d8935bfa2985acad29e1ea9f",
+        "latency_ms": 812,
+        "outcome": "UNCERTAIN",
+        "prediction": "",
+        "sample_id": "label-071",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.2727272727272727,
+        "false_accept": 0,
+        "input_sha256": "de0212db68c482e8bb5199819bf45d50a12dee88ff756ae026887624b3313d99",
+        "latency_ms": 1101,
+        "outcome": "MISMATCH",
+        "prediction": "Isorroratol",
+        "sample_id": "label-072",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "6a26c74478ddc4be5b438648dfef016e5c2f191a3ca3649d90c9b8d5633e3a9a",
+        "latency_ms": 979,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-073",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "4dc304722f2d5e5b97dd4ef54c03087ade319deef2783685828d73e9c3494bb6",
+        "latency_ms": 1546,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-074",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "4308835b5df2e943d933cc64b3541e95363dfede46b97bf54dcead84e451b875",
+        "latency_ms": 1998,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-075",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "12aec1713296780ed71b5f6ec59d1bfbef7d6160e698ae2423157f3d7b195f27",
+        "latency_ms": 1264,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-076",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "dbd791f28424228e95c590917d4d5c0964b8919794fdaa93eac5436eb11ec70d",
+        "latency_ms": 1120,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-077",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.42857142857142855,
+        "false_accept": 0,
+        "input_sha256": "360ad5d380cd3e19cbd265f6497c4aa343b9722c987b1d437b904c801dbc5e0b",
+        "latency_ms": 1234,
+        "outcome": "MISMATCH",
+        "prediction": "Ac NE",
+        "sample_id": "label-078",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "2fc736f3a4b11ef30778e3ae4bdec244cd05e933675c1d52e517675baee32abc",
+        "latency_ms": 1374,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-079",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "78efd5336ae6d001112c9cf2eee3b216d9624189a9057a449c6ad38d03f6bee8",
+        "latency_ms": 1676,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-080",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "8d926fa5e5c7ad8691c607f3bbd3ef50be70354251274dca920a892cdb8b8612",
+        "latency_ms": 1834,
+        "outcome": "MISMATCH",
+        "prediction": "ACETONITRILE",
+        "sample_id": "label-081",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "9567b51bdd5562fc023318b06fac06e962d85773a38f70201bb1f75e451fc142",
+        "latency_ms": 2117,
+        "outcome": "MISMATCH",
+        "prediction": "ACETONITRILE",
+        "sample_id": "label-082",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "c389820bb882adbfa7e4bbae7cece69d1d2e96aae8e5bbaf730c5f7fdd17792a",
+        "latency_ms": 1767,
+        "outcome": "MISMATCH",
+        "prediction": "ACETONITRILE",
+        "sample_id": "label-083",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.08333333333333333,
+        "false_accept": 0,
+        "input_sha256": "e7ca2ebfff04ffa0832304c5e83b1dd5893bdff2458591da37a38ad762e7d7f7",
+        "latency_ms": 1681,
+        "outcome": "MISMATCH",
+        "prediction": "ACETONTTRILE",
+        "sample_id": "label-084",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "52387aeab954cf1ee9614595e8491e1244193eb02f3ed3f1e0a006ab003700e5",
+        "latency_ms": 1867,
+        "outcome": "MISMATCH",
+        "prediction": "DISTILLED WATER",
+        "sample_id": "label-085",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.0,
+        "false_accept": 0,
+        "input_sha256": "fc367cfd98b5e2968620c20b7579e0304749dcd4e301f01fbc003529cb265465",
+        "latency_ms": 1867,
+        "outcome": "MISMATCH",
+        "prediction": "DISTILLED WATER",
+        "sample_id": "label-086",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.14285714285714285,
+        "false_accept": 1,
+        "input_sha256": "a6aeaf7b225e7018891a7b2e2f5800e1bd11968e722ce1b02346a2f1a671f1af",
+        "latency_ms": 1368,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-087",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.14285714285714285,
+        "false_accept": 1,
+        "input_sha256": "5903a0b32341e12f5b5d0dff68a9167c44bc720f62a33c0e05314465ef377596",
+        "latency_ms": 2032,
+        "outcome": "MATCH",
+        "prediction": "ACETONE",
+        "sample_id": "label-088",
+        "status": "succeeded"
+      },
+      {
+        "cer": null,
+        "false_accept": 0,
+        "input_sha256": "b478ebbaf7a651bc8aa43bcac796fff1860f1085d8935bfa2985acad29e1ea9f",
+        "latency_ms": 933,
+        "outcome": "UNCERTAIN",
+        "prediction": "",
+        "sample_id": "label-089",
+        "status": "succeeded"
+      },
+      {
+        "cer": 0.5714285714285714,
+        "false_accept": 0,
+        "input_sha256": "e20a0386f503ee32b3073ef6484bfd2210aff233458ab0cd64cb6de2f441e2af",
+        "latency_ms": 2255,
+        "outcome": "MISMATCH",
+        "prediction": "Acliowl",
+        "sample_id": "label-090",
+        "status": "succeeded"
+      }
+    ],
+    "sample_count": 90
+  },
+  "created_at": "2026-09-01T14:29:22.479656+00:00",
+  "dataset_sha256": "aeeb1a73cb16e22fbb1294548cf67c211094241ea134dde0155e3a08edebbec1",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13"
+  },
+  "prohibited_claims": [
+    "real media performance",
+    "human performance",
+    "laboratory safety"
+  ],
+  "schema_version": 1
+}

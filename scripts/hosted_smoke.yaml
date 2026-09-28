@@ -1,0 +1,20 @@
+# Live hosted smoke suite (paid). Base URLs and models are configuration only.
+budget_usd: 2.0
+providers:
+  - {label: DeepSeek, provider: openai_compatible, stage: text, model: deepseek-flash,
+     base_url: "https://api.deepseek.com", api_key_env: "Deepseek API key",
+     structured_output: json_object, extra_body: {thinking: {type: disabled}}}
+  - {label: GLM, provider: openai_compatible, stage: text, model: glm-5.3-flash,
+     base_url: "https://api.z.ai/api/paas/v4", api_key_env: "GLM API Key",
+     structured_output: json_object, extra_body: {thinking: {type: disabled}}}
+  - {label: OpenAI, provider: openai, stage: text, model: gpt-4.1-nano,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY}
+  - {label: OpenAI, provider: openai, stage: speech, model: gpt-4o-mini-transcribe,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY,
+     audio: research/data/media/speech/speech-001-david.wav}
+  - {label: OpenAI, provider: openai, stage: vision, model: gpt-4.1-nano,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY,
+     image: research/data/media/vision/label-001.png, expect: ethanol}
+  - {label: GLM, provider: openai_compatible, stage: vision, model: glm-4.6v-flashx,
+     base_url: "https://api.z.ai/api/paas/v4", api_key_env: "GLM API Key",
+     image: research/data/media/vision/label-001.png, expect: ethanol}

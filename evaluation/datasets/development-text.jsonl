@@ -1,0 +1,5 @@
+{"id":"text-001","modality":"text","synthetic":true,"transcript":"Record the temperature as 37 degrees Celsius","expected_intent":"RECORD_MEASUREMENT","expected_parameters":{"kind":"temperature","value":"37","unit":"degrees Celsius"}}
+{"id":"text-002","modality":"text","synthetic":true,"transcript":"Record an observation as the solution is clear","expected_intent":"RECORD_OBSERVATION","expected_parameters":{"observation":"the solution is clear"}}
+{"id":"text-003","modality":"text","synthetic":true,"transcript":"pause","expected_intent":"PAUSE_SESSION","expected_parameters":{}}
+{"id":"text-004","modality":"text","synthetic":true,"transcript":"make everything perfect","expected_intent":"UNSUPPORTED","expected_parameters":{}}
+{"id":"text-005","modality":"text","synthetic":true,"transcript":"pause and complete the step","expected_intent":"UNSUPPORTED","expected_parameters":{}}

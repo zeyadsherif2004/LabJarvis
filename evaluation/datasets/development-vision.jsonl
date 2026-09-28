@@ -1,0 +1,3 @@
+{"id":"vision-001","modality":"vision","synthetic":true,"expected_text":"ethanol","expected_reagent":"ethanol","expected_verification":"MATCH"}
+{"id":"vision-002","modality":"vision","synthetic":true,"expected_text":"methanol","expected_reagent":"ethanol","expected_verification":"MISMATCH"}
+{"id":"vision-003","modality":"vision","synthetic":true,"expected_text":"ethano1","expected_reagent":"ethanol","expected_verification":"UNCERTAIN"}

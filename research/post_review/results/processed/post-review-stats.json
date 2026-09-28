@@ -1,0 +1,281 @@
+{
+  "bootstrap_samples": 10000,
+  "input_hashes": {
+    "public_cases": {
+      "path": "research/post_review/public_protocols/cases.jsonl",
+      "sha256": "ce6d8df27f40dbfca1f704ad35c28f5e343affcebb96969250f5b18007ed85f0"
+    },
+    "public_sources": {
+      "path": "research/post_review/public_protocols/sources.json",
+      "sha256": "57d44ff58ab56f5954e8fe668735bd325ed20850c651987ca02c27a4d4d0085f"
+    },
+    "text_manifest": {
+      "path": "research/data/manifests/text-commands.jsonl",
+      "sha256": "4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f"
+    }
+  },
+  "interpreter_pairs": {
+    "exact_command": {
+      "Qwen2.5 0.5B vs Hosted gpt-5.6-terra": {
+        "discordant_first_only": 0,
+        "discordant_second_only": 66,
+        "p_holm": 1.6263032587282567e-19,
+        "p_mcnemar_exact": 2.710505431213761e-20,
+        "rd_ci95": [
+          -0.8889,
+          -0.7284
+        ],
+        "risk_difference": -0.8148
+      },
+      "Qwen2.5 0.5B vs Qwen2.5 1.5B": {
+        "discordant_first_only": 0,
+        "discordant_second_only": 8,
+        "p_holm": 0.015625,
+        "p_mcnemar_exact": 0.0078125,
+        "rd_ci95": [
+          -0.1728,
+          -0.037
+        ],
+        "risk_difference": -0.0988
+      },
+      "Qwen2.5 1.5B vs Hosted gpt-5.6-terra": {
+        "discordant_first_only": 0,
+        "discordant_second_only": 58,
+        "p_holm": 2.7755575615628914e-17,
+        "p_mcnemar_exact": 6.938893903907228e-18,
+        "rd_ci95": [
+          -0.8148,
+          -0.6173
+        ],
+        "risk_difference": -0.716
+      },
+      "Rule grammar vs Hosted gpt-5.6-terra": {
+        "discordant_first_only": 2,
+        "discordant_second_only": 5,
+        "p_holm": 0.453125,
+        "p_mcnemar_exact": 0.453125,
+        "rd_ci95": [
+          -0.0988,
+          0.0247
+        ],
+        "risk_difference": -0.037
+      },
+      "Rule grammar vs Qwen2.5 0.5B": {
+        "discordant_first_only": 63,
+        "discordant_second_only": 0,
+        "p_holm": 1.0842021724855044e-18,
+        "p_mcnemar_exact": 2.168404344971009e-19,
+        "rd_ci95": [
+          0.679,
+          0.8642
+        ],
+        "risk_difference": 0.7778
+      },
+      "Rule grammar vs Qwen2.5 1.5B": {
+        "discordant_first_only": 56,
+        "discordant_second_only": 1,
+        "p_holm": 2.4147350785597155e-15,
+        "p_mcnemar_exact": 8.049116928532385e-16,
+        "rd_ci95": [
+          0.5679,
+          0.7778
+        ],
+        "risk_difference": 0.679
+      }
+    },
+    "intent_correct": {
+      "Qwen2.5 0.5B vs Hosted gpt-5.6-terra": {
+        "discordant_first_only": 0,
+        "discordant_second_only": 65,
+        "p_holm": 3.2526065174565133e-19,
+        "p_mcnemar_exact": 5.421010862427522e-20,
+        "rd_ci95": [
+          -0.8889,
+          -0.716
+        ],
+        "risk_difference": -0.8025
+      },
+      "Qwen2.5 0.5B vs Qwen2.5 1.5B": {
+        "discordant_first_only": 1,
+        "discordant_second_only": 12,
+        "p_holm": 0.0068359375,
+        "p_mcnemar_exact": 0.00341796875,
+        "rd_ci95": [
+          -0.2222,
+          -0.0617
+        ],
+        "risk_difference": -0.1358
+      },
+      "Qwen2.5 1.5B vs Hosted gpt-5.6-terra": {
+        "discordant_first_only": 0,
+        "discordant_second_only": 54,
+        "p_holm": 4.440892098500626e-16,
+        "p_mcnemar_exact": 1.1102230246251565e-16,
+        "rd_ci95": [
+          -0.7654,
+          -0.5679
+        ],
+        "risk_difference": -0.6667
+      },
+      "Rule grammar vs Hosted gpt-5.6-terra": {
+        "discordant_first_only": 1,
+        "discordant_second_only": 9,
+        "p_holm": 0.021484375,
+        "p_mcnemar_exact": 0.021484375,
+        "rd_ci95": [
+          -0.1728,
+          -0.0247
+        ],
+        "risk_difference": -0.0988
+      },
+      "Rule grammar vs Qwen2.5 0.5B": {
+        "discordant_first_only": 57,
+        "discordant_second_only": 0,
+        "p_holm": 6.938893903907228e-17,
+        "p_mcnemar_exact": 1.3877787807814457e-17,
+        "rd_ci95": [
+          0.6049,
+          0.8025
+        ],
+        "risk_difference": 0.7037
+      },
+      "Rule grammar vs Qwen2.5 1.5B": {
+        "discordant_first_only": 49,
+        "discordant_second_only": 3,
+        "p_holm": 3.128031167420886e-11,
+        "p_mcnemar_exact": 1.042677055806962e-11,
+        "rd_ci95": [
+          0.4444,
+          0.6914
+        ],
+        "risk_difference": 0.5679
+      }
+    }
+  },
+  "media": {
+    "speech": {
+      "speech-base-en.json": {
+        "cer": 0.08752953442096935,
+        "mean_latency_ms": 2469.693333333333,
+        "mean_real_time_factor": 0.7678440696845289,
+        "wer": 0.2968051948051948
+      },
+      "speech-small-en.json": {
+        "cer": 0.03785108922726169,
+        "mean_latency_ms": 2172.4133333333334,
+        "mean_real_time_factor": 0.7555006061007418,
+        "wer": 0.12792688792688792
+      },
+      "speech-tiny-en.json": {
+        "cer": 0.07968483689336892,
+        "mean_latency_ms": 1682.4533333333334,
+        "mean_real_time_factor": 0.5641712534298373,
+        "wer": 0.31008321308321307
+      }
+    },
+    "vision": {
+      "vision-english-g2.json": {
+        "cer": 0.11776801629742806,
+        "false_accept_rate": 0.06666666666666667,
+        "mean_latency_ms": 1149.2111111111112
+      },
+      "vision-latin-g2.json": {
+        "cer": 0.09400305576776165,
+        "false_accept_rate": 0.06666666666666667,
+        "mean_latency_ms": 1686.9555555555555
+      }
+    }
+  },
+  "protocol_grounding": {
+    "abstention_accuracy": 0.6666666666666666,
+    "case_count": 9,
+    "evidence_class": "public_protocol_source_independent_not_human_adjudicated",
+    "records": [
+      {
+        "case_id": "trans-g1",
+        "correct": false,
+        "expected_supported": true,
+        "score": null,
+        "source_id": "transformation-2018",
+        "supported": false,
+        "top_chunk_id": null
+      },
+      {
+        "case_id": "trans-g2",
+        "correct": false,
+        "expected_supported": true,
+        "score": null,
+        "source_id": "transformation-2018",
+        "supported": false,
+        "top_chunk_id": null
+      },
+      {
+        "case_id": "trans-g3",
+        "correct": true,
+        "expected_supported": false,
+        "score": null,
+        "source_id": "transformation-2018",
+        "supported": false,
+        "top_chunk_id": null
+      },
+      {
+        "case_id": "platero-g1",
+        "correct": true,
+        "expected_supported": true,
+        "score": 0.6295,
+        "source_id": "platero-2023",
+        "supported": true,
+        "top_chunk_id": "platero-2023:source:1"
+      },
+      {
+        "case_id": "platero-g2",
+        "correct": true,
+        "expected_supported": true,
+        "score": 0.5226,
+        "source_id": "platero-2023",
+        "supported": true,
+        "top_chunk_id": "platero-2023:platero-4"
+      },
+      {
+        "case_id": "platero-g3",
+        "correct": false,
+        "expected_supported": false,
+        "score": 0.3538,
+        "source_id": "platero-2023",
+        "supported": true,
+        "top_chunk_id": "platero-2023:platero-1"
+      },
+      {
+        "case_id": "distance-g1",
+        "correct": true,
+        "expected_supported": true,
+        "score": 0.6154,
+        "source_id": "distance-probes-2025",
+        "supported": true,
+        "top_chunk_id": "distance-probes-2025:distance-1"
+      },
+      {
+        "case_id": "distance-g2",
+        "correct": true,
+        "expected_supported": true,
+        "score": 0.5087,
+        "source_id": "distance-probes-2025",
+        "supported": true,
+        "top_chunk_id": "distance-probes-2025:distance-4"
+      },
+      {
+        "case_id": "distance-g3",
+        "correct": true,
+        "expected_supported": false,
+        "score": null,
+        "source_id": "distance-probes-2025",
+        "supported": false,
+        "top_chunk_id": null
+      }
+    ],
+    "source_count": 3,
+    "supported_accuracy": 0.6666666666666666
+  },
+  "schema_version": 1,
+  "seed": 20260901
+}

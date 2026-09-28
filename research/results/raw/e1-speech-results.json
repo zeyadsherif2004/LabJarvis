@@ -1,0 +1,4294 @@
+{
+  "environment": {
+    "captured_at": "2026-07-20T11:48:40.611112+00:00",
+    "commit": "d5b7f04837c647a875ab34bc743d8b5dda38a79a",
+    "packages": {
+      "ctranslate2": "4.8.1",
+      "easyocr": "1.7.2",
+      "faster-whisper": "1.2.1",
+      "numpy": "2.5.1",
+      "opencv-python-headless": "5.0.0.93",
+      "torch": "2.13.0"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python": "3.12.13",
+    "seed": 20260717,
+    "thresholds": {
+      "command_confidence": 0.75,
+      "reagent_match": 92.0,
+      "reagent_uncertain": 72.0
+    }
+  },
+  "experiment_id": "E1-speech",
+  "failure_count": 0,
+  "records": [
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-001-david",
+      "duration_seconds": 3.909,
+      "expected_text": "Record the temperature as 37 degrees Celsius",
+      "latency_ms": 19756,
+      "real_time_factor": 5.054,
+      "speech_confidence": 0.6263696825997171,
+      "status": "succeeded",
+      "text_sample_id": "text-001",
+      "transcript": "record the temperature as 37 degrees Celsius",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.02631578947368421,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-001-zira",
+      "duration_seconds": 3.844,
+      "expected_text": "Record the temperature as 37 degrees Celsius",
+      "latency_ms": 2686,
+      "real_time_factor": 0.699,
+      "speech_confidence": 0.6100649791748345,
+      "status": "succeeded",
+      "text_sample_id": "text-001",
+      "transcript": "Record the temperature as 37 degrees Celsius.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.14285714285714285
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "21.5"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-002-david",
+      "duration_seconds": 4.489,
+      "expected_text": "Record the temperature as 21.5 degrees Celsius",
+      "latency_ms": 2757,
+      "real_time_factor": 0.614,
+      "speech_confidence": 0.6721323723749029,
+      "status": "succeeded",
+      "text_sample_id": "text-003",
+      "transcript": "record the temperature as 21.5 degrees Celsius",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "21.5"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-002-zira",
+      "duration_seconds": 4.469,
+      "expected_text": "Record the temperature as 21.5 degrees Celsius",
+      "latency_ms": 2702,
+      "real_time_factor": 0.605,
+      "speech_confidence": 0.6695922507034605,
+      "status": "succeeded",
+      "text_sample_id": "text-003",
+      "transcript": "record the temperature as 21.5 degrees Celsius",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05555555555555555,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "ph",
+          "unit": "pH",
+          "value": "7.4"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-003-david",
+      "duration_seconds": 3.444,
+      "expected_text": "Record the pH as 7.4 pH",
+      "latency_ms": 2650,
+      "real_time_factor": 0.769,
+      "speech_confidence": 0.6449559102613649,
+      "status": "succeeded",
+      "text_sample_id": "text-004",
+      "transcript": "Record the pH as 7.4 pH.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "ph",
+          "unit": "pH",
+          "value": "7.4"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-003-zira",
+      "duration_seconds": 3.484,
+      "expected_text": "Record the pH as 7.4 pH",
+      "latency_ms": 2635,
+      "real_time_factor": 0.756,
+      "speech_confidence": 0.6568848753891648,
+      "status": "succeeded",
+      "text_sample_id": "text-004",
+      "transcript": "Record the pH as 7.4 pH",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-004-david",
+      "duration_seconds": 3.959,
+      "expected_text": "Record the volume as 250 milliliters",
+      "latency_ms": 2650,
+      "real_time_factor": 0.669,
+      "speech_confidence": 0.6363760588004498,
+      "status": "succeeded",
+      "text_sample_id": "text-005",
+      "transcript": "Record the volume as 250 milliliters",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-004-zira",
+      "duration_seconds": 3.839,
+      "expected_text": "Record the volume as 250 milliliters",
+      "latency_ms": 2633,
+      "real_time_factor": 0.686,
+      "speech_confidence": 0.6436758026762389,
+      "status": "succeeded",
+      "text_sample_id": "text-005",
+      "transcript": "record the volume as 250 milliliters",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "volume",
+          "unit": "uL",
+          "value": "500"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-005-david",
+      "duration_seconds": 3.624,
+      "expected_text": "Record the volume as 500 microliters",
+      "latency_ms": 2664,
+      "real_time_factor": 0.735,
+      "speech_confidence": 0.6844912682983656,
+      "status": "succeeded",
+      "text_sample_id": "text-007",
+      "transcript": "record the volume as 500 microliters",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "volume",
+          "unit": "uL",
+          "value": "500"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-005-zira",
+      "duration_seconds": 3.524,
+      "expected_text": "Record the volume as 500 microliters",
+      "latency_ms": 2592,
+      "real_time_factor": 0.736,
+      "speech_confidence": 0.6508393220017865,
+      "status": "succeeded",
+      "text_sample_id": "text-007",
+      "transcript": "record the volume as 500 microliters",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.19047619047619047,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "mass",
+          "unit": "g",
+          "value": "5"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-006-david",
+      "duration_seconds": 2.774,
+      "expected_text": "Record the mass as 5 grams",
+      "latency_ms": 2677,
+      "real_time_factor": 0.965,
+      "speech_confidence": 0.645688054623457,
+      "status": "succeeded",
+      "text_sample_id": "text-008",
+      "transcript": "Record the mass as 5 g",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.047619047619047616,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-006-zira",
+      "duration_seconds": 2.734,
+      "expected_text": "Record the mass as 5 grams",
+      "latency_ms": 2544,
+      "real_time_factor": 0.931,
+      "speech_confidence": 0.5973510201429748,
+      "status": "succeeded",
+      "text_sample_id": "text-008",
+      "transcript": "record the mass is 5 grams",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "mass",
+          "unit": "mg",
+          "value": "120"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-007-david",
+      "duration_seconds": 3.924,
+      "expected_text": "Record the mass as 120 milligrams",
+      "latency_ms": 2567,
+      "real_time_factor": 0.654,
+      "speech_confidence": 0.6465588581240588,
+      "status": "succeeded",
+      "text_sample_id": "text-009",
+      "transcript": "record the mass as 120 milligrams",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.03571428571428571,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-007-zira",
+      "duration_seconds": 3.744,
+      "expected_text": "Record the mass as 120 milligrams",
+      "latency_ms": 2602,
+      "real_time_factor": 0.695,
+      "speech_confidence": 0.6255922849549677,
+      "status": "succeeded",
+      "text_sample_id": "text-009",
+      "transcript": "record the mass is 120 milligrams",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "speed",
+          "unit": "rpm",
+          "value": "1500"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-008-david",
+      "duration_seconds": 4.084,
+      "expected_text": "Record the speed as 1500 rpm",
+      "latency_ms": 2582,
+      "real_time_factor": 0.632,
+      "speech_confidence": 0.5877897567486592,
+      "status": "succeeded",
+      "text_sample_id": "text-010",
+      "transcript": "record the speed as 1500 rpm",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "speed",
+          "unit": "rpm",
+          "value": "1500"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-008-zira",
+      "duration_seconds": 3.889,
+      "expected_text": "Record the speed as 1500 rpm",
+      "latency_ms": 2464,
+      "real_time_factor": 0.634,
+      "speech_confidence": 0.5616540304382484,
+      "status": "succeeded",
+      "text_sample_id": "text-010",
+      "transcript": "record the speed as 1500 rpm",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.21212121212121213,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "concentration",
+          "unit": "%",
+          "value": "70"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-009-david",
+      "duration_seconds": 3.494,
+      "expected_text": "Record the concentration as 70 percent",
+      "latency_ms": 2490,
+      "real_time_factor": 0.713,
+      "speech_confidence": 0.5793031716345238,
+      "status": "succeeded",
+      "text_sample_id": "text-011",
+      "transcript": "record the concentration as 70%.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.21212121212121213,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "concentration",
+          "unit": "%",
+          "value": "70"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-009-zira",
+      "duration_seconds": 3.379,
+      "expected_text": "Record the concentration as 70 percent",
+      "latency_ms": 2487,
+      "real_time_factor": 0.736,
+      "speech_confidence": 0.6120122156240333,
+      "status": "succeeded",
+      "text_sample_id": "text-011",
+      "transcript": "Record the concentration as 70%.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.029411764705882353,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "incubation time",
+          "unit": "min",
+          "value": "30"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-010-david",
+      "duration_seconds": 3.379,
+      "expected_text": "Record the incubation time as 30 minutes",
+      "latency_ms": 2577,
+      "real_time_factor": 0.763,
+      "speech_confidence": 0.6744652261685615,
+      "status": "succeeded",
+      "text_sample_id": "text-012",
+      "transcript": "Record the incubation time as 30 minutes.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.14285714285714285
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "incubation time",
+          "unit": "min",
+          "value": "30"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-010-zira",
+      "duration_seconds": 3.344,
+      "expected_text": "Record the incubation time as 30 minutes",
+      "latency_ms": 2579,
+      "real_time_factor": 0.771,
+      "speech_confidence": 0.6712035441292906,
+      "status": "succeeded",
+      "text_sample_id": "text-012",
+      "transcript": "record the incubation time as 30 minutes",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05128205128205128,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-011-david",
+      "duration_seconds": 3.404,
+      "expected_text": "Record an observation as the solution is clear",
+      "latency_ms": 2571,
+      "real_time_factor": 0.755,
+      "speech_confidence": 0.6775771113086472,
+      "status": "succeeded",
+      "text_sample_id": "text-016",
+      "transcript": "record and observation as the solution is clear.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_OBSERVATION",
+        "canonical_parameters": {
+          "observation": "the solution is clear"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_OBSERVATION"
+      },
+      "clip_id": "speech-011-zira",
+      "duration_seconds": 3.414,
+      "expected_text": "Record an observation as the solution is clear",
+      "latency_ms": 2578,
+      "real_time_factor": 0.755,
+      "speech_confidence": 0.6863925530597529,
+      "status": "succeeded",
+      "text_sample_id": "text-016",
+      "transcript": "record an observation as the solution is clear",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.061224489795918366,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-012-david",
+      "duration_seconds": 3.929,
+      "expected_text": "Record an observation as precipitate formed at the bottom",
+      "latency_ms": 2614,
+      "real_time_factor": 0.665,
+      "speech_confidence": 0.704118975982244,
+      "status": "succeeded",
+      "text_sample_id": "text-017",
+      "transcript": "record and observation as precipitated formed at the bottom.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.02040816326530612,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-012-zira",
+      "duration_seconds": 3.774,
+      "expected_text": "Record an observation as precipitate formed at the bottom",
+      "latency_ms": 2614,
+      "real_time_factor": 0.693,
+      "speech_confidence": 0.7024538743369031,
+      "status": "succeeded",
+      "text_sample_id": "text-017",
+      "transcript": "record and observation as precipitate formed at the bottom",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.1111111111111111
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.025,
+      "chained": {
+        "canonical_intent": "RECORD_OBSERVATION",
+        "canonical_parameters": {
+          "observation": "no bubbles are visible"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_OBSERVATION"
+      },
+      "clip_id": "speech-013-david",
+      "duration_seconds": 3.484,
+      "expected_text": "Record an observation as no bubbles are visible",
+      "latency_ms": 2579,
+      "real_time_factor": 0.74,
+      "speech_confidence": 0.6431424662711168,
+      "status": "succeeded",
+      "text_sample_id": "text-019",
+      "transcript": "Record an observation as no bubbles are visible.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.125
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.025,
+      "chained": {
+        "canonical_intent": "RECORD_OBSERVATION",
+        "canonical_parameters": {
+          "observation": "no bubbles are visible"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_OBSERVATION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_OBSERVATION"
+      },
+      "clip_id": "speech-013-zira",
+      "duration_seconds": 3.384,
+      "expected_text": "Record an observation as no bubbles are visible",
+      "latency_ms": 2570,
+      "real_time_factor": 0.759,
+      "speech_confidence": 0.6856876488715353,
+      "status": "succeeded",
+      "text_sample_id": "text-019",
+      "transcript": "Record an observation as no bubbles are visible.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.125
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "300"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-014-david",
+      "duration_seconds": 2.644,
+      "expected_text": "Set a timer for 5 minutes",
+      "latency_ms": 2823,
+      "real_time_factor": 1.068,
+      "speech_confidence": 0.6615524018200843,
+      "status": "succeeded",
+      "text_sample_id": "text-022",
+      "transcript": "Set a timer for 5 minutes.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "300"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-014-zira",
+      "duration_seconds": 2.614,
+      "expected_text": "Set a timer for 5 minutes",
+      "latency_ms": 2648,
+      "real_time_factor": 1.013,
+      "speech_confidence": 0.6926365247586168,
+      "status": "succeeded",
+      "text_sample_id": "text-022",
+      "transcript": "set a timer for 5 minutes",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "90"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-015-david",
+      "duration_seconds": 2.774,
+      "expected_text": "Set timer for 90 seconds",
+      "latency_ms": 2519,
+      "real_time_factor": 0.908,
+      "speech_confidence": 0.63361597068143,
+      "status": "succeeded",
+      "text_sample_id": "text-023",
+      "transcript": "Set timer for 90 seconds.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.2
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "90"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-015-zira",
+      "duration_seconds": 2.729,
+      "expected_text": "Set timer for 90 seconds",
+      "latency_ms": 2477,
+      "real_time_factor": 0.908,
+      "speech_confidence": 0.6906643968377496,
+      "status": "succeeded",
+      "text_sample_id": "text-023",
+      "transcript": "set timer for 90 seconds",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.047619047619047616,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "45"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-016-david",
+      "duration_seconds": 3.184,
+      "expected_text": "Set a timer for 45 seconds",
+      "latency_ms": 2549,
+      "real_time_factor": 0.801,
+      "speech_confidence": 0.6159778149212818,
+      "status": "succeeded",
+      "text_sample_id": "text-025",
+      "transcript": "Set a timer for 45 seconds.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "45"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-016-zira",
+      "duration_seconds": 3.044,
+      "expected_text": "Set a timer for 45 seconds",
+      "latency_ms": 2608,
+      "real_time_factor": 0.857,
+      "speech_confidence": 0.6390861432728712,
+      "status": "succeeded",
+      "text_sample_id": "text-025",
+      "transcript": "set a timer for 45 seconds",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-017-david",
+      "duration_seconds": 2.124,
+      "expected_text": "What is the current step",
+      "latency_ms": 2521,
+      "real_time_factor": 1.187,
+      "speech_confidence": 0.7485059619555147,
+      "status": "succeeded",
+      "text_sample_id": "text-027",
+      "transcript": "What is the current step?",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.2
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-017-zira",
+      "duration_seconds": 2.044,
+      "expected_text": "What is the current step",
+      "latency_ms": 2631,
+      "real_time_factor": 1.287,
+      "speech_confidence": 0.7070280733128665,
+      "status": "succeeded",
+      "text_sample_id": "text-027",
+      "transcript": "What is the current step?",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.2
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.058823529411764705,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-018-david",
+      "duration_seconds": 2.049,
+      "expected_text": "What is the next step",
+      "latency_ms": 2499,
+      "real_time_factor": 1.22,
+      "speech_confidence": 0.7459070438538111,
+      "status": "succeeded",
+      "text_sample_id": "text-029",
+      "transcript": "What is the next step?",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.2
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.058823529411764705,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-018-zira",
+      "duration_seconds": 2.009,
+      "expected_text": "What is the next step",
+      "latency_ms": 2492,
+      "real_time_factor": 1.24,
+      "speech_confidence": 0.7239888854532226,
+      "status": "succeeded",
+      "text_sample_id": "text-029",
+      "transcript": "What is the next step?",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.2
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "REPEAT_INSTRUCTION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "REPEAT_INSTRUCTION"
+      },
+      "clip_id": "speech-019-david",
+      "duration_seconds": 2.069,
+      "expected_text": "Repeat the instruction",
+      "latency_ms": 2452,
+      "real_time_factor": 1.185,
+      "speech_confidence": 0.5902080699448908,
+      "status": "succeeded",
+      "text_sample_id": "text-031",
+      "transcript": "Repeat the instruction.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "REPEAT_INSTRUCTION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "REPEAT_INSTRUCTION",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "REPEAT_INSTRUCTION"
+      },
+      "clip_id": "speech-019-zira",
+      "duration_seconds": 2.094,
+      "expected_text": "Repeat the instruction",
+      "latency_ms": 2442,
+      "real_time_factor": 1.166,
+      "speech_confidence": 0.6029756801909762,
+      "status": "succeeded",
+      "text_sample_id": "text-031",
+      "transcript": "Repeat the instruction.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "PAUSE_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "PAUSE_SESSION"
+      },
+      "clip_id": "speech-020-david",
+      "duration_seconds": 1.299,
+      "expected_text": "Pause",
+      "latency_ms": 2382,
+      "real_time_factor": 1.834,
+      "speech_confidence": 0.45050393904586783,
+      "status": "succeeded",
+      "text_sample_id": "text-033",
+      "transcript": "Pause",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "PAUSE_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "PAUSE_SESSION"
+      },
+      "clip_id": "speech-020-zira",
+      "duration_seconds": 1.334,
+      "expected_text": "Pause",
+      "latency_ms": 2440,
+      "real_time_factor": 1.829,
+      "speech_confidence": 0.4408227988848707,
+      "status": "succeeded",
+      "text_sample_id": "text-033",
+      "transcript": "Pause",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RESUME_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RESUME_SESSION"
+      },
+      "clip_id": "speech-021-david",
+      "duration_seconds": 1.384,
+      "expected_text": "Resume",
+      "latency_ms": 2398,
+      "real_time_factor": 1.733,
+      "speech_confidence": 0.7139691727380991,
+      "status": "succeeded",
+      "text_sample_id": "text-035",
+      "transcript": "Resume",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RESUME_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RESUME_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RESUME_SESSION"
+      },
+      "clip_id": "speech-021-zira",
+      "duration_seconds": 1.404,
+      "expected_text": "Resume",
+      "latency_ms": 2428,
+      "real_time_factor": 1.729,
+      "speech_confidence": 0.514248853786476,
+      "status": "succeeded",
+      "text_sample_id": "text-035",
+      "transcript": "Resume",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.06666666666666667,
+      "chained": {
+        "canonical_intent": "COMPLETE_STEP",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "COMPLETE_STEP"
+      },
+      "clip_id": "speech-022-david",
+      "duration_seconds": 1.869,
+      "expected_text": "Complete the step",
+      "latency_ms": 2445,
+      "real_time_factor": 1.308,
+      "speech_confidence": 0.5882085752465099,
+      "status": "succeeded",
+      "text_sample_id": "text-036",
+      "transcript": "Complete the step.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "COMPLETE_STEP",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "COMPLETE_STEP",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "COMPLETE_STEP"
+      },
+      "clip_id": "speech-022-zira",
+      "duration_seconds": 1.839,
+      "expected_text": "Complete the step",
+      "latency_ms": 2380,
+      "real_time_factor": 1.294,
+      "speech_confidence": 0.6386251406258513,
+      "status": "succeeded",
+      "text_sample_id": "text-036",
+      "transcript": "Complete the step",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "VERIFY_REAGENT",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "VERIFY_REAGENT"
+      },
+      "clip_id": "speech-023-david",
+      "duration_seconds": 1.949,
+      "expected_text": "Verify reagent",
+      "latency_ms": 2420,
+      "real_time_factor": 1.242,
+      "speech_confidence": 0.5232220139600958,
+      "status": "succeeded",
+      "text_sample_id": "text-038",
+      "transcript": "Verify reagent",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "VERIFY_REAGENT",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "VERIFY_REAGENT",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "VERIFY_REAGENT"
+      },
+      "clip_id": "speech-023-zira",
+      "duration_seconds": 1.964,
+      "expected_text": "Verify reagent",
+      "latency_ms": 2408,
+      "real_time_factor": 1.226,
+      "speech_confidence": 0.5334380069842812,
+      "status": "succeeded",
+      "text_sample_id": "text-038",
+      "transcript": "Verify reagent",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.043478260869565216,
+      "chained": {
+        "canonical_intent": "CORRECT_PREVIOUS_ENTRY",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "CORRECT_PREVIOUS_ENTRY"
+      },
+      "clip_id": "speech-024-david",
+      "duration_seconds": 2.344,
+      "expected_text": "Correct the previous entry",
+      "latency_ms": 2430,
+      "real_time_factor": 1.037,
+      "speech_confidence": 0.5963353040806328,
+      "status": "succeeded",
+      "text_sample_id": "text-040",
+      "transcript": "Correct the previous entry.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.043478260869565216,
+      "chained": {
+        "canonical_intent": "CORRECT_PREVIOUS_ENTRY",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "CORRECT_PREVIOUS_ENTRY",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "CORRECT_PREVIOUS_ENTRY"
+      },
+      "clip_id": "speech-024-zira",
+      "duration_seconds": 2.274,
+      "expected_text": "Correct the previous entry",
+      "latency_ms": 2467,
+      "real_time_factor": 1.085,
+      "speech_confidence": 0.5802329273457734,
+      "status": "succeeded",
+      "text_sample_id": "text-040",
+      "transcript": "Correct the previous entry.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "END_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "END_SESSION"
+      },
+      "clip_id": "speech-025-david",
+      "duration_seconds": 1.639,
+      "expected_text": "End session",
+      "latency_ms": 2384,
+      "real_time_factor": 1.455,
+      "speech_confidence": 0.504146652132806,
+      "status": "succeeded",
+      "text_sample_id": "text-041",
+      "transcript": "End session",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "END_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "END_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "END_SESSION"
+      },
+      "clip_id": "speech-025-zira",
+      "duration_seconds": 1.559,
+      "expected_text": "End session",
+      "latency_ms": 2381,
+      "real_time_factor": 1.527,
+      "speech_confidence": 0.5019316209396347,
+      "status": "succeeded",
+      "text_sample_id": "text-041",
+      "transcript": "End session",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.08333333333333333,
+      "chained": {
+        "canonical_intent": "PAUSE_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "PAUSE_SESSION"
+      },
+      "clip_id": "speech-026-david",
+      "duration_seconds": 2.244,
+      "expected_text": "Jarvis, pause",
+      "latency_ms": 2459,
+      "real_time_factor": 1.096,
+      "speech_confidence": 0.7326237302500939,
+      "status": "succeeded",
+      "text_sample_id": "text-043",
+      "transcript": "Jarvis pause",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.5
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.08333333333333333,
+      "chained": {
+        "canonical_intent": "PAUSE_SESSION",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "PAUSE_SESSION",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "PAUSE_SESSION"
+      },
+      "clip_id": "speech-026-zira",
+      "duration_seconds": 2.339,
+      "expected_text": "Jarvis, pause",
+      "latency_ms": 2435,
+      "real_time_factor": 1.041,
+      "speech_confidence": 0.5238753933299484,
+      "status": "succeeded",
+      "text_sample_id": "text-043",
+      "transcript": "Jarvis, pause.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.5
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.125,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-027-david",
+      "duration_seconds": 4.304,
+      "expected_text": "Record the temperature as -300 degrees Celsius",
+      "latency_ms": 2575,
+      "real_time_factor": 0.598,
+      "speech_confidence": 0.6551028988775176,
+      "status": "succeeded",
+      "text_sample_id": "text-056",
+      "transcript": "record the temperature as minus 300 degrees Celsius",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.2857142857142857
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.125,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-027-zira",
+      "duration_seconds": 4.234,
+      "expected_text": "Record the temperature as -300 degrees Celsius",
+      "latency_ms": 2556,
+      "real_time_factor": 0.604,
+      "speech_confidence": 0.649842875041448,
+      "status": "succeeded",
+      "text_sample_id": "text-056",
+      "transcript": "record the temperature as minus 300 degrees Celsius",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.2857142857142857
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-028-david",
+      "duration_seconds": 2.904,
+      "expected_text": "Record the volume as 50 gallons",
+      "latency_ms": 2515,
+      "real_time_factor": 0.866,
+      "speech_confidence": 0.5992120455692369,
+      "status": "succeeded",
+      "text_sample_id": "text-057",
+      "transcript": "record the volume as 50 gallons",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-028-zira",
+      "duration_seconds": 2.899,
+      "expected_text": "Record the volume as 50 gallons",
+      "latency_ms": 2565,
+      "real_time_factor": 0.885,
+      "speech_confidence": 0.6123740622542978,
+      "status": "succeeded",
+      "text_sample_id": "text-057",
+      "transcript": "record the volume as 50 gallons",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.047619047619047616,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-029-david",
+      "duration_seconds": 2.429,
+      "expected_text": "Skip all remaining steps",
+      "latency_ms": 2460,
+      "real_time_factor": 1.013,
+      "speech_confidence": 0.6297418932847875,
+      "status": "succeeded",
+      "text_sample_id": "text-064",
+      "transcript": "Skip all remaining steps.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.047619047619047616,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-029-zira",
+      "duration_seconds": 2.419,
+      "expected_text": "Skip all remaining steps",
+      "latency_ms": 2437,
+      "real_time_factor": 1.007,
+      "speech_confidence": 0.6517335843278165,
+      "status": "succeeded",
+      "text_sample_id": "text-064",
+      "transcript": "Skip all remaining steps.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.017857142857142856,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-030-david",
+      "duration_seconds": 4.988,
+      "expected_text": "Record the temperature as 37 degrees Celsius and complete the step",
+      "latency_ms": 2658,
+      "real_time_factor": 0.533,
+      "speech_confidence": 0.7030811128151396,
+      "status": "succeeded",
+      "text_sample_id": "text-074",
+      "transcript": "Record the temperature as 37 degrees Celsius and complete the step.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.09090909090909091
+    },
+    {
+      "augmentation": "clean",
+      "cer": 0.017857142857142856,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-030-zira",
+      "duration_seconds": 4.818,
+      "expected_text": "Record the temperature as 37 degrees Celsius and complete the step",
+      "latency_ms": 2627,
+      "real_time_factor": 0.545,
+      "speech_confidence": 0.7151290011468522,
+      "status": "succeeded",
+      "text_sample_id": "text-074",
+      "transcript": "Record the temperature as 37 degrees Celsius and complete the step.",
+      "voice": "Microsoft Zira Desktop",
+      "wer": 0.09090909090909091
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-001-david-noise",
+      "duration_seconds": 3.909,
+      "expected_text": "Record the temperature as 37 degrees Celsius",
+      "latency_ms": 2548,
+      "real_time_factor": 0.652,
+      "speech_confidence": 0.6722073019913603,
+      "status": "succeeded",
+      "text_sample_id": "text-001",
+      "transcript": "record the temperature as 37 degrees celsius",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "21.5"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-002-david-noise",
+      "duration_seconds": 4.489,
+      "expected_text": "Record the temperature as 21.5 degrees Celsius",
+      "latency_ms": 2601,
+      "real_time_factor": 0.579,
+      "speech_confidence": 0.6826771501510839,
+      "status": "succeeded",
+      "text_sample_id": "text-003",
+      "transcript": "record the temperature as 21.5 degrees celsius",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.05555555555555555,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "ph",
+          "unit": "pH",
+          "value": "7.4"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-003-david-noise",
+      "duration_seconds": 3.444,
+      "expected_text": "Record the pH as 7.4 pH",
+      "latency_ms": 2561,
+      "real_time_factor": 0.744,
+      "speech_confidence": 0.6140882549618563,
+      "status": "succeeded",
+      "text_sample_id": "text-004",
+      "transcript": "Record the pH as 7.4 pH.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.03225806451612903,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-004-david-noise",
+      "duration_seconds": 3.959,
+      "expected_text": "Record the volume as 250 milliliters",
+      "latency_ms": 2570,
+      "real_time_factor": 0.649,
+      "speech_confidence": 0.656700547076047,
+      "status": "succeeded",
+      "text_sample_id": "text-005",
+      "transcript": "Record the volume as 250 milliliters.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.03225806451612903,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "volume",
+          "unit": "uL",
+          "value": "500"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-005-david-noise",
+      "duration_seconds": 3.624,
+      "expected_text": "Record the volume as 500 microliters",
+      "latency_ms": 2556,
+      "real_time_factor": 0.705,
+      "speech_confidence": 0.655586147238204,
+      "status": "succeeded",
+      "text_sample_id": "text-007",
+      "transcript": "Record the volume as 500 microliters.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.19047619047619047,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "mass",
+          "unit": "g",
+          "value": "5"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-006-david-noise",
+      "duration_seconds": 2.774,
+      "expected_text": "Record the mass as 5 grams",
+      "latency_ms": 2540,
+      "real_time_factor": 0.916,
+      "speech_confidence": 0.627899826832731,
+      "status": "succeeded",
+      "text_sample_id": "text-008",
+      "transcript": "Record the mass as 5g.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.03571428571428571,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "mass",
+          "unit": "mg",
+          "value": "120"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-007-david-noise",
+      "duration_seconds": 3.924,
+      "expected_text": "Record the mass as 120 milligrams",
+      "latency_ms": 2570,
+      "real_time_factor": 0.655,
+      "speech_confidence": 0.6666798407158481,
+      "status": "succeeded",
+      "text_sample_id": "text-009",
+      "transcript": "Record the mass as 120 milligrams.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.16666666666666666
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "speed",
+          "unit": "rpm",
+          "value": "1500"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-008-david-noise",
+      "duration_seconds": 4.084,
+      "expected_text": "Record the speed as 1500 rpm",
+      "latency_ms": 2504,
+      "real_time_factor": 0.613,
+      "speech_confidence": 0.5875300879919185,
+      "status": "succeeded",
+      "text_sample_id": "text-010",
+      "transcript": "record the speed as 1500 rpm",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.21212121212121213,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "concentration",
+          "unit": "%",
+          "value": "70"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-009-david-noise",
+      "duration_seconds": 3.494,
+      "expected_text": "Record the concentration as 70 percent",
+      "latency_ms": 2538,
+      "real_time_factor": 0.726,
+      "speech_confidence": 0.5956159942105512,
+      "status": "succeeded",
+      "text_sample_id": "text-011",
+      "transcript": "Record the concentration as 70%.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.3333333333333333
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "RECORD_MEASUREMENT",
+        "canonical_parameters": {
+          "kind": "incubation time",
+          "unit": "min",
+          "value": "30"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "RECORD_MEASUREMENT",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "RECORD_MEASUREMENT"
+      },
+      "clip_id": "speech-010-david-noise",
+      "duration_seconds": 3.379,
+      "expected_text": "Record the incubation time as 30 minutes",
+      "latency_ms": 2554,
+      "real_time_factor": 0.756,
+      "speech_confidence": 0.7040461482775655,
+      "status": "succeeded",
+      "text_sample_id": "text-012",
+      "transcript": "Record the incubation time as 30 minutes",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.05128205128205128,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-011-david-noise",
+      "duration_seconds": 3.404,
+      "expected_text": "Record an observation as the solution is clear",
+      "latency_ms": 2543,
+      "real_time_factor": 0.747,
+      "speech_confidence": 0.7201565498824796,
+      "status": "succeeded",
+      "text_sample_id": "text-016",
+      "transcript": "record and observation as the solution is clear.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.02040816326530612,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-012-david-noise",
+      "duration_seconds": 3.929,
+      "expected_text": "Record an observation as precipitate formed at the bottom",
+      "latency_ms": 2677,
+      "real_time_factor": 0.681,
+      "speech_confidence": 0.7011497431388779,
+      "status": "succeeded",
+      "text_sample_id": "text-017",
+      "transcript": "record and observation as precipitate formed at the bottom",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.1111111111111111
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.05,
+      "chained": {
+        "canonical_intent": "UNSUPPORTED",
+        "canonical_parameters": {},
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "intent": "UNSUPPORTED",
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 0,
+        "proposal_intent": "UNSUPPORTED"
+      },
+      "clip_id": "speech-013-david-noise",
+      "duration_seconds": 3.484,
+      "expected_text": "Record an observation as no bubbles are visible",
+      "latency_ms": 2562,
+      "real_time_factor": 0.735,
+      "speech_confidence": 0.6852983365449599,
+      "status": "succeeded",
+      "text_sample_id": "text-019",
+      "transcript": "record and observation as no bubbles are visible.",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.25
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "300"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-014-david-noise",
+      "duration_seconds": 2.644,
+      "expected_text": "Set a timer for 5 minutes",
+      "latency_ms": 2589,
+      "real_time_factor": 0.979,
+      "speech_confidence": 0.6534740056962978,
+      "status": "succeeded",
+      "text_sample_id": "text-022",
+      "transcript": "set a timer for 5 minutes",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    },
+    {
+      "augmentation": "gaussian-noise-5dB-snr",
+      "cer": 0.0,
+      "chained": {
+        "canonical_intent": "SET_TIMER",
+        "canonical_parameters": {
+          "duration_seconds": "90"
+        },
+        "conditions": {
+          "A": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "B": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "C_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "intent": "SET_TIMER",
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "intent_correct": 1,
+        "proposal_intent": "SET_TIMER"
+      },
+      "clip_id": "speech-015-david-noise",
+      "duration_seconds": 2.774,
+      "expected_text": "Set timer for 90 seconds",
+      "latency_ms": 2526,
+      "real_time_factor": 0.911,
+      "speech_confidence": 0.6989385738645495,
+      "status": "succeeded",
+      "text_sample_id": "text-023",
+      "transcript": "Set timer for 90 seconds",
+      "voice": "Microsoft David Desktop",
+      "wer": 0.0
+    }
+  ],
+  "sample_count": 75,
+  "speech_model": {
+    "adapter": "faster-whisper",
+    "compute_type": "int8",
+    "device": "cpu",
+    "model_name": "small.en"
+  },
+  "synthetic_speech_only": true
+}

@@ -1,0 +1,12 @@
+{
+  "purpose": "Adjudicated slot labels for four frozen-benchmark paraphrase items whose gold intent was labelled without slots. Without slots, any correct execution of these items is scored as unsafe by research/experiments/common.py (assess_command compares against empty parameters). This file does not modify the frozen manifest; analyses report both the frozen and the adjudicated scoring.",
+  "deviation": "D4 (research/evidence/protocol-deviations.md)",
+  "adjudicated_after_seeing_model_outputs": true,
+  "basis": "slots read directly from the utterance wording by the project developer",
+  "items": {
+    "text-046": {"transcript": "log the temperature at 37 celsius", "expected_parameters": {"kind": "temperature", "value": "37", "unit": "degC"}},
+    "text-047": {"transcript": "note that the solution is cloudy", "expected_parameters": {"observation": "the solution is cloudy"}},
+    "text-048": {"transcript": "write down that the gel has set", "expected_parameters": {"observation": "the gel has set"}},
+    "text-049": {"transcript": "start a five minute countdown", "expected_parameters": {"duration_seconds": "300"}}
+  }
+}

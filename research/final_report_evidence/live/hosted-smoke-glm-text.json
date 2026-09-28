@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-26T22:17:42.157941+00:00",
+  "evidence_class": "live hosted smoke (paid); tiny fixed suite, synthetic inputs",
+  "records": [
+    {
+      "label": "GLM",
+      "provider": "openai_compatible",
+      "stage": "text",
+      "model": "glm-4.5-air",
+      "base_domain": "api.z.ai",
+      "upper_bound_usd": 0.00093,
+      "latency_ms": 1470,
+      "usage": {
+        "total_tokens": 1675.0,
+        "prompt_tokens": 1644.0,
+        "completion_tokens": 31.0
+      },
+      "observed_usd": 0.00036290000000000004,
+      "result": {
+        "intent": "RECORD_MEASUREMENT",
+        "parameters": {
+          "kind": "temperature",
+          "value": "37",
+          "unit": "degC"
+        }
+      },
+      "outcome": "PASS"
+    }
+  ],
+  "ledger": {
+    "cap_usd": 1.0,
+    "calls": 7,
+    "committed_usd": 0.008367,
+    "remaining_usd": 0.991633,
+    "by_provider": {
+      "DeepSeek": {
+        "calls": 1,
+        "upper_bound_usd": 0.0013233,
+        "observed_usd": 0.0005415
+      },
+      "GLM": {
+        "calls": 3,
+        "upper_bound_usd": 0.00182061,
+        "observed_usd": 0.00040345999999999996
+      },
+      "OpenAI": {
+        "calls": 3,
+        "upper_bound_usd": 0.007533799999999999,
+        "observed_usd": 0.0002764
+      }
+    }
+  }
+}

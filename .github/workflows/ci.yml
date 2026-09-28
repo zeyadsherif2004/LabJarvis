@@ -1,0 +1,104 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: apps/api/requirements-dev.lock
+      - run: python -m pip install -r apps/api/requirements-dev.lock
+      - run: python -m pip install -e apps/api --no-deps
+      - run: python -m ruff check apps/api scripts research
+      - run: python -m mypy apps/api/src scripts
+      # Deterministic only: live model and paid provider tests are opt-in and
+      # skipped/deselected here (see scripts/tasks.py smoke-local / smoke-hosted).
+      - run: python -m pytest apps/api/tests --cov=labjarvis --cov-branch --cov-report=term-missing --cov-fail-under=85
+      - name: Research and evidence tooling tests
+        run: python -m pytest research/post_review research/analysis research/experiments research/study -p no:cacheprovider
+      - name: Held-out split integrity
+        run: python -m research.interpreter.check_splits
+      - name: Tests are hermetic to ambient LABJARVIS_* settings
+        env:
+          LABJARVIS_MODEL_MODE: hosted
+          LABJARVIS_TEXT_MODEL_NAME: not-a-model
+          LABJARVIS_REALTIME_ENABLED: "true"
+        run: python -m pytest apps/api/tests/unit -q -p no:cacheprovider
+      - name: Clean migration
+        run: |
+          export LABJARVIS_DATABASE_URL="sqlite+pysqlite:///$RUNNER_TEMP/migration.db"
+          python -m alembic -c apps/api/alembic.ini upgrade head
+          python -m alembic -c apps/api/alembic.ini downgrade base
+          python -m alembic -c apps/api/alembic.ini upgrade head
+      - run: python -m labjarvis.evaluation.run --config evaluation/configs/development.yaml --output "$RUNNER_TEMP/evaluation"
+      - run: python scripts/scan_secrets.py
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22.18.0"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --dir apps/web lint
+      - run: pnpm --dir apps/web typecheck
+      - run: pnpm --dir apps/web exec tsc --noEmit -p tsconfig.e2e.json
+      - run: pnpm --dir apps/web test --run
+      - run: pnpm --dir apps/web build
+
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: apps/api/requirements-dev.lock
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22.18.0"
+          cache: pnpm
+      - run: python -m pip install -r apps/api/requirements-dev.lock
+      - run: python -m pip install -e apps/api --no-deps
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --dir apps/web exec playwright install --with-deps chromium
+      - run: python scripts/run_e2e.py
+
+  dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22.18.0"
+      - run: python -m pip install -r apps/api/requirements-dev.lock
+      - run: python -m pip install -e apps/api --no-deps
+      - run: python -m pip_audit
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm audit --audit-level high
+      - name: Validate container configurations
+        env:
+          POSTGRES_PASSWORD: ci-only-not-a-deployed-secret
+        run: |
+          docker compose config --quiet
+          docker compose -f docker-compose.yml -f docker-compose.postgres.yml config --quiet

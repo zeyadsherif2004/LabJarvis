@@ -1,0 +1,4 @@
+case_group,n,correct,accuracy,ci_low,ci_high
+supported,6,4,0.6667,0.3000,0.9032
+unsupported,3,2,0.6667,0.2077,0.9385
+all,9,6,0.6667,0.3542,0.8794

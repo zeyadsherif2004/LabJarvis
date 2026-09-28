@@ -1,0 +1,7 @@
+category,count
+"speech: transcription error, command survived",30
+vision: degraded matching label conservatively rejected,15
+speech: transcription error broke command,12
+interpretation: paraphrase outside rule grammar,10
+"vision: abstention (intended safeguard, not failure)",6
+vision: OCR normalised a defaced label into a false match,6

@@ -1,0 +1,20 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff
+        name: Ruff
+        entry: ruff check --force-exclude
+        language: python
+        additional_dependencies: [ruff==0.15.22]
+        types: [python]
+      - id: secret-signatures
+        name: High-confidence secret signatures
+        entry: python scripts/scan_secrets.py
+        language: system
+        pass_filenames: false
+      - id: web-lint
+        name: Web lint
+        entry: pnpm --dir apps/web lint
+        language: system
+        pass_filenames: false
+        files: ^apps/web/

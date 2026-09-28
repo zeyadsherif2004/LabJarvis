@@ -1,0 +1,5507 @@
+{
+  "candidate": {
+    "adapter": "deterministic-rules",
+    "component_summary": {
+      "confidence": {
+        "confirmations": 0,
+        "executed": 34,
+        "missed_valid": 21,
+        "unsafe_executed": 0
+      },
+      "confirm_always_accept": {
+        "confirmations": 34,
+        "executed": 34,
+        "missed_valid": 21,
+        "unsafe_executed": 0
+      },
+      "confirm_attentive": {
+        "confirmations": 34,
+        "executed": 34,
+        "missed_valid": 21,
+        "unsafe_executed": 0
+      },
+      "proposal": {
+        "confirmations": 0,
+        "executed": 42,
+        "missed_valid": 21,
+        "unsafe_executed": 8
+      },
+      "state": {
+        "confirmations": 0,
+        "executed": 34,
+        "missed_valid": 21,
+        "unsafe_executed": 0
+      },
+      "validation": {
+        "confirmations": 0,
+        "executed": 34,
+        "missed_valid": 21,
+        "unsafe_executed": 0
+      }
+    },
+    "failure_count": 0,
+    "metrics": {
+      "exact_command_accuracy": 0.7777777777777778,
+      "intent_accuracy": 0.7777777777777778,
+      "mean_latency_ms": 0.0,
+      "slot_f1": 0.6363636363636364,
+      "slot_precision": 0.5526315789473685,
+      "slot_recall": 0.75
+    },
+    "model_name": "fake-text-rules-v1",
+    "records": [
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "b9cf1c55a1a742889f03bffd2cf14f89893870e91a3dded6dfa171145cf07ab5",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "37"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-001",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e233f887fadca70ed133bc33bf80d6567df1650784836ef42729259ed6b47db1",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "celsius",
+            "value": "4"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-002",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e59997e07f0da8e6cab1bb0f1dea69cacc148be6b805d8a820b8d0c4b2ef6790",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "21.5"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-003",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c149e22aa6426e2b2df202ecfe1bec88aa9c44a9b0430f641eb1859d2d9879e4",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "ph",
+            "unit": "ph",
+            "value": "7.4"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-004",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d97c55c9d43eef9c82e2bc77dbcb29d26c72407189c9a250b4b641904f6f7d3d",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "milliliters",
+            "value": "250"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-005",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "fe2af8134fbdfb2c982aaa3273c2e7da469e9cf9672e99d0e1b3c3f379bcf165",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "ml",
+            "value": "12.5"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-006",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "0f59e76d62588d32cef0552c5719c8c713adbf763bacc6f32232a967de612b7b",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "microliters",
+            "value": "500"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-007",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2f0d5e60a89942cdf4184e2f114396a4dc4033034fedb83cb3bc689ca633c416",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "grams",
+            "value": "5"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-008",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d750808313035fa5afe099129d283bd97da363f751c49be2df225e6f40d5e747",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "milligrams",
+            "value": "120"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-009",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "a788111dd35bb13d3ab8581ee5a5e238205ef502193e2bab42daa15350fc354d",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "speed",
+            "unit": "rpm",
+            "value": "1500"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-010",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 3,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "57ac7028b9092d6c18b6110075e42796c4f7999d32f87aa8dba054d6497c4022",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "concentration",
+            "unit": "percent",
+            "value": "70"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-011",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "78289ecfd92716423b0c3936978c16b254830c6d6e103f134d4555230e18e1e6",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "incubation time",
+            "unit": "minutes",
+            "value": "30"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-012",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d23f45e25aab7956de481231fc5a861021aa737367d246b14afb27efd74fc197",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "kilograms",
+            "value": "0.75"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-013",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "099e91f4ceca017355a20325977cc8d9d02face560f64c331a5ca25deb1458ce",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees celsius",
+            "value": "-20"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-014",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "533d9214dfa8988c3ed49c6b77460d8616af8c2e51b5267cb2ba6846f4db629d",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "liters",
+            "value": "2"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-015",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c73bdb2b739a6df00d8935c4677e12a5e7ab21ff887ffd4e7b5fc1c16600f9ba",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the solution is clear"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-016",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "63b1a769254fd5d6179b1d4ea83ef1f0b01965b080dfea1978b24101962cdf63",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "precipitate formed at the bottom"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-017",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9ed6b9c09f16b6cc36b344c67b0a478c0ea77ead9c247279a5c09dea2bbccff9",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the mixture turned pale yellow"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-018",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "95c485d8bf9e89c5fd77209ed67ee886f356cfb286eb4c1a1d105c0e0c4441e7",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "no bubbles are visible"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-019",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "ef185057426f06127702b1e709cca23069abe46a2d2fbd367c2d2765c3b7b6b0",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the pellet resuspended fully"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-020",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c50265ee6ad4b53141662c4903bcf08d2e76da16472c43a2c6050c4ce23ae2ff",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "slight cloudiness after mixing"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-021",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "10486ac838c2ed21928cbd0c3e93242605d792510df7a516c5038809574ed9f0",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "300"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-022",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d2c6bf64e0759c3ef4f7de66a94407b0e52e223ab2c775cb2a4865ba26455ea4",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "90"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-023",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f1d7c0b33440bc0d8f2a25bc84df26c7f222943c44401f96f691280603b470d7",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "7200"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-024",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f208353c4251be30d21e13884fdba6b54d27fe5102902bf6a79f262817704d95",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "45"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-025",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9a94c3c1fedf835b91bb68f1c4f583e02a6e28a185d9f68e12463b0d82e79d68",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "600"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-026",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6f27d61ef2ca3fcb7569031d4d93ca32e33a60bf4a7d48ea36d3511b5fb77e94",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-027",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "3d59ee1ecd6391e5124492dd3e00eb06049a8434fcba0ca28072c5fbbfd3cb24",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-028",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e314d4cc138f9498e4b813e87ac4ebac9cf68fa0df089b32e09ad22a6d345028",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_NEXT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-029",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "298a9207a732a11d42bba41239147e22ace14e6cbddb5bb022abd814e3e47472",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_NEXT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-030",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d3da88dcf2eeeed5e2e209da692af86b1fe229680c1bd4b3a81762a0e0113d5a",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "REPEAT_INSTRUCTION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-031",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "25e2b6b106523880e27763084ffa6a0756335be0d7106022535365b9ad39b4b1",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "REPEAT_INSTRUCTION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-032",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6210c0bf05396716df932f0729df69de0533933e5ad9871fd07b61811c4c28df",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-033",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2e28172c3aef80d1535b0ae4d1fd6949c0a8f0a37a60f5b2e0295399910c7939",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-034",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "a83a31320d921b888a48fa5edd0b4b5a29984de6e96bf7b8ac7d29ba06caf616",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RESUME_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-035",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2ed9c8dd92beb0a53a5493ed3a0310fdd9689a8d355c90e93fbb1a65f6786672",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "COMPLETE_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-036",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "ee933adf9c1be03c33084e78a06740910f857790a0c8d9c6d1ec5d89f209c4ed",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "COMPLETE_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-037",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2e8372c40ea632b5f938fadb77f841b4ceffc3e891cfd4b045dc26219b8f6c26",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "VERIFY_REAGENT",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-038",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "11a2a7d398268231f3b97a3580b315f72b4c52fe55a6212021ffbf771175905f",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "VERIFY_REAGENT",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-039",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "317c6b9a3c29dd942ec45e137ffa952440fcc859abf4c6c636e3f67af0bc05f9",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-040",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "7f83c630de5d8fcb284ab02e3c9fd4526ac7332983c5c75b76c6cef5158f1c85",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "END_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-041",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "106a5842fc5fce6f663176285ed1516dbb1e3d15c05abab12fdca46d60b539b7",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "HELP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-042",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "648624083650010bc63094b5a9996a4c5ec34dc8dab529a44bef55b32c3325b9",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-043",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "ce6d16632336fca8df35bafc10f49a5de31ad0f6d7010cb446fc8d18e7e2cf30",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "COMPLETE_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-044",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9e63d3c216ffc4efb926ff5ce326d9850612ee9b5e7c3f42ff95720caa584e5f",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-045",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "d9d2461b56d328d1784ee8ba0c0379234ecb5c7911b6df8c1dbf14f18506b44e",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-046",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "4d4ae837aee39919cbf3648dd87bfd37bb156bc5b857d81305eea79860a66918",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-047",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "ad9a45d820e869b07f50dfad11777dd39664b8c91397250b7cd5d25f43627a10",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-048",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "b216a921a731fe3a910a851000b0a92e2962a1aaf446302ce24b2ab443bebfd3",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-049",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "f16fc4cdb012d11165fb4eb2f6e899a80d5e735c0ce5a7473a22a219673b6b56",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-050",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "bead11588ac2eba763c01f46e117386b78f6a34a36d84905906a5b0acd1636d4",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-051",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "bb8f095cac6ef68dc02952cb8df7fe07656f91ca41beb164e865583e8a6ce40e",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-052",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "878cfb311b83f022eba81a70670d6663d42869ad5324d9cac25ae981d4dc69c4",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-053",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "85a8f333daae1eccbe19c42eb38dcc0d4525c4e2754cdbbbecf2d07fe983728f",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-054",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "c66fc9c493a3d0924e5ab67afe5ebe937a25b60ed85d046bb811691473bf40d3",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-055",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "498e275e63c4dfcffa4c95d774015992f32228fb7a3ae12bd8437033a5b6f3f3",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "-300"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-056",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "14f5b1d86b33a28491735afd56422d10d2d5c9898580bea21723ef59363fd549",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "gallons",
+            "value": "50"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-057",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "5346db1480abc5e588ada8f82622ed48879f74a5e01992301598effea2b8f069",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "stone",
+            "value": "3"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-058",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "3cbf0f60c536f82d7062b6094f92ca4da2987615e15e4abeabe78107c502934e",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "distance",
+            "unit": "furlongs",
+            "value": "5"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-059",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "b503457e83813be15b8b7cc4f48b35a80071c084a908c242d51a4f73ece4b4e3",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "milliliters",
+            "value": "9999999999999"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-060",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "831a8f0809f55eb90f2c2da2262a4b670f8099a756aabc877106c125748ab428",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "0"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-061",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "ddaa9a6d8515f52fed6cdd85b9abd27dd686185db5572cc75086712d5c3ebebd",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "720000"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-062",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "4693fe4f8a668c516a597afa5dfd7ffb51f56f7d8c34fe8571a8d33cc6285b30",
+        "intent_correct": 0,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees",
+            "value": "37"
+          }
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-063",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "18943768a6cacd6eb1cf6a61e40a6ef61b1fd83d88f49d48a6b18fec3b3d7f20",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-064",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d257723f84b8f2ec741739aace53fb6dad2ce359727db61bd27ce3284818ad9c",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-065",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6a30f8b5b379322f9edac2ef6eb9154c2e391eac5f228410433c5621506ab6f4",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-066",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "37e0c69ff78a8900dd0c1258269f1e342e42b3479edd77ad9ae23ac6bb599771",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-067",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "47f907c6299776fe0e97bffa235ffb5e64c3ad875fac921c13c09d336ae5c53e",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-068",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "617e622cf6c8cddfe96fee65856d202d76d16df7227f575841619d3afb873fc8",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-069",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "eb5c10fe18d9750934fedf2059ebfd1fccadce64217a583b783ff10959072c1a",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-070",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6abac8955d9f9bada1715a4136d95f47989ecfddeed0da9afccb4bc00aa2abf9",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-071",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "8e910783236e18911afbcdea432a0587d373a63c8456a8c1f5143fa1937f3751",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-072",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "dca0bbabd5c25cc1c84a4f48fb1bac8af66f90a6917a69806567a8f94bb01f58",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-073",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "multi_command",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f6b23154bb6d5d6c07f0e41aac53bbaa69c2b813d4f3db607e9b7a24a6390dd4",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "multiple commands"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-074",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "multi_command",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "02b9712606548ea8ec20e1ad3bdaff0d0aaba484c197c56a0208fabbc2a4fe3d",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "multiple commands"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-075",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "multi_command",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c8211b18baf3fe7bb23848dfafd54409695341cf53ae2775eaac3a95eaeb3617",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "multiple commands"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-076",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "b0bf5c572f539b6d98e63e6a2604db72e99c5001a8535d5ab68b0a063ce0a044",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-077",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "cad47d46ab858f7edd139ce120204066dc300b149d15eccf8332175c2c741c40",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-078",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9be0ac0be85badb9523599756d936369d9079be078b97f7f64e392ccf1ab9d3d",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-079",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "70ce871f8a3d3fb449bc3c3ace6547cef02dfc74ffe48d912532a724bfdbe5b9",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-080",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "intent_correct": 1,
+        "latency_ms": 0,
+        "prediction": {
+          "ambiguities": [
+            "unsupported command"
+          ],
+          "confidence": 0.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "runtime": "deterministic-rules"
+        },
+        "sample_id": "text-081",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      }
+    ],
+    "sample_count": 81
+  },
+  "created_at": "2026-09-01T12:52:23.214404+00:00",
+  "dataset": "research/data/manifests/text-commands.jsonl",
+  "dataset_sha256": "4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f",
+  "eligible_claims": [
+    "interpreter performance on the frozen synthetic text benchmark",
+    "component outcomes on identical authored cases"
+  ],
+  "environment": {
+    "commit": "1399c89a496bc4e7c6075dd2ef82e60d48e09e69",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "working_tree_dirty": true
+  },
+  "evidence_class": "synthetic_post_review",
+  "prohibited_claims": [
+    "real operator performance",
+    "real laboratory safety",
+    "real speech or image performance"
+  ],
+  "schema_version": 1
+}

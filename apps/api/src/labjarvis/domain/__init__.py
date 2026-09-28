@@ -1,0 +1,1 @@
+"""Deterministic LabJarvis domain rules."""

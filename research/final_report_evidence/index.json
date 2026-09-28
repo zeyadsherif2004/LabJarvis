@@ -1,0 +1,217 @@
+[
+  {
+    "file": "defence-in-depth/defence-in-depth.json",
+    "sha256": "2d1a2fd061117b3362555e5dba7c3b712c756cf63b2384596dc631fea2569f80",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "defence-in-depth/defence-in-depth.md",
+    "sha256": "105a0503f6eb77d19c721775871a3e9676715a6df75050e790c4c2d414f0a44b",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "defence-in-depth/fig-defence-in-depth.pdf",
+    "sha256": "5119b2fc8d205025d6bf393b61b3955ac1b376a351764b389a6a2d39070b4d1f",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "defence-in-depth/fig-defence-in-depth.png",
+    "sha256": "099c4f7919633eb626902bec6adecbd13cfc694436f01754a53ff421cba4a89e",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "devices/device-benchmark.json",
+    "sha256": "40637583064fd0e6089a61be5f0fefcf909557cab4c5f5e1fb0c69ae8fab2894",
+    "evidence_class": "real device latency; synthetic inputs"
+  },
+  {
+    "file": "grounding/fig-grounding-risk-coverage.pdf",
+    "sha256": "552b4fb8535d772d150c5cf78e9027ab862473333a5305e74b044d6f67c1f570",
+    "evidence_class": "public protocol text (CC BY-SA/CC BY) + authored questions"
+  },
+  {
+    "file": "grounding/fig-grounding-risk-coverage.png",
+    "sha256": "c015f87b76e7c721c50bc5f05d0325d5647794cfe1ab55f492ab9dd35ac721cf",
+    "evidence_class": "public protocol text (CC BY-SA/CC BY) + authored questions"
+  },
+  {
+    "file": "grounding/grounding-results.json",
+    "sha256": "3f2da3fb8686b6364a29321a4f24cb20aeeae3fb06ca116ee229e5b65fa67029",
+    "evidence_class": "public protocol text (CC BY-SA/CC BY) + authored questions"
+  },
+  {
+    "file": "hands-free/grammar-v2-compatibility.json",
+    "sha256": "99dac4d0d761128c84cf9ea16e52934feb566724d3f94cd2577224ff67d0baae",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text (grammar only)"
+  },
+  {
+    "file": "hands-free/hands-free-evaluation.json",
+    "sha256": "3a008f3c7140777a7110ef9f87fc1fbc7eb7c168cfbcfa12d40f47ca9b4da6cc",
+    "evidence_class": "real local models on synthetic inputs (2 TTS voices; Whisper small.en + base.en, grammar v2 + qwen2.5:3b, EasyOCR on rendered labels)"
+  },
+  {
+    "file": "hands-free/hands-free-evaluation.md",
+    "sha256": "9a6ec917d29a1c2ab9b2c89f08e291897d5318989aa0c991d6e9b0f25b1cb8c0",
+    "evidence_class": "summary by evidence class (fake; real local models on synthetic inputs)"
+  },
+  {
+    "file": "hands-free/live-scan-simulation-v2.json",
+    "sha256": "7a5ab74a1573075e46e5bf9bbd9571f817c09ec59e742c11d5ff73645c8f2335",
+    "evidence_class": "synthetic"
+  },
+  {
+    "file": "hands-free/live-scan-simulation-v3.json",
+    "sha256": "b0c0ba7daac9b87afbab0be592bdc69201a2161db98f2d5369c7b47d97d9a60b",
+    "evidence_class": "synthetic"
+  },
+  {
+    "file": "hands-free/live-scan-simulation.json",
+    "sha256": "03083a82f98d5d7465ff3467b8ded0b504c2d818cab1e8b2aec7503e32a2b7fc",
+    "evidence_class": "synthetic"
+  },
+  {
+    "file": "hands-free/multiframe-ablation.json",
+    "sha256": "be7298c39ed3753912ef0b24fb19113a440834c565f65258aeacf3160e244f73",
+    "evidence_class": "synthetic"
+  },
+  {
+    "file": "hands-free/multiframe-ablation.md",
+    "sha256": "239cb2046b5bb78a3d3216b89212dc114f9458bc8b2dacb10f31045102f29159",
+    "evidence_class": "synthetic"
+  },
+  {
+    "file": "hands-free/voice-only-confirmation.json",
+    "sha256": "b480c8c7fab48856f7ab6bf9d7f70e1f5a67ff51e19796bc115d14da7d786632",
+    "evidence_class": "real local models on synthetic inputs (2 TTS voices; Whisper small.en + base.en)"
+  },
+  {
+    "file": "hands-free/wake-evaluation.json",
+    "sha256": "d3c18277069297da826bc28b803e393dc83e50e63645f7b7d3f501551c967433",
+    "evidence_class": "synthetic"
+  },
+  {
+    "file": "hands-free/zero-touch-e2e.json",
+    "sha256": "c987feb16c47afb0ec2227dc0439abcb7c64bf2670c7c22a1be8315f7d53c25c",
+    "evidence_class": "fake/fixture (deterministic FAKE: speech, Playwright)"
+  },
+  {
+    "file": "latency/fig-latency-waterfall.pdf",
+    "sha256": "391634841ffbcbd047b78b5bbb1607c6023b0a2cd90350d5343832477da787d5",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "latency/fig-latency-waterfall.png",
+    "sha256": "d69fb4310fc48d1fc5cf3e5f829bf40fcba69977005c603bffef0fccd2b8ca7a",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "latency/latency-waterfall.json",
+    "sha256": "d8dbb087d4efbeef6b5e00636d3f2cd46041155a6ef92f27b8bd458ce8c2b50b",
+    "evidence_class": "see file"
+  },
+  {
+    "file": "live/d8-chain.json",
+    "sha256": "689253d9def2e902e03047e3d8e4258fc22a7128128cb12d4522401ecb3ef9df",
+    "evidence_class": "live hosted + local models on synthetic speech and rendered labels"
+  },
+  {
+    "file": "live/d8-vision.json",
+    "sha256": "5419ccb314ab72c98a9e1b305936860e5f80522454c04addb0d92128000d58ec",
+    "evidence_class": "PROVISIONAL: live hosted vision on synthetic rendered labels"
+  },
+  {
+    "file": "live/hosted-smoke-glm-text.json",
+    "sha256": "0c2f7f6ac45091a6b4a209441a89db79c3b6190201a50b1a6df3dd3f8bebae3f",
+    "evidence_class": "live hosted (paid, capped ledger)"
+  },
+  {
+    "file": "live/hosted-smoke.json",
+    "sha256": "2ab0f5cda97025486fae4a9776c26e4d3ca68c1969230ea060f638c77b399b22",
+    "evidence_class": "live hosted (paid, capped ledger)"
+  },
+  {
+    "file": "live/hosted-spend-ledger.json",
+    "sha256": "9e303e1e191d6be6b532a037d1d18cbb922e345ecc795781e318e13f9869a1e4",
+    "evidence_class": "live hosted (paid, capped ledger)"
+  },
+  {
+    "file": "model-selection/d7-luna-vs-terra.json",
+    "sha256": "533e72911ad07a083c54827e486cf6a765da53338483654870d78b8af49e5d7f",
+    "evidence_class": "public human-written text (held-out A), live hosted"
+  },
+  {
+    "file": "model-selection/fig-category-accuracy.pdf",
+    "sha256": "8c380e758b9c947275cb98e42b698b4a59228a68aa69140ca5a6cc9737c81208",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/fig-category-accuracy.png",
+    "sha256": "1c0ec77fc3f0d89ea4d11ff025f148d619e7956d2d8bbc2a86c19eb72d8a8e75",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/fig-latency.pdf",
+    "sha256": "00aa30c298e709a7fba219721d08af15e95e4b77aa2953cd828d11f6bbf9483e",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/fig-latency.png",
+    "sha256": "138265b4840b15e2050c2692463187bebe93233c3ee79d4682fe0482b402456b",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/fig-risk-coverage.pdf",
+    "sha256": "16df8f1f32656e4c57add6c037c762c6b5df53b85dd350b248ad1d1c74d86837",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/fig-risk-coverage.png",
+    "sha256": "e273870743c776c460edf831738e6b9ee1e53cf432ae3d7d67eaca6fec77f93d",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/model-selection-table.md",
+    "sha256": "d745e0f9936685c08851115852ce486697ade49521b8fed6b6cbfbe112809bfe",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "model-selection/model-selection.csv",
+    "sha256": "b64fffea3b3029830661e115a91140518848cc23b80bcac04bba2ee45dc6abcb",
+    "evidence_class": "benchmark: synthetic authored; held-out: public human-written text"
+  },
+  {
+    "file": "real-chain/chain-demo.json",
+    "sha256": "83ab265e168e7450e7c1382bdeeb5216822adc9adc7f24bdaaaa996dbf89eb79",
+    "evidence_class": "real local models; synthetic TTS speech and rendered labels"
+  },
+  {
+    "file": "real-world/session-2026-09-28-metrics.json",
+    "sha256": "b3195a97dd99d7fa54e5bb663afc667a1176cf2612e25560f0515f2870978e5c",
+    "evidence_class": "real world: one operator (the developer), own voice, microphone, webcam and handwritten label; hosted speech; build changed during the session"
+  },
+  {
+    "file": "real-world/session-2026-09-28-saline.csv",
+    "sha256": "c5c9179c51a414bb09a6f3bfd849dc3c369f46287aede86174cfa4ea4ef45285",
+    "evidence_class": "real world: one operator (the developer), own voice, microphone, webcam and handwritten label; hosted speech; build changed during the session"
+  },
+  {
+    "file": "real-world/session-2026-09-28-saline.json",
+    "sha256": "b2d1f008c8236dda82a06171a7bc3dd3e2adbdf8b3e41815acadcc57093f0a8d",
+    "evidence_class": "real world: one operator (the developer), own voice, microphone, webcam and handwritten label; hosted speech; build changed during the session"
+  },
+  {
+    "file": "real-world/session-2026-09-28-saline.md",
+    "sha256": "a2b0b41ebdff03b76c54310d01a55930b3f027cbef1e1dc763b9ee4dea6998da",
+    "evidence_class": "real world: one operator (the developer), own voice, microphone, webcam and handwritten label; hosted speech; build changed during the session"
+  },
+  {
+    "file": "speech/asr-conditioning-and-crosscheck.json",
+    "sha256": "8bcdbf5490d489b079d5fc9937e1cc8f9d1ee79762fc951d20aab061bdc5b0e0",
+    "evidence_class": "synthetic TTS speech"
+  },
+  {
+    "file": "verification/property-1000.json",
+    "sha256": "5d0aae5d0c0483204356603c3be5d854fec776cec2bc286d69bcc451f0837de3",
+    "evidence_class": "fake/fixture (Hypothesis stateful, fake adapters)"
+  }
+]

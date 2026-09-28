@@ -1,0 +1,516 @@
+{
+  "source_export": "session-2026-09-28-saline.json",
+  "export_schema": "labjarvis.session 2.0",
+  "exported_at": "2026-09-28T04:31:20.519353+00:00",
+  "application_commit": null,
+  "protocol": {
+    "title": "LabJarvis Test Protocol - Saline Preparation",
+    "approved_at": "2026-09-28T00:12:18.471199+00:00",
+    "review_revisions": 4,
+    "steps": 8
+  },
+  "session": {
+    "state": "COMPLETED",
+    "created_at": "2026-09-28T00:12:18.471199+00:00",
+    "started_at": "2026-09-28T00:19:00.783224+00:00",
+    "ended_at": "2026-09-28T04:30:35.511859+00:00",
+    "wall_clock_minutes": 258.3,
+    "idle_gaps_over_10_min": [
+      {
+        "from": "2026-09-28T00:32:50.131276+00:00",
+        "to": "2026-09-28T00:47:28.214072+00:00",
+        "minutes": 14.6
+      },
+      {
+        "from": "2026-09-28T00:52:44.180286+00:00",
+        "to": "2026-09-28T02:04:50.795802+00:00",
+        "minutes": 72.1
+      },
+      {
+        "from": "2026-09-28T02:08:10.851520+00:00",
+        "to": "2026-09-28T03:07:13.213880+00:00",
+        "minutes": 59.0
+      },
+      {
+        "from": "2026-09-28T03:11:57.520517+00:00",
+        "to": "2026-09-28T03:37:20.440575+00:00",
+        "minutes": 25.4
+      },
+      {
+        "from": "2026-09-28T03:49:39.007591+00:00",
+        "to": "2026-09-28T04:13:11.206535+00:00",
+        "minutes": 23.5
+      }
+    ],
+    "minutes_excluding_idle_gaps": 63.7
+  },
+  "steps": [
+    {
+      "number": 1,
+      "instruction": "Wipe the bench with 70% ethanol and let it dry for 1 minute.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 4.0
+    },
+    {
+      "number": 2,
+      "instruction": "Add 100 mL distilled water to a clean 250 mL beaker.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 3.2
+    },
+    {
+      "number": 3,
+      "instruction": "Add 2 g sodium chloride to the water.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 191.9
+    },
+    {
+      "number": 4,
+      "instruction": "Stir the solution for 2 minutes.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 0.9
+    },
+    {
+      "number": 5,
+      "instruction": "Measure the temperature of the solution with the thermometer and record it.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 44.7
+    },
+    {
+      "number": 6,
+      "instruction": "Leave the beaker to settle for 3 minutes.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 4.1
+    },
+    {
+      "number": 7,
+      "instruction": "Record an observation describing whether the solution is clear or cloudy.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 1.8
+    },
+    {
+      "number": 8,
+      "instruction": "Label the beaker with the date and your initials and store it at room temperature.",
+      "state": "COMPLETED",
+      "minutes_in_progress": 1.0
+    }
+  ],
+  "notebook_entry_types": {
+    "command_proposal": 18,
+    "session_action": 11,
+    "spoken_confirmation_confirm": 14,
+    "grounded_guidance": 28,
+    "timer": 1,
+    "transcript_conflict": 9,
+    "reagent_verification_proposal": 5,
+    "reagent_verification_confirmation": 5,
+    "command_rejected": 3,
+    "spoken_confirmation_ambiguous": 16,
+    "spoken_confirmation_reject": 3,
+    "measurement": 1,
+    "correction": 1,
+    "observation": 1
+  },
+  "utterances": {
+    "total": 60,
+    "by_purpose": {
+      "confirmation": 33,
+      "command": 27
+    },
+    "agreement": {
+      "equivalent": 6,
+      "identical": 32,
+      "conflict": 22
+    },
+    "confirmation_decisions": {
+      "confirm": 14,
+      "ambiguous": 16,
+      "reject": 3
+    },
+    "verification_models": {
+      "confirmation / gpt-4o-transcribe": 25,
+      "command / gpt-4o-transcribe": 17,
+      "command / gpt-4o-mini-transcribe": 10,
+      "confirmation / gpt-4o-mini-transcribe": 8
+    },
+    "conflict_causes": {
+      "phonetic or non-English spelling in one transcription": 7,
+      "different words heard": 3,
+      "number written as words in one transcription and digits in the other": 11,
+      "non-Latin script or diacritic in one transcription": 1
+    },
+    "conflicts": [
+      {
+        "at": "2026-09-28T00:23:44.677936+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, complete step.",
+        "verification": "Jarvis, komplet step",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T00:24:04.395216+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, complete step.",
+        "verification": "Jarvis, komplet step.",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T00:24:26.746758+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, complete step.",
+        "verification": "Jarvis, komplet sta.",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T00:25:15.475847+00:00",
+        "purpose": "command",
+        "primary": "Jarvis completes step, Jarvis confirms step two.",
+        "verification": "Jarvis confirm step two",
+        "cause": "different words heard"
+      },
+      {
+        "at": "2026-09-28T03:37:20.436745+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, complete step.",
+        "verification": "Jarvis, kompliet step.",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T03:37:38.000273+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, complete step.",
+        "verification": "Jarvis, komplitt step.",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T03:39:16.732746+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, record the temperature.",
+        "verification": "Jarvis, rekord the temperature.",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T03:40:14.799229+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-five degrees Celsius.",
+        "verification": "Jarvis, confirm 25 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:40:37.922372+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:41:25.063303+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:41:51.837437+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:43:16.550539+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:43:44.229343+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:44:08.819448+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:45:37.349038+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, conferm 21 gradi Celsius.",
+        "cause": "phonetic or non-English spelling in one transcription"
+      },
+      {
+        "at": "2026-09-28T03:46:24.068899+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, record the temperature as twenty-one degrees Celsius.",
+        "verification": "Jarvis, record the temperature as 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:47:06.720407+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:47:34.061638+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, reject.",
+        "verification": "Žarvis, reject.",
+        "cause": "different words heard"
+      },
+      {
+        "at": "2026-09-28T03:48:41.081250+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T03:49:12.626967+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis Kusumnik",
+        "verification": "Jarvis Gusomnik",
+        "cause": "different words heard"
+      },
+      {
+        "at": "2026-09-28T03:49:39.006079+00:00",
+        "purpose": "confirmation",
+        "primary": "Jarvis, confirm twenty-one degrees Celsius.",
+        "verification": "Jarvis, confirm 21 degrees Celsius.",
+        "cause": "number written as words in one transcription and digits in the other"
+      },
+      {
+        "at": "2026-09-28T04:19:10.579430+00:00",
+        "purpose": "command",
+        "primary": "Jarvis, what did I just record?",
+        "verification": "جارفيس، what did I just record?",
+        "cause": "non-Latin script or diacritic in one transcription"
+      }
+    ]
+  },
+  "proposals": {
+    "COMPLETE_STEP ACCEPTED": 8,
+    "CORRECT_PREVIOUS_ENTRY ACCEPTED": 1,
+    "PAUSE_SESSION ACCEPTED": 1,
+    "RECORD_MEASUREMENT ACCEPTED": 1,
+    "RECORD_MEASUREMENT REJECTED": 2,
+    "RECORD_OBSERVATION ACCEPTED": 1,
+    "RESUME_SESSION ACCEPTED": 1,
+    "SET_TIMER ACCEPTED": 1,
+    "SKIP_STEP_WITH_REASON REJECTED": 1,
+    "START_SESSION ACCEPTED": 1
+  },
+  "measurement_confirmation": {
+    "proposals": 3,
+    "spoken_confirmation_attempts": 19,
+    "attempt_decisions": {
+      "ambiguous": 16,
+      "reject": 2,
+      "confirm": 1
+    },
+    "first_proposed_at": "2026-09-28T03:39:53.024867+00:00",
+    "committed_at": "2026-09-28T04:13:11.206535+00:00",
+    "minutes_from_first_proposal_to_commit": 33.3
+  },
+  "guidance_by_intent": {
+    "GET_CURRENT_STEP": 1,
+    "GET_NEXT_STEP": 1,
+    "HELP": 1,
+    "GET_ACTIVE_TIMERS": 1,
+    "GET_EXPECTED_REAGENTS": 1,
+    "ANSWER_PROTOCOL_QUESTION": 2,
+    "REPEAT_INSTRUCTION": 1,
+    "VERIFY_REAGENT": 18,
+    "READ_LAST_ENTRY": 1,
+    "GET_PROTOCOL_STATE": 1
+  },
+  "protocol_questions": [
+    {
+      "question": "Jarvis, how much sodium chloride do I add?",
+      "answer": "Step 3 says: Add 2 g sodium chloride to the water."
+    },
+    {
+      "question": "Jarvis, how long do I stir the solution?",
+      "answer": "Step 4 says: Stir the solution for 2 minutes."
+    }
+  ],
+  "refused_commands": [
+    {
+      "said": "Jarvis, record the temperature.",
+      "response": "I could not map that to one supported action (command is incomplete). No change was made."
+    },
+    {
+      "said": "Jarvis, correct the last measurement to twenty-two degrees Celsius.",
+      "response": "Say the new value, for example: correct the last measurement to 12 millilitres. Nothing was changed."
+    },
+    {
+      "said": "Jarvis, skip this step.",
+      "response": "Say why the step is being skipped, for example: skip this step because the reagent is unavailable. Nothing was recorded."
+    }
+  ],
+  "reagent_verifications": [
+    {
+      "at": "2026-09-28T00:48:09.783615+00:00",
+      "observed": "Sodium Chlofid €",
+      "outcome": "MISMATCH",
+      "score": 89.66,
+      "threshold": 92.0,
+      "decision": "REJECTED",
+      "reader": "english_g2"
+    },
+    {
+      "at": "2026-09-28T02:05:00.458388+00:00",
+      "observed": "SoovM CHLo RIOE'",
+      "outcome": "MISMATCH",
+      "score": 73.33,
+      "threshold": 92.0,
+      "decision": "REJECTED",
+      "reader": "english_g2"
+    },
+    {
+      "at": "2026-09-28T02:06:23.966719+00:00",
+      "observed": "SooruM CHLo RIOE",
+      "outcome": "MISMATCH",
+      "score": 77.42,
+      "threshold": 92.0,
+      "decision": "REJECTED",
+      "reader": "english_g2"
+    },
+    {
+      "at": "2026-09-28T03:07:23.554843+00:00",
+      "observed": "SODIUM\nCHLORIDE",
+      "outcome": "MATCH",
+      "score": 100.0,
+      "threshold": 92.0,
+      "decision": "CONFIRMED",
+      "reader": "gpt-5.4-nano"
+    },
+    {
+      "at": "2026-09-28T03:11:38.924829+00:00",
+      "observed": "Suc t i a",
+      "outcome": "MISMATCH",
+      "score": 33.33,
+      "threshold": 92.0,
+      "decision": "REJECTED",
+      "reader": "gpt-5.4-nano"
+    }
+  ],
+  "reagent_capture": {
+    "modes": {
+      "live_scan": 3,
+      "single": 2
+    },
+    "live_scan_rules_seen": [
+      "stable-asymmetric-v3",
+      "stable-consecutive-v1"
+    ]
+  },
+  "timers": [
+    {
+      "seconds": 60,
+      "state": "ELAPSED",
+      "started": "2026-09-28T00:21:06.306375+00:00",
+      "deadline": "2026-09-28T00:22:06.306375+00:00"
+    }
+  ],
+  "timer_alarm": {
+    "elapsed_at": "2026-09-28T00:22:07.683666+00:00",
+    "silenced_at": "2026-09-28T00:22:19.366123+00:00",
+    "seconds_to_silence": 11.7
+  },
+  "committed_records": [
+    {
+      "type": "timer",
+      "payload": {}
+    },
+    {
+      "type": "measurement",
+      "payload": {
+        "kind": "temperature",
+        "unit": "degC",
+        "value": "21"
+      }
+    },
+    {
+      "type": "correction",
+      "payload": {
+        "kind": "temperature",
+        "old_value": "21",
+        "unit": "degC",
+        "value": "22"
+      }
+    },
+    {
+      "type": "observation",
+      "payload": {
+        "observation": "the solution is clear and colorless"
+      }
+    }
+  ],
+  "inference_latency": {
+    "speech / gpt-4o-mini-transcribe": {
+      "n": 58,
+      "median_ms": 988.5,
+      "max_ms": 2099
+    },
+    "speech_confirmation / gpt-4o-mini-transcribe": {
+      "n": 42,
+      "median_ms": 955.0,
+      "max_ms": 1463
+    },
+    "speech_confirmation_verification / gpt-4o-mini-transcribe": {
+      "n": 8,
+      "median_ms": 754.5,
+      "max_ms": 956
+    },
+    "speech_confirmation_verification / gpt-4o-transcribe": {
+      "n": 34,
+      "median_ms": 750.5,
+      "max_ms": 1351
+    },
+    "speech_verification / gpt-4o-mini-transcribe": {
+      "n": 10,
+      "median_ms": 861.5,
+      "max_ms": 1955
+    },
+    "speech_verification / gpt-4o-transcribe": {
+      "n": 17,
+      "median_ms": 787,
+      "max_ms": 1167
+    },
+    "text / rule-grammar-v2+deepseek-flash / llm": {
+      "n": 6,
+      "median_ms": 852.0,
+      "max_ms": 988
+    },
+    "text / rule-grammar-v2+deepseek-flash / rule": {
+      "n": 43,
+      "median_ms": 0,
+      "max_ms": 2
+    },
+    "vision / english_g2": {
+      "n": 9,
+      "median_ms": 82,
+      "max_ms": 210
+    },
+    "vision / gpt-5.4-nano": {
+      "n": 2,
+      "median_ms": 1390.0,
+      "max_ms": 1468
+    }
+  },
+  "inference_failures": {
+    "speech INFERENCE_TIMEOUT": 2,
+    "speech MODEL_UNAVAILABLE": 2,
+    "speech MODEL_OUTPUT_INVALID": 3,
+    "speech_confirmation MODEL_OUTPUT_INVALID": 1
+  },
+  "inference_total": 237
+}

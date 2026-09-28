@@ -1,0 +1,50 @@
+{"id": "dev-01", "split": "dev", "source_id": "transformation-2018", "question": "At what temperature is the heat shock performed?", "expected_supported": true, "expected_contains": "42 C"}
+{"id": "dev-02", "split": "dev", "source_id": "transformation-2018", "question": "How long is the recovery incubation?", "expected_supported": true, "expected_contains": "one hour"}
+{"id": "dev-03", "split": "dev", "source_id": "transformation-2018", "question": "What antibiotic concentration should be used?", "expected_supported": false, "expected_contains": ""}
+{"id": "dev-04", "split": "dev", "source_id": "platero-2023", "question": "What volume of stock is used for the starting dilution?", "expected_supported": true, "expected_contains": "250 uL"}
+{"id": "dev-05", "split": "dev", "source_id": "platero-2023", "question": "How many gain settings are measured?", "expected_supported": true, "expected_contains": "four gain settings"}
+{"id": "dev-06", "split": "dev", "source_id": "platero-2023", "question": "What is the storage temperature of the fluorescein stock?", "expected_supported": false, "expected_contains": ""}
+{"id": "dev-07", "split": "dev", "source_id": "distance-probes-2025", "question": "Which software is used to open the reference stack?", "expected_supported": true, "expected_contains": "FIJI/ImageJ"}
+{"id": "dev-08", "split": "dev", "source_id": "distance-probes-2025", "question": "Which operation combines random points with allowable locations?", "expected_supported": true, "expected_contains": "AND"}
+{"id": "dev-09", "split": "dev", "source_id": "distance-probes-2025", "question": "Which microscope objective should be used?", "expected_supported": false, "expected_contains": ""}
+{"id": "dev-10", "split": "dev", "source_id": "transformation-2018", "question": "How long is the DNA incubated on ice?", "expected_supported": true, "expected_contains": "30 minutes"}
+{"id": "dev-11", "split": "dev", "source_id": "transformation-2018", "question": "What volume of LB medium is added?", "expected_supported": true, "expected_contains": "700 uL"}
+{"id": "dev-12", "split": "dev", "source_id": "transformation-2018", "question": "How many plates should I spread the cells on?", "expected_supported": false, "expected_contains": ""}
+{"id": "dev-13", "split": "dev", "source_id": "platero-2023", "question": "How many times are the measurements repeated?", "expected_supported": true, "expected_contains": "eight times"}
+{"id": "dev-14", "split": "dev", "source_id": "platero-2023", "question": "How much volume goes into each well?", "expected_supported": true, "expected_contains": "100 uL"}
+{"id": "dev-15", "split": "dev", "source_id": "platero-2023", "question": "What excitation wavelength should I use?", "expected_supported": false, "expected_contains": ""}
+{"id": "dev-16", "split": "dev", "source_id": "distance-probes-2025", "question": "Which software opens the TIFF stack?", "expected_supported": true, "expected_contains": "FIJI"}
+{"id": "dev-17", "split": "dev", "source_id": "distance-probes-2025", "question": "How are the random points combined with the allowable locations?", "expected_supported": true, "expected_contains": "AND"}
+{"id": "dev-18", "split": "dev", "source_id": "distance-probes-2025", "question": "What voxel size should I use?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-19", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "How long should I microwave the agarose?", "expected_supported": true, "expected_contains": "90 seconds"}
+{"id": "test-20", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "How long does the poured gel need to cool?", "expected_supported": true, "expected_contains": "30 minutes"}
+{"id": "test-21", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "What volume makes a good gel for a 7x10cm gelbox?", "expected_supported": true, "expected_contains": "50mL"}
+{"id": "test-22", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "What do I seal the gel box edges with?", "expected_supported": true, "expected_contains": "masking tape"}
+{"id": "test-23", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "When do I add the DNA stain?", "expected_supported": true, "expected_contains": "DNA stain"}
+{"id": "test-24", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "How long should the gel run?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-25", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "What ladder concentration should I load?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-26", "split": "test", "source_id": "oww-agarose-gel-electrophoresis", "question": "Which imager exposure setting should I use?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-27", "split": "test", "source_id": "oww-lb", "question": "At what temperature should the plates be kept?", "expected_supported": true, "expected_contains": "4°C"}
+{"id": "test-28", "split": "test", "source_id": "oww-lb", "question": "How long do the plates need to solidify?", "expected_supported": true, "expected_contains": "about 1 h"}
+{"id": "test-29", "split": "test", "source_id": "oww-lb", "question": "What temperature should the media cool to before adding antibiotic?", "expected_supported": true, "expected_contains": "60-55C"}
+{"id": "test-30", "split": "test", "source_id": "oww-lb", "question": "What size flask should the medium be poured into?", "expected_supported": true, "expected_contains": "2 L flask"}
+{"id": "test-31", "split": "test", "source_id": "oww-lb", "question": "Which autoclave cycle is used?", "expected_supported": true, "expected_contains": "liquid cycle"}
+{"id": "test-32", "split": "test", "source_id": "oww-lb", "question": "Which antibiotic concentration should I use?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-33", "split": "test", "source_id": "oww-lb", "question": "How many weeks can the plates be stored?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-34", "split": "test", "source_id": "oww-lb", "question": "What is the shelf life of the LB medium?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-35", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "How long do I spin the sample?", "expected_supported": true, "expected_contains": "30 minutes"}
+{"id": "test-36", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "At what temperature is the centrifugation done?", "expected_supported": true, "expected_contains": "4 degrees"}
+{"id": "test-37", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "How long should the pellet air dry?", "expected_supported": true, "expected_contains": "15 min"}
+{"id": "test-38", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "What do I do with the supernatant?", "expected_supported": true, "expected_contains": "Decant"}
+{"id": "test-39", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "How cold should the overnight freeze be?", "expected_supported": true, "expected_contains": "-20"}
+{"id": "test-40", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "What DNA yield should I expect?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-41", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "Which gel extraction kit should I use afterwards?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-42", "split": "test", "source_id": "oww-ethanol-precipitation-of-nucleic-acids", "question": "How should the precipitated DNA be quantified?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-43", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "What OD600 should the culture reach?", "expected_supported": true, "expected_contains": "0.2–0.5"}
+{"id": "test-44", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "How long do the falcon tubes stay on ice?", "expected_supported": true, "expected_contains": "10 min"}
+{"id": "test-45", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "How fast should I centrifuge the cells?", "expected_supported": true, "expected_contains": "3000 rpm"}
+{"id": "test-46", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "What volume should each aliquot be?", "expected_supported": true, "expected_contains": "100 µL"}
+{"id": "test-47", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "At what temperature are the aliquots stored?", "expected_supported": true, "expected_contains": "-80°C"}
+{"id": "test-48", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "How many transformants per microgram should I expect?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-49", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "What is the recipe for the TSS buffer?", "expected_supported": false, "expected_contains": ""}
+{"id": "test-50", "split": "test", "source_id": "oww-preparing-chemically-competent-cells", "question": "Which antibiotic plate is used for the positive control?", "expected_supported": false, "expected_contains": ""}

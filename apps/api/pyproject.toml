@@ -1,0 +1,84 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "labjarvis-api"
+version = "0.1.0"
+description = "Local-first multimodal laboratory protocol assistant API"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+  "alembic>=1.16,<2",
+  "fastapi>=0.116,<1",
+  "httpx>=0.28,<1",
+  "pydantic>=2.11,<3",
+  "pydantic-settings>=2.10,<3",
+  "psutil>=7.1,<8",
+  "pymupdf>=1.26,<2",
+  "python-docx>=1.2,<2",
+  "python-multipart>=0.0.20,<1",
+  "pyyaml>=6.0.2,<7",
+  "rapidfuzz>=3.13,<4",
+  "sqlalchemy>=2.0.41,<3",
+  "structlog>=25.4,<26",
+  "uvicorn[standard]>=0.35,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "hypothesis>=6.135,<7",
+  "mypy>=1.16,<2",
+  "pillow>=12,<13",
+  "pip-audit>=2.9,<3",
+  "pip-tools>=7.5,<8",
+  "pre-commit>=4.3,<5",
+  "psycopg[binary]>=3.2,<4",
+  "pytest>=9.0.3,<10",
+  "pytest-cov>=6.2,<7",
+  "ruff>=0.12,<1",
+  "testcontainers[postgres]>=4.10,<5",
+  "types-psutil>=7,<8",
+  "types-PyYAML>=6.0.12,<7",
+]
+models = [
+  "easyocr>=1.7.2,<2",
+  "faster-whisper>=1.2.1,<2",
+  "kokoro-onnx>=0.6.1,<0.7",
+]
+postgres = [
+  "psycopg[binary]>=3.2,<4",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/labjarvis"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-config --strict-markers -m 'not hosted_smoke'"
+testpaths = ["tests"]
+markers = [
+  "model: requires optional local model dependencies or services",
+  "hosted_smoke: makes real, paid hosted provider requests; opt-in only, never in CI",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["labjarvis"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["labjarvis"]
+warn_unused_configs = true

@@ -1,0 +1,4038 @@
+{
+ "evidence_class": "PROVISIONAL SYNTHETIC: rendered labels, simulated hand-held frames with a blurred lead-in; local EasyOCR",
+ "rule": {
+  "version": "stable-asymmetric-v3",
+  "required_consecutive": 3,
+  "interval_ms": 400,
+  "timeout_ms": 12000,
+  "max_frames": 30,
+  "lead_in_blurred_frames": 2
+ },
+ "gpu": true,
+ "summary": {
+  "three_frame": {
+   "n": 90,
+   "counts": {
+    "correct": 53,
+    "false_accept": 6,
+    "false_reject": 14,
+    "uncertain": 17
+   },
+   "false_accepts": 6,
+   "coverage_of_true_matches": 0.511,
+   "correct_mismatch_or_decoy": 30
+  },
+  "live_scan": {
+   "n": 90,
+   "counts": {
+    "correct": 64,
+    "false_accept": 6,
+    "false_reject": 14,
+    "timeout": 6
+   },
+   "false_accepts": 6,
+   "coverage_of_true_matches": 0.667,
+   "correct_mismatch_or_decoy": 34,
+   "stable": 84,
+   "timeouts": {
+    "unreadable": 5,
+    "unsteady": 1
+   },
+   "frames_to_stability_median": 5.0,
+   "frames_to_stability_p90": 7,
+   "simulated_seconds_to_stability_median": 2.0
+  },
+  "ocr_ms_per_probe_p50": 48.1,
+  "ocr_ms_per_probe_p95": 84.8
+ },
+ "items_whose_outcome_class_differs": [
+  {
+   "id": "label-005",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "printed": "ethanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-007",
+   "truth": "match",
+   "variant": "glare",
+   "printed": "ethanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-012",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "printed": "methanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH"
+  },
+  {
+   "id": "label-017",
+   "truth": "unreadable",
+   "variant": "clean",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT"
+  },
+  {
+   "id": "label-023",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "printed": "methanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-025",
+   "truth": "match",
+   "variant": "glare",
+   "printed": "methanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-030",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "printed": "ethanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH"
+  },
+  {
+   "id": "label-035",
+   "truth": "unreadable",
+   "variant": "clean",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT"
+  },
+  {
+   "id": "label-041",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "printed": "sodium chloride",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-053",
+   "truth": "unreadable",
+   "variant": "clean",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT"
+  },
+  {
+   "id": "label-054",
+   "truth": "match",
+   "variant": "blur8",
+   "printed": "sodium chloride",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT"
+  },
+  {
+   "id": "label-059",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "printed": "isopropanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-062",
+   "truth": "match",
+   "variant": "script",
+   "printed": "isopropanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH"
+  },
+  {
+   "id": "label-066",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "printed": "propanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH"
+  },
+  {
+   "id": "label-071",
+   "truth": "unreadable",
+   "variant": "clean",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT"
+  },
+  {
+   "id": "label-084",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "printed": "acetonitrile",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH"
+  },
+  {
+   "id": "label-089",
+   "truth": "unreadable",
+   "variant": "clean",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT"
+  }
+ ],
+ "records": [
+  {
+   "id": "label-001",
+   "truth": "match",
+   "variant": "clean",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "wco"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-002",
+   "truth": "match",
+   "variant": "rot15",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "larol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-003",
+   "truth": "match",
+   "variant": "rot30",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "larot"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-004",
+   "truth": "match",
+   "variant": "blur3",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "waco"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-005",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 10,
+   "simulated_ms_to_decision": 4000
+  },
+  {
+   "id": "label-006",
+   "truth": "match",
+   "variant": "occlusion",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "etol"
+    ],
+    [
+     "MISMATCH",
+     "li"
+    ],
+    [
+     "MISMATCH",
+     "et jl"
+    ],
+    [
+     "MISMATCH",
+     "et jl"
+    ],
+    [
+     "MISMATCH",
+     "et_ jl"
+    ],
+    [
+     "MISMATCH",
+     "et jl"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-007",
+   "truth": "match",
+   "variant": "glare",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ea"
+    ],
+    [
+     "MISMATCH",
+     "cot"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "e hancl"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-008",
+   "truth": "match",
+   "variant": "script",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "gnarol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ],
+    [
+     "MATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-009",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "ethanol",
+   "printed": "methanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vaco"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-010",
+   "truth": "mismatch",
+   "variant": "rot15",
+   "expected": "ethanol",
+   "printed": "methanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vuco"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-011",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "ethanol",
+   "printed": "methanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "meihanol"
+    ],
+    [
+     "MISMATCH",
+     "vaco"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-012",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "expected": "ethanol",
+   "printed": "methanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "methanoe"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "me"
+    ],
+    [
+     "MISMATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 9,
+   "simulated_ms_to_decision": 3600
+  },
+  {
+   "id": "label-013",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "ethanol",
+   "printed": "acetone",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutor"
+    ],
+    [
+     "MISMATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-014",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "ethanol",
+   "printed": "acetone",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutor"
+    ],
+    [
+     "MISMATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-015",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "ethanol",
+   "printed": "ETHANOI",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ethanoi"
+    ],
+    [
+     "MISMATCH",
+     "lmaro"
+    ],
+    [
+     "MISMATCH",
+     "ethanoi"
+    ],
+    [
+     "MISMATCH",
+     "ethanoi"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-016",
+   "truth": "mismatch",
+   "variant": "small",
+   "expected": "ethanol",
+   "printed": "ETHANOI",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ethanoi"
+    ],
+    [
+     "MISMATCH",
+     "lmaro"
+    ],
+    [
+     "MISMATCH",
+     "ethanoi"
+    ],
+    [
+     "MISMATCH",
+     "ethanoi"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-017",
+   "truth": "unreadable",
+   "variant": "clean",
+   "expected": "ethanol",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT",
+   "live_status": "timeout",
+   "live_reason": "unreadable",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ]
+   ],
+   "frames_examined": 30,
+   "simulated_ms_to_decision": 12000
+  },
+  {
+   "id": "label-018",
+   "truth": "match",
+   "variant": "blur8",
+   "expected": "ethanol",
+   "printed": "ethanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "aro"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "eimanol"
+    ],
+    [
+     "MISMATCH",
+     "etmarol"
+    ],
+    [
+     "MISMATCH",
+     "limanol"
+    ],
+    [
+     "MISMATCH",
+     "uarol"
+    ],
+    [
+     "MISMATCH",
+     "eimanol"
+    ],
+    [
+     "MISMATCH",
+     "earol"
+    ],
+    [
+     "MISMATCH",
+     "eimanol"
+    ],
+    [
+     "MISMATCH",
+     "eaol"
+    ],
+    [
+     "MISMATCH",
+     "eimanol"
+    ]
+   ],
+   "frames_examined": 11,
+   "simulated_ms_to_decision": 4400
+  },
+  {
+   "id": "label-019",
+   "truth": "match",
+   "variant": "clean",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vaco"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-020",
+   "truth": "match",
+   "variant": "rot15",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vuco"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-021",
+   "truth": "match",
+   "variant": "rot30",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vucoi"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-022",
+   "truth": "match",
+   "variant": "blur3",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "meihanol"
+    ],
+    [
+     "MISMATCH",
+     "vaco"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-023",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-024",
+   "truth": "match",
+   "variant": "occlusion",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "me ol"
+    ],
+    [
+     "MISMATCH",
+     "4 0"
+    ],
+    [
+     "MISMATCH",
+     "me jol"
+    ],
+    [
+     "MISMATCH",
+     "me jol"
+    ],
+    [
+     "MISMATCH",
+     "me jol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-025",
+   "truth": "match",
+   "variant": "glare",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "mcthanol"
+    ],
+    [
+     "MISMATCH",
+     "ua"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "mcthanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-026",
+   "truth": "match",
+   "variant": "script",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "kunaol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-027",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "methanol",
+   "printed": "ethanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "wco"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-028",
+   "truth": "mismatch",
+   "variant": "rot15",
+   "expected": "methanol",
+   "printed": "ethanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "larol"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-029",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "methanol",
+   "printed": "ethanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "waco"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-030",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "expected": "methanol",
+   "printed": "ethanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ],
+    [
+     "MISMATCH",
+     "ethanol"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-031",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "methanol",
+   "printed": "sodium chloride",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooiy chloriol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "sodium chloride"
+    ],
+    [
+     "MISMATCH",
+     "sodium chloride"
+    ],
+    [
+     "MISMATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-032",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "methanol",
+   "printed": "sodium chloride",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ooycorod"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "sodium chloride"
+    ],
+    [
+     "MISMATCH",
+     "sodium chloride"
+    ],
+    [
+     "MISMATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-033",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "methanol",
+   "printed": "METHAN0L",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vuaro"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-034",
+   "truth": "mismatch",
+   "variant": "small",
+   "expected": "methanol",
+   "printed": "METHAN0L",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MISMATCH",
+     "vlimatel"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ],
+    [
+     "MATCH",
+     "methanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-035",
+   "truth": "unreadable",
+   "variant": "clean",
+   "expected": "methanol",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT",
+   "live_status": "timeout",
+   "live_reason": "unreadable",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ]
+   ],
+   "frames_examined": 30,
+   "simulated_ms_to_decision": 12000
+  },
+  {
+   "id": "label-036",
+   "truth": "match",
+   "variant": "blur8",
+   "expected": "methanol",
+   "printed": "methanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "0a raco"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "vlimanol"
+    ],
+    [
+     "MISMATCH",
+     "vetharol"
+    ],
+    [
+     "MISMATCH",
+     "veimarol"
+    ],
+    [
+     "MISMATCH",
+     "veimanol"
+    ],
+    [
+     "MISMATCH",
+     "vuarol"
+    ],
+    [
+     "MISMATCH",
+     "eimarol"
+    ],
+    [
+     "MISMATCH",
+     "veimarol"
+    ],
+    [
+     "MISMATCH",
+     "vlimanol"
+    ],
+    [
+     "MISMATCH",
+     "vuimarol"
+    ],
+    [
+     "MISMATCH",
+     "veimarol"
+    ],
+    [
+     "MISMATCH",
+     "vumarol"
+    ],
+    [
+     "MISMATCH",
+     "vuimarol"
+    ],
+    [
+     "MISMATCH",
+     "veimanol"
+    ],
+    [
+     "MISMATCH",
+     "metmanol"
+    ],
+    [
+     "MISMATCH",
+     "vumarol"
+    ],
+    [
+     "MISMATCH",
+     "vumarol"
+    ],
+    [
+     "MISMATCH",
+     "veimarol"
+    ],
+    [
+     "MISMATCH",
+     "vaimarol"
+    ],
+    [
+     "MISMATCH",
+     "vumarol"
+    ]
+   ],
+   "frames_examined": 21,
+   "simulated_ms_to_decision": 8400
+  },
+  {
+   "id": "label-037",
+   "truth": "match",
+   "variant": "clean",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooiy chloriol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-038",
+   "truth": "match",
+   "variant": "rot15",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "chlokiol sooiuu"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "chloride sodium"
+    ],
+    [
+     "MISMATCH",
+     "chloride sodium"
+    ],
+    [
+     "MISMATCH",
+     "chloride sodium"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-039",
+   "truth": "match",
+   "variant": "rot30",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooiu chlohiol"
+    ],
+    [
+     "MISMATCH",
+     "aa oo"
+    ],
+    [
+     "MISMATCH",
+     "chloride sodium"
+    ],
+    [
+     "MISMATCH",
+     "chloride sodium"
+    ],
+    [
+     "MISMATCH",
+     "chloride sodium"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-040",
+   "truth": "match",
+   "variant": "blur3",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ooycorod"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-041",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-042",
+   "truth": "match",
+   "variant": "occlusion",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooiu driol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "sodiu jride"
+    ],
+    [
+     "MISMATCH",
+     "sodiu jride"
+    ],
+    [
+     "MISMATCH",
+     "sodiu jride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-043",
+   "truth": "match",
+   "variant": "glare",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sol 0l"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "soljum chloride"
+    ],
+    [
+     "MISMATCH",
+     "sol um chlofde"
+    ],
+    [
+     "MISMATCH",
+     "soljum chloride"
+    ],
+    [
+     "MISMATCH",
+     "soljum chloride"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-044",
+   "truth": "match",
+   "variant": "script",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "coon4 clorol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-045",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "sodium chloride",
+   "printed": "sodium chlorate",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooycaoran"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-046",
+   "truth": "mismatch",
+   "variant": "rot15",
+   "expected": "sodium chloride",
+   "printed": "sodium chlorate",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "choaa oou"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "chlorate sodium"
+    ],
+    [
+     "MISMATCH",
+     "chlorate sodium"
+    ],
+    [
+     "MISMATCH",
+     "chlorate sodium"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-047",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "sodium chloride",
+   "printed": "sodium chlorate",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "coe croan"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-048",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "expected": "sodium chloride",
+   "printed": "sodium chlorate",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodwm chlorate"
+    ],
+    [
+     "MISMATCH",
+     "bodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodin clorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ],
+    [
+     "MISMATCH",
+     "sodium chlorate"
+    ]
+   ],
+   "frames_examined": 9,
+   "simulated_ms_to_decision": 3600
+  },
+  {
+   "id": "label-049",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "sodium chloride",
+   "printed": "isopropanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "bororato"
+    ],
+    [
+     "MISMATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-050",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "sodium chloride",
+   "printed": "isopropanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isoproparol"
+    ],
+    [
+     "MISMATCH",
+     "rotrorano"
+    ],
+    [
+     "MISMATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-051",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "sodium chloride",
+   "printed": "SODIUM CHL0RIDE",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooiy chloriol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-052",
+   "truth": "mismatch",
+   "variant": "small",
+   "expected": "sodium chloride",
+   "printed": "SODIUM CHL0RIDE",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "sooiuy chloktol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ],
+    [
+     "MATCH",
+     "sodium chloride"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-053",
+   "truth": "unreadable",
+   "variant": "clean",
+   "expected": "sodium chloride",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT",
+   "live_status": "timeout",
+   "live_reason": "unreadable",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ]
+   ],
+   "frames_examined": 30,
+   "simulated_ms_to_decision": 12000
+  },
+  {
+   "id": "label-054",
+   "truth": "match",
+   "variant": "blur8",
+   "expected": "sodium chloride",
+   "printed": "sodium chloride",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT",
+   "live_status": "timeout",
+   "live_reason": "unsteady",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "e 04"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "a 0"
+    ],
+    [
+     "MISMATCH",
+     "a"
+    ],
+    [
+     "MISMATCH",
+     "b c40"
+    ],
+    [
+     "MISMATCH",
+     "kal c oa"
+    ],
+    [
+     "MISMATCH",
+     "8o"
+    ],
+    [
+     "MISMATCH",
+     "ao"
+    ],
+    [
+     "MISMATCH",
+     "o4u"
+    ],
+    [
+     "MISMATCH",
+     "oat"
+    ],
+    [
+     "MISMATCH",
+     "oa"
+    ],
+    [
+     "MISMATCH",
+     "aa 70"
+    ],
+    [
+     "MISMATCH",
+     "d 0"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "a"
+    ],
+    [
+     "MISMATCH",
+     "0"
+    ],
+    [
+     "MISMATCH",
+     "ca"
+    ],
+    [
+     "MISMATCH",
+     "oao 70"
+    ],
+    [
+     "MISMATCH",
+     "o cho"
+    ],
+    [
+     "MISMATCH",
+     "kal ao"
+    ],
+    [
+     "MISMATCH",
+     "ea"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "lora"
+    ],
+    [
+     "MISMATCH",
+     "corau"
+    ],
+    [
+     "MISMATCH",
+     "boxa 70"
+    ],
+    [
+     "MISMATCH",
+     "a gano"
+    ],
+    [
+     "MISMATCH",
+     "a"
+    ],
+    [
+     "MISMATCH",
+     "looa 0"
+    ]
+   ],
+   "frames_examined": 30,
+   "simulated_ms_to_decision": 12000
+  },
+  {
+   "id": "label-055",
+   "truth": "match",
+   "variant": "clean",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "bororato"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-056",
+   "truth": "match",
+   "variant": "rot15",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "roaoaco"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-057",
+   "truth": "match",
+   "variant": "rot30",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "rocrorato"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-058",
+   "truth": "match",
+   "variant": "blur3",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isoproparol"
+    ],
+    [
+     "MISMATCH",
+     "rotrorano"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-059",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "asopropano"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "jisopropanol"
+    ],
+    [
+     "MISMATCH",
+     "jsopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 12,
+   "simulated_ms_to_decision": 4800
+  },
+  {
+   "id": "label-060",
+   "truth": "match",
+   "variant": "occlusion",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isop nol"
+    ],
+    [
+     "MISMATCH",
+     "o ron"
+    ],
+    [
+     "MISMATCH",
+     "isop nol"
+    ],
+    [
+     "MISMATCH",
+     "isop_ nol"
+    ],
+    [
+     "MISMATCH",
+     "isop inol"
+    ],
+    [
+     "MISMATCH",
+     "isop nol"
+    ],
+    [
+     "MISMATCH",
+     "isop nol"
+    ]
+   ],
+   "frames_examined": 7,
+   "simulated_ms_to_decision": 2800
+  },
+  {
+   "id": "label-061",
+   "truth": "match",
+   "variant": "glare",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isc ol"
+    ],
+    [
+     "MISMATCH",
+     "fc"
+    ],
+    [
+     "MISMATCH",
+     "isopropamol"
+    ],
+    [
+     "MISMATCH",
+     "isopropamol"
+    ],
+    [
+     "MISMATCH",
+     "isopropamol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-062",
+   "truth": "match",
+   "variant": "script",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MISMATCH",
+     "coraoaton"
+    ],
+    [
+     "MISMATCH",
+     "isoprop anol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ],
+    [
+     "MATCH",
+     "isopropanol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-063",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "isopropanol",
+   "printed": "propanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "erorato"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-064",
+   "truth": "mismatch",
+   "variant": "rot15",
+   "expected": "isopropanol",
+   "printed": "propanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "proaco"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-065",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "isopropanol",
+   "printed": "propanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "crorato"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-066",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "expected": "isopropanol",
+   "printed": "propanol",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ],
+    [
+     "MISMATCH",
+     "propanol"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-067",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "isopropanol",
+   "printed": "glycerol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "glycerol"
+    ],
+    [
+     "MISMATCH",
+     "cuclro"
+    ],
+    [
+     "MISMATCH",
+     "glycerol"
+    ],
+    [
+     "MISMATCH",
+     "glycerol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-068",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "isopropanol",
+   "printed": "glycerol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "glycerol"
+    ],
+    [
+     "MISMATCH",
+     "cclro"
+    ],
+    [
+     "MISMATCH",
+     "glycerol"
+    ],
+    [
+     "MISMATCH",
+     "glycerol"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-069",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "isopropanol",
+   "printed": "ISOPROPANOI",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isopropanoi"
+    ],
+    [
+     "MISMATCH",
+     "borroraro"
+    ],
+    [
+     "MISMATCH",
+     "isopropanoi"
+    ],
+    [
+     "MISMATCH",
+     "isopropanoi"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-070",
+   "truth": "mismatch",
+   "variant": "small",
+   "expected": "isopropanol",
+   "printed": "ISOPROPANOI",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "isopropanoi"
+    ],
+    [
+     "MISMATCH",
+     "borroraro"
+    ],
+    [
+     "MISMATCH",
+     "isopropanoi"
+    ],
+    [
+     "MISMATCH",
+     "isopropanoi"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-071",
+   "truth": "unreadable",
+   "variant": "clean",
+   "expected": "isopropanol",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT",
+   "live_status": "timeout",
+   "live_reason": "unreadable",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ]
+   ],
+   "frames_examined": 30,
+   "simulated_ms_to_decision": 12000
+  },
+  {
+   "id": "label-072",
+   "truth": "match",
+   "variant": "blur8",
+   "expected": "isopropanol",
+   "printed": "isopropanol",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "rorro o"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "boproparol"
+    ],
+    [
+     "MISMATCH",
+     "boproparol"
+    ],
+    [
+     "MISMATCH",
+     "boproparol"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-073",
+   "truth": "match",
+   "variant": "clean",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutor"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-074",
+   "truth": "match",
+   "variant": "rot15",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutor"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-075",
+   "truth": "match",
+   "variant": "rot30",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNCERTAIN",
+     "1 acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutort"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-076",
+   "truth": "match",
+   "variant": "blur3",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutor"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-077",
+   "truth": "match",
+   "variant": "lowcontrast",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-078",
+   "truth": "match",
+   "variant": "occlusion",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "ac ne"
+    ],
+    [
+     "MISMATCH",
+     "3"
+    ],
+    [
+     "MISMATCH",
+     "ac ve"
+    ],
+    [
+     "MISMATCH",
+     "ac ve"
+    ],
+    [
+     "MISMATCH",
+     "ac ne"
+    ],
+    [
+     "MISMATCH",
+     "ac ne"
+    ],
+    [
+     "MISMATCH",
+     "ac ne"
+    ]
+   ],
+   "frames_examined": 7,
+   "simulated_ms_to_decision": 2800
+  },
+  {
+   "id": "label-079",
+   "truth": "match",
+   "variant": "glare",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "acetoke"
+    ],
+    [
+     "MISMATCH",
+     "aac"
+    ],
+    [
+     "MISMATCH",
+     "acetonz"
+    ],
+    [
+     "MISMATCH",
+     "acetonz"
+    ],
+    [
+     "MISMATCH",
+     "aceton"
+    ],
+    [
+     "MISMATCH",
+     "acetonz"
+    ]
+   ],
+   "frames_examined": 6,
+   "simulated_ms_to_decision": 2400
+  },
+  {
+   "id": "label-080",
+   "truth": "match",
+   "variant": "script",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "achorl"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-081",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "acetone",
+   "printed": "acetonitrile",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "aceionitrile"
+    ],
+    [
+     "MISMATCH",
+     "achoa"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-082",
+   "truth": "mismatch",
+   "variant": "rot15",
+   "expected": "acetone",
+   "printed": "acetonitrile",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "aceionitrile"
+    ],
+    [
+     "MISMATCH",
+     "icon"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-083",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "acetone",
+   "printed": "acetonitrile",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "achionirile"
+    ],
+    [
+     "MISMATCH",
+     "acuon"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-084",
+   "truth": "mismatch",
+   "variant": "lowcontrast",
+   "expected": "acetone",
+   "printed": "acetonitrile",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ],
+    [
+     "MISMATCH",
+     "acetonitrile"
+    ]
+   ],
+   "frames_examined": 9,
+   "simulated_ms_to_decision": 3600
+  },
+  {
+   "id": "label-085",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "acetone",
+   "printed": "distilled water",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "distillld watlr"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "distilled water"
+    ],
+    [
+     "MISMATCH",
+     "distilled water"
+    ],
+    [
+     "MISMATCH",
+     "distilled water"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-086",
+   "truth": "mismatch",
+   "variant": "blur3",
+   "expected": "acetone",
+   "printed": "distilled water",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "disilllo maila"
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "MISMATCH",
+     "distilled water"
+    ],
+    [
+     "MISMATCH",
+     "distilled water"
+    ],
+    [
+     "MISMATCH",
+     "distilled water"
+    ]
+   ],
+   "frames_examined": 5,
+   "simulated_ms_to_decision": 2000
+  },
+  {
+   "id": "label-087",
+   "truth": "mismatch",
+   "variant": "clean",
+   "expected": "acetone",
+   "printed": "ACET0NE",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acutend"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-088",
+   "truth": "mismatch",
+   "variant": "small",
+   "expected": "acetone",
+   "printed": "ACET0NE",
+   "three_frame": "MATCH",
+   "live_scan": "MATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "acaen"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ]
+   ],
+   "frames_examined": 4,
+   "simulated_ms_to_decision": 1600
+  },
+  {
+   "id": "label-089",
+   "truth": "unreadable",
+   "variant": "clean",
+   "expected": "acetone",
+   "printed": "",
+   "three_frame": "UNCERTAIN",
+   "live_scan": "TIMEOUT",
+   "live_status": "timeout",
+   "live_reason": "unreadable",
+   "probe_readings": [
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ],
+    [
+     "UNREADABLE",
+     ""
+    ]
+   ],
+   "frames_examined": 30,
+   "simulated_ms_to_decision": 12000
+  },
+  {
+   "id": "label-090",
+   "truth": "match",
+   "variant": "blur8",
+   "expected": "acetone",
+   "printed": "acetone",
+   "three_frame": "MISMATCH",
+   "live_scan": "MISMATCH",
+   "live_status": "stable",
+   "live_reason": "",
+   "probe_readings": [
+    [
+     "MISMATCH",
+     "acuotl"
+    ],
+    [
+     "MISMATCH",
+     "0na"
+    ],
+    [
+     "MISMATCH",
+     "acetore"
+    ],
+    [
+     "MISMATCH",
+     "aclione"
+    ],
+    [
+     "MISMATCH",
+     "achiore"
+    ],
+    [
+     "MATCH",
+     "acetone"
+    ],
+    [
+     "MISMATCH",
+     "achiore"
+    ],
+    [
+     "MISMATCH",
+     "achiore"
+    ]
+   ],
+   "frames_examined": 8,
+   "simulated_ms_to_decision": 3200
+  }
+ ]
+}

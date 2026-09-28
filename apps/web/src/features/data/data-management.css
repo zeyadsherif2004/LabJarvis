@@ -1,0 +1,83 @@
+/* -------------------------------------------------------- data management */
+
+.data-management {
+  display: grid;
+  gap: 1rem;
+}
+
+.data-management .view-heading {
+  margin-bottom: 0.5rem;
+}
+
+.data-card,
+.protocol-lifecycle {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.data-card > svg {
+  color: var(--teal);
+}
+
+.data-card h2,
+.protocol-lifecycle h2 {
+  margin: 0 0 0.35rem;
+}
+
+.data-card p,
+.protocol-lifecycle p {
+  max-width: 70ch;
+  color: var(--muted);
+}
+
+.data-card label {
+  max-width: 36rem;
+  margin: 0.75rem 0;
+}
+
+.data-actions,
+.typed-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.data-card--boundary {
+  border-color: #e8c98c;
+  background: var(--amber-soft);
+}
+
+.protocol-lifecycle {
+  grid-template-columns: 1fr;
+  margin-bottom: 1.5rem;
+}
+
+.typed-dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgb(8 25 39 / 65%);
+}
+
+.typed-dialog {
+  width: min(34rem, 100%);
+  display: grid;
+  gap: 0.85rem;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.typed-dialog h2,
+.typed-dialog p {
+  margin: 0;
+}

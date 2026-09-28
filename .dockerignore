@@ -1,0 +1,15 @@
+.git
+.github
+.venv
+.worktrees
+.labjarvis
+node_modules
+**/node_modules
+**/dist
+output
+evaluation/results
+models
+*.db
+*.sqlite3
+*.gguf
+*.safetensors

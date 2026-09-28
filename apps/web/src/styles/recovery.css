@@ -1,0 +1,166 @@
+/*
+ * Route recovery and notebook provenance.
+ *
+ * Kept out of styles.css because both describe screens the operator only
+ * reaches when something went wrong or when they are auditing a finished run,
+ * and neither shares layout with the bench surfaces.
+ */
+
+.not-found-state {
+  width: min(760px, calc(100% - 48px));
+  margin: 80px auto;
+  padding: 32px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.not-found-state > svg {
+  width: 40px;
+  height: 40px;
+  color: var(--amber);
+}
+
+.not-found-state h1 {
+  margin: 12px 0 10px;
+  font-family: "Iowan Old Style", Georgia, serif;
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.not-found-state p {
+  max-width: 62ch;
+  margin: 0 0 12px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.not-found-identifier code {
+  padding: 2px 6px;
+  overflow-wrap: anywhere;
+  background: var(--teal-soft);
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+.not-found-assurance {
+  padding: 10px 14px;
+  border-left: 3px solid var(--teal);
+  background: var(--teal-soft);
+  color: var(--ink);
+}
+
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.error-reference {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* ------------------------------------------------------------- provenance */
+
+.notebook-provenance {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.notebook-provenance h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.notebook-provenance h3 {
+  margin: 24px 0 8px;
+  font-size: 16px;
+}
+
+/* Wide tables scroll in their own box rather than the whole page. */
+.provenance-table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.provenance-table caption {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: left;
+  white-space: normal;
+}
+
+.provenance-table th,
+.provenance-table td {
+  padding: 8px 14px 8px 0;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-size: 14px;
+}
+
+.provenance-table th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.provenance-conflict {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 14px;
+  border-left: 3px solid var(--amber);
+  background: var(--amber-soft);
+}
+
+.provenance-utterances,
+.provenance-verifications {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.provenance-utterances > li,
+.provenance-verifications > li {
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.provenance-utterances dl {
+  display: grid;
+  gap: 6px 20px;
+  margin: 8px 0 6px;
+}
+
+.provenance-utterances dt {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.provenance-utterances dd {
+  margin: 0 0 6px;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 720px) {
+  .provenance-utterances dl > div {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 20px;
+  }
+}

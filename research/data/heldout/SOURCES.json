@@ -1,0 +1,68 @@
+{
+  "manifest": "research/data/heldout/human-paraphrases.jsonl",
+  "manifest_sha256": "a65bdf163d8ad30b8eec232e7e0b42280982fcc27796ca100b2cc93bb6f953e8",
+  "sources": {
+    "clinc150": {
+      "url": "https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_full.json",
+      "file": "clinc_data_full.json",
+      "licence": "CC BY 3.0",
+      "citation": "Larson et al. (2019), EMNLP-IJCNLP, An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction",
+      "authorship": "crowd workers wrote queries by paraphrasing seeds or answering scenarios",
+      "sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0"
+    },
+    "cookdial": {
+      "url": "https://github.com/YiweiJiang2015/CookDial",
+      "file": "CookDial",
+      "licence": "MIT",
+      "citation": "Jiang et al. (2022), CookDial: a dataset for task-oriented dialogs grounded in procedural documents",
+      "authorship": "human user turns in human-to-human Wizard-of-Oz cooking dialogs",
+      "sha256": "235bdccb906754f8fecda0d227bfd6d0a8fa18bb1a22a0dd344302dbf8d4a628"
+    },
+    "wizard_of_tasks": {
+      "url": "https://wizard-of-tasks.s3.us-west-2.amazonaws.com/wizard_of_tasks_cooking_v1.0.json",
+      "file": "wot_cooking.json",
+      "licence": "CC BY-SA 4.0",
+      "citation": "Choi et al. (2022), COLING, Wizard of Tasks",
+      "authorship": "student turns written by Mechanical Turk workers",
+      "sha256": "89bf61f1086ddd54afdff22b7a4c3a9d33ae2741befe3f332563bf055573ba30"
+    },
+    "openwetware": {
+      "url": "https://openwetware.org/mediawiki/api.php",
+      "file": "oww_candidates.json",
+      "licence": "CC BY-SA 3.0 (OpenWetWare content licence)",
+      "citation": "OpenWetWare lab notebook pages (page id and revision recorded per item)",
+      "authorship": "notebook text written by the researchers who own each page",
+      "sha256": "54453991e290f5cb60b5750e6f7544a95259e4cf3f1a655181c25a61be86a24a"
+    }
+  },
+  "coverage": {
+    "total": 138,
+    "per_intent": {
+      "COMPLETE_STEP": 9,
+      "GET_NEXT_STEP": 24,
+      "HELP": 12,
+      "RECORD_MEASUREMENT": 2,
+      "REPEAT_INSTRUCTION": 24,
+      "SET_TIMER": 27,
+      "UNSUPPORTED": 40
+    },
+    "numeric_items": 29,
+    "minimums": {
+      "total>=80": true,
+      "supported_intents_with_5>=5": true,
+      "numeric_items>=20": true,
+      "unsupported>=10": true
+    },
+    "minimums_met": true,
+    "uncovered_supported_intents": [
+      "CORRECT_PREVIOUS_ENTRY",
+      "END_SESSION",
+      "GET_CURRENT_STEP",
+      "PAUSE_SESSION",
+      "RECORD_OBSERVATION",
+      "RESUME_SESSION",
+      "VERIFY_REAGENT"
+    ]
+  },
+  "rules": "docs/evaluation/model-selection-protocol.md (Held-out set)"
+}

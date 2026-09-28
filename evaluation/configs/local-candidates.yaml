@@ -1,0 +1,37 @@
+name: local-candidates
+evidence_class: student_collected
+eligible_for_final_claims: false
+include_predictions: false
+datasets:
+  speech: ../datasets/student-speech.jsonl
+  text: ../datasets/student-text.jsonl
+  vision: ../datasets/student-vision.jsonl
+candidates:
+  - id: whisper-tiny-en
+    modality: speech
+    adapter: faster-whisper
+    model_name: tiny.en
+  - id: whisper-base-en
+    modality: speech
+    adapter: faster-whisper
+    model_name: base.en
+  - id: whisper-small-en
+    modality: speech
+    adapter: faster-whisper
+    model_name: small.en
+  - id: qwen2.5-0.5b
+    modality: text
+    adapter: ollama
+    model_name: qwen2.5:0.5b
+  - id: qwen2.5-1.5b
+    modality: text
+    adapter: ollama
+    model_name: qwen2.5:1.5b
+  - id: easyocr-english-g2-cpu
+    modality: vision
+    adapter: easyocr
+    model_name: english_g2
+  - id: easyocr-latin-g2-cpu
+    modality: vision
+    adapter: easyocr
+    model_name: latin_g2

@@ -1,0 +1,6668 @@
+{
+ "config": {
+  "base_url": "https://api.openai.com/v1",
+  "datasets": [
+   "heldout"
+  ],
+  "kind": "llm",
+  "label": "OpenAI",
+  "max_output_tokens": 512,
+  "model": "gpt-5.6-luna",
+  "name": "d7-gpt-5.6-luna-A-run2",
+  "provider": "openai",
+  "reasoning_effort": "none"
+ },
+ "contract_version": "command-contract-v2",
+ "created_at": "2026-09-27T04:19:46.817502+00:00",
+ "credential_env_used": "OPENAI_API_KEY",
+ "datasets": {
+  "benchmark": {
+   "path": "research/data/manifests/text-commands.jsonl",
+   "sha256": "4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f"
+  },
+  "dev": {
+   "path": "research/data/manifests/text-dev.jsonl",
+   "sha256": "59b8898c99e57ca1d67fd565bdbcc0628e04a080ae1469f38bd61fc900650c69"
+  },
+  "heldout": {
+   "path": "research/data/heldout/human-paraphrases.jsonl",
+   "sha256": "a65bdf163d8ad30b8eec232e7e0b42280982fcc27796ca100b2cc93bb6f953e8"
+  },
+  "heldout_b": {
+   "path": "research/data/heldout/human-paraphrases-B.jsonl",
+   "sha256": "d4fc46744251bbcc3a1d04ccf2fd9a8339d6b4e0e4b070a7deeeffaee6e5a22e"
+  }
+ },
+ "evidence_class": {
+  "benchmark": "synthetic authored regression benchmark",
+  "heldout": "public human-written text (held out); not speech"
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU, 6141 MiB, 616.92",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "ram_gb": "17.0"
+ },
+ "ollama_ps": "",
+ "prompt_sha256": "c52996c752b3ff03812a604c2a12d52c5b70be00453539bee9a23a3649fc5058",
+ "prompt_version": "interpreter-prompt-v2",
+ "results": {
+  "heldout": {
+   "peak_rss_mb": 70.2,
+   "records": [
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-001",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1799.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-002",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1494.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-003",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1323.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-004",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1413.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-005",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1554.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-006",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1220.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-007",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1405.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-008",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1212.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_complete_step",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-009",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1421.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-010",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1294.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-011",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1515.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-012",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1316.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-013",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1364.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-014",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1300.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-015",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1344.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-016",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1478.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-017",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1342.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-018",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1276.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-019",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1506.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-020",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1641.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-021",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1291.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-022",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1488.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-023",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1307.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-024",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1317.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-025",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1448.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-026",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1374.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-027",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1424.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-028",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1379.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-029",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1346.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-030",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1387.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-031",
+     "intent": "GET_CURRENT_STEP",
+     "intent_correct": false,
+     "latency_ms": 1368.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-032",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1407.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_get_next_step",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-033",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1257.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "wizard_of_tasks",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-034",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1550.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-035",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1383.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-036",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1388.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-037",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1410.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-038",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1279.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-039",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1381.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-040",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1261.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-041",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1249.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-042",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1350.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-043",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1316.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-044",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1338.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_help",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-045",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1497.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_record_measurement",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-046",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1646.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "temperature",
+      "unit": "degC",
+      "value": "65"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_record_measurement",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-047",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1762.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "temperature",
+      "unit": "degC",
+      "value": "170"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-048",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1477.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-049",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1373.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-050",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1278.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-051",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1542.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-052",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 2364.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-053",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1259.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-054",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1406.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-055",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1330.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-056",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1217.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-057",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1209.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-058",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1412.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-059",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1267.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-060",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1532.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-061",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1297.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-062",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 2937.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-063",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1382.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-064",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1248.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-065",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1376.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-066",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1297.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-067",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1441.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-068",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1417.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-069",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1350.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": true,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": false,
+     "id": "human-070",
+     "intent": "UNSUPPORTED",
+     "intent_correct": false,
+     "latency_ms": 1256.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: ambiguous"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_repeat_instruction",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-071",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1498.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-072",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1571.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "240"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-073",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1674.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "1500"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-074",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1461.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "7200"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-075",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1578.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "2700"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-076",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1607.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "1200"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-077",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1421.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-078",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1547.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "3600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-079",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1430.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "1800"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-080",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1408.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-081",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 2577.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "900"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-082",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1502.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "3120"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-083",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1470.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "60"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-084",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1645.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "180"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-085",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1635.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "300"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-086",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1426.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "30"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-087",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1378.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-088",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1631.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-089",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1674.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-090",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1369.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-091",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1370.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-092",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1514.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "2700"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-093",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1578.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "300"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-094",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1480.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-095",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1859.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "120"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-096",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1181.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-097",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1493.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "3600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_set_timer",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-098",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1438.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "600"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-099",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1346.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-100",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1373.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-101",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1373.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-102",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1603.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-103",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1480.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-104",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1375.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-105",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1521.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-106",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1565.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-107",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1253.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-108",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1323.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-109",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1418.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-110",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1263.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-111",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1317.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-112",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1280.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-113",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1526.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-114",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1273.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-115",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1367.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-116",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1445.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_out_of_scope",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-117",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1311.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-118",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 2681.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-119",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1596.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-120",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1349.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-121",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1250.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-122",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1407.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-123",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1279.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-124",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1400.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-125",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1191.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-126",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1411.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-127",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1236.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_conversion",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-128",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1510.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-129",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1458.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-130",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1313.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-131",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1424.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-132",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1337.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_ambiguous",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-133",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1559.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: ambiguous"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "cookdial",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-134",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1444.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-135",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1279.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-136",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1500.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-137",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1365.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "heldout_unsupported_incomplete",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "human-138",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1350.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "clinc150",
+     "status": "succeeded",
+     "valid": false
+    }
+   ],
+   "summary": {
+    "abstentions_valid": 25,
+    "coverage_valid": 0.7347,
+    "exact_accuracy_valid": 0.7347,
+    "exact_correct_valid": 72,
+    "failures": 0,
+    "gates": {
+     "confidence": {
+      "executed": 38,
+      "unsafe_executed": 0
+     },
+     "confirm_always_accept": {
+      "executed": 38,
+      "unsafe_executed": 0
+     },
+     "confirm_attentive": {
+      "executed": 38,
+      "unsafe_executed": 0
+     },
+     "proposal": {
+      "executed": 38,
+      "unsafe_executed": 0
+     },
+     "state": {
+      "executed": 38,
+      "unsafe_executed": 0
+     },
+     "validation": {
+      "executed": 38,
+      "unsafe_executed": 0
+     }
+    },
+    "intent_accuracy_all": 0.8116,
+    "items": 138,
+    "latency_cold_ms": 1799.4,
+    "latency_p50_ms": 1400.7,
+    "latency_p95_ms": 1674.3,
+    "llm_calls": 138,
+    "llm_routed_abstentions": 25,
+    "llm_routed_exact": 72,
+    "llm_routed_exact_accuracy": 0.7347,
+    "llm_routed_share_valid": 1.0,
+    "llm_routed_unsafe": 0,
+    "llm_routed_valid": 98,
+    "not_run_budget": 0,
+    "routes": {
+     "llm": 138
+    },
+    "routes_valid": {
+     "llm": 98
+    },
+    "schema_valid_llm": 1.0,
+    "unsafe_after_gates": 0,
+    "unsafe_proposals": 0,
+    "valid_items": 98
+   }
+  }
+ },
+ "schema_sha256": "232b8e37b9549d3683de27054998b64141b512d4c4b056d0277a950a661f6f81",
+ "schema_version": 2,
+ "subset": {
+  "datasets": [
+   "heldout"
+  ],
+  "limit": null
+ }
+}

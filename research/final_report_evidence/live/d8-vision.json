@@ -1,0 +1,1840 @@
+{
+ "deviation": "D8 (post-hoc, recorded before running)",
+ "created_at": "2026-09-27T04:30:43.405078+00:00",
+ "evidence_class": "PROVISIONAL SYNTHETIC: rendered labels, hosted vision",
+ "spend_usd": 0.01349,
+ "results": {
+  "gpt-5.4-nano": {
+   "provider": "OpenAI",
+   "items": 90,
+   "complete": true,
+   "counts": {
+    "correct": 66,
+    "false_accept": 10,
+    "false_reject": 9,
+    "uncertain": 5
+   },
+   "false_accepts": 10,
+   "coverage_of_true_matches": 0.8,
+   "errors": 5,
+   "records": [
+    {
+     "id": "label-001",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1289
+    },
+    {
+     "id": "label-002",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 975
+    },
+    {
+     "id": "label-003",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1232
+    },
+    {
+     "id": "label-004",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1161
+    },
+    {
+     "id": "label-005",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1267
+    },
+    {
+     "id": "label-006",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "ethanol",
+     "visible_text": "ETAL OIL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1041
+    },
+    {
+     "id": "label-007",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1398
+    },
+    {
+     "id": "label-008",
+     "truth": "match",
+     "variant": "script",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1063
+    },
+    {
+     "id": "label-009",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1022
+    },
+    {
+     "id": "label-010",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1165
+    },
+    {
+     "id": "label-011",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1096
+    },
+    {
+     "id": "label-012",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1092
+    },
+    {
+     "id": "label-013",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1152
+    },
+    {
+     "id": "label-014",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1048
+    },
+    {
+     "id": "label-015",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ETHANOI",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1070
+    },
+    {
+     "id": "label-016",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "ETHANOI",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 945
+    },
+    {
+     "id": "label-017",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 949
+    },
+    {
+     "id": "label-018",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "ethanol",
+     "visible_text": "ETIMANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 967
+    },
+    {
+     "id": "label-019",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 960
+    },
+    {
+     "id": "label-020",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1160
+    },
+    {
+     "id": "label-021",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1221
+    },
+    {
+     "id": "label-022",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1033
+    },
+    {
+     "id": "label-023",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1089
+    },
+    {
+     "id": "label-024",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "methanol",
+     "visible_text": "ME-OL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1028
+    },
+    {
+     "id": "label-025",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1056
+    },
+    {
+     "id": "label-026",
+     "truth": "match",
+     "variant": "script",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1198
+    },
+    {
+     "id": "label-027",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1026
+    },
+    {
+     "id": "label-028",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 938
+    },
+    {
+     "id": "label-029",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1149
+    },
+    {
+     "id": "label-030",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2141
+    },
+    {
+     "id": "label-031",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2737
+    },
+    {
+     "id": "label-032",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1044
+    },
+    {
+     "id": "label-033",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "METHAN0L",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1102
+    },
+    {
+     "id": "label-034",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "METHAN0L",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1056
+    },
+    {
+     "id": "label-035",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 989
+    },
+    {
+     "id": "label-036",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "methanol",
+     "visible_text": "METIHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1045
+    },
+    {
+     "id": "label-037",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1522
+    },
+    {
+     "id": "label-038",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1147
+    },
+    {
+     "id": "label-039",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1386
+    },
+    {
+     "id": "label-040",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1309
+    },
+    {
+     "id": "label-041",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1173
+    },
+    {
+     "id": "label-042",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "sodium chloride",
+     "visible_text": "SODIU P RIDE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1017
+    },
+    {
+     "id": "label-043",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1055
+    },
+    {
+     "id": "label-044",
+     "truth": "match",
+     "variant": "script",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1054
+    },
+    {
+     "id": "label-045",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "sodium chlorate",
+     "visible_text": "SODIUM CHLORATE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 973
+    },
+    {
+     "id": "label-046",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "sodium chlorate",
+     "visible_text": "SODIUM CHLORATE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1010
+    },
+    {
+     "id": "label-047",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "sodium chlorate",
+     "visible_text": "SODIUM CHLORATE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1188
+    },
+    {
+     "id": "label-048",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "sodium chlorate",
+     "visible_text": "SODIUM CHLORATE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1174
+    },
+    {
+     "id": "label-049",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 947
+    },
+    {
+     "id": "label-050",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2098
+    },
+    {
+     "id": "label-051",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "SODIUM CHL0RIDE",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1247
+    },
+    {
+     "id": "label-052",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "SODIUM CHL0RIDE",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1102
+    },
+    {
+     "id": "label-053",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1105
+    },
+    {
+     "id": "label-054",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "sodium chloride",
+     "visible_text": "Kneatily Cream Cleanser",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1610
+    },
+    {
+     "id": "label-055",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1039
+    },
+    {
+     "id": "label-056",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "isopropanol",
+     "visible_text": "ISOproPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 911
+    },
+    {
+     "id": "label-057",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1066
+    },
+    {
+     "id": "label-058",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1088
+    },
+    {
+     "id": "label-059",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1128
+    },
+    {
+     "id": "label-060",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "isopropanol",
+     "visible_text": "ISOP NO L",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1166
+    },
+    {
+     "id": "label-061",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1310
+    },
+    {
+     "id": "label-062",
+     "truth": "match",
+     "variant": "script",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1364
+    },
+    {
+     "id": "label-063",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "propanol",
+     "visible_text": "PROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1275
+    },
+    {
+     "id": "label-064",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "propanol",
+     "visible_text": "PROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 900
+    },
+    {
+     "id": "label-065",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "propanol",
+     "visible_text": "PROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 967
+    },
+    {
+     "id": "label-066",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "propanol",
+     "visible_text": "PROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 952
+    },
+    {
+     "id": "label-067",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "glycerol",
+     "visible_text": "GLYCEROL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 955
+    },
+    {
+     "id": "label-068",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "glycerol",
+     "visible_text": "GLYCEROL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1073
+    },
+    {
+     "id": "label-069",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ISOPROPANOI",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1019
+    },
+    {
+     "id": "label-070",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "ISOPROPANOI",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1406
+    },
+    {
+     "id": "label-071",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1069
+    },
+    {
+     "id": "label-072",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "isopropanol",
+     "visible_text": "IsoPropanol",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1414
+    },
+    {
+     "id": "label-073",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1030
+    },
+    {
+     "id": "label-074",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1181
+    },
+    {
+     "id": "label-075",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "acetone",
+     "visible_text": "ACGETONE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 971
+    },
+    {
+     "id": "label-076",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1083
+    },
+    {
+     "id": "label-077",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 977
+    },
+    {
+     "id": "label-078",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "acetone",
+     "visible_text": "ACONE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1071
+    },
+    {
+     "id": "label-079",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1109
+    },
+    {
+     "id": "label-080",
+     "truth": "match",
+     "variant": "script",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1000
+    },
+    {
+     "id": "label-081",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "acetonitrile",
+     "visible_text": "ACETONITRILE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1163
+    },
+    {
+     "id": "label-082",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "acetonitrile",
+     "visible_text": "ACETONITRILE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1031
+    },
+    {
+     "id": "label-083",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "acetonitrile",
+     "visible_text": "ACETONITRILE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1345
+    },
+    {
+     "id": "label-084",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "acetonitrile",
+     "visible_text": "ACETONITRILE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1282
+    },
+    {
+     "id": "label-085",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "distilled water",
+     "visible_text": "DISTILLED WATER",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1185
+    },
+    {
+     "id": "label-086",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "distilled water",
+     "visible_text": "DISTILLED WATER",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1460
+    },
+    {
+     "id": "label-087",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ACET0NE",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1102
+    },
+    {
+     "id": "label-088",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "ACET0NE",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1762
+    },
+    {
+     "id": "label-089",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1006
+    },
+    {
+     "id": "label-090",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1125
+    }
+   ]
+  },
+  "glm-4.6v-flashx": {
+   "provider": "GLM",
+   "items": 90,
+   "complete": true,
+   "counts": {
+    "correct": 37,
+    "false_accept": 1,
+    "false_reject": 4,
+    "uncertain": 48
+   },
+   "false_accepts": 1,
+   "coverage_of_true_matches": 0.511,
+   "errors": 47,
+   "records": [
+    {
+     "id": "label-001",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1874
+    },
+    {
+     "id": "label-002",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1373
+    },
+    {
+     "id": "label-003",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1684
+    },
+    {
+     "id": "label-004",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1525
+    },
+    {
+     "id": "label-005",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1782
+    },
+    {
+     "id": "label-006",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 2458
+    },
+    {
+     "id": "label-007",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1535
+    },
+    {
+     "id": "label-008",
+     "truth": "match",
+     "variant": "script",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 3404
+    },
+    {
+     "id": "label-009",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1454
+    },
+    {
+     "id": "label-010",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "methanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1816
+    },
+    {
+     "id": "label-011",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1898
+    },
+    {
+     "id": "label-012",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1260
+    },
+    {
+     "id": "label-013",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1416
+    },
+    {
+     "id": "label-014",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1628
+    },
+    {
+     "id": "label-015",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ETHANOI",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1466
+    },
+    {
+     "id": "label-016",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "ETHANOI",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1476
+    },
+    {
+     "id": "label-017",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1517
+    },
+    {
+     "id": "label-018",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1603
+    },
+    {
+     "id": "label-019",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1399
+    },
+    {
+     "id": "label-020",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1276
+    },
+    {
+     "id": "label-021",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1445
+    },
+    {
+     "id": "label-022",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 2228
+    },
+    {
+     "id": "label-023",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1474
+    },
+    {
+     "id": "label-024",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "methanol",
+     "visible_text": "ME  OL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2477
+    },
+    {
+     "id": "label-025",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1607
+    },
+    {
+     "id": "label-026",
+     "truth": "match",
+     "variant": "script",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1493
+    },
+    {
+     "id": "label-027",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1577
+    },
+    {
+     "id": "label-028",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1594
+    },
+    {
+     "id": "label-029",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "ethanol",
+     "visible_text": "ETHANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1608
+    },
+    {
+     "id": "label-030",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "ethanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1435
+    },
+    {
+     "id": "label-031",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1544
+    },
+    {
+     "id": "label-032",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1356
+    },
+    {
+     "id": "label-033",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "METHAN0L",
+     "visible_text": "METHAN0L",
+     "error": "",
+     "outcome": "UNCERTAIN",
+     "ms": 1272
+    },
+    {
+     "id": "label-034",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "METHAN0L",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1369
+    },
+    {
+     "id": "label-035",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1273
+    },
+    {
+     "id": "label-036",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "methanol",
+     "visible_text": "METHANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1418
+    },
+    {
+     "id": "label-037",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1583
+    },
+    {
+     "id": "label-038",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1725
+    },
+    {
+     "id": "label-039",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1571
+    },
+    {
+     "id": "label-040",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 2020
+    },
+    {
+     "id": "label-041",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1416
+    },
+    {
+     "id": "label-042",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "sodium chloride",
+     "visible_text": "SODIU ORIDE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2041
+    },
+    {
+     "id": "label-043",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "sodium chloride",
+     "visible_text": "SODIUM CHLORIDE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 2403
+    },
+    {
+     "id": "label-044",
+     "truth": "match",
+     "variant": "script",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1680
+    },
+    {
+     "id": "label-045",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "sodium chlorate",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1621
+    },
+    {
+     "id": "label-046",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "sodium chlorate",
+     "visible_text": "SODIUM CHLORATE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1503
+    },
+    {
+     "id": "label-047",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "sodium chlorate",
+     "visible_text": "SODIUM CHLORATE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1319
+    },
+    {
+     "id": "label-048",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "sodium chlorate",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1546
+    },
+    {
+     "id": "label-049",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1335
+    },
+    {
+     "id": "label-050",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1713
+    },
+    {
+     "id": "label-051",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "SODIUM CHL0RIDE",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1561
+    },
+    {
+     "id": "label-052",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "SODIUM CHL0RIDE",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1770
+    },
+    {
+     "id": "label-053",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1574
+    },
+    {
+     "id": "label-054",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "sodium chloride",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1458
+    },
+    {
+     "id": "label-055",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1689
+    },
+    {
+     "id": "label-056",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1456
+    },
+    {
+     "id": "label-057",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1874
+    },
+    {
+     "id": "label-058",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "isopropanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1330
+    },
+    {
+     "id": "label-059",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1520
+    },
+    {
+     "id": "label-060",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "isopropanol",
+     "visible_text": "ISOP NOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2646
+    },
+    {
+     "id": "label-061",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "isopropanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1497
+    },
+    {
+     "id": "label-062",
+     "truth": "match",
+     "variant": "script",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1447
+    },
+    {
+     "id": "label-063",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "propanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1592
+    },
+    {
+     "id": "label-064",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "propanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1679
+    },
+    {
+     "id": "label-065",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "propanol",
+     "visible_text": "PROPANOL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1673
+    },
+    {
+     "id": "label-066",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "propanol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1805
+    },
+    {
+     "id": "label-067",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "glycerol",
+     "visible_text": "GLYCEROL",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1440
+    },
+    {
+     "id": "label-068",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "glycerol",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1426
+    },
+    {
+     "id": "label-069",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ISOPROPANOI",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1479
+    },
+    {
+     "id": "label-070",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "ISOPROPANOI",
+     "visible_text": "ISOPROPANOI",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1585
+    },
+    {
+     "id": "label-071",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1552
+    },
+    {
+     "id": "label-072",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "isopropanol",
+     "visible_text": "ISOPROPANOL",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1649
+    },
+    {
+     "id": "label-073",
+     "truth": "match",
+     "variant": "clean",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1478
+    },
+    {
+     "id": "label-074",
+     "truth": "match",
+     "variant": "rot15",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 2447
+    },
+    {
+     "id": "label-075",
+     "truth": "match",
+     "variant": "rot30",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 2136
+    },
+    {
+     "id": "label-076",
+     "truth": "match",
+     "variant": "blur3",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1429
+    },
+    {
+     "id": "label-077",
+     "truth": "match",
+     "variant": "lowcontrast",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1338
+    },
+    {
+     "id": "label-078",
+     "truth": "match",
+     "variant": "occlusion",
+     "printed": "acetone",
+     "visible_text": "AC NE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2996
+    },
+    {
+     "id": "label-079",
+     "truth": "match",
+     "variant": "glare",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1660
+    },
+    {
+     "id": "label-080",
+     "truth": "match",
+     "variant": "script",
+     "printed": "acetone",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1533
+    },
+    {
+     "id": "label-081",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "acetonitrile",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1335
+    },
+    {
+     "id": "label-082",
+     "truth": "mismatch",
+     "variant": "rot15",
+     "printed": "acetonitrile",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1449
+    },
+    {
+     "id": "label-083",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "acetonitrile",
+     "visible_text": "ACETONITRILE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 2010
+    },
+    {
+     "id": "label-084",
+     "truth": "mismatch",
+     "variant": "lowcontrast",
+     "printed": "acetonitrile",
+     "visible_text": "ACETONITRILE",
+     "error": "",
+     "outcome": "MISMATCH",
+     "ms": 1703
+    },
+    {
+     "id": "label-085",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "distilled water",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1850
+    },
+    {
+     "id": "label-086",
+     "truth": "mismatch",
+     "variant": "blur3",
+     "printed": "distilled water",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 2175
+    },
+    {
+     "id": "label-087",
+     "truth": "mismatch",
+     "variant": "clean",
+     "printed": "ACET0NE",
+     "visible_text": "ACETONE",
+     "error": "",
+     "outcome": "MATCH",
+     "ms": 1539
+    },
+    {
+     "id": "label-088",
+     "truth": "mismatch",
+     "variant": "small",
+     "printed": "ACET0NE",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1786
+    },
+    {
+     "id": "label-089",
+     "truth": "unreadable",
+     "variant": "clean",
+     "printed": "",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1492
+    },
+    {
+     "id": "label-090",
+     "truth": "match",
+     "variant": "blur8",
+     "printed": "acetone",
+     "visible_text": "",
+     "error": "ModelOutputError",
+     "outcome": "UNCERTAIN",
+     "ms": 1415
+    }
+   ]
+  }
+ }
+}

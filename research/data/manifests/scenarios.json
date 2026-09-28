@@ -1,0 +1,1304 @@
+[
+  {
+    "events": [
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the temperature as 37 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_OBSERVATION",
+        "expected_parameters": {
+          "observation": "the solution is clear"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record an observation as the solution is clear",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "happy",
+    "id": "scn-01",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": true,
+        "expected_intent": "SET_TIMER",
+        "expected_parameters": {
+          "duration_seconds": "300"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "set a timer for 5 minutes",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the volume as 250 milliliters",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "PAUSE_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "pause",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RESUME_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "resume",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "happy",
+    "id": "scn-02",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "mass",
+          "unit": "g",
+          "value": "5"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the mass as 5 grams",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "END_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "end session",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "ABORTED",
+    "family": "happy",
+    "id": "scn-03",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "ethanol",
+        "note": "",
+        "observed_text": "ETHANOL",
+        "truth": "match",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_OBSERVATION",
+        "expected_parameters": {
+          "observation": "no bubbles are visible"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record an observation as no bubbles are visible",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "happy",
+    "id": "scn-04",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "ph",
+          "unit": "pH",
+          "value": "7.4"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the ph as 7.4 ph",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "SET_TIMER",
+        "expected_parameters": {
+          "duration_seconds": "90"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "set a timer for 90 seconds",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "happy",
+    "id": "scn-05",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "sodium chloride",
+        "note": "",
+        "observed_text": "SODIUM CHLORIDE",
+        "truth": "match",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "concentration",
+          "unit": "%",
+          "value": "70"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the concentration as 70 percent",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "happy",
+    "id": "scn-06",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "note": "simulated digit transposition; recorded value would be wrong",
+        "perturbed": true,
+        "transcript": "Record the temperature as 73 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "corrupted_value",
+    "id": "scn-07",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        },
+        "note": "simulated digit transposition; recorded value would be wrong",
+        "perturbed": true,
+        "transcript": "Record the volume as 25 milliliters",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "corrupted_value",
+    "id": "scn-08",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "mass",
+          "unit": "g",
+          "value": "5"
+        },
+        "note": "simulated digit transposition; recorded value would be wrong",
+        "perturbed": true,
+        "transcript": "Record the mass as 50 grams",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "corrupted_value",
+    "id": "scn-09",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "RESUME_SESSION",
+        "expected_parameters": {},
+        "note": "session already active",
+        "perturbed": false,
+        "transcript": "resume",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "state_conflict",
+    "id": "scn-10",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": true,
+        "expected_intent": "PAUSE_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "pause",
+        "type": "command"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "note": "recording while paused is not allowed",
+        "perturbed": false,
+        "transcript": "Record the temperature as 37 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RESUME_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "resume",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "state_conflict",
+    "id": "scn-11",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": true,
+        "expected_intent": "PAUSE_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "pause",
+        "type": "command"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "completing while paused is not allowed",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RESUME_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "resume",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "state_conflict",
+    "id": "scn-12",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "below absolute zero",
+        "perturbed": false,
+        "transcript": "Record the temperature as -300 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "invalid_value",
+    "id": "scn-13",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "unit not allowlisted",
+        "perturbed": false,
+        "transcript": "record the volume as 50 gallons",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "invalid_value",
+    "id": "scn-14",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "exceeds seven-day bound",
+        "perturbed": false,
+        "transcript": "timer for 200 hours",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "invalid_value",
+    "id": "scn-15",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "ethanol",
+        "note": "visually similar wrong reagent",
+        "observed_text": "METHANOL",
+        "truth": "mismatch",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "label_mismatch",
+    "id": "scn-16",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "sodium chloride",
+        "note": "one-letter chemical confusion",
+        "observed_text": "SODIUM CHLORATE",
+        "truth": "mismatch",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "label_mismatch",
+    "id": "scn-17",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "ethanol",
+        "note": "no readable text",
+        "observed_text": "",
+        "truth": "unreadable",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "label_mismatch",
+    "id": "scn-18",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "ethanol",
+        "note": "digit-for-letter defacement",
+        "observed_text": "ETHAN0L",
+        "truth": "mismatch",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "label_uncertain",
+    "id": "scn-19",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "isopropanol",
+        "note": "matching label with OCR clutter",
+        "observed_text": "ISOPROPANOL 70 12",
+        "truth": "match",
+        "type": "label"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "label_uncertain",
+    "id": "scn-20",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "two actions in one utterance",
+        "perturbed": false,
+        "transcript": "Record the temperature as 37 degrees Celsius and complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the temperature as 37 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "unsupported",
+    "id": "scn-21",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "skip all remaining steps",
+        "type": "command"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "delete the notebook records",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "unsupported",
+    "id": "scn-22",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "ethanol",
+        "note": "",
+        "observed_text": "ETHANOL",
+        "truth": "match",
+        "type": "label"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "note": "digit transposition",
+        "perturbed": true,
+        "transcript": "Record the temperature as 73 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "temperature",
+          "unit": "degC",
+          "value": "37"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the temperature as 37 degrees Celsius",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "RESUME_SESSION",
+        "expected_parameters": {},
+        "note": "already active",
+        "perturbed": false,
+        "transcript": "resume",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "mixed",
+    "id": "scn-23",
+    "note": "",
+    "steps": 3
+  },
+  {
+    "events": [
+      {
+        "expected_reagent": "ethanol",
+        "note": "",
+        "observed_text": "METHANOL",
+        "truth": "mismatch",
+        "type": "label"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "UNSUPPORTED",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "record the volume as 50 gallons",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RECORD_MEASUREMENT",
+        "expected_parameters": {
+          "kind": "volume",
+          "unit": "mL",
+          "value": "250"
+        },
+        "note": "",
+        "perturbed": false,
+        "transcript": "Record the volume as 250 milliliters",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "PAUSE_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "pause",
+        "type": "command"
+      },
+      {
+        "action_valid": false,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "completing while paused",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "RESUME_SESSION",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "resume",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      },
+      {
+        "action_valid": true,
+        "expected_intent": "COMPLETE_STEP",
+        "expected_parameters": {},
+        "note": "",
+        "perturbed": false,
+        "transcript": "complete the step",
+        "type": "command"
+      }
+    ],
+    "expected_final_state": "COMPLETED",
+    "family": "mixed",
+    "id": "scn-24",
+    "note": "",
+    "steps": 3
+  }
+]

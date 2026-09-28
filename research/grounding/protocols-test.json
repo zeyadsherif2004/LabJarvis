@@ -1,0 +1,286 @@
+[
+  {
+    "id": "oww-agarose-gel-electrophoresis",
+    "title": "Agarose gel electrophoresis",
+    "authors": [
+      "OpenWetWare contributors"
+    ],
+    "url": "https://openwetware.org/w/index.php?oldid=819607",
+    "revision": 819607,
+    "license": "CC BY-SA 3.0",
+    "retrieved_at": "2026-09-26",
+    "content_sha256": "15ca4ae7f2d9a7cccc8c54b48d3b0e7098c111907e24c4e39bdef75a8fabaa09",
+    "source_text": "Agarose gel electrophoresis is used to separate DNA or RNA molecules by size. Nucleic acids are negatively charged and are moved through an agarose matrix by an electric field (electrophoresis). Shorter molecules move faster and migrate further.\n== General Procedure ==\nPlace it in gel box in running buffer\nLoad samples\nImage the gel\n== Casting Gels ==\nThe amount of agarose to use in your gel depends on the DNA in question. Use the following table as a rough guide:\n{| border=\"1\" cellpadding=\"5\" cellspacing=\"0\" align=\"center\"\n! Agarose Concentration (g/100mL) !! Optimal DNA Resolution (kb)\n| align=\"center\"|0.5 || align=\"center\"|1 - 30\n| align=\"center\"|0.7 || align=\"center\"|0.8 - 12\n| align=\"center\"|1.0 || align=\"center\"|0.5 - 10\n| align=\"center\"|1.2 || align=\"center\"|0.4 - 7\n| align=\"center\"|1.5 || align=\"center\"|0.2 - 3\nMeasure out the appropriate mass of agarose into a beaker with the appropriate volume of buffer (see below). The volume required depends on your gelbox / casting system -- 50mL makes a good, thick gel for a 7x10cm gelbox.\nMicrowave until the agarose is fully melted. This depends strongly on your microwave, but a 90 seconds at full power or 3 minutes at half power seem to provide decent results. As long as you do not burn the agarose and nothing bubbles over, this step is robust.\nLet the agarose cool on your bench until touching the bottom of the beaker with your bare hand doesn't burn you (~5 minutes for a 50mL gel). At this point add your DNA stain, e.g., ethidium bromide. The beaker will cool unevenly (surface first), so you must be careful not to cause ripples and bubbles.\nWhile the solution is cooling, seal the open edges of your gel box with one long piece of masking tape on each side. Make sure it is sealed well or the gel will leak.\nPour the agarose solution into the taped gelbox. Carefuly pop or shove to the side any bubbles, put in the comb, and let it cool for about 30 minutes, until the gel is solid.\nIf your gel is at all purple, and you are using ethidium bromide as the DNA stain, you need to decrease your concentration by at least a factor of ten.\n== Buffers ==\nTAE - better resolution of fragments >4kb;\nTBE - better resolution of 0.1-3kb fragments; TBE is better suited for high-voltage (>150V) electrophoresis than TAE because of its higher buffering capacity and lower conductivity;\nSB - Sodium borate - low heat generation with good resolution. Allows for higher voltage (250-200V) electrophoresis without melting.\n== Loading dyes ==\n{| cellpadding=5 style=\"border: 1px solid #CC9;\"\n| 0.5-1.5% agarose\n| 2.0-3.0% agarose*\n| xylene cyanol\n| 10'000-5000 bp\n| bromophenol blue\n| 400-500 bp\n*sieving agarose\nfor recipes see: Agarose gel loading dye\nIf you are getting unexpected bands on your gel you may want to look at the common issues in agarose gel electrophoresis page.\nIf you have no experience with gel electrophoresis or are explaining it to someone new, here is a cute java demo of what happens.\nUnless your gel box is made from temperature sensitive materials, I've found the cooling step unnecessary, and risky if you get distracted easily.\nOften, the amount of dye you use can be dramatically reduced if you add it directly to your DNA sample and not to the entire gel. This is the case with SYBR green.\n==See also==\nAgarose gel loading dye\nSpecific Protocols\nEndy:Agarose gel\nKnight:Agarose gel electrophoresis\nAlm:Agarose gel electrophoresis\nRichard Lab:Agarose Gel Electrophoresis\nCommon Issues\n==External links==\nWikipedia entry on agarose gel electrophoresis\nColorado state has an excellent page with detailed instructions and photos\nRoche's Lab FAQ section on DNA work\nMethodbook.net has a nice primer on agarose gel electrophoresis\nCSH Protocols (~Molecular Cloning) protocol on agarose gel electrophoresis but restricted access\nCategory:Protocol\nCategory:In vitro\nCategory:DNA\nCategory:RNA",
+    "steps": [
+      {
+        "id": "agarose-gel-electrophoresis-1",
+        "number": 1,
+        "title": "Casting Gels",
+        "instruction": "Measure out the appropriate mass of agarose into a beaker with the appropriate volume of buffer (see below). The volume required depends on your gelbox / casting system -- 50mL makes a good, thick gel for a 7x10cm gelbox.",
+        "duration_seconds": null
+      },
+      {
+        "id": "agarose-gel-electrophoresis-2",
+        "number": 2,
+        "title": "Casting Gels",
+        "instruction": "Microwave until the agarose is fully melted. This depends strongly on your microwave, but a 90 seconds at full power or 3 minutes at half power seem to provide decent results. As long as you do not burn the agarose and nothing bubbles over, this step is robust.",
+        "duration_seconds": null
+      },
+      {
+        "id": "agarose-gel-electrophoresis-3",
+        "number": 3,
+        "title": "Casting Gels",
+        "instruction": "Let the agarose cool on your bench until touching the bottom of the beaker with your bare hand doesn't burn you (~5 minutes for a 50mL gel). At this point add your DNA stain, e.g., ethidium bromide. The beaker will cool unevenly (surface first), so you must be careful not to cause ripples and bubbles.",
+        "duration_seconds": null
+      },
+      {
+        "id": "agarose-gel-electrophoresis-4",
+        "number": 4,
+        "title": "Casting Gels",
+        "instruction": "While the solution is cooling, seal the open edges of your gel box with one long piece of masking tape on each side. Make sure it is sealed well or the gel will leak.",
+        "duration_seconds": null
+      },
+      {
+        "id": "agarose-gel-electrophoresis-5",
+        "number": 5,
+        "title": "Casting Gels",
+        "instruction": "Pour the agarose solution into the taped gelbox. Carefuly pop or shove to the side any bubbles, put in the comb, and let it cool for about 30 minutes, until the gel is solid.",
+        "duration_seconds": null
+      }
+    ]
+  },
+  {
+    "id": "oww-lb",
+    "title": "LB",
+    "authors": [
+      "OpenWetWare contributors"
+    ],
+    "url": "https://openwetware.org/w/index.php?oldid=876067",
+    "revision": 876067,
+    "license": "CC BY-SA 3.0",
+    "retrieved_at": "2026-09-26",
+    "content_sha256": "ebb67947e3b5a4570cc23179e82c63aab9120ae33bf48405cb5c0042064ccbad",
+    "source_text": "== Summary ==\nLuria-Bertani Medium (aka L-Broth or LB Medium). (Bertani says LB really stands for lysogeny broth.) LB is a standard growth medium for a variety of bacteria and conditions.\nLB contains a milk digest (tryptone) and hence can induce cultures with lac based promoters when they near saturation.\n\"LB ... contains enzymatic digests of the milk protein casein (e.g., tryptone or N-Z-amine) and yeast extract. Since milk is rich in lactose, an inducer of the T7 expression system, variable amounts of residual lactose may be present in different lots of these enzymatic digests. These small amounts of lactose do not promote appreciable induction during log-phase growth, but even minute amounts are sufficient to cause induction on approach to saturation, particularly at lower rates of aeration, which allow induction at lower lactose concentration and promote higher levels of induction.\" -- Sturdier 2014\n== Ingredients ==\n10 g Bacto-tryptone\n5 g yeast extract\nFor plates also add\nSee also: Silver: LB Liquid\nNote: There are two formulations of LB, Miller and Lennox, that differ in the amount of NaCl. Lennox has less salt, only 5 g/L. The Qiagen miniprep kit recommends LB with 10 g NaCl for highest plasmid yields.\n==Protocol==\nMix dry ingredients and add distilled water up to 1 Liter\nPour into 2 L flask (or greater)\nAutoclave (liquid cycle)\n250°F, 22psi, 30 minutes\nNotes: We do not pH medium when we make it on the fly. However, if it is really important, pH the medium to 7.0 with 5M NaOH (~200µL). Check with pH paper\n===For plates===\nMix dry ingredients and add distilled water up to less than 1 Liter\nAfter dissolved, add agar\nPour into 2 L flask (or greater)\nAutoclave (liquid cycle)\n250°F, 22psi, 30 minutes\nCool media down to 60-55C (uncomfortable but not painful)\nAdd appropriate antibiotic\nPour the solution on sterile (???) plates\nLet solidify about 1 h, wrap, label (name, date, additive)\nAdapted From:\nJ. Sambrook, D.W. Russell, Molecular Cloning: A Laboratory Manual (Cold Spring Harbor Laboratory Press, New York, ed. 3, 2001) pg. A2.2\nCategory:Material Category:Standard Media",
+    "steps": [
+      {
+        "id": "lb-1",
+        "number": 1,
+        "title": "Protocol",
+        "instruction": "Mix dry ingredients and add distilled water up to 1 Liter",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-2",
+        "number": 2,
+        "title": "Protocol",
+        "instruction": "Pour into 2 L flask (or greater)",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-3",
+        "number": 3,
+        "title": "Protocol",
+        "instruction": "Autoclave (liquid cycle)",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-4",
+        "number": 4,
+        "title": "For plates",
+        "instruction": "Mix dry ingredients and add distilled water up to less than 1 Liter",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-5",
+        "number": 5,
+        "title": "For plates",
+        "instruction": "After dissolved, add agar",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-6",
+        "number": 6,
+        "title": "For plates",
+        "instruction": "Pour into 2 L flask (or greater)",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-7",
+        "number": 7,
+        "title": "For plates",
+        "instruction": "Autoclave (liquid cycle)",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-8",
+        "number": 8,
+        "title": "For plates",
+        "instruction": "Cool media down to 60-55C (uncomfortable but not painful)",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-9",
+        "number": 9,
+        "title": "For plates",
+        "instruction": "Add appropriate antibiotic",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-10",
+        "number": 10,
+        "title": "For plates",
+        "instruction": "Pour the solution on sterile (???) plates",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-11",
+        "number": 11,
+        "title": "For plates",
+        "instruction": "Let solidify about 1 h, wrap, label (name, date, additive)",
+        "duration_seconds": null
+      },
+      {
+        "id": "lb-12",
+        "number": 12,
+        "title": "For plates",
+        "instruction": "keep at 4°C",
+        "duration_seconds": null
+      }
+    ]
+  },
+  {
+    "id": "oww-ethanol-precipitation-of-nucleic-acids",
+    "title": "Ethanol precipitation of nucleic acids",
+    "authors": [
+      "OpenWetWare contributors"
+    ],
+    "url": "https://openwetware.org/w/index.php?oldid=611420",
+    "revision": 611420,
+    "license": "CC BY-SA 3.0",
+    "retrieved_at": "2026-09-26",
+    "content_sha256": "4a00e7973b4a7b4f37336d7be8038537f19151c97a99d0590475582853c736c1",
+    "source_text": "Nucleic acid precipitation is used to concentrate and/or purify nucleic acids. The below protocol is based on the fact that nucleic acids are less soluble in alcohol than in more polar water. Addition of salt further decreases solubility by competing for water dipoles; as does low temperature. See Purification of DNA for related protocols.\n==Material==\n100% ethanol (for analysis)\n70% ethanol (store @ 4°C)\n3M sodium acetate pH 5.2 (store @ 4°C)\n5M ammonium acetate\n-20°C freezer\nOptional: you can use linear polyacrylamide, glycogen or tRNA as precipitation carrier\ntabletop centrifuge\n==Procedure==\n===Eppendorf Protocol===\nAdd the following to your sample in the order they appear:\n1/10 volume of 3M sodium acetate, pH 5.2 or 1/2 volume of 5M ammonium acetate\n2-3 volumes of 100% Ethanol\nMix and freeze overnight in -20. This step some say is unnecessary but others swear by it. If you are in a rush you can also put it in the -80 for ten minutes to a few hours. Dry ice for 10-15 minutes also works.--Heather\nIn general, the time you need to incubate in the freezer depends on how much nucleic acid you have, how big it is and the volume it is in. My general protocol is to freeze for 20 min to 1 hr at -80 ˚C. This seems to work well for most things, but you may want to freeze longer if you have only a small concentration of nucleic acid or if it is small in size(<15 nucleotides).--Kathleen\nIf you are in a hurry, you can also dip you epi shortly into liquid nitrogen. If you added enough ethanol, the mix won't freeze. Careful with isopropanol - it freezes more quickly. This works well for me and saves me a lengthy incubation in the fridge. --Jasu\nSpin at full speed in a standard microcentrifuge at 4 degrees for 30 minutes. Make sure to mark the outermost edge of the tube so you can find the pellet easily (or just put the hinge portion of the tube to the outside). It is clear and usually looks like a little smudge on the tube.\nDecant (or carefully pipet off) the supernatant.\nDry the pellet. For this you can air dry (tubes open, ~15 min) or dry in a speedvac. DNA and RNA (if you don't have RNases in your sample) are typically hearty enough for you to air dry at 37 ˚C, if desired.\nOverdrying can make DNA hard to re-dissolve. Especially for longer DNA, I avoid vacuum drying and airdry only briefly before re-dissolving. --Jasu\nAdd your desired quantity of water. Vortex and spin down to resuspend.\nBeware of using water unless you are sure of what you are getting in to. The \"pH\" of water can vary widely (I've seen from pH 5 to pH 8.5), and depurination of DNA at low pH or degradation of RNA at high pH are possibilities. Water also typically contains trace metals, which can accelerate these reactions. I typically recommend resuspension in TE (10 mM Tris-HCl, pH 7.5, 1 mM EDTA). This makes sure your nucleic acid is at a neutral pH and the EDTA will chelate any trace metals. Since they are in such small amounts, neither the buffer nor the EDTA will affect most downstream reactions.--Kathleen\n=== 96 Well Plate Protocol===\nAdd to each 10 µl product:\n1.9 µl of Na acetate 3M\n60 µl of 85% ethanol\nMix thoroughly (vortex ???) and keep at -20°C for 30 min\ncentrifuge for 45 min at 4000 rpm and 4°C (program 3; balance)\nremove supernatant (invert tube on trash once)\nadd 150 µl of 70% ethanol and mix\ncentrifuge for 15 min at 4000 rpm and 4°C\nremove all supernatant (invert tube on trash)\ninvert tube on paper tissue\ncentrifuge for 2 min at 500 rpm\ntake out the tube and let it dry in the fume hood at room temperature for 10-15 min\nput 20 µl of formide dye using multipipette (nasty chemical to manipulate in fume hood)\nvortex thoroughly/spin/vortex/spin\ntransfer the 20 µl (multipipette) in a sequencing plate\nput septum on top, press, tap once (do NOT mix)\nkeep on ice in aluminium rack\nHeat 3 min at 95°C (SWATI/95-CST) to keep in single stranded form)\nkeep on ice in aluminium rack\nWe tend to wash the DNA with 70% Ethanol after removing the first supernatant (the one containing sodium acetate and 100% Ethanol). Which means add 200-300µl 70% Ethanol to the DNA-pellet. Then spin at full speed for 5mins @ 4°C. Carefully remove supernatant. Proceed with drying. --Janosch\n==See also==\nPurification of DNA - overview of methods\nEthanol precipitation of small DNA fragments\nIsopropanol Precipitation for PCR Purification - 2-propanol instead of ethanol\n==BioCoder version==\nFollowing is the Ethanol precipitation of nucleic acids protocol in BioCoder, a high-level programming language for expressing biology protocols. What you see here is the auto-generated text ouput of the protocol that was coded up in BioCoder (see Source code). More information about BioCoder can be found on my home page. Feel free to mail me your comments/ suggestions.Vaishnavi\n====Text Output====\nEthanol precipitation of nucleic acids protocol\n====Source Code====\nEthanol precipitation of nucleic acids protocol - source code\nCategory:Protocol\nCategory:DNA\nCategory:RNA\nCategory:In vitro\nCategory:Purification",
+    "steps": [
+      {
+        "id": "ethanol-precipitation-of-nucleic-acids-1",
+        "number": 1,
+        "title": "Eppendorf Protocol",
+        "instruction": "Add the following to your sample in the order they appear:",
+        "duration_seconds": null
+      },
+      {
+        "id": "ethanol-precipitation-of-nucleic-acids-2",
+        "number": 2,
+        "title": "Eppendorf Protocol",
+        "instruction": "Mix and freeze overnight in -20. This step some say is unnecessary but others swear by it. If you are in a rush you can also put it in the -80 for ten minutes to a few hours. Dry ice for 10-15 minutes also works.--Heather",
+        "duration_seconds": null
+      },
+      {
+        "id": "ethanol-precipitation-of-nucleic-acids-3",
+        "number": 3,
+        "title": "Eppendorf Protocol",
+        "instruction": "Spin at full speed in a standard microcentrifuge at 4 degrees for 30 minutes. Make sure to mark the outermost edge of the tube so you can find the pellet easily (or just put the hinge portion of the tube to the outside). It is clear and usually looks like a little smudge on the tube.",
+        "duration_seconds": null
+      },
+      {
+        "id": "ethanol-precipitation-of-nucleic-acids-4",
+        "number": 4,
+        "title": "Eppendorf Protocol",
+        "instruction": "Decant (or carefully pipet off) the supernatant.",
+        "duration_seconds": null
+      },
+      {
+        "id": "ethanol-precipitation-of-nucleic-acids-5",
+        "number": 5,
+        "title": "Eppendorf Protocol",
+        "instruction": "Dry the pellet. For this you can air dry (tubes open, ~15 min) or dry in a speedvac. DNA and RNA (if you don't have RNases in your sample) are typically hearty enough for you to air dry at 37 ˚C, if desired.",
+        "duration_seconds": null
+      },
+      {
+        "id": "ethanol-precipitation-of-nucleic-acids-6",
+        "number": 6,
+        "title": "Eppendorf Protocol",
+        "instruction": "Add your desired quantity of water. Vortex and spin down to resuspend.",
+        "duration_seconds": null
+      }
+    ]
+  },
+  {
+    "id": "oww-preparing-chemically-competent-cells",
+    "title": "Preparing chemically competent cells",
+    "authors": [
+      "OpenWetWare contributors"
+    ],
+    "url": "https://openwetware.org/w/index.php?oldid=1112593",
+    "revision": 1112593,
+    "license": "CC BY-SA 3.0",
+    "retrieved_at": "2026-09-26",
+    "content_sha256": "df41ad6ac062900d13c8915a09e9d183363e176ad06b3dc8603ff549438d384c",
+    "source_text": "==Materials==\nPlate of cells to be made competent\n==Glassware & Equipment==\nFalcon tubes\n500μl Eppendorf tubes, on ice\n200ml conical flask\n200μl pipetman or repeating pipettor\n==Preparation==\nGrow a 5 mL seed culture of cells in LB medium to saturation. Dilute this culture back into 25–50 mL fresh LB in a 200 mL conical flask. You should aim to dilute the seed culture by at least 1/100.\nGrow the diluted culture at 30-37C and 250-400 RPM to an OD600 = 0.2–0.5. (You will get a very small pellet if you grow 25 mL to OD600 = 0.2)\nPut eppendorf tubes on ice now so that they are cold when cells are aliquotted into them later. If your culture is X ml, you will need X tubes. At this point you should also make sure that your TSS is being chilled (it should be stored at 4°C but if you have just made it fresh then put it in an ice bath).\n250 µL PCR tubes also work when aliquotting ≈50 µL cells. They save space and can be heat/cold-shocked on a thermocycler. 3 volumes recovery medium can be added directly to the tube and incubated stationary without apparent efficiency loss (Dueber & Bennett Labs).\nSplit the culture into two 50 mL falcon tubes and incubate on ice for 10 min.\nAll subsequent steps should be carried out at 4°C and the cells should be kept on ice wherever possible\nCentrifuge for 10 min at 3000 rpm and 4°C.\nRemove supernatant. The cell pellets should be sufficiently solid that you can just pour off the supernatant if you are careful. Pipette out any remaining media.\nResuspend cells in chilled TSS buffer. The volume of TSS to use is 10% of the culture volume that you spun down. You may need to vortex gently to fully resuspend the culture, keep an eye out for small cell aggregates even after the pellet is completely off the wall.\nHigher concentrations of cells (2–3×) are found to enhance efficiency, requiring cell resuspension in 3–5% culture volume of TSS instead of 10% (Dueber & Bennett Lab).\nAdd 100 µL aliquots to your chilled eppendorfs and store at -80°C.\nThe original paper chung suggests freezing the cells immediately using a dry ice bath. I (BC) have used liquid nitrogen quite successfully instead of dry ice. Simply placing the cells at -80°C also seems to work well (Jkm).\nIf you run a control every time you clone (i.e. a vector-only ligation), you can as well freeze cells in 200 µL aliquots. Unused cells can be frozen back once and reused, albeit with some loss of competence.\nIt is a good idea to run a positive control on the cells.\nThe Endy Lab is trying to use a standard positive control to better compare (and hopefully improve) the transformation efficiencies in the lab, you can check it out here.\nNote1: CT Chung paper recommends long storage of TSS competent cells at -70˚C, while people have been using a wide range of temperatures from -20˚C to -140˚C for long term storage.\n==Related topics & References==\nPreparing TSS buffer\nTransforming chemically competent cells\nPreparing electrocompetent cells\nElectroporation\nBacterial cell culture\nBased on a protocol from Kathleen McGinness, annotated by Josh Michener & Barry Canton. Original protocol published by Chung et al.chung chung2\nchung pmid=2648393\nchung2 pmid=8510550\nCategory:Protocol\nCategory:In vivo\nCategory:Escherichia coli",
+    "steps": [
+      {
+        "id": "preparing-chemically-competent-cells-1",
+        "number": 1,
+        "title": "Preparation",
+        "instruction": "Grow a 5 mL seed culture of cells in LB medium to saturation. Dilute this culture back into 25–50 mL fresh LB in a 200 mL conical flask. You should aim to dilute the seed culture by at least 1/100.",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-2",
+        "number": 2,
+        "title": "Preparation",
+        "instruction": "Grow the diluted culture at 30-37C and 250-400 RPM to an OD600 = 0.2–0.5. (You will get a very small pellet if you grow 25 mL to OD600 = 0.2)",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-3",
+        "number": 3,
+        "title": "Preparation",
+        "instruction": "Put eppendorf tubes on ice now so that they are cold when cells are aliquotted into them later. If your culture is X ml, you will need X tubes. At this point you should also make sure that your TSS is being chilled (it should be stored at 4°C but if you have just made it fresh then put it in an ice bath).",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-4",
+        "number": 4,
+        "title": "Preparation",
+        "instruction": "Split the culture into two 50 mL falcon tubes and incubate on ice for 10 min.",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-5",
+        "number": 5,
+        "title": "Preparation",
+        "instruction": "Centrifuge for 10 min at 3000 rpm and 4°C.",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-6",
+        "number": 6,
+        "title": "Preparation",
+        "instruction": "Remove supernatant. The cell pellets should be sufficiently solid that you can just pour off the supernatant if you are careful. Pipette out any remaining media.",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-7",
+        "number": 7,
+        "title": "Preparation",
+        "instruction": "Resuspend cells in chilled TSS buffer. The volume of TSS to use is 10% of the culture volume that you spun down. You may need to vortex gently to fully resuspend the culture, keep an eye out for small cell aggregates even after the pellet is completely off the wall.",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-8",
+        "number": 8,
+        "title": "Preparation",
+        "instruction": "Add 100 µL aliquots to your chilled eppendorfs and store at -80°C.",
+        "duration_seconds": null
+      },
+      {
+        "id": "preparing-chemically-competent-cells-9",
+        "number": 9,
+        "title": "Preparation",
+        "instruction": "It is a good idea to run a positive control on the cells.",
+        "duration_seconds": null
+      }
+    ]
+  }
+]

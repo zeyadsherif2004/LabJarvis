@@ -1,0 +1,20 @@
+{"sample_id": "tc-001", "category": "material-value", "realtime": "record the volume as 5 mL", "high_accuracy": "record the volume as 50 mL", "expected": "conflict", "note": "order-of-magnitude error; the case this path exists for"}
+{"sample_id": "tc-002", "category": "material-value", "realtime": "record the volume as 1.5 mL", "high_accuracy": "record the volume as 15 mL", "expected": "conflict", "note": "lost decimal point"}
+{"sample_id": "tc-003", "category": "material-value", "realtime": "record the pH as 7", "high_accuracy": "record the pH as 11", "expected": "conflict", "note": "seven and eleven confuse readily under noise"}
+{"sample_id": "tc-004", "category": "material-value", "realtime": "record the volume as 0.5 mL", "high_accuracy": "record the volume as 5 mL", "expected": "conflict", "note": "leading zero dropped"}
+{"sample_id": "tc-005", "category": "material-unit", "realtime": "record the volume as 10 mL", "high_accuracy": "record the volume as 10 uL", "expected": "conflict", "note": "thousand-fold unit error"}
+{"sample_id": "tc-006", "category": "material-unit", "realtime": "set a timer for 5 minutes", "high_accuracy": "set a timer for 5 hours", "expected": "conflict", "note": "duration unit error"}
+{"sample_id": "tc-007", "category": "material-unit", "realtime": "record the mass as 20 mg", "high_accuracy": "record the mass as 20 g", "expected": "conflict", "note": "milligram versus gram"}
+{"sample_id": "tc-008", "category": "material-negation", "realtime": "do not complete the step", "high_accuracy": "complete the step", "expected": "conflict", "note": "negation inverts the instruction"}
+{"sample_id": "tc-009", "category": "material-negation", "realtime": "record the observation without precipitate", "high_accuracy": "record the observation with precipitate", "expected": "conflict", "note": "negation inside an observation"}
+{"sample_id": "tc-010", "category": "material-missing", "realtime": "record the volume", "high_accuracy": "record the volume as 10 mL", "expected": "conflict", "note": "one reading dropped the number entirely"}
+{"sample_id": "tc-011", "category": "material-word", "realtime": "add the ethanol slowly", "high_accuracy": "add the methanol slowly", "expected": "conflict", "note": "different reagent; deterministic comparison cannot rule it harmless"}
+{"sample_id": "tc-012", "category": "cosmetic-case", "realtime": "Record the volume as 10 mL", "high_accuracy": "record the volume as 10 ml", "expected": "equivalent", "note": "casing only"}
+{"sample_id": "tc-013", "category": "cosmetic-space", "realtime": "record  the volume   as 10 mL ", "high_accuracy": "record the volume as 10 mL", "expected": "equivalent", "note": "whitespace only"}
+{"sample_id": "tc-014", "category": "cosmetic-punctuation", "realtime": "record the volume as 10 mL.", "high_accuracy": "record the volume as 10 mL", "expected": "equivalent", "note": "trailing punctuation"}
+{"sample_id": "tc-015", "category": "cosmetic-numeral", "realtime": "record the volume as ten mL", "high_accuracy": "record the volume as 10 mL", "expected": "equivalent", "note": "spoken numeral versus digit"}
+{"sample_id": "tc-016", "category": "cosmetic-unit-synonym", "realtime": "record the volume as 10 millilitres", "high_accuracy": "record the volume as 10 mL", "expected": "equivalent", "note": "unit synonym"}
+{"sample_id": "tc-017", "category": "cosmetic-unit-synonym", "realtime": "set a timer for 5 mins", "high_accuracy": "set a timer for 5 minutes", "expected": "equivalent", "note": "abbreviated unit"}
+{"sample_id": "tc-018", "category": "cosmetic-filler", "realtime": "um record the volume as 10 mL please", "high_accuracy": "record the volume as 10 mL", "expected": "equivalent", "note": "disfluency and politeness"}
+{"sample_id": "tc-019", "category": "cosmetic-filler", "realtime": "so, uh, complete the step", "high_accuracy": "complete the step", "expected": "equivalent", "note": "leading disfluency"}
+{"sample_id": "tc-020", "category": "identical", "realtime": "record the volume as 10 mL", "high_accuracy": "record the volume as 10 mL", "expected": "equivalent", "note": "both readers agree exactly"}

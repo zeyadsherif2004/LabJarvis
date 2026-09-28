@@ -1,0 +1,56 @@
+[
+  {
+    "id": "transformation-2018",
+    "title": "Transformation",
+    "authors": ["Yvonne Kolaczek", "Axmann Lab"],
+    "institution": "Axmann Lab",
+    "doi": "10.17504/protocols.io.hcnb2ve",
+    "url": "https://www.protocols.io/view/transformation-hcnb2ve.html",
+    "license": "CC BY 4.0",
+    "retrieved_at": "2026-09-01",
+    "content_sha256": "a69b0417c99e899fdd327fcc80e842cfcc8ce6f93ff944c3dadb6a629614ded1",
+    "source_text": "Add one tenth of the cell volume of DNA, mix without vortexing, and incubate for 30 minutes on ice. Heat shock for 0.5 to 2 minutes at 42 C, return to ice for 2 to 5 minutes, add up to 700 uL LB medium, then incubate at 37 C and 250 rpm for one hour.",
+    "steps": [
+      {"id": "transformation-1", "number": 1, "title": "Add DNA", "instruction": "Add one tenth cell volume DNA and incubate on ice for 30 minutes.", "duration_seconds": 1800},
+      {"id": "transformation-2", "number": 2, "title": "Heat shock", "instruction": "Heat shock at 42 C for 0.5 to 2 minutes, then return to ice.", "duration_seconds": null},
+      {"id": "transformation-3", "number": 3, "title": "Recovery", "instruction": "Add up to 700 uL LB medium and incubate at 37 C and 250 rpm for one hour.", "duration_seconds": 3600}
+    ]
+  },
+  {
+    "id": "platero-2023",
+    "title": "PLATERO: A Calibration Protocol for Plate Reader Green Fluorescence Measurements",
+    "authors": ["Alejandro Vignoni", "Yadira Boada"],
+    "institution": "Universitat Politecnica de Valencia",
+    "doi": "10.17504/protocols.io.kxygxzjz4v8j/v1",
+    "url": "https://www.protocols.io/view/platero-a-calibration-protocol-for-plate-reader-gr-ceqqtdvw.pdf",
+    "license": "CC BY 4.0",
+    "retrieved_at": "2026-09-01",
+    "content_sha256": "91f14ee48f61a20588969f0c5f9e6f611aecee93bceb2c2be736092936ea293a",
+    "source_text": "Prepare a 0.625 micromolar fluorescein starting dilution by combining 250 uL stock with 3750 uL 1X PBS. Prepare serial dilutions by transferring 2 mL between tubes and mixing three times. Load 100 uL per well, measure at four gain settings, repeat eight times, and save measurements in separate spreadsheet sheets.",
+    "steps": [
+      {"id": "platero-1", "number": 1, "title": "Starting dilution", "instruction": "Combine 250 uL fluorescein stock with 3750 uL 1X PBS.", "duration_seconds": null},
+      {"id": "platero-2", "number": 2, "title": "Serial dilution", "instruction": "Transfer 2 mL between dilution tubes and mix three times.", "duration_seconds": null},
+      {"id": "platero-3", "number": 3, "title": "Plate loading", "instruction": "Load 100 uL of each dilution into its assigned well.", "duration_seconds": null},
+      {"id": "platero-4", "number": 4, "title": "Measurement", "instruction": "Measure fluorescence at four gain settings, repeat eight times, and save the results.", "duration_seconds": null}
+    ]
+  },
+  {
+    "id": "distance-probes-2025",
+    "title": "Preparation of 3D distance probes for variability measurements",
+    "authors": ["Benjamin Padman"],
+    "institution": "University of Western Australia",
+    "doi": "10.17504/protocols.io.3byl4zkwjvo5/v1",
+    "url": "https://www.protocols.io/view/preparation-of-3d-distance-probes-for-the-quantifi-d7md9k26.html",
+    "license": "CC BY 4.0",
+    "retrieved_at": "2026-09-01",
+    "content_sha256": "5c3c725c9ed89ebd16180ed3ec1347ba3b04af4be9d11f15fecec282f8967b51",
+    "source_text": "Open the reference binary TIFF stack in FIJI/ImageJ. Apply 3D maximum filters at selected maximum and minimum distances, subtract the filtered stacks to produce allowable probe locations, generate sparse random points from two noise images, combine them with the allowable locations using AND, and save the final 3D distance probes as a TIFF stack.",
+    "steps": [
+      {"id": "distance-1", "number": 1, "title": "Reference stack", "instruction": "Open the reference binary TIFF stack in FIJI/ImageJ.", "duration_seconds": null},
+      {"id": "distance-2", "number": 2, "title": "Distance bounds", "instruction": "Apply 3D maximum filters at the selected maximum and minimum probe distances.", "duration_seconds": null},
+      {"id": "distance-3", "number": 3, "title": "Allowable locations", "instruction": "Subtract the filtered stacks to produce allowable probe locations.", "duration_seconds": null},
+      {"id": "distance-4", "number": 4, "title": "Random points", "instruction": "Generate sparse random points from two noise images and combine them with allowable locations using AND.", "duration_seconds": null},
+      {"id": "distance-5", "number": 5, "title": "Save", "instruction": "Save the final 3D distance probes as a TIFF stack.", "duration_seconds": null}
+    ]
+  }
+]

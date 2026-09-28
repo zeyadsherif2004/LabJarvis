@@ -1,0 +1,748 @@
+{
+  "candidate": {
+    "adapter": "openai-responses-json-schema",
+    "component_summary": {
+      "confidence": {
+        "confirmations": 0,
+        "executed": 9,
+        "missed_valid": 0,
+        "unsafe_executed": 0
+      },
+      "confirm_always_accept": {
+        "confirmations": 9,
+        "executed": 9,
+        "missed_valid": 0,
+        "unsafe_executed": 0
+      },
+      "confirm_attentive": {
+        "confirmations": 9,
+        "executed": 9,
+        "missed_valid": 0,
+        "unsafe_executed": 0
+      },
+      "proposal": {
+        "confirmations": 0,
+        "executed": 9,
+        "missed_valid": 0,
+        "unsafe_executed": 0
+      },
+      "state": {
+        "confirmations": 0,
+        "executed": 9,
+        "missed_valid": 0,
+        "unsafe_executed": 0
+      },
+      "validation": {
+        "confirmations": 0,
+        "executed": 9,
+        "missed_valid": 0,
+        "unsafe_executed": 0
+      }
+    },
+    "failure_count": 0,
+    "metrics": {
+      "exact_command_accuracy": 1.0,
+      "intent_accuracy": 1.0,
+      "mean_latency_ms": 2863.222222222222,
+      "slot_f1": 0.8000000000000002,
+      "slot_precision": 0.8,
+      "slot_recall": 0.8
+    },
+    "model_name": "gpt-5.6-terra",
+    "records": [
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "53086b36be7cb8886ba3979502c1f69099b6caf3418ff6116167855a90546824",
+        "intent_correct": 1,
+        "latency_ms": 2338,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "1800"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "84",
+          "provider": "openai",
+          "request_id": "req_8427c73b956e4736ba14d1661bc573f6",
+          "retry_count": "0",
+          "total_tokens": "442"
+        },
+        "sample_id": "trans-c1",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c71b73f0156782e57d23c8adb12c0e5925fa9c1c438cf1ce4dc0f0855286a8c1",
+        "intent_correct": 1,
+        "latency_ms": 1659,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "42"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "45",
+          "provider": "openai",
+          "request_id": "req_cf26bde538df4866b1f34e78750023e1",
+          "retry_count": "0",
+          "total_tokens": "404"
+        },
+        "sample_id": "trans-c2",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "ac25caa18c03a599d2e20ca58be7308ef738dc97a74eab70d83bdbad3a9d2ec9",
+        "intent_correct": 1,
+        "latency_ms": 1502,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "3600"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "35",
+          "provider": "openai",
+          "request_id": "req_7c48681dc1954bcfb3254ea758bfc8d8",
+          "retry_count": "0",
+          "total_tokens": "393"
+        },
+        "sample_id": "trans-c3",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f4ea2560c724681b0e60c41e2786e3c9cad0d0f41d62044ce23fc2010264d7f6",
+        "intent_correct": 1,
+        "latency_ms": 1600,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "microliters",
+            "value": "250"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "46",
+          "provider": "openai",
+          "request_id": "req_df2ac80972ea4e0bb82539342e33cc11",
+          "retry_count": "0",
+          "total_tokens": "406"
+        },
+        "sample_id": "platero-c1",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "97ecefff3c3740126ed7ed45d0974e5b86aba446e7758aed7f39b012253f9e40",
+        "intent_correct": 1,
+        "latency_ms": 1734,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "milliliters",
+            "value": "2"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "46",
+          "provider": "openai",
+          "request_id": "req_8125cdb2f6f14496befb0df48e1b0981",
+          "retry_count": "0",
+          "total_tokens": "406"
+        },
+        "sample_id": "platero-c2",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "3a5dc87433511adae5cd84dde14f9d78ea9ef6c09988b5028a8a73c6f52b6d41",
+        "intent_correct": 1,
+        "latency_ms": 2254,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.93,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "fluorescence was measured at four gain settings"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "362",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "98",
+          "provider": "openai",
+          "request_id": "req_c8d6066658d041c2928c208ac1ac22e1",
+          "retry_count": "0",
+          "total_tokens": "460"
+        },
+        "sample_id": "platero-c3",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f6cd3ef7eb60837c6a659a014a59efb529aad28f1e2b6ced51b561bf51384cde",
+        "intent_correct": 1,
+        "latency_ms": 1890,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the reference binary TIFF stack was opened"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "362",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "65",
+          "provider": "openai",
+          "request_id": "req_b7d77d8f33db4e3e8853c020289baecc",
+          "retry_count": "0",
+          "total_tokens": "427"
+        },
+        "sample_id": "distance-c1",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f3399f81c973a9d3e810c97446229f76fbb81334da660fb8e7fbd538e7e8a813",
+        "intent_correct": 1,
+        "latency_ms": 10461,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "allowable probe locations were generated"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "63",
+          "provider": "openai",
+          "request_id": "req_e5faaa64a00e4e7db84b2770fde90979",
+          "retry_count": "0",
+          "total_tokens": "423"
+        },
+        "sample_id": "distance-c2",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "public_protocol",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "bdd2f655e61a77ec30405c8d4c8e3b923d632c09f4e8d8ecfc766e2468a9226a",
+        "intent_correct": 1,
+        "latency_ms": 2331,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the final probes were saved as a TIFF stack"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "364",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "66",
+          "provider": "openai",
+          "request_id": "req_d84a6f13edb941a4871491d52eb0dbfc",
+          "retry_count": "0",
+          "total_tokens": "430"
+        },
+        "sample_id": "distance-c3",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      }
+    ],
+    "sample_count": 9
+  },
+  "created_at": "2026-09-01T13:08:57.125439+00:00",
+  "dataset": "research/post_review/public_protocols/cases.jsonl",
+  "dataset_sha256": "ce6d8df27f40dbfca1f704ad35c28f5e343affcebb96969250f5b18007ed85f0",
+  "eligible_claims": [
+    "interpreter performance on the frozen synthetic text benchmark",
+    "component outcomes on identical authored cases"
+  ],
+  "environment": {
+    "commit": "1399c89a496bc4e7c6075dd2ef82e60d48e09e69",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "working_tree_dirty": true
+  },
+  "evidence_class": "synthetic_post_review",
+  "prohibited_claims": [
+    "real operator performance",
+    "real laboratory safety",
+    "real speech or image performance"
+  ],
+  "schema_version": 1
+}

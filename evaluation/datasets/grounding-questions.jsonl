@@ -1,0 +1,12 @@
+{"sample_id": "gq-001", "question": "how much ethanol do I add", "expected": "answerable", "expected_step_id": "step-1", "note": "quantity stated directly in a reviewed step"}
+{"sample_id": "gq-002", "question": "how long should I centrifuge the vessel", "expected": "answerable", "expected_step_id": "step-2", "note": "duration stated in a reviewed step"}
+{"sample_id": "gq-003", "question": "what do I do with the supernatant", "expected": "answerable", "expected_step_id": "step-3", "note": "action stated in a reviewed step"}
+{"sample_id": "gq-004", "question": "what temperature should ethanol stocks be stored below", "expected": "answerable", "expected_step_id": null, "note": "present in the source text but not captured as a step"}
+{"sample_id": "gq-005", "question": "is ethanol flammable", "expected": "answerable", "expected_step_id": "step-1", "note": "safety note attached to a reviewed step"}
+{"sample_id": "gq-006", "question": "which vessel do I use", "expected": "answerable", "expected_step_id": "step-1", "note": "Was a known limitation: the generic verb 'use' outranked the domain term 'vessel' because rarity weighting in a small corpus rewards any term that happens to appear once. Fixed by excluding query-framing verbs from retrieval rather than by changing this expectation."}
+{"sample_id": "gq-007", "question": "what is the maximum permitted autoclave pressure", "expected": "abstain", "expected_step_id": null, "note": "plausible laboratory question this protocol never addresses"}
+{"sample_id": "gq-008", "question": "how do I dispose of the waste", "expected": "abstain", "expected_step_id": null, "note": "reasonable follow-up that is out of scope for the document"}
+{"sample_id": "gq-009", "question": "what personal protective equipment is required", "expected": "abstain", "expected_step_id": null, "note": "safety question the document does not cover; must not be invented"}
+{"sample_id": "gq-010", "question": "what is the shelf life after opening", "expected": "abstain", "expected_step_id": null, "note": "storage detail absent from this protocol"}
+{"sample_id": "gq-011", "question": "how many replicates should I run", "expected": "abstain", "expected_step_id": null, "note": "experimental design question outside the protocol"}
+{"sample_id": "gq-012", "question": "what rotor speed should the centrifuge use", "expected": "abstain", "expected_step_id": null, "note": "adjacent to a real step but the value is genuinely absent"}

@@ -1,0 +1,345 @@
+{
+  "e1": {
+    "chained_intent_accuracy": 0.84,
+    "chained_missed_valid": {
+      "A": 18,
+      "B": 18,
+      "C_always_accept": 18,
+      "C_attentive": 18
+    },
+    "chained_unsafe": {
+      "A": 2,
+      "B": 0,
+      "C_always_accept": 0,
+      "C_attentive": 0
+    },
+    "command_path_B_vs_C_always_accept_execution_disagreements": 0,
+    "failures": 0,
+    "mean_wer": 0.12792688792688792,
+    "mean_wer_cluster_ci95": [
+      0.09073296592777112,
+      0.17166576479076476
+    ],
+    "n": 75,
+    "n_utterance_clusters": 30,
+    "speech_confidence": {
+      "below_command_threshold_0.75": 75,
+      "definition": "exp(mean faster-whisper segment avg_logprob), clipped to [0,1]",
+      "used_by_command_gate": false
+    }
+  },
+  "e2": {
+    "command_confidence_gate": {
+      "B_vs_C_always_accept_execution_disagreements": 0,
+      "below_threshold": 28,
+      "below_threshold_after_validation_and_state": 0,
+      "newly_rejected_by_gate": 0,
+      "threshold": 0.75,
+      "value_counts": {
+        "0.0": 28,
+        "0.99": 53
+      }
+    },
+    "contrasts": {
+      "A_vs_B": {
+        "discordant": [
+          8,
+          0
+        ],
+        "outcome": "unsafe_executed",
+        "p_mcnemar": 0.0078125,
+        "rd_ci95": [
+          0.037037037037037035,
+          0.1728395061728395
+        ],
+        "risk_difference": 0.09876543209876543
+      },
+      "A_vs_C_attentive": {
+        "discordant": [
+          8,
+          0
+        ],
+        "outcome": "unsafe_executed",
+        "p_mcnemar": 0.0078125,
+        "rd_ci95": [
+          0.037037037037037035,
+          0.1728395061728395
+        ],
+        "risk_difference": 0.09876543209876543
+      },
+      "B_vs_C_attentive": {
+        "discordant": [
+          0,
+          0
+        ],
+        "outcome": "unsafe_executed",
+        "p_mcnemar": 1.0,
+        "rd_ci95": [
+          0.0,
+          0.0
+        ],
+        "risk_difference": 0.0
+      }
+    },
+    "holm_adjusted": {
+      "A_vs_B": 0.0234375,
+      "A_vs_C_attentive": 0.0234375,
+      "B_vs_C_attentive": 1.0
+    },
+    "intent_accuracy": 0.8765432098765432,
+    "n": 81,
+    "valid_n": 55
+  },
+  "e3": {
+    "accounting_note": "90 labels = 45 match + 45 non-match (40 mismatch + 5 unreadable/blank). OCR CER is reported over the 85 labels bearing printed text; the 5 blank labels have no reference string.",
+    "contrasts": {
+      "A_vs_B": {
+        "discordant": [
+          14,
+          0
+        ],
+        "n_clusters": 5,
+        "outcome": "false_accept",
+        "p_mcnemar": 0.0001220703125,
+        "rd_ci95": [
+          0.17777777777777776,
+          0.4444444444444445
+        ],
+        "rd_cluster_ci95": [
+          0.1333333333333333,
+          0.48888888888888893
+        ],
+        "risk_difference": 0.3111111111111111
+      },
+      "A_vs_C": {
+        "discordant": [
+          22,
+          0
+        ],
+        "n_clusters": 5,
+        "outcome": "false_accept",
+        "p_mcnemar": 4.76837158203125e-07,
+        "rd_ci95": [
+          0.33333333333333337,
+          0.6222222222222222
+        ],
+        "rd_cluster_ci95": [
+          0.3555555555555555,
+          0.6222222222222222
+        ],
+        "risk_difference": 0.48888888888888893
+      },
+      "B_vs_C": {
+        "discordant": [
+          8,
+          0
+        ],
+        "n_clusters": 5,
+        "outcome": "false_accept",
+        "p_mcnemar": 0.0078125,
+        "rd_ci95": [
+          0.06666666666666668,
+          0.2888888888888889
+        ],
+        "rd_cluster_ci95": [
+          0.0,
+          0.3555555555555555
+        ],
+        "risk_difference": 0.17777777777777778
+      }
+    },
+    "exact_reads": 61,
+    "holm_adjusted": {
+      "A_vs_B": 0.000244140625,
+      "A_vs_C": 1.430511474609375e-06,
+      "B_vs_C": 0.0078125
+    },
+    "latency_median_ms": 637.0,
+    "latency_p95_ms": 1281,
+    "mean_ocr_cer": 0.11776801629742806,
+    "n": 90,
+    "nonmatch_n": 45,
+    "posthoc_threshold_comparator": {
+      "acceptance_set_disagreements": 0,
+      "interpretation": "Descriptive comparator only. It was not a predeclared condition and must not be presented as confirmatory evidence.",
+      "same_acceptance_set_as_C": true,
+      "selected_after_inspecting_the_sweep": true,
+      "threshold": 93.5
+    },
+    "selective_prediction": {
+      "A": {
+        "abstention_rate": 0.0,
+        "confusion": {
+          "match": {
+            "abstain": 0,
+            "accept": 35,
+            "reject": 10
+          },
+          "mismatch": {
+            "abstain": 0,
+            "accept": 28,
+            "reject": 12
+          },
+          "unreadable": {
+            "abstain": 0,
+            "accept": 0,
+            "reject": 5
+          }
+        },
+        "coverage": 1.0,
+        "false_accept_rate_nonmatch": 0.6222222222222222,
+        "false_reject_rate_match": 0.2222222222222222,
+        "selective_risk": 0.4222222222222222,
+        "true_accept_rate_match": 0.7777777777777778
+      },
+      "B": {
+        "abstention_rate": 0.0,
+        "confusion": {
+          "match": {
+            "abstain": 0,
+            "accept": 31,
+            "reject": 14
+          },
+          "mismatch": {
+            "abstain": 0,
+            "accept": 14,
+            "reject": 26
+          },
+          "unreadable": {
+            "abstain": 0,
+            "accept": 0,
+            "reject": 5
+          }
+        },
+        "coverage": 1.0,
+        "false_accept_rate_nonmatch": 0.3111111111111111,
+        "false_reject_rate_match": 0.3111111111111111,
+        "selective_risk": 0.3111111111111111,
+        "true_accept_rate_match": 0.6888888888888889
+      },
+      "C": {
+        "abstention_rate": 0.06666666666666667,
+        "confusion": {
+          "match": {
+            "abstain": 0,
+            "accept": 30,
+            "reject": 15
+          },
+          "mismatch": {
+            "abstain": 1,
+            "accept": 6,
+            "reject": 33
+          },
+          "unreadable": {
+            "abstain": 5,
+            "accept": 0,
+            "reject": 0
+          }
+        },
+        "coverage": 0.9333333333333333,
+        "false_accept_rate_nonmatch": 0.13333333333333333,
+        "false_reject_rate_match": 0.3333333333333333,
+        "selective_risk": 0.25,
+        "true_accept_rate_match": 0.6666666666666666
+      },
+      "T93.5": {
+        "abstention_rate": 0.0,
+        "confusion": {
+          "match": {
+            "abstain": 0,
+            "accept": 30,
+            "reject": 15
+          },
+          "mismatch": {
+            "abstain": 0,
+            "accept": 6,
+            "reject": 34
+          },
+          "unreadable": {
+            "abstain": 0,
+            "accept": 0,
+            "reject": 5
+          }
+        },
+        "coverage": 1.0,
+        "false_accept_rate_nonmatch": 0.13333333333333333,
+        "false_reject_rate_match": 0.3333333333333333,
+        "selective_risk": 0.23333333333333334,
+        "true_accept_rate_match": 0.6666666666666666
+      }
+    }
+  },
+  "e4": {
+    "confirmations_per_prevented_unsafe_vs_A": 4.333333333333333,
+    "confirmations_per_prevented_unsafe_vs_B": 17.333333333333332,
+    "contrasts": {
+      "A_vs_B": {
+        "discordant": [
+          8,
+          0
+        ],
+        "outcome": "scenario_with_one_or_more_unsafe_events",
+        "p_mcnemar": 0.0078125,
+        "rd_ci95": [
+          0.16666666666666663,
+          0.5416666666666666
+        ],
+        "risk_difference": 0.33333333333333337
+      },
+      "A_vs_C_attentive": {
+        "discordant": [
+          14,
+          0
+        ],
+        "outcome": "scenario_with_one_or_more_unsafe_events",
+        "p_mcnemar": 0.0001220703125,
+        "rd_ci95": [
+          0.375,
+          0.7916666666666666
+        ],
+        "risk_difference": 0.5833333333333334
+      },
+      "B_vs_C_attentive": {
+        "discordant": [
+          6,
+          0
+        ],
+        "outcome": "scenario_with_one_or_more_unsafe_events",
+        "p_mcnemar": 0.03125,
+        "rd_ci95": [
+          0.08333333333333333,
+          0.4166666666666667
+        ],
+        "risk_difference": 0.25
+      },
+      "C_always_accept_vs_C_attentive": {
+        "discordant": [
+          6,
+          0
+        ],
+        "outcome": "scenario_with_one_or_more_unsafe_events",
+        "p_mcnemar": 0.03125,
+        "rd_ci95": [
+          0.08333333333333333,
+          0.4583333333333333
+        ],
+        "risk_difference": 0.25
+      }
+    },
+    "holm_adjusted": {
+      "A_vs_B": 0.0234375,
+      "A_vs_C_attentive": 0.00048828125,
+      "B_vs_C_attentive": 0.0625,
+      "C_always_accept_vs_C_attentive": 0.0625
+    },
+    "n": 24,
+    "primary_outcome": "scenario_with_one_or_more_unsafe_events",
+    "task_failure_matches_any_unsafe_event": {
+      "A": true,
+      "B": true,
+      "C_always_accept": true,
+      "C_attentive": true
+    }
+  },
+  "seed": 20260717
+}

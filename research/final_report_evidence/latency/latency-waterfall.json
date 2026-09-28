@@ -1,0 +1,38 @@
+{
+  "CPU": [
+    [
+      "speech (Whisper small.en)",
+      1993.9
+    ],
+    [
+      "text (grammar route)",
+      1.0
+    ],
+    [
+      "text (LLM route, qwen2.5:3b)",
+      298.4
+    ],
+    [
+      "label OCR x3 frames",
+      3936.6000000000004
+    ]
+  ],
+  "GPU": [
+    [
+      "speech (Whisper small.en)",
+      390.7
+    ],
+    [
+      "text (grammar route)",
+      1.0
+    ],
+    [
+      "text (LLM route, qwen2.5:3b)",
+      298.4
+    ],
+    [
+      "label OCR x3 frames",
+      488.40000000000003
+    ]
+  ]
+}

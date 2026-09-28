@@ -1,0 +1,1897 @@
+{
+ "config": {
+  "base_url": "https://api.openai.com/v1",
+  "datasets": [
+   "dev"
+  ],
+  "kind": "llm",
+  "label": "OpenAI",
+  "max_output_tokens": 512,
+  "model": "gpt-5.4-nano",
+  "name": "d6-preflight-gpt-5.4-nano",
+  "provider": "openai",
+  "reasoning_effort": "none"
+ },
+ "contract_version": "command-contract-v2",
+ "created_at": "2026-09-27T03:45:39.096886+00:00",
+ "credential_env_used": "OPENAI_API_KEY",
+ "datasets": {
+  "benchmark": {
+   "path": "research/data/manifests/text-commands.jsonl",
+   "sha256": "4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f"
+  },
+  "dev": {
+   "path": "research/data/manifests/text-dev.jsonl",
+   "sha256": "59b8898c99e57ca1d67fd565bdbcc0628e04a080ae1469f38bd61fc900650c69"
+  },
+  "heldout": {
+   "path": "research/data/heldout/human-paraphrases.jsonl",
+   "sha256": "a65bdf163d8ad30b8eec232e7e0b42280982fcc27796ca100b2cc93bb6f953e8"
+  },
+  "heldout_b": {
+   "path": "research/data/heldout/human-paraphrases-B.jsonl",
+   "sha256": "d4fc46744251bbcc3a1d04ccf2fd9a8339d6b4e0e4b070a7deeeffaee6e5a22e"
+  }
+ },
+ "evidence_class": {
+  "benchmark": "synthetic authored regression benchmark",
+  "heldout": "public human-written text (held out); not speech"
+ },
+ "hardware": {
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU, 6141 MiB, 616.92",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "ram_gb": "17.0"
+ },
+ "ollama_ps": "",
+ "prompt_sha256": "c52996c752b3ff03812a604c2a12d52c5b70be00453539bee9a23a3649fc5058",
+ "prompt_version": "interpreter-prompt-v2",
+ "results": {
+  "dev": {
+   "peak_rss_mb": 65.4,
+   "records": [
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-001",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 2781.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "ph",
+      "unit": "pH",
+      "value": "6.8"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-002",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1306.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "volume",
+      "unit": "uL",
+      "value": "35"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-003",
+     "intent": "RECORD_OBSERVATION",
+     "intent_correct": true,
+     "latency_ms": 1263.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: observation wording appears in the utterance"
+     },
+     "parameters": {
+      "observation": "the pellet looks brownish"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-004",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1425.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "120"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-005",
+     "intent": "GET_CURRENT_STEP",
+     "intent_correct": true,
+     "latency_ms": 989.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-006",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 990.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-007",
+     "intent": "PAUSE_SESSION",
+     "intent_correct": true,
+     "latency_ms": 1223.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-008",
+     "intent": "CORRECT_PREVIOUS_ENTRY",
+     "intent_correct": true,
+     "latency_ms": 929.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-009",
+     "intent": "VERIFY_REAGENT",
+     "intent_correct": true,
+     "latency_ms": 1004.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-010",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1326.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-011",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1229.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-012",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 947.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-013",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1167.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "ph",
+      "unit": "pH",
+      "value": "8.1"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-014",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1112.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "temperature",
+      "unit": "degC",
+      "value": "4"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-015",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1061.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "mass",
+      "unit": "g",
+      "value": "2.5"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-016",
+     "intent": "RECORD_MEASUREMENT",
+     "intent_correct": true,
+     "latency_ms": 1296.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: value, unit and quantity appear in the utterance"
+     },
+     "parameters": {
+      "kind": "speed",
+      "unit": "rpm",
+      "value": "3000"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-017",
+     "intent": "RECORD_OBSERVATION",
+     "intent_correct": true,
+     "latency_ms": 975.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: observation wording appears in the utterance"
+     },
+     "parameters": {
+      "observation": "the gel looks smeared"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-018",
+     "intent": "RECORD_OBSERVATION",
+     "intent_correct": true,
+     "latency_ms": 1047.0,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: observation wording appears in the utterance"
+     },
+     "parameters": {
+      "observation": "the culture smells sour"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-019",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1238.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "90"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-020",
+     "intent": "SET_TIMER",
+     "intent_correct": true,
+     "latency_ms": 1091.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "180"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-021",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1007.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-022",
+     "intent": "GET_CURRENT_STEP",
+     "intent_correct": true,
+     "latency_ms": 1432.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-023",
+     "intent": "REPEAT_INSTRUCTION",
+     "intent_correct": true,
+     "latency_ms": 1025.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-024",
+     "intent": "VERIFY_REAGENT",
+     "intent_correct": true,
+     "latency_ms": 1049.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-025",
+     "intent": "CORRECT_PREVIOUS_ENTRY",
+     "intent_correct": true,
+     "latency_ms": 1069.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": true
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": false,
+     "id": "dev-026",
+     "intent": "SET_TIMER",
+     "intent_correct": false,
+     "latency_ms": 1033.8,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: duration appears in the utterance"
+     },
+     "parameters": {
+      "duration_seconds": "60"
+     },
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": false,
+     "id": "dev-027",
+     "intent": "GET_NEXT_STEP",
+     "intent_correct": false,
+     "latency_ms": 923.3,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-028",
+     "intent": "COMPLETE_STEP",
+     "intent_correct": true,
+     "latency_ms": 1055.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-029",
+     "intent": "END_SESSION",
+     "intent_correct": true,
+     "latency_ms": 987.1,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-030",
+     "intent": "HELP",
+     "intent_correct": true,
+     "latency_ms": 1146.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": true
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-031",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 971.7,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-032",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 2369.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: out_of_scope"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-033",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 949.6,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "confirm_always_accept": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "state": {
+       "executed": true,
+       "unsafe_executed": true
+      },
+      "validation": {
+       "executed": true,
+       "unsafe_executed": true
+      }
+     },
+     "confidence": 0.8,
+     "error": "",
+     "exact_correct": false,
+     "id": "dev-034",
+     "intent": "END_SESSION",
+     "intent_correct": false,
+     "latency_ms": 1003.5,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "schema-valid and grounded: no consequential entity to check"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-035",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1142.4,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: multiple_commands"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-036",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1089.2,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    },
+    {
+     "abstained": false,
+     "category": "",
+     "components": {
+      "confidence": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_always_accept": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "confirm_attentive": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "proposal": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "state": {
+       "executed": false,
+       "unsafe_executed": false
+      },
+      "validation": {
+       "executed": false,
+       "unsafe_executed": false
+      }
+     },
+     "confidence": 0.0,
+     "error": "",
+     "exact_correct": true,
+     "id": "dev-037",
+     "intent": "UNSUPPORTED",
+     "intent_correct": true,
+     "latency_ms": 1008.9,
+     "llm_called": true,
+     "metadata": {
+      "confidence_basis": "model abstained: incomplete"
+     },
+     "parameters": {},
+     "route": "llm",
+     "schema_valid": true,
+     "source": "dev",
+     "status": "succeeded",
+     "valid": false
+    }
+   ],
+   "summary": {
+    "abstentions_valid": 0,
+    "coverage_valid": 0.9259,
+    "exact_accuracy_valid": 0.9259,
+    "exact_correct_valid": 25,
+    "failures": 0,
+    "gates": {
+     "confidence": {
+      "executed": 18,
+      "unsafe_executed": 2
+     },
+     "confirm_always_accept": {
+      "executed": 18,
+      "unsafe_executed": 2
+     },
+     "confirm_attentive": {
+      "executed": 16,
+      "unsafe_executed": 0
+     },
+     "proposal": {
+      "executed": 18,
+      "unsafe_executed": 2
+     },
+     "state": {
+      "executed": 18,
+      "unsafe_executed": 2
+     },
+     "validation": {
+      "executed": 18,
+      "unsafe_executed": 2
+     }
+    },
+    "intent_accuracy_all": 0.9189,
+    "items": 37,
+    "latency_cold_ms": 2781.7,
+    "latency_p50_ms": 1058.4,
+    "latency_p95_ms": 1432.3,
+    "llm_calls": 37,
+    "llm_routed_abstentions": 0,
+    "llm_routed_exact": 25,
+    "llm_routed_exact_accuracy": 0.9259,
+    "llm_routed_share_valid": 1.0,
+    "llm_routed_unsafe": 1,
+    "llm_routed_valid": 27,
+    "not_run_budget": 0,
+    "routes": {
+     "llm": 37
+    },
+    "routes_valid": {
+     "llm": 27
+    },
+    "schema_valid_llm": 1.0,
+    "unsafe_after_gates": 2,
+    "unsafe_proposals": 2,
+    "valid_items": 27
+   }
+  }
+ },
+ "schema_sha256": "232b8e37b9549d3683de27054998b64141b512d4c4b056d0277a950a661f6f81",
+ "schema_version": 2,
+ "subset": {
+  "datasets": [
+   "dev"
+  ],
+  "limit": null
+ }
+}

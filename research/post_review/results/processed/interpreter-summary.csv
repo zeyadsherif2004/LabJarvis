@@ -1,0 +1,5 @@
+interpreter,n,failures,schema_valid,schema_valid_rate,intent_accuracy,intent_ci_low,intent_ci_high,exact_command_accuracy,exact_ci_low,exact_ci_high,slot_precision,slot_recall,slot_f1,latency_p50_ms,latency_p95_ms
+Rule grammar,81,0,81,1.0000,0.7778,0.6758,0.8546,0.7778,0.6758,0.8546,0.5526,0.7500,0.6364,0,0
+Qwen2.5 0.5B,81,30,51,0.6296,0.0741,0.0344,0.1523,0.0000,0.0000,0.0453,0.0000,0.0000,0.0000,1230,1447
+Qwen2.5 1.5B,81,53,28,0.3457,0.2099,0.1354,0.3107,0.0988,0.0509,0.1830,0.0870,0.2222,0.1250,1135,3487
+Hosted gpt-5.6-terra,81,1,80,0.9877,0.8765,0.7874,0.9315,0.8148,0.7167,0.8844,0.5122,0.7500,0.6087,1794,3060

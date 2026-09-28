@@ -1,0 +1,17 @@
+{
+  "fig-acceptance-characteristic.pdf": {
+    "processed": [
+      "e3-threshold-sweep.csv",
+      "e3-condition-summary.csv"
+    ],
+    "raw": "results/raw/e3-vision-results.json",
+    "script": "analysis/figures.py:acceptance_characteristic"
+  },
+  "fig-e4-outcomes.pdf": {
+    "processed": [
+      "e4-condition-summary.csv"
+    ],
+    "raw": "results/raw/e4-scenario-results.json",
+    "script": "analysis/figures.py:e4_outcomes"
+  }
+}

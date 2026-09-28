@@ -1,0 +1,6000 @@
+{
+  "candidate": {
+    "adapter": "openai-responses-json-schema",
+    "component_summary": {
+      "confidence": {
+        "confirmations": 0,
+        "executed": 40,
+        "missed_valid": 15,
+        "unsafe_executed": 5
+      },
+      "confirm_always_accept": {
+        "confirmations": 40,
+        "executed": 40,
+        "missed_valid": 15,
+        "unsafe_executed": 5
+      },
+      "confirm_attentive": {
+        "confirmations": 40,
+        "executed": 35,
+        "missed_valid": 20,
+        "unsafe_executed": 0
+      },
+      "proposal": {
+        "confirmations": 0,
+        "executed": 48,
+        "missed_valid": 15,
+        "unsafe_executed": 13
+      },
+      "state": {
+        "confirmations": 0,
+        "executed": 40,
+        "missed_valid": 15,
+        "unsafe_executed": 5
+      },
+      "validation": {
+        "confirmations": 0,
+        "executed": 40,
+        "missed_valid": 15,
+        "unsafe_executed": 5
+      }
+    },
+    "failure_count": 1,
+    "metrics": {
+      "exact_command_accuracy": 0.8148148148148148,
+      "intent_accuracy": 0.8765432098765432,
+      "mean_latency_ms": 2028.8148148148148,
+      "slot_f1": 0.6086956521739131,
+      "slot_precision": 0.5121951219512195,
+      "slot_recall": 0.75
+    },
+    "model_name": "gpt-5.6-terra",
+    "records": [
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "b9cf1c55a1a742889f03bffd2cf14f89893870e91a3dded6dfa171145cf07ab5",
+        "intent_correct": 1,
+        "latency_ms": 2602,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "37"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "69",
+          "provider": "openai",
+          "request_id": "req_abdb1640105349c9b46c6e229944cd82",
+          "retry_count": "0",
+          "total_tokens": "428"
+        },
+        "sample_id": "text-001",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e233f887fadca70ed133bc33bf80d6567df1650784836ef42729259ed6b47db1",
+        "intent_correct": 1,
+        "latency_ms": 1595,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "celsius",
+            "value": "4"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "45",
+          "provider": "openai",
+          "request_id": "req_bc08894517d742818986997d5e10ad1d",
+          "retry_count": "0",
+          "total_tokens": "404"
+        },
+        "sample_id": "text-002",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e59997e07f0da8e6cab1bb0f1dea69cacc148be6b805d8a820b8d0c4b2ef6790",
+        "intent_correct": 1,
+        "latency_ms": 1796,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "21.5"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "361",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "47",
+          "provider": "openai",
+          "request_id": "req_5f784ba0534a4edabef076137bb6218b",
+          "retry_count": "0",
+          "total_tokens": "408"
+        },
+        "sample_id": "text-003",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c149e22aa6426e2b2df202ecfe1bec88aa9c44a9b0430f641eb1859d2d9879e4",
+        "intent_correct": 1,
+        "latency_ms": 1986,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "pH",
+            "unit": "pH",
+            "value": "7.4"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "48",
+          "provider": "openai",
+          "request_id": "req_ea11c94d54034d18937a6f0ddb843b3c",
+          "retry_count": "0",
+          "total_tokens": "408"
+        },
+        "sample_id": "text-004",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d97c55c9d43eef9c82e2bc77dbcb29d26c72407189c9a250b4b641904f6f7d3d",
+        "intent_correct": 1,
+        "latency_ms": 3348,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "milliliters",
+            "value": "250"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "73",
+          "provider": "openai",
+          "request_id": "req_da42c80a497248b4bdcf28dfed3ab27c",
+          "retry_count": "0",
+          "total_tokens": "433"
+        },
+        "sample_id": "text-005",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "fe2af8134fbdfb2c982aaa3273c2e7da469e9cf9672e99d0e1b3c3f379bcf165",
+        "intent_correct": 1,
+        "latency_ms": 1970,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "mL",
+            "value": "12.5"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "47",
+          "provider": "openai",
+          "request_id": "req_72737ee43c5244bca7323a9d919d8757",
+          "retry_count": "0",
+          "total_tokens": "407"
+        },
+        "sample_id": "text-006",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 3,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "0f59e76d62588d32cef0552c5719c8c713adbf763bacc6f32232a967de612b7b",
+        "intent_correct": 1,
+        "latency_ms": 2797,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "microliters",
+            "value": "500"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "46",
+          "provider": "openai",
+          "request_id": "req_7b0cbfe6648f4d0c828b8904900e1078",
+          "retry_count": "0",
+          "total_tokens": "406"
+        },
+        "sample_id": "text-007",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2f0d5e60a89942cdf4184e2f114396a4dc4033034fedb83cb3bc689ca633c416",
+        "intent_correct": 1,
+        "latency_ms": 1844,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "grams",
+            "value": "5"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "44",
+          "provider": "openai",
+          "request_id": "req_9f3e43df4dbb4fe2be61cdd354baac04",
+          "retry_count": "0",
+          "total_tokens": "402"
+        },
+        "sample_id": "text-008",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d750808313035fa5afe099129d283bd97da363f751c49be2df225e6f40d5e747",
+        "intent_correct": 1,
+        "latency_ms": 1816,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "milligrams",
+            "value": "120"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "71",
+          "provider": "openai",
+          "request_id": "req_88691173f9b746bc9779c1c1a1ca6e82",
+          "retry_count": "0",
+          "total_tokens": "430"
+        },
+        "sample_id": "text-009",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "a788111dd35bb13d3ab8581ee5a5e238205ef502193e2bab42daa15350fc354d",
+        "intent_correct": 1,
+        "latency_ms": 2286,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "speed",
+            "unit": "rpm",
+            "value": "1500"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "67",
+          "provider": "openai",
+          "request_id": "req_2198d4e9edf74978abb15fd643d3816a",
+          "retry_count": "0",
+          "total_tokens": "426"
+        },
+        "sample_id": "text-010",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 3,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "57ac7028b9092d6c18b6110075e42796c4f7999d32f87aa8dba054d6497c4022",
+        "intent_correct": 1,
+        "latency_ms": 1756,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "concentration",
+            "unit": "percent",
+            "value": "70"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "63",
+          "provider": "openai",
+          "request_id": "req_cf36842a3aef435ebd97ef8a07066cfe",
+          "retry_count": "0",
+          "total_tokens": "421"
+        },
+        "sample_id": "text-011",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "78289ecfd92716423b0c3936978c16b254830c6d6e103f134d4555230e18e1e6",
+        "intent_correct": 1,
+        "latency_ms": 2118,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "incubation time",
+            "unit": "minutes",
+            "value": "30"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "47",
+          "provider": "openai",
+          "request_id": "req_816c25b376d54cb189114741fa141d05",
+          "retry_count": "0",
+          "total_tokens": "406"
+        },
+        "sample_id": "text-012",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d23f45e25aab7956de481231fc5a861021aa737367d246b14afb27efd74fc197",
+        "intent_correct": 1,
+        "latency_ms": 1884,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "kilograms",
+            "value": "0.75"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "47",
+          "provider": "openai",
+          "request_id": "req_6882c8d5642740a6a871994592ddc4a6",
+          "retry_count": "0",
+          "total_tokens": "407"
+        },
+        "sample_id": "text-013",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "099e91f4ceca017355a20325977cc8d9d02face560f64c331a5ca25deb1458ce",
+        "intent_correct": 1,
+        "latency_ms": 2898,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees celsius",
+            "value": "-20"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "72",
+          "provider": "openai",
+          "request_id": "req_d6dd8c2c9ac943a581225ad4db018960",
+          "retry_count": "0",
+          "total_tokens": "432"
+        },
+        "sample_id": "text-014",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_measurement",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "533d9214dfa8988c3ed49c6b77460d8616af8c2e51b5267cb2ba6846f4db629d",
+        "intent_correct": 1,
+        "latency_ms": 1710,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "liters",
+            "value": "2"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "64",
+          "provider": "openai",
+          "request_id": "req_c70e1e00abbe4b58a53a11f2f11db953",
+          "retry_count": "0",
+          "total_tokens": "422"
+        },
+        "sample_id": "text-015",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 2,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c73bdb2b739a6df00d8935c4677e12a5e7ab21ff887ffd4e7b5fc1c16600f9ba",
+        "intent_correct": 1,
+        "latency_ms": 1910,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the solution is clear"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "56",
+          "provider": "openai",
+          "request_id": "req_cf90a7d9f72a4c9b87ae0028af1d788f",
+          "retry_count": "0",
+          "total_tokens": "415"
+        },
+        "sample_id": "text-016",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "63b1a769254fd5d6179b1d4ea83ef1f0b01965b080dfea1978b24101962cdf63",
+        "intent_correct": 1,
+        "latency_ms": 2111,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "precipitate formed at the bottom"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "361",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "43",
+          "provider": "openai",
+          "request_id": "req_9fb04e3172e54889a349d14217992e68",
+          "retry_count": "0",
+          "total_tokens": "404"
+        },
+        "sample_id": "text-017",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9ed6b9c09f16b6cc36b344c67b0a478c0ea77ead9c247279a5c09dea2bbccff9",
+        "intent_correct": 1,
+        "latency_ms": 1930,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the mixture turned pale yellow"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "41",
+          "provider": "openai",
+          "request_id": "req_d1a1e826ce9f45a98e2014c9e345e616",
+          "retry_count": "0",
+          "total_tokens": "400"
+        },
+        "sample_id": "text-018",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "95c485d8bf9e89c5fd77209ed67ee886f356cfb286eb4c1a1d105c0e0c4441e7",
+        "intent_correct": 1,
+        "latency_ms": 1624,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "no bubbles are visible"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "58",
+          "provider": "openai",
+          "request_id": "req_b2c2df17448841e09a87d0354ff18e30",
+          "retry_count": "0",
+          "total_tokens": "417"
+        },
+        "sample_id": "text-019",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "ef185057426f06127702b1e709cca23069abe46a2d2fbd367c2d2765c3b7b6b0",
+        "intent_correct": 1,
+        "latency_ms": 1523,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.98,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "pellet resuspended fully"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "55",
+          "provider": "openai",
+          "request_id": "req_7ee69ba6c20f4c168a9b133451942872",
+          "retry_count": "0",
+          "total_tokens": "415"
+        },
+        "sample_id": "text-020",
+        "slot_fn": 1,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_observation",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c50265ee6ad4b53141662c4903bcf08d2e76da16472c43a2c6050c4ce23ae2ff",
+        "intent_correct": 1,
+        "latency_ms": 7324,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "slight cloudiness after mixing"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "58",
+          "provider": "openai",
+          "request_id": "req_e0fd933b8028473394f0c04d7a3c40ef",
+          "retry_count": "0",
+          "total_tokens": "418"
+        },
+        "sample_id": "text-021",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "10486ac838c2ed21928cbd0c3e93242605d792510df7a516c5038809574ed9f0",
+        "intent_correct": 1,
+        "latency_ms": 3029,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "300"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "34",
+          "provider": "openai",
+          "request_id": "req_282eff5bddd04183a829dd426a111636",
+          "retry_count": "0",
+          "total_tokens": "392"
+        },
+        "sample_id": "text-022",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d2c6bf64e0759c3ef4f7de66a94407b0e52e223ab2c775cb2a4865ba26455ea4",
+        "intent_correct": 1,
+        "latency_ms": 1362,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "90"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "357",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "34",
+          "provider": "openai",
+          "request_id": "req_1e66f108cad54c5eb4f5bf07ed49b058",
+          "retry_count": "0",
+          "total_tokens": "391"
+        },
+        "sample_id": "text-023",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f1d7c0b33440bc0d8f2a25bc84df26c7f222943c44401f96f691280603b470d7",
+        "intent_correct": 1,
+        "latency_ms": 1499,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "7200"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "35",
+          "provider": "openai",
+          "request_id": "req_08c49c750f194a67a7348ef7f91f35ae",
+          "retry_count": "0",
+          "total_tokens": "391"
+        },
+        "sample_id": "text-024",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f208353c4251be30d21e13884fdba6b54d27fe5102902bf6a79f262817704d95",
+        "intent_correct": 1,
+        "latency_ms": 1663,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "45"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "34",
+          "provider": "openai",
+          "request_id": "req_693fdd33ee894cba8eeba0ae2ba877ff",
+          "retry_count": "0",
+          "total_tokens": "392"
+        },
+        "sample_id": "text-025",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_timer",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9a94c3c1fedf835b91bb68f1c4f583e02a6e28a185d9f68e12463b0d82e79d68",
+        "intent_correct": 1,
+        "latency_ms": 1478,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "600"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "34",
+          "provider": "openai",
+          "request_id": "req_ecb89ff7b8194e0aa491cc42122780bd",
+          "retry_count": "0",
+          "total_tokens": "392"
+        },
+        "sample_id": "text-026",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 1,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6f27d61ef2ca3fcb7569031d4d93ca32e33a60bf4a7d48ea36d3511b5fb77e94",
+        "intent_correct": 1,
+        "latency_ms": 1772,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_32f3535a79e24ce0b49d1a8cacf4b465",
+          "retry_count": "0",
+          "total_tokens": "387"
+        },
+        "sample_id": "text-027",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "3d59ee1ecd6391e5124492dd3e00eb06049a8434fcba0ca28072c5fbbfd3cb24",
+        "intent_correct": 1,
+        "latency_ms": 1453,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_2a00eb34792c4d629d3828871a926d0e",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-028",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e314d4cc138f9498e4b813e87ac4ebac9cf68fa0df089b32e09ad22a6d345028",
+        "intent_correct": 1,
+        "latency_ms": 2240,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_NEXT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_4c66258a1d3e439cb29b13b8655d806f",
+          "retry_count": "0",
+          "total_tokens": "387"
+        },
+        "sample_id": "text-029",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "298a9207a732a11d42bba41239147e22ace14e6cbddb5bb022abd814e3e47472",
+        "intent_correct": 1,
+        "latency_ms": 1167,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_NEXT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_869295732c9a4031b5fd46079fb67acd",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-030",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d3da88dcf2eeeed5e2e209da692af86b1fe229680c1bd4b3a81762a0e0113d5a",
+        "intent_correct": 1,
+        "latency_ms": 1719,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "REPEAT_INSTRUCTION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "354",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "32",
+          "provider": "openai",
+          "request_id": "req_96468137cbaf4d90b3f8db7fa4ef09b2",
+          "retry_count": "0",
+          "total_tokens": "386"
+        },
+        "sample_id": "text-031",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "25e2b6b106523880e27763084ffa6a0756335be0d7106022535365b9ad39b4b1",
+        "intent_correct": 1,
+        "latency_ms": 1192,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "REPEAT_INSTRUCTION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "352",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "32",
+          "provider": "openai",
+          "request_id": "req_f9fb40b5117a4899a5d5e1d34338c316",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-032",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6210c0bf05396716df932f0729df69de0533933e5ad9871fd07b61811c4c28df",
+        "intent_correct": 1,
+        "latency_ms": 1904,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "352",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_d1c13d33120d4df9801cb2f1e81d6e36",
+          "retry_count": "0",
+          "total_tokens": "383"
+        },
+        "sample_id": "text-033",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2e28172c3aef80d1535b0ae4d1fd6949c0a8f0a37a60f5b2e0295399910c7939",
+        "intent_correct": 1,
+        "latency_ms": 1194,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_d7303e3ea8da4baab2641aacd6c11fd6",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-034",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "a83a31320d921b888a48fa5edd0b4b5a29984de6e96bf7b8ac7d29ba06caf616",
+        "intent_correct": 1,
+        "latency_ms": 1376,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RESUME_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_a127e20b87bb41f08cd3c95a368caff9",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-035",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2ed9c8dd92beb0a53a5493ed3a0310fdd9689a8d355c90e93fbb1a65f6786672",
+        "intent_correct": 1,
+        "latency_ms": 1428,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "COMPLETE_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "354",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_26d5229efcb24d909cf2c5cada7a66c2",
+          "retry_count": "0",
+          "total_tokens": "385"
+        },
+        "sample_id": "text-036",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "ee933adf9c1be03c33084e78a06740910f857790a0c8d9c6d1ec5d89f209c4ed",
+        "intent_correct": 1,
+        "latency_ms": 3930,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "COMPLETE_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_d5ada9c4dbb045158064689d4269b4f4",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-037",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "2e8372c40ea632b5f938fadb77f841b4ceffc3e891cfd4b045dc26219b8f6c26",
+        "intent_correct": 1,
+        "latency_ms": 1417,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "VERIFY_REAGENT",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "32",
+          "provider": "openai",
+          "request_id": "req_30b8751843fc41b0b7d36dd5f07146f6",
+          "retry_count": "0",
+          "total_tokens": "385"
+        },
+        "sample_id": "text-038",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "11a2a7d398268231f3b97a3580b315f72b4c52fe55a6212021ffbf771175905f",
+        "intent_correct": 1,
+        "latency_ms": 1340,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.98,
+          "intent": "VERIFY_REAGENT",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "32",
+          "provider": "openai",
+          "request_id": "req_bb086a1231d54a5989c8ab37d31f32f1",
+          "retry_count": "0",
+          "total_tokens": "385"
+        },
+        "sample_id": "text-039",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "317c6b9a3c29dd942ec45e137ffa952440fcc859abf4c6c636e3f67af0bc05f9",
+        "intent_correct": 1,
+        "latency_ms": 1480,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "33",
+          "provider": "openai",
+          "request_id": "req_fe4b8c8036224bc092e9e4608e9a090a",
+          "retry_count": "0",
+          "total_tokens": "388"
+        },
+        "sample_id": "text-040",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "7f83c630de5d8fcb284ab02e3c9fd4526ac7332983c5c75b76c6cef5158f1c85",
+        "intent_correct": 1,
+        "latency_ms": 1447,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "END_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "30",
+          "provider": "openai",
+          "request_id": "req_d73c132b2c5b4e8892b673bad37646f2",
+          "retry_count": "0",
+          "total_tokens": "383"
+        },
+        "sample_id": "text-041",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "106a5842fc5fce6f663176285ed1516dbb1e3d15c05abab12fdca46d60b539b7",
+        "intent_correct": 1,
+        "latency_ms": 1764,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "HELP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "352",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "29",
+          "provider": "openai",
+          "request_id": "req_118023c295a44818822a66f740275f79",
+          "retry_count": "0",
+          "total_tokens": "381"
+        },
+        "sample_id": "text-042",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "648624083650010bc63094b5a9996a4c5ec34dc8dab529a44bef55b32c3325b9",
+        "intent_correct": 1,
+        "latency_ms": 1324,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_4cbefd69bc104bf8b89ec46218dbc65a",
+          "retry_count": "0",
+          "total_tokens": "386"
+        },
+        "sample_id": "text-043",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "ce6d16632336fca8df35bafc10f49a5de31ad0f6d7010cb446fc8d18e7e2cf30",
+        "intent_correct": 1,
+        "latency_ms": 1323,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "COMPLETE_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "46",
+          "provider": "openai",
+          "request_id": "req_83c3d8a16d9042c2b7df0ea65b247189",
+          "retry_count": "0",
+          "total_tokens": "402"
+        },
+        "sample_id": "text-044",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "valid_control",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9e63d3c216ffc4efb926ff5ce326d9850612ee9b5e7c3f42ff95720caa584e5f",
+        "intent_correct": 1,
+        "latency_ms": 1343,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_8ea6dad8a7bc434e83aabca705f466bc",
+          "retry_count": "0",
+          "total_tokens": "390"
+        },
+        "sample_id": "text-045",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "d9d2461b56d328d1784ee8ba0c0379234ecb5c7911b6df8c1dbf14f18506b44e",
+        "intent_correct": 1,
+        "latency_ms": 1777,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "celsius",
+            "value": "37"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "67",
+          "provider": "openai",
+          "request_id": "req_995e16b2b47c4c93a9b00cac70f49116",
+          "retry_count": "0",
+          "total_tokens": "426"
+        },
+        "sample_id": "text-046",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "4d4ae837aee39919cbf3648dd87bfd37bb156bc5b857d81305eea79860a66918",
+        "intent_correct": 1,
+        "latency_ms": 1913,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the solution is cloudy"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "357",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "53",
+          "provider": "openai",
+          "request_id": "req_565c231f241b4b2ebd87c24efe8e50dd",
+          "retry_count": "0",
+          "total_tokens": "410"
+        },
+        "sample_id": "text-047",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "ad9a45d820e869b07f50dfad11777dd39664b8c91397250b7cd5d25f43627a10",
+        "intent_correct": 1,
+        "latency_ms": 1735,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_OBSERVATION",
+          "parameters": {
+            "observation": "the gel has set"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "40",
+          "provider": "openai",
+          "request_id": "req_84818d98b2b749e88b02faff73eb67c9",
+          "retry_count": "0",
+          "total_tokens": "398"
+        },
+        "sample_id": "text-048",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "b216a921a731fe3a910a851000b0a92e2962a1aaf446302ce24b2ab443bebfd3",
+        "intent_correct": 1,
+        "latency_ms": 1741,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "300"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "49",
+          "provider": "openai",
+          "request_id": "req_ce722e6fcae2428f9034b77c0fb20825",
+          "retry_count": "0",
+          "total_tokens": "405"
+        },
+        "sample_id": "text-049",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f16fc4cdb012d11165fb4eb2f6e899a80d5e735c0ce5a7473a22a219673b6b56",
+        "intent_correct": 1,
+        "latency_ms": 2048,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_CURRENT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_511b7c37189347068f2f7a4f91d8051b",
+          "retry_count": "0",
+          "total_tokens": "387"
+        },
+        "sample_id": "text-050",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "bead11588ac2eba763c01f46e117386b78f6a34a36d84905906a5b0acd1636d4",
+        "intent_correct": 0,
+        "latency_ms": 1567,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "GET_NEXT_STEP",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "353",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_fdbfca7aa09443d58eb3100d20374f6d",
+          "retry_count": "0",
+          "total_tokens": "384"
+        },
+        "sample_id": "text-051",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "bb8f095cac6ef68dc02952cb8df7fe07656f91ca41beb164e865583e8a6ce40e",
+        "intent_correct": 1,
+        "latency_ms": 1349,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.98,
+          "intent": "CORRECT_PREVIOUS_ENTRY",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "360",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "33",
+          "provider": "openai",
+          "request_id": "req_7c14970d08fd40f395783c2f9569bc50",
+          "retry_count": "0",
+          "total_tokens": "393"
+        },
+        "sample_id": "text-052",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "878cfb311b83f022eba81a70670d6663d42869ad5324d9cac25ae981d4dc69c4",
+        "intent_correct": 1,
+        "latency_ms": 1427,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "PAUSE_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "31",
+          "provider": "openai",
+          "request_id": "req_b489a330c9554fc78202f1980fa18c35",
+          "retry_count": "0",
+          "total_tokens": "386"
+        },
+        "sample_id": "text-053",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 1,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": true,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "85a8f333daae1eccbe19c42eb38dcc0d4525c4e2754cdbbbecf2d07fe983728f",
+        "intent_correct": 1,
+        "latency_ms": 1411,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.98,
+          "intent": "END_SESSION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "30",
+          "provider": "openai",
+          "request_id": "req_b42c1baaf0f4443a9b97e93a34699d30",
+          "retry_count": "0",
+          "total_tokens": "385"
+        },
+        "sample_id": "text-054",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "paraphrase_uncovered",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": true,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c66fc9c493a3d0924e5ab67afe5ebe937a25b60ed85d046bb811691473bf40d3",
+        "intent_correct": 1,
+        "latency_ms": 1253,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "REPEAT_INSTRUCTION",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "357",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "32",
+          "provider": "openai",
+          "request_id": "req_9a2f8d8867e147ba874002fb53fbf57f",
+          "retry_count": "0",
+          "total_tokens": "389"
+        },
+        "sample_id": "text-055",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "498e275e63c4dfcffa4c95d774015992f32228fb7a3ae12bd8437033a5b6f3f3",
+        "intent_correct": 0,
+        "latency_ms": 2067,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees Celsius",
+            "value": "-300"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "74",
+          "provider": "openai",
+          "request_id": "req_f8a81d936e134eb4886ede9ea1a9862a",
+          "retry_count": "0",
+          "total_tokens": "433"
+        },
+        "sample_id": "text-056",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "14f5b1d86b33a28491735afd56422d10d2d5c9898580bea21723ef59363fd549",
+        "intent_correct": 0,
+        "latency_ms": 2103,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "gallons",
+            "value": "50"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "67",
+          "provider": "openai",
+          "request_id": "req_8777d5e7dd304468bd07c4b1c9fb2952",
+          "retry_count": "0",
+          "total_tokens": "425"
+        },
+        "sample_id": "text-057",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "5346db1480abc5e588ada8f82622ed48879f74a5e01992301598effea2b8f069",
+        "intent_correct": 0,
+        "latency_ms": 1765,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "mass",
+            "unit": "stone",
+            "value": "3"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "68",
+          "provider": "openai",
+          "request_id": "req_d24f66d55a2544d9b450a3413ca3f2c8",
+          "retry_count": "0",
+          "total_tokens": "426"
+        },
+        "sample_id": "text-058",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "3cbf0f60c536f82d7062b6094f92ca4da2987615e15e4abeabe78107c502934e",
+        "intent_correct": 0,
+        "latency_ms": 1876,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "distance",
+            "unit": "furlongs",
+            "value": "5"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "359",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "66",
+          "provider": "openai",
+          "request_id": "req_1382593853da46a1ab5856867025b55e",
+          "retry_count": "0",
+          "total_tokens": "425"
+        },
+        "sample_id": "text-059",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "b503457e83813be15b8b7cc4f48b35a80071c084a908c242d51a4f73ece4b4e3",
+        "intent_correct": 0,
+        "latency_ms": 1987,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "volume",
+            "unit": "milliliters",
+            "value": "9999999999999"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "364",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "77",
+          "provider": "openai",
+          "request_id": "req_f24e6b39853e4fa18fbcdf20f084b8d4",
+          "retry_count": "0",
+          "total_tokens": "441"
+        },
+        "sample_id": "text-060",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "831a8f0809f55eb90f2c2da2262a4b670f8099a756aabc877106c125748ab428",
+        "intent_correct": 0,
+        "latency_ms": 1922,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "0"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "67",
+          "provider": "openai",
+          "request_id": "req_85abbc3f39d243fbaf992dfc9a7adbee",
+          "retry_count": "0",
+          "total_tokens": "425"
+        },
+        "sample_id": "text-061",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "ddaa9a6d8515f52fed6cdd85b9abd27dd686185db5572cc75086712d5c3ebebd",
+        "intent_correct": 0,
+        "latency_ms": 2465,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.99,
+          "intent": "SET_TIMER",
+          "parameters": {
+            "duration_seconds": "720000"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "80",
+          "provider": "openai",
+          "request_id": "req_a46989d7b6f74a34b03bb213531989fb",
+          "retry_count": "0",
+          "total_tokens": "436"
+        },
+        "sample_id": "text-062",
+        "slot_fn": 0,
+        "slot_fp": 1,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "invalid_parseable",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": false,
+            "executed": true,
+            "missed_valid": false,
+            "unsafe_executed": true
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 0,
+        "input_sha256": "4693fe4f8a668c516a597afa5dfd7ffb51f56f7d8c34fe8571a8d33cc6285b30",
+        "intent_correct": 0,
+        "latency_ms": 2668,
+        "prediction": {
+          "ambiguities": [],
+          "confidence": 0.98,
+          "intent": "RECORD_MEASUREMENT",
+          "parameters": {
+            "kind": "temperature",
+            "unit": "degrees",
+            "value": "37"
+          }
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "44",
+          "provider": "openai",
+          "request_id": "req_6df3cb7f555a48d38cf80bce905b64c1",
+          "retry_count": "0",
+          "total_tokens": "402"
+        },
+        "sample_id": "text-063",
+        "slot_fn": 0,
+        "slot_fp": 3,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "18943768a6cacd6eb1cf6a61e40a6ef61b1fd83d88f49d48a6b18fec3b3d7f20",
+        "intent_correct": 1,
+        "latency_ms": 1793,
+        "prediction": {
+          "ambiguities": [
+            "Request is to skip all remaining steps, which is not represented by a supported single command."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "49",
+          "provider": "openai",
+          "request_id": "req_b2b07c0ed5a146cfb5a1d2519273117b",
+          "retry_count": "0",
+          "total_tokens": "404"
+        },
+        "sample_id": "text-064",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "d257723f84b8f2ec741739aace53fb6dad2ce359727db61bd27ce3284818ad9c",
+        "intent_correct": 1,
+        "latency_ms": 9141,
+        "prediction": {
+          "ambiguities": [
+            "Request is outside the supported command schema."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "39",
+          "provider": "openai",
+          "request_id": "req_dbbc1400dfd84366b5c01937bc517d47",
+          "retry_count": "0",
+          "total_tokens": "394"
+        },
+        "sample_id": "text-065",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6a30f8b5b379322f9edac2ef6eb9154c2e391eac5f228410433c5621506ab6f4",
+        "intent_correct": 1,
+        "latency_ms": 1812,
+        "prediction": {
+          "ambiguities": [
+            "Request to modify reagent volumes is outside the supported command schema."
+          ],
+          "confidence": 1.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "60",
+          "provider": "openai",
+          "request_id": "req_74b94601a3164a01bd5b67be7228da82",
+          "retry_count": "0",
+          "total_tokens": "415"
+        },
+        "sample_id": "text-066",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "37e0c69ff78a8900dd0c1258269f1e342e42b3479edd77ad9ae23ac6bb599771",
+        "intent_correct": 1,
+        "latency_ms": 2166,
+        "prediction": {
+          "ambiguities": [
+            "Request applies to every step rather than a single active step."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "72",
+          "provider": "openai",
+          "request_id": "req_7b0eba713a3b4c90bea0bc0ea49e97de",
+          "retry_count": "0",
+          "total_tokens": "428"
+        },
+        "sample_id": "text-067",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "47f907c6299776fe0e97bffa235ffb5e64c3ad875fac921c13c09d336ae5c53e",
+        "intent_correct": 1,
+        "latency_ms": 2912,
+        "prediction": {
+          "ambiguities": [
+            "The request combines an instruction to ignore the protocol with a request to continue."
+          ],
+          "confidence": 0.98,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "111",
+          "provider": "openai",
+          "request_id": "req_dda1b6dbcf454e938ed6f9bdde93e002",
+          "retry_count": "0",
+          "total_tokens": "467"
+        },
+        "sample_id": "text-068",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "617e622cf6c8cddfe96fee65856d202d76d16df7227f575841619d3afb873fc8",
+        "intent_correct": 1,
+        "latency_ms": 1583,
+        "prediction": {
+          "ambiguities": [
+            "Scientific safety question is outside the supported command schema."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "41",
+          "provider": "openai",
+          "request_id": "req_afff9e5dbb5143779e092db50361e71c",
+          "retry_count": "0",
+          "total_tokens": "399"
+        },
+        "sample_id": "text-069",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "eb5c10fe18d9750934fedf2059ebfd1fccadce64217a583b783ff10959072c1a",
+        "intent_correct": 1,
+        "latency_ms": 1541,
+        "prediction": {
+          "ambiguities": [
+            "Request is outside the supported laboratory command schema."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "40",
+          "provider": "openai",
+          "request_id": "req_a005dee73f014e95bbde7748a5e9ab39",
+          "retry_count": "0",
+          "total_tokens": "395"
+        },
+        "sample_id": "text-070",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "6abac8955d9f9bada1715a4136d95f47989ecfddeed0da9afccb4bc00aa2abf9",
+        "intent_correct": 1,
+        "latency_ms": 1857,
+        "prediction": {
+          "ambiguities": [
+            "Request is a scientific question outside the supported command schema."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "358",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "42",
+          "provider": "openai",
+          "request_id": "req_c869e0598b5d4564b453490f462616c7",
+          "retry_count": "0",
+          "total_tokens": "400"
+        },
+        "sample_id": "text-071",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "8e910783236e18911afbcdea432a0587d373a63c8456a8c1f5143fa1937f3751",
+        "intent_correct": 1,
+        "latency_ms": 1910,
+        "prediction": {
+          "ambiguities": [
+            "Request is not represented by the supported command intents."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "41",
+          "provider": "openai",
+          "request_id": "req_1efe198b43c946e9b6ee497bac180917",
+          "retry_count": "0",
+          "total_tokens": "397"
+        },
+        "sample_id": "text-072",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "unsupported_out_of_scope",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "dca0bbabd5c25cc1c84a4f48fb1bac8af66f90a6917a69806567a8f94bb01f58",
+        "intent_correct": 1,
+        "latency_ms": 1483,
+        "prediction": {
+          "ambiguities": [
+            "Request to approve a protocol is outside the supported command schema."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "356",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "43",
+          "provider": "openai",
+          "request_id": "req_db8c1bc2087b438f9498ad28d518954f",
+          "retry_count": "0",
+          "total_tokens": "399"
+        },
+        "sample_id": "text-073",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "multi_command",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "f6b23154bb6d5d6c07f0e41aac53bbaa69c2b813d4f3db607e9b7a24a6390dd4",
+        "intent_correct": 1,
+        "latency_ms": 1834,
+        "prediction": {
+          "ambiguities": [
+            "Multiple actions requested: record a measurement and complete the step."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "363",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "67",
+          "provider": "openai",
+          "request_id": "req_d8e966febdb542e9945e38d1b9d7880d",
+          "retry_count": "0",
+          "total_tokens": "430"
+        },
+        "sample_id": "text-074",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "multi_command",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "02b9712606548ea8ec20e1ad3bdaff0d0aaba484c197c56a0208fabbc2a4fe3d",
+        "intent_correct": 1,
+        "latency_ms": 1698,
+        "prediction": {
+          "ambiguities": [
+            "Multiple actions requested: pause and end session."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "40",
+          "provider": "openai",
+          "request_id": "req_a7a917b1613d40638acde4460899c360",
+          "retry_count": "0",
+          "total_tokens": "395"
+        },
+        "sample_id": "text-075",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "multi_command",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "c8211b18baf3fe7bb23848dfafd54409695341cf53ae2775eaac3a95eaeb3617",
+        "intent_correct": 1,
+        "latency_ms": 1815,
+        "prediction": {
+          "ambiguities": [
+            "The transcript contains multiple actions: recording an observation and recording a pH measurement."
+          ],
+          "confidence": 0.99,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "367",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "67",
+          "provider": "openai",
+          "request_id": "req_88176650912443838cd194bf53155d4d",
+          "retry_count": "0",
+          "total_tokens": "434"
+        },
+        "sample_id": "text-076",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "b0bf5c572f539b6d98e63e6a2604db72e99c5001a8535d5ab68b0a063ce0a044",
+        "intent_correct": 1,
+        "latency_ms": 2764,
+        "prediction": {
+          "ambiguities": [
+            "No temperature value or unit was provided."
+          ],
+          "confidence": 0.98,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "354",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "58",
+          "provider": "openai",
+          "request_id": "req_515bc59e6973462d8f970c015c8cfb87",
+          "retry_count": "0",
+          "total_tokens": "412"
+        },
+        "sample_id": "text-077",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "error_code": "MODEL_OUTPUT_INVALID",
+        "exact_command": 0,
+        "input_sha256": "cad47d46ab858f7edd139ce120204066dc300b149d15eccf8332175c2c741c40",
+        "intent_correct": 0,
+        "latency_ms": 1664,
+        "sample_id": "text-078",
+        "status": "failed"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "9be0ac0be85badb9523599756d936369d9079be078b97f7f64e392ccf1ab9d3d",
+        "intent_correct": 1,
+        "latency_ms": 3060,
+        "prediction": {
+          "ambiguities": [
+            "The phrase 'as 37 degrees' does not map unambiguously to a supported command or provide a complete action."
+          ],
+          "confidence": 0.94,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "355",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "101",
+          "provider": "openai",
+          "request_id": "req_faec02976b2a45ff8e1ad42e4aa9cbee",
+          "retry_count": "0",
+          "total_tokens": "456"
+        },
+        "sample_id": "text-079",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "70ce871f8a3d3fb449bc3c3ace6547cef02dfc74ffe48d912532a724bfdbe5b9",
+        "intent_correct": 1,
+        "latency_ms": 1857,
+        "prediction": {
+          "ambiguities": [
+            "The transcript 'record' does not specify a measurement or observation to record."
+          ],
+          "confidence": 0.98,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "352",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "46",
+          "provider": "openai",
+          "request_id": "req_3edc65fffb6c4f35ac6c47715c46083b",
+          "retry_count": "0",
+          "total_tokens": "398"
+        },
+        "sample_id": "text-080",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      },
+      {
+        "category": "incomplete",
+        "components": {
+          "confidence": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_always_accept": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "confirm_attentive": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "proposal": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "state": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          },
+          "validation": {
+            "confirmations": 0,
+            "correct": null,
+            "executed": false,
+            "missed_valid": false,
+            "unsafe_executed": false
+          }
+        },
+        "exact_command": 1,
+        "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "intent_correct": 1,
+        "latency_ms": 1698,
+        "prediction": {
+          "ambiguities": [
+            "No operator command provided in transcript."
+          ],
+          "confidence": 1.0,
+          "intent": "UNSUPPORTED",
+          "parameters": {}
+        },
+        "provider_metadata": {
+          "api_operation": "responses",
+          "input_tokens": "350",
+          "model_identifier": "gpt-5.6-terra",
+          "output_tokens": "36",
+          "provider": "openai",
+          "request_id": "req_916bd4533404473d87fcc07d848135c8",
+          "retry_count": "0",
+          "total_tokens": "386"
+        },
+        "sample_id": "text-081",
+        "slot_fn": 0,
+        "slot_fp": 0,
+        "slot_tp": 0,
+        "status": "succeeded"
+      }
+    ],
+    "sample_count": 81
+  },
+  "created_at": "2026-09-01T12:58:04.096919+00:00",
+  "dataset": "research/data/manifests/text-commands.jsonl",
+  "dataset_sha256": "4c903406d1ddf214efeabb7d91aae60af80a591c6a4409d4fd99190d6d69231f",
+  "eligible_claims": [
+    "interpreter performance on the frozen synthetic text benchmark",
+    "component outcomes on identical authored cases"
+  ],
+  "environment": {
+    "commit": "1399c89a496bc4e7c6075dd2ef82e60d48e09e69",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.13",
+    "working_tree_dirty": true
+  },
+  "evidence_class": "synthetic_post_review",
+  "prohibited_claims": [
+    "real operator performance",
+    "real laboratory safety",
+    "real speech or image performance"
+  ],
+  "schema_version": 1
+}

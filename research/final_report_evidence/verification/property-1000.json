@@ -1,0 +1,13 @@
+{
+ "test": "apps/api/tests/property/test_session_state_machine.py::TestSessionStateMachine",
+ "command": "LABJARVIS_PROPERTY_EXAMPLES=1000 pytest apps/api/tests/property/test_session_state_machine.py --hypothesis-show-statistics",
+ "run_on": "2026-09-27",
+ "evidence_class": "fake/fixture (Hypothesis stateful, fake adapters)",
+ "passing_examples": 1000,
+ "failing_examples": 0,
+ "invalid_examples": 56,
+ "stateful_step_count": 25,
+ "includes_hands_free_rules": true,
+ "test_file_sha256": "454888af2e456494d691884240adf2b82fda42739189e32b57ea2a7b3c868641",
+ "pytest_summary": "1 passed in 132.82s (0:02:12)"
+}

@@ -1,0 +1,22 @@
+{
+ "test": "a full protocol is run by voice alone after one tap",
+ "finished_at": "2026-09-27T17:05:16.561Z",
+ "evidence_class": "fake/fixture (deterministic FAKE: speech, hands-free profile)",
+ "gestures": 1,
+ "trusted_events": [
+  "pointerdown",
+  "mousedown"
+ ],
+ "non_voice_interactions_after_tap": 0,
+ "wake_phrase_utterances": 35,
+ "spoken_outputs": 41,
+ "wake_phrase_in_spoken_output": false,
+ "kiosk_run": {
+  "browser_flag": "--autoplay-policy=no-user-gesture-required",
+  "trusted_events": 0,
+  "source": "KIOSK_RESULT line of the same run"
+ },
+ "spec": "apps/web/e2e/zero-touch.spec.ts",
+ "command": "python scripts/run_e2e.py (second pass, LABJARVIS_HANDS_FREE_PROFILE=true)",
+ "default_pass": "27 passed (push-to-talk, pedal, on-screen controls, accessibility)"
+}

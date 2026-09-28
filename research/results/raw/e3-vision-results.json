@@ -1,0 +1,1836 @@
+{
+  "environment": {
+    "captured_at": "2026-07-20T11:49:59.715527+00:00",
+    "commit": "d5b7f04837c647a875ab34bc743d8b5dda38a79a",
+    "packages": {
+      "ctranslate2": "4.8.1",
+      "easyocr": "1.7.2",
+      "faster-whisper": "1.2.1",
+      "numpy": "2.5.1",
+      "opencv-python-headless": "5.0.0.93",
+      "torch": "2.13.0"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "python": "3.12.13",
+    "seed": 20260717,
+    "thresholds": {
+      "command_confidence": 0.75,
+      "reagent_match": 92.0,
+      "reagent_uncertain": 72.0
+    }
+  },
+  "experiment_id": "E3-vision",
+  "failure_count": 0,
+  "records": [
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-001",
+      "latency_ms": 14737,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.999949896348277,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-002",
+      "latency_ms": 1017,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999159677856944,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-003",
+      "latency_ms": 1281,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9986649268263222,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot30"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-004",
+      "latency_ms": 659,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.999936198805998,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-005",
+      "latency_ms": 602,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.47948914525150343,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "et jl",
+        "score": 50.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-006",
+      "latency_ms": 624,
+      "ocr_cer": 0.5714285714285714,
+      "ocr_confidence": 0.8789701306880575,
+      "ocr_text": "ET JL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "occlusion"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-007",
+      "latency_ms": 637,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.6568388372398047,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "glare"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanol",
+        "score": 100.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-008",
+      "latency_ms": 607,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.994876539774068,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "script"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "methanol",
+        "score": 93.33
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-009",
+      "latency_ms": 623,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998821966841964,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "methanol",
+        "score": 93.33
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-010",
+      "latency_ms": 993,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998580873899856,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "methanol",
+        "score": 93.33
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-011",
+      "latency_ms": 650,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999528372158386,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "methanol",
+        "score": 93.33
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-012",
+      "latency_ms": 635,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.790018015575675,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "acetone",
+        "score": 42.86
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-013",
+      "latency_ms": 640,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9963183302492196,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "acetone",
+        "score": 42.86
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-014",
+      "latency_ms": 629,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998626635960092,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanoi",
+        "score": 85.71
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-015",
+      "latency_ms": 645,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.8760898364966594,
+      "ocr_text": "ETHANOI",
+      "printed_text": "ETHANOI",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "ethanoi",
+        "score": 85.71
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-016",
+      "latency_ms": 638,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9973845147988514,
+      "ocr_text": "ETHANOI",
+      "printed_text": "ETHANOI",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "small"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "UNCERTAIN",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "",
+        "score": 0.0
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-017",
+      "latency_ms": 568,
+      "ocr_cer": null,
+      "ocr_confidence": null,
+      "ocr_text": "",
+      "printed_text": "",
+      "status": "succeeded",
+      "truth": "unreadable",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "ethanol",
+        "observed_normalised": "earol",
+        "score": 66.67
+      },
+      "expected_reagent": "ethanol",
+      "label_id": "label-018",
+      "latency_ms": 703,
+      "ocr_cer": 0.42857142857142855,
+      "ocr_confidence": 0.0364521592855396,
+      "ocr_text": "Earol",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur8"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-019",
+      "latency_ms": 624,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998821966841964,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-020",
+      "latency_ms": 1009,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998580873899856,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-021",
+      "latency_ms": 1319,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9997385910922504,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot30"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-022",
+      "latency_ms": 652,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999528372158386,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-023",
+      "latency_ms": 647,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.790018015575675,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "me jol",
+        "score": 57.14
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-024",
+      "latency_ms": 618,
+      "ocr_cer": 0.5,
+      "ocr_confidence": 0.9968980776357502,
+      "ocr_text": "ME JOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "occlusion"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-025",
+      "latency_ms": 676,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9592229295835719,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "glare"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-026",
+      "latency_ms": 636,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.6916046902781109,
+      "ocr_text": "METHANOL",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "script"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "ethanol",
+        "score": 93.33
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-027",
+      "latency_ms": 639,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.999949896348277,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "ethanol",
+        "score": 93.33
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-028",
+      "latency_ms": 987,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999159677856944,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "ethanol",
+        "score": 93.33
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-029",
+      "latency_ms": 638,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.999936198805998,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "ethanol",
+        "score": 93.33
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-030",
+      "latency_ms": 645,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.47948914525150343,
+      "ocr_text": "ETHANOL",
+      "printed_text": "ethanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "sodium chloride",
+        "score": 17.39
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-031",
+      "latency_ms": 699,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9995483928413136,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "sodium chloride",
+        "score": 17.39
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-032",
+      "latency_ms": 691,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.994097440359836,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-033",
+      "latency_ms": 602,
+      "ocr_cer": 0.125,
+      "ocr_confidence": 0.999859815511743,
+      "ocr_text": "METHANOL",
+      "printed_text": "METHAN0L",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "methanol",
+        "score": 100.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-034",
+      "latency_ms": 611,
+      "ocr_cer": 0.125,
+      "ocr_confidence": 0.9999250617402722,
+      "ocr_text": "METHANOL",
+      "printed_text": "METHAN0L",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "small"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "UNCERTAIN",
+        "expected_normalised": "methanol",
+        "observed_normalised": "",
+        "score": 0.0
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-035",
+      "latency_ms": 596,
+      "ocr_cer": null,
+      "ocr_confidence": null,
+      "ocr_text": "",
+      "printed_text": "",
+      "status": "succeeded",
+      "truth": "unreadable",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "methanol",
+        "observed_normalised": "vumarol",
+        "score": 53.33
+      },
+      "expected_reagent": "methanol",
+      "label_id": "label-036",
+      "latency_ms": 637,
+      "ocr_cer": 0.625,
+      "ocr_confidence": 0.13640479727787355,
+      "ocr_text": "Vumarol",
+      "printed_text": "methanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur8"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chloride",
+        "score": 100.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-037",
+      "latency_ms": 641,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9995483928413136,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "chloride sodium",
+        "score": 53.33
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-038",
+      "latency_ms": 1055,
+      "ocr_cer": 0.8571428571428571,
+      "ocr_confidence": 0.9972351026663976,
+      "ocr_text": "CHLORIDE SODIUM",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "chloride sodium",
+        "score": 53.33
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-039",
+      "latency_ms": 1370,
+      "ocr_cer": 0.8571428571428571,
+      "ocr_confidence": 0.9998573748566204,
+      "ocr_text": "CHLORIDE SODIUM",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot30"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chloride",
+        "score": 100.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-040",
+      "latency_ms": 716,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.994097440359836,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sdchlorde",
+        "score": 75.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-041",
+      "latency_ms": 683,
+      "ocr_cer": 0.35714285714285715,
+      "ocr_confidence": 0.25591078230212233,
+      "ocr_text": "SDCHLORDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodiu jride",
+        "score": 76.92
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-042",
+      "latency_ms": 650,
+      "ocr_cer": 0.35714285714285715,
+      "ocr_confidence": 0.9628185626615491,
+      "ocr_text": "SODIU JRIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "occlusion"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "solium chloride",
+        "score": 93.33
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-043",
+      "latency_ms": 639,
+      "ocr_cer": 0.07142857142857142,
+      "ocr_confidence": 0.8522895104114971,
+      "ocr_text": "SOLIUM CHLORIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "glare"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chloride",
+        "score": 100.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-044",
+      "latency_ms": 672,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9967482511785724,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "script"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chlorate",
+        "score": 86.67
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-045",
+      "latency_ms": 664,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9984457117840693,
+      "ocr_text": "SODIUM CHLORATE",
+      "printed_text": "sodium chlorate",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "chlorate sodium",
+        "score": 40.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-046",
+      "latency_ms": 1060,
+      "ocr_cer": 0.8571428571428571,
+      "ocr_confidence": 0.8261885257252518,
+      "ocr_text": "CHLORATE SODIUM",
+      "printed_text": "sodium chlorate",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chlorate",
+        "score": 86.67
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-047",
+      "latency_ms": 720,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.695612128731694,
+      "ocr_text": "SODIUM CHLORATE",
+      "printed_text": "sodium chlorate",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "UNCERTAIN",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "",
+        "score": 0.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-048",
+      "latency_ms": 801,
+      "ocr_cer": 1.0,
+      "ocr_confidence": null,
+      "ocr_text": "",
+      "printed_text": "sodium chlorate",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "isopropanol",
+        "score": 23.08
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-049",
+      "latency_ms": 646,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.869104356468951,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "isopropanol",
+        "score": 23.08
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-050",
+      "latency_ms": 639,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999343667495714,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chloride",
+        "score": 100.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-051",
+      "latency_ms": 646,
+      "ocr_cer": 0.07142857142857142,
+      "ocr_confidence": 0.9997076859005775,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "SODIUM CHL0RIDE",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "sodium chloride",
+        "score": 100.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-052",
+      "latency_ms": 641,
+      "ocr_cer": 0.07142857142857142,
+      "ocr_confidence": 0.799261450834607,
+      "ocr_text": "SODIUM CHLORIDE",
+      "printed_text": "SODIUM CHL0RIDE",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "small"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "UNCERTAIN",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "",
+        "score": 0.0
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-053",
+      "latency_ms": 574,
+      "ocr_cer": null,
+      "ocr_confidence": null,
+      "ocr_text": "",
+      "printed_text": "",
+      "status": "succeeded",
+      "truth": "unreadable",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "sodium chloride",
+        "observed_normalised": "oaus 0",
+        "score": 28.57
+      },
+      "expected_reagent": "sodium chloride",
+      "label_id": "label-054",
+      "latency_ms": 651,
+      "ocr_cer": 0.8571428571428571,
+      "ocr_confidence": 0.3505208513888647,
+      "ocr_text": "OAUS 0",
+      "printed_text": "sodium chloride",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur8"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanol",
+        "score": 100.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-055",
+      "latency_ms": 590,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.869104356468951,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanol",
+        "score": 100.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-056",
+      "latency_ms": 985,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9664678387733405,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanol",
+        "score": 100.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-057",
+      "latency_ms": 1281,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9977179385095468,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot30"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanol",
+        "score": 100.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-058",
+      "latency_ms": 634,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999343667495714,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "jsoprodano",
+        "score": 76.19
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-059",
+      "latency_ms": 590,
+      "ocr_cer": 0.2727272727272727,
+      "ocr_confidence": 0.16173229327495334,
+      "ocr_text": "JSOPRODANO",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isop_ nol",
+        "score": 70.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-060",
+      "latency_ms": 560,
+      "ocr_cer": 0.36363636363636365,
+      "ocr_confidence": 0.7767121721410087,
+      "ocr_text": "ISOP_ NOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "occlusion"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanol",
+        "score": 100.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-061",
+      "latency_ms": 560,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.8899926738445272,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "glare"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanol",
+        "score": 100.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-062",
+      "latency_ms": 552,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9314864920903174,
+      "ocr_text": "ISOPROPANOL",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "script"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "propanol",
+        "score": 84.21
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-063",
+      "latency_ms": 548,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9990672876788146,
+      "ocr_text": "PROPANOL",
+      "printed_text": "propanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "propanol",
+        "score": 84.21
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-064",
+      "latency_ms": 851,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9894465028799794,
+      "ocr_text": "PROPANOL",
+      "printed_text": "propanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "propanol",
+        "score": 84.21
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-065",
+      "latency_ms": 540,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998936190105,
+      "ocr_text": "PROPANOL",
+      "printed_text": "propanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "propanol",
+        "score": 84.21
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-066",
+      "latency_ms": 539,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.2751100372045767,
+      "ocr_text": "PROPANOL",
+      "printed_text": "propanol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "glycerol",
+        "score": 31.58
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-067",
+      "latency_ms": 512,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999244596202495,
+      "ocr_text": "GLYCEROL",
+      "printed_text": "glycerol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "glycerol",
+        "score": 31.58
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-068",
+      "latency_ms": 534,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998627659606644,
+      "ocr_text": "GLYCEROL",
+      "printed_text": "glycerol",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanoi",
+        "score": 90.91
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-069",
+      "latency_ms": 573,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.8500987951223017,
+      "ocr_text": "ISOPROPANOI",
+      "printed_text": "ISOPROPANOI",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isopropanoi",
+        "score": 90.91
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-070",
+      "latency_ms": 563,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9992401556253533,
+      "ocr_text": "ISOPROPANOI",
+      "printed_text": "ISOPROPANOI",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "small"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "UNCERTAIN",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "",
+        "score": 0.0
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-071",
+      "latency_ms": 485,
+      "ocr_cer": null,
+      "ocr_confidence": null,
+      "ocr_text": "",
+      "printed_text": "",
+      "status": "succeeded",
+      "truth": "unreadable",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "isopropanol",
+        "observed_normalised": "isorroratol",
+        "score": 72.73
+      },
+      "expected_reagent": "isopropanol",
+      "label_id": "label-072",
+      "latency_ms": 599,
+      "ocr_cer": 0.2727272727272727,
+      "ocr_confidence": 0.04969678927475535,
+      "ocr_text": "Isorroratol",
+      "printed_text": "isopropanol",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur8"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-073",
+      "latency_ms": 543,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9963183302492196,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-074",
+      "latency_ms": 846,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999443092001895,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-075",
+      "latency_ms": 1224,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.999970037032322,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "rot30"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-076",
+      "latency_ms": 620,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998626635960092,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-077",
+      "latency_ms": 594,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.8311318868829184,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "ac ne",
+        "score": 66.67
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-078",
+      "latency_ms": 545,
+      "ocr_cer": 0.42857142857142855,
+      "ocr_confidence": 0.9335481475337514,
+      "ocr_text": "Ac NE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "occlusion"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-079",
+      "latency_ms": 518,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.525821817924309,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "glare"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-080",
+      "latency_ms": 546,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9948636676889551,
+      "ocr_text": "ACETONE",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "script"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetonitrile",
+        "score": 73.68
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-081",
+      "latency_ms": 554,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9952393334609464,
+      "ocr_text": "ACETONITRILE",
+      "printed_text": "acetonitrile",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetonitrile",
+        "score": 73.68
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-082",
+      "latency_ms": 912,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9999733642658537,
+      "ocr_text": "ACETONITRILE",
+      "printed_text": "acetonitrile",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "rot15"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetonitrile",
+        "score": 73.68
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-083",
+      "latency_ms": 584,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9998429311436273,
+      "ocr_text": "ACETONITRILE",
+      "printed_text": "acetonitrile",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetonttrile",
+        "score": 73.68
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-084",
+      "latency_ms": 583,
+      "ocr_cer": 0.08333333333333333,
+      "ocr_confidence": 0.5247811455336692,
+      "ocr_text": "ACETONTTRILE",
+      "printed_text": "acetonitrile",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "lowcontrast"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "distilled water",
+        "score": 18.18
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-085",
+      "latency_ms": 620,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9521438676773348,
+      "ocr_text": "DISTILLED WATER",
+      "printed_text": "distilled water",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "distilled water",
+        "score": 18.18
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-086",
+      "latency_ms": 597,
+      "ocr_cer": 0.0,
+      "ocr_confidence": 0.9995935329241795,
+      "ocr_text": "DISTILLED WATER",
+      "printed_text": "distilled water",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "blur3"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-087",
+      "latency_ms": 517,
+      "ocr_cer": 0.14285714285714285,
+      "ocr_confidence": 0.9960477903174917,
+      "ocr_text": "ACETONE",
+      "printed_text": "ACET0NE",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": true,
+        "B_accepts": true,
+        "C_outcome": "MATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acetone",
+        "score": 100.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-088",
+      "latency_ms": 530,
+      "ocr_cer": 0.14285714285714285,
+      "ocr_confidence": 0.9998781638100188,
+      "ocr_text": "ACETONE",
+      "printed_text": "ACET0NE",
+      "status": "succeeded",
+      "truth": "mismatch",
+      "variant": "small"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "UNCERTAIN",
+        "expected_normalised": "acetone",
+        "observed_normalised": "",
+        "score": 0.0
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-089",
+      "latency_ms": 506,
+      "ocr_cer": null,
+      "ocr_confidence": null,
+      "ocr_text": "",
+      "printed_text": "",
+      "status": "succeeded",
+      "truth": "unreadable",
+      "variant": "clean"
+    },
+    {
+      "decisions": {
+        "A_accepts": false,
+        "B_accepts": false,
+        "C_outcome": "MISMATCH",
+        "expected_normalised": "acetone",
+        "observed_normalised": "acliowl",
+        "score": 42.86
+      },
+      "expected_reagent": "acetone",
+      "label_id": "label-090",
+      "latency_ms": 584,
+      "ocr_cer": 0.5714285714285714,
+      "ocr_confidence": 0.18338460486529753,
+      "ocr_text": "Acliowl",
+      "printed_text": "acetone",
+      "status": "succeeded",
+      "truth": "match",
+      "variant": "blur8"
+    }
+  ],
+  "sample_count": 90,
+  "vision_model": {
+    "adapter": "easyocr",
+    "device": "cpu",
+    "languages": [
+      "en"
+    ],
+    "model_name": "english_g2"
+  }
+}

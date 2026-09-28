@@ -1,0 +1,36 @@
+# Post-hoc extension D6/D7 (research/evidence/protocol-deviations.md), recorded
+# before any call. Paid; --allow-paid; bounded by the global $2 ledger cap.
+budget_usd: 2.0
+configurations:
+  # D6.0 preflight: development split only; never scored as evidence.
+  - {name: d6-preflight-gpt-5.4-nano, kind: llm, provider: openai, model: gpt-5.4-nano, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512, datasets: [dev]}
+  - {name: d6-preflight-gpt-5.6-luna, kind: llm, provider: openai, model: gpt-5.6-luna, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512, datasets: [dev]}
+  # D6.1 model alone, D6.2 grammar first (model called only for grammar fallbacks)
+  - {name: openai-gpt-5.4-nano-llm, kind: llm, provider: openai, model: gpt-5.4-nano, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512}
+  - {name: openai-gpt-5.6-luna-llm, kind: llm, provider: openai, model: gpt-5.6-luna, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512}
+  - {name: openai-gpt-5.4-nano-cascade, kind: cascade, provider: openai, model: gpt-5.4-nano, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512}
+  - {name: openai-gpt-5.6-luna-cascade, kind: cascade, provider: openai, model: gpt-5.6-luna, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512}
+  # D7: held-out A only, model alone. `limit` is added only if the predeclared
+  # cost rule requires a file-order prefix.
+  - {name: d7-gpt-5.6-terra-A-run1, kind: llm, provider: openai, model: gpt-5.6-terra, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512, datasets: [heldout]}
+  - {name: d7-gpt-5.6-luna-A-run2, kind: llm, provider: openai, model: gpt-5.6-luna, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512, datasets: [heldout]}
+  # limit 120: largest file-order prefix fitting the remaining budget under the D7 cost rule.
+  - {name: d7-gpt-5.6-terra-A-run2, kind: llm, provider: openai, model: gpt-5.6-terra, label: OpenAI, limit: 120,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, reasoning_effort: none,
+     max_output_tokens: 512, datasets: [heldout]}

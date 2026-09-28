@@ -1,0 +1,22 @@
+\begin{table}[!t]
+\caption{Post-review interpreter outcomes and additive component gates on the
+same 81 commands. P is the unconstrained proposal; V, S, and C are validation,
+state, and confidence gates; CO and CA are attentive and always-accept
+confirmation. Invalid model output cannot execute.}
+\label{tab:postreview}
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{Accuracy (\%)} & \multicolumn{6}{c}{Unsafe executions}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-10}
+Interpreter & Valid & Intent & Exact & P & V & S & C & CO & CA\\
+\midrule
+Rule & 81 & 77.8 & 77.8 & 8 & 0 & 0 & 0 & 0 & 0 \\
+Qwen 0.5B & 51 & 7.4 & 0.0 & 51 & 1 & 1 & 1 & 0 & 1 \\
+Qwen 1.5B & 28 & 21.0 & 9.9 & 20 & 13 & 12 & 12 & 0 & 12 \\
+Hosted & 80 & 87.7 & 81.5 & 13 & 5 & 5 & 5 & 0 & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}

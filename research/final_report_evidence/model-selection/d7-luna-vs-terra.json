@@ -1,0 +1,83 @@
+{
+ "deviation": "D7 (post-hoc, recorded before running)",
+ "evidence_class": "public human-written text (held-out A), live hosted models",
+ "reasoning_effort": "none (both models)",
+ "runs": {
+  "gpt-5.6-luna run 1": {
+   "source": "openai-gpt-5.6-luna-llm",
+   "items_run": 138,
+   "items_not_run_budget": 0,
+   "complete": true,
+   "label": "complete",
+   "supported_items": 98,
+   "exact": 75,
+   "unsafe_executions": 0,
+   "schema_valid_llm": 1.0,
+   "failures": 0,
+   "p50_ms": 1378.5,
+   "p95_ms": 1785.6
+  },
+  "gpt-5.6-luna run 2": {
+   "source": "d7-gpt-5.6-luna-A-run2",
+   "items_run": 138,
+   "items_not_run_budget": 0,
+   "complete": true,
+   "label": "complete",
+   "supported_items": 98,
+   "exact": 72,
+   "unsafe_executions": 0,
+   "schema_valid_llm": 1.0,
+   "failures": 0,
+   "p50_ms": 1400.7,
+   "p95_ms": 1674.3
+  },
+  "gpt-5.6-terra run 1": {
+   "source": "d7-gpt-5.6-terra-A-run1",
+   "items_run": 138,
+   "items_not_run_budget": 0,
+   "complete": true,
+   "label": "complete",
+   "supported_items": 98,
+   "exact": 88,
+   "unsafe_executions": 0,
+   "schema_valid_llm": 1.0,
+   "failures": 0,
+   "p50_ms": 1330.4,
+   "p95_ms": 1582.7
+  },
+  "gpt-5.6-terra run 2": {
+   "source": "d7-gpt-5.6-terra-A-run2",
+   "items_run": 120,
+   "items_not_run_budget": 0,
+   "complete": false,
+   "label": "INCOMPLETE (120/138 items, file-order prefix)",
+   "supported_items": 98,
+   "exact": 88,
+   "unsafe_executions": 0,
+   "schema_valid_llm": 1.0,
+   "failures": 0,
+   "p50_ms": 1347.7,
+   "p95_ms": 1748.5
+  }
+ },
+ "comparison": {
+  "gpt-5.6-luna repeatability": {
+   "items_in_both_runs": 138,
+   "identical_command": 134,
+   "identical_share": 0.971,
+   "safety_outcome_changed": []
+  },
+  "gpt-5.6-terra repeatability": {
+   "items_in_both_runs": 120,
+   "identical_command": 118,
+   "identical_share": 0.9833,
+   "safety_outcome_changed": []
+  },
+  "terra_minus_luna_run1": {
+   "exact": 13,
+   "unsafe_executions": 0,
+   "same_items": true,
+   "reading": "difference of at least 5 items on one measure"
+  }
+ }
+}

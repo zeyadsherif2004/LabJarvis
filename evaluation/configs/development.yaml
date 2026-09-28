@@ -1,0 +1,21 @@
+name: development
+evidence_class: synthetic_development_only
+eligible_for_final_claims: false
+include_predictions: true
+datasets:
+  speech: ../datasets/development-speech.jsonl
+  text: ../datasets/development-text.jsonl
+  vision: ../datasets/development-vision.jsonl
+candidates:
+  - id: fake-speech-v1
+    modality: speech
+    adapter: fake
+    model_name: fake-speech-v1
+  - id: fake-text-rules-v1
+    modality: text
+    adapter: fake
+    model_name: fake-text-rules-v1
+  - id: fake-label-v1
+    modality: vision
+    adapter: fake
+    model_name: fake-label-v1

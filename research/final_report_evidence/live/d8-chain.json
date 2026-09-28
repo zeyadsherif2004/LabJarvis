@@ -1,0 +1,548 @@
+{
+ "deviation": "D8 (post-hoc, recorded before running)",
+ "created_at": "2026-09-27T04:32:11.259933+00:00",
+ "evidence_class": "synthetic TTS speech + rendered labels through the production service",
+ "spend_usd": 0.002377,
+ "results": {
+  "fully_local": {
+   "profile": "local",
+   "stages": {
+    "speech": "local",
+    "text": "local",
+    "vision": "local"
+   },
+   "speech": {
+    "summary": {
+     "n": 4,
+     "failed": 0,
+     "expected_reached": 4,
+     "total_ms_p50": 11078,
+     "total_ms_p95": 12337
+    },
+    "records": [
+     {
+      "id": "demo-grammar-measurement",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis record the volume as 10 milliliters",
+      "wer": 0.1429,
+      "intent": "RECORD_MEASUREMENT",
+      "parameters": {
+       "kind": "volume",
+       "value": "10",
+       "unit": "mL"
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "expected_parameters": {
+       "value": "10",
+       "unit": "mL"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "rule",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+qwen2.5:3b",
+      "speech_ms": 12329,
+      "text_ms": 1,
+      "total_ms": 12337,
+      "recorded": {
+       "tool": "record_measurement",
+       "intent": "RECORD_MEASUREMENT",
+       "kind": "volume",
+       "step_id": "step-1",
+       "unit": "mL",
+       "value": "10"
+      },
+      "notebook_entry_type": "measurement"
+     },
+     {
+      "id": "demo-llm-paraphrase-timer",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis give me a 10-minute timer",
+      "wer": 0.0,
+      "intent": "SET_TIMER",
+      "parameters": {
+       "duration_seconds": "600"
+      },
+      "expected_intent": "SET_TIMER",
+      "expected_parameters": {
+       "duration_seconds": "600"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "llm",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+qwen2.5:3b",
+      "speech_ms": 419,
+      "text_ms": 10655,
+      "total_ms": 11078,
+      "recorded": {
+       "tool": "set_timer",
+       "intent": "SET_TIMER",
+       "duration_seconds": "600",
+       "label": "timer",
+       "step_id": "step-1",
+       "timer_id": "chain-36",
+       "deadline_at": "2026-09-27T04:41:40.066090+00:00"
+      },
+      "notebook_entry_type": "timer"
+     },
+     {
+      "id": "demo-llm-paraphrase-temperature",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, log the temperature at 37 Celsius.",
+      "wer": 0.0,
+      "intent": "RECORD_MEASUREMENT",
+      "parameters": {
+       "kind": "temperature",
+       "value": "37",
+       "unit": "degC"
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "expected_parameters": {
+       "value": "37",
+       "unit": "degC"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "llm",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+qwen2.5:3b",
+      "speech_ms": 428,
+      "text_ms": 839,
+      "total_ms": 1271,
+      "recorded": {
+       "tool": "record_measurement",
+       "intent": "RECORD_MEASUREMENT",
+       "kind": "temperature",
+       "step_id": "step-1",
+       "unit": "degC",
+       "value": "37"
+      },
+      "notebook_entry_type": "measurement"
+     },
+     {
+      "id": "demo-check-reagent",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, check reagent",
+      "wer": 0.0,
+      "intent": "VERIFY_REAGENT",
+      "parameters": {},
+      "expected_intent": "VERIFY_REAGENT",
+      "expected_parameters": {},
+      "expected_reached": true,
+      "pending_action": false,
+      "route": "rule",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+qwen2.5:3b",
+      "speech_ms": 381,
+      "text_ms": 0,
+      "total_ms": 385
+     }
+    ]
+   },
+   "labels": {
+    "summary": {
+     "n": 2,
+     "failed": 0,
+     "expected_reached": 2,
+     "total_ms_p50": 9790,
+     "total_ms_p95": 9790
+    },
+    "records": [
+     {
+      "id": "demo-label-match",
+      "evidence_class": "synthetic rendered label",
+      "status": "succeeded",
+      "observed": "ETHANOL",
+      "outcome": "MATCH",
+      "expected_outcome": "MATCH",
+      "expected_reached": true,
+      "frames": 1,
+      "total_ms": 9790
+     },
+     {
+      "id": "demo-label-mismatch-label-009",
+      "evidence_class": "synthetic rendered label",
+      "status": "succeeded",
+      "observed": "METHANOL",
+      "outcome": "MISMATCH",
+      "expected_outcome": "MISMATCH",
+      "expected_reached": true,
+      "frames": 1,
+      "total_ms": 97
+     }
+    ]
+   },
+   "reached": 6,
+   "scenarios": 6
+  },
+  "hybrid_deepseek_text": {
+   "profile": "hybrid",
+   "stages": {
+    "speech": "local",
+    "text": "hosted",
+    "vision": "local"
+   },
+   "speech": {
+    "summary": {
+     "n": 4,
+     "failed": 0,
+     "expected_reached": 4,
+     "total_ms_p50": 1897,
+     "total_ms_p95": 2426
+    },
+    "records": [
+     {
+      "id": "demo-grammar-measurement",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis record the volume as 10 milliliters",
+      "wer": 0.1429,
+      "intent": "RECORD_MEASUREMENT",
+      "parameters": {
+       "kind": "volume",
+       "value": "10",
+       "unit": "mL"
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "expected_parameters": {
+       "value": "10",
+       "unit": "mL"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "rule",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+deepseek-flash",
+      "speech_ms": 2418,
+      "text_ms": 1,
+      "total_ms": 2426,
+      "recorded": {
+       "tool": "record_measurement",
+       "intent": "RECORD_MEASUREMENT",
+       "kind": "volume",
+       "step_id": "step-1",
+       "unit": "mL",
+       "value": "10"
+      },
+      "notebook_entry_type": "measurement"
+     },
+     {
+      "id": "demo-llm-paraphrase-timer",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis give me a 10-minute timer",
+      "wer": 0.0,
+      "intent": "SET_TIMER",
+      "parameters": {
+       "duration_seconds": "600"
+      },
+      "expected_intent": "SET_TIMER",
+      "expected_parameters": {
+       "duration_seconds": "600"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "llm",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+deepseek-flash",
+      "speech_ms": 500,
+      "text_ms": 1392,
+      "total_ms": 1897,
+      "recorded": {
+       "tool": "set_timer",
+       "intent": "SET_TIMER",
+       "duration_seconds": "600",
+       "label": "timer",
+       "step_id": "step-1",
+       "timer_id": "chain-36",
+       "deadline_at": "2026-09-27T04:41:56.085632+00:00"
+      },
+      "notebook_entry_type": "timer"
+     },
+     {
+      "id": "demo-llm-paraphrase-temperature",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, log the temperature at 37 Celsius.",
+      "wer": 0.0,
+      "intent": "RECORD_MEASUREMENT",
+      "parameters": {
+       "kind": "temperature",
+       "value": "37",
+       "unit": "degC"
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "expected_parameters": {
+       "value": "37",
+       "unit": "degC"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "llm",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+deepseek-flash",
+      "speech_ms": 489,
+      "text_ms": 1157,
+      "total_ms": 1650,
+      "recorded": {
+       "tool": "record_measurement",
+       "intent": "RECORD_MEASUREMENT",
+       "kind": "temperature",
+       "step_id": "step-1",
+       "unit": "degC",
+       "value": "37"
+      },
+      "notebook_entry_type": "measurement"
+     },
+     {
+      "id": "demo-check-reagent",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, check reagent",
+      "wer": 0.0,
+      "intent": "VERIFY_REAGENT",
+      "parameters": {},
+      "expected_intent": "VERIFY_REAGENT",
+      "expected_parameters": {},
+      "expected_reached": true,
+      "pending_action": false,
+      "route": "rule",
+      "speech_model": "small.en",
+      "speech_device": "cuda",
+      "text_model": "rule-grammar-v1+deepseek-flash",
+      "speech_ms": 436,
+      "text_ms": 0,
+      "total_ms": 441
+     }
+    ]
+   },
+   "labels": {
+    "summary": {
+     "n": 2,
+     "failed": 0,
+     "expected_reached": 2,
+     "total_ms_p50": 2434,
+     "total_ms_p95": 2434
+    },
+    "records": [
+     {
+      "id": "demo-label-match",
+      "evidence_class": "synthetic rendered label",
+      "status": "succeeded",
+      "observed": "ETHANOL",
+      "outcome": "MATCH",
+      "expected_outcome": "MATCH",
+      "expected_reached": true,
+      "frames": 1,
+      "total_ms": 2434
+     },
+     {
+      "id": "demo-label-mismatch-label-009",
+      "evidence_class": "synthetic rendered label",
+      "status": "succeeded",
+      "observed": "METHANOL",
+      "outcome": "MISMATCH",
+      "expected_outcome": "MISMATCH",
+      "expected_reached": true,
+      "frames": 1,
+      "total_ms": 95
+     }
+    ]
+   },
+   "reached": 6,
+   "scenarios": 6
+  },
+  "fully_hosted_openai": {
+   "profile": "hosted",
+   "stages": {
+    "speech": "hosted",
+    "text": "hosted",
+    "vision": "hosted"
+   },
+   "speech": {
+    "summary": {
+     "n": 4,
+     "failed": 0,
+     "expected_reached": 4,
+     "total_ms_p50": 2157,
+     "total_ms_p95": 2269
+    },
+    "records": [
+     {
+      "id": "demo-grammar-measurement",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, record the volume as 10 milliliters.",
+      "wer": 0.1429,
+      "intent": "RECORD_MEASUREMENT",
+      "parameters": {
+       "kind": "volume",
+       "value": "10",
+       "unit": "mL"
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "expected_parameters": {
+       "value": "10",
+       "unit": "mL"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "rule",
+      "speech_model": "gpt-4o-mini-transcribe",
+      "speech_device": "",
+      "text_model": "rule-grammar-v1+gpt-5.4-nano",
+      "speech_ms": 2076,
+      "text_ms": 0,
+      "total_ms": 2082,
+      "recorded": {
+       "tool": "record_measurement",
+       "intent": "RECORD_MEASUREMENT",
+       "kind": "volume",
+       "step_id": "step-1",
+       "unit": "mL",
+       "value": "10"
+      },
+      "notebook_entry_type": "measurement"
+     },
+     {
+      "id": "demo-llm-paraphrase-timer",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, give me a 10-minute timer.",
+      "wer": 0.0,
+      "intent": "SET_TIMER",
+      "parameters": {
+       "duration_seconds": "600"
+      },
+      "expected_intent": "SET_TIMER",
+      "expected_parameters": {
+       "duration_seconds": "600"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "llm",
+      "speech_model": "gpt-4o-mini-transcribe",
+      "speech_device": "",
+      "text_model": "rule-grammar-v1+gpt-5.4-nano",
+      "speech_ms": 965,
+      "text_ms": 1187,
+      "total_ms": 2157,
+      "recorded": {
+       "tool": "set_timer",
+       "intent": "SET_TIMER",
+       "duration_seconds": "600",
+       "label": "timer",
+       "step_id": "step-1",
+       "timer_id": "chain-36",
+       "deadline_at": "2026-09-27T04:42:05.081870+00:00"
+      },
+      "notebook_entry_type": "timer"
+     },
+     {
+      "id": "demo-llm-paraphrase-temperature",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, log the temperature at 37 Celsius.",
+      "wer": 0.0,
+      "intent": "RECORD_MEASUREMENT",
+      "parameters": {
+       "kind": "temperature",
+       "value": "37",
+       "unit": "degC"
+      },
+      "expected_intent": "RECORD_MEASUREMENT",
+      "expected_parameters": {
+       "value": "37",
+       "unit": "degC"
+      },
+      "expected_reached": true,
+      "pending_action": true,
+      "route": "llm",
+      "speech_model": "gpt-4o-mini-transcribe",
+      "speech_device": "",
+      "text_model": "rule-grammar-v1+gpt-5.4-nano",
+      "speech_ms": 822,
+      "text_ms": 1443,
+      "total_ms": 2269,
+      "recorded": {
+       "tool": "record_measurement",
+       "intent": "RECORD_MEASUREMENT",
+       "kind": "temperature",
+       "step_id": "step-1",
+       "unit": "degC",
+       "value": "37"
+      },
+      "notebook_entry_type": "measurement"
+     },
+     {
+      "id": "demo-check-reagent",
+      "evidence_class": "synthetic speech (Windows TTS)",
+      "status": "succeeded",
+      "transcript": "Jarvis, check reagent.",
+      "wer": 0.0,
+      "intent": "VERIFY_REAGENT",
+      "parameters": {},
+      "expected_intent": "VERIFY_REAGENT",
+      "expected_parameters": {},
+      "expected_reached": true,
+      "pending_action": false,
+      "route": "rule",
+      "speech_model": "gpt-4o-mini-transcribe",
+      "speech_device": "",
+      "text_model": "rule-grammar-v1+gpt-5.4-nano",
+      "speech_ms": 1397,
+      "text_ms": 0,
+      "total_ms": 1401
+     }
+    ]
+   },
+   "labels": {
+    "summary": {
+     "n": 2,
+     "failed": 0,
+     "expected_reached": 2,
+     "total_ms_p50": 1223,
+     "total_ms_p95": 1223
+    },
+    "records": [
+     {
+      "id": "demo-label-match",
+      "evidence_class": "synthetic rendered label",
+      "status": "succeeded",
+      "observed": "ETHANOL",
+      "outcome": "MATCH",
+      "expected_outcome": "MATCH",
+      "expected_reached": true,
+      "frames": 1,
+      "total_ms": 1223
+     },
+     {
+      "id": "demo-label-mismatch-label-009",
+      "evidence_class": "synthetic rendered label",
+      "status": "succeeded",
+      "observed": "METHANOL",
+      "outcome": "MISMATCH",
+      "expected_outcome": "MISMATCH",
+      "expected_reached": true,
+      "frames": 1,
+      "total_ms": 1205
+     }
+    ]
+   },
+   "reached": 6,
+   "scenarios": 6
+  }
+ }
+}

@@ -1,0 +1,40 @@
+# Final text-interpreter sweep (predeclared in docs/evaluation/model-selection-protocol.md).
+budget_usd: 1.0
+configurations:
+  - {name: rules, kind: rules}
+  # Local LLM-only, v2 contract, few-shot
+  - {name: qwen2.5-0.5b-llm, kind: llm, provider: ollama, model: "qwen2.5:0.5b"}
+  - {name: qwen2.5-1.5b-llm, kind: llm, provider: ollama, model: "qwen2.5:1.5b"}
+  - {name: qwen2.5-1.5b-llm-zeroshot, kind: llm, provider: ollama, model: "qwen2.5:1.5b", few_shot: false}
+  - {name: qwen2.5-3b-llm, kind: llm, provider: ollama, model: "qwen2.5:3b"}
+  - {name: qwen3-4b-nothink-llm, kind: llm, provider: ollama, model: "qwen3:4b", think: "off"}
+  - {name: qwen3-4b-instruct-llm, kind: llm, provider: ollama, model: "qwen3:4b-instruct-2507-q4_K_M"}
+  - {name: llama3.2-1b-llm, kind: llm, provider: ollama, model: "llama3.2:1b"}
+  - {name: llama3.2-3b-llm, kind: llm, provider: ollama, model: "llama3.2:3b"}
+  - {name: gemma3-4b-llm, kind: llm, provider: ollama, model: "gemma3:4b"}
+  - {name: phi4-mini-llm, kind: llm, provider: ollama, model: "phi4-mini"}
+  # Deterministic-first cascades and agreement mode
+  - {name: qwen2.5-1.5b-cascade, kind: cascade, provider: ollama, model: "qwen2.5:1.5b"}
+  - {name: qwen2.5-3b-cascade, kind: cascade, provider: ollama, model: "qwen2.5:3b"}
+  - {name: qwen3-4b-instruct-cascade, kind: cascade, provider: ollama, model: "qwen3:4b-instruct-2507-q4_K_M"}
+  - {name: llama3.2-3b-cascade, kind: cascade, provider: ollama, model: "llama3.2:3b"}
+  - {name: qwen2.5-1.5b-agreement, kind: agreement, provider: ollama, model: "qwen2.5:1.5b"}
+  - {name: qwen3-4b-instruct-agreement, kind: agreement, provider: ollama, model: "qwen3:4b-instruct-2507-q4_K_M"}
+  # Hosted comparators (paid; --allow-paid; bounded by the $1 cumulative ledger)
+  - {name: deepseek-flash-llm, kind: llm, provider: openai_compatible, model: deepseek-flash, label: DeepSeek,
+     base_url: "https://api.deepseek.com", api_key_env: "Deepseek API key", structured_output: json_object,
+     extra_body: {thinking: {type: disabled}}, max_output_tokens: 160, heldout_b: false}
+  - {name: glm-4.5-air-llm, kind: llm, provider: openai_compatible, model: glm-4.5-air, label: GLM,
+     base_url: "https://api.z.ai/api/paas/v4", api_key_env: "GLM API Key", structured_output: json_object,
+     extra_body: {thinking: {type: disabled}}, max_output_tokens: 160, heldout_b: false}
+  - {name: openai-gpt-4.1-nano-llm, kind: llm, provider: openai, model: gpt-4.1-nano, label: OpenAI,
+     base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY, max_output_tokens: 160, heldout_b: false}
+  - {name: deepseek-flash-cascade, kind: cascade, provider: openai_compatible, model: deepseek-flash, label: DeepSeek,
+     base_url: "https://api.deepseek.com", api_key_env: "Deepseek API key", structured_output: json_object,
+     extra_body: {thinking: {type: disabled}}, max_output_tokens: 160, heldout_b: false}
+  # --- Added after the first sweep (deviation D5): dual-model verification of
+  # LLM-routed state-changing proposals. Selected pairs are fixed here before
+  # any of them is evaluated; the untouched held-out B set is the confirmation.
+  - {name: qwen2.5-3b-cascade-verified-qwen3-4b, kind: cascade, provider: ollama, model: "qwen2.5:3b", verifier_model: "qwen3:4b", verifier_think: "off"}
+  - {name: qwen2.5-3b-cascade-verified-llama3.2-3b, kind: cascade, provider: ollama, model: "qwen2.5:3b", verifier_model: "llama3.2:3b"}
+  - {name: qwen2.5-1.5b-cascade-verified-qwen2.5-3b, kind: cascade, provider: ollama, model: "qwen2.5:1.5b", verifier_model: "qwen2.5:3b"}

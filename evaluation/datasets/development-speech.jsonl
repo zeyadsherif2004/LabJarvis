@@ -1,0 +1,2 @@
+{"id":"speech-001","modality":"speech","synthetic":true,"expected_text":"record the temperature as 37 degrees Celsius","duration_seconds":3.0}
+{"id":"speech-002","modality":"speech","synthetic":true,"expected_text":"record an observation as the solution is clear","duration_seconds":3.5}

@@ -1,0 +1,135 @@
+/*
+ * Protocol review: autosave state and the source document pane.
+ *
+ * Separate from styles.css because these belong to one screen and, unlike the
+ * bench surfaces, are read at a desk rather than at arm's length.
+ */
+
+.autosave-state {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  border-left: 3px solid var(--border);
+  background: var(--surface);
+  font-size: 14px;
+}
+
+.autosave-state svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.autosave-state--saved {
+  border-left-color: var(--green);
+  background: var(--green-soft);
+}
+
+.autosave-state--saving,
+.autosave-state--pending {
+  border-left-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+/* Failure and conflict are told apart by wording and icon, never by colour
+   alone: an operator who cannot distinguish red from amber still has to be able
+   to tell "retrying" from "your edits were not saved". */
+.autosave-state--failed,
+.autosave-state--conflict {
+  border-left-color: var(--red);
+  background: var(--red-soft);
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .autosave-state--saving svg {
+    animation: autosave-spin 1.4s linear infinite;
+  }
+}
+
+@keyframes autosave-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------------------------------------------------------- source document */
+
+.source-document {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.source-document h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.source-document-meta,
+.source-document-limitation {
+  max-width: 70ch;
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.source-document-limitation {
+  padding: 8px 14px;
+  border-left: 3px solid var(--amber);
+  background: var(--amber-soft);
+  color: var(--ink);
+}
+
+.source-document-body {
+  max-height: 60vh;
+  overflow: auto;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-family: ui-monospace, "Cascadia Mono", Menlo, Consolas, monospace;
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.source-document-body:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.source-document-line {
+  margin: 0;
+  padding: 1px 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* The match is marked by a rule and a weight change as well as a tint, so it
+   is still findable without colour perception. */
+.source-document-line--match {
+  border-left: 3px solid var(--teal);
+  background: var(--teal-soft);
+  font-weight: 600;
+}
+
+.source-reference button {
+  margin-top: 6px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
